@@ -1,0 +1,43 @@
+# Tatiana Colombo Consultoria Imobiliária — Configuração Netlify
+# tatianacolomboimoveis.com.br
+
+[build]
+  publish = "."
+
+# Headers de segurança e performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache longo para assets estáticos
+[[headers]]
+  for = "/style.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/script.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/imoveis-data.js"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# Redirecionamentos: www → sem www (canonical)
+[[redirects]]
+  from = "https://www.tatianacolomboimoveis.com.br/*"
+  to = "https://tatianacolomboimoveis.com.br/:splat"
+  status = 301
+  force = true
+
+# Página 404 personalizada
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
