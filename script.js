@@ -60,31 +60,29 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => el.classList.add('active'));
   }
 
-  // ===== N8N WEBHOOK CONFIG =====
-  // ⚠️ CONFIGURAR: Substitua pela URL real do seu webhook n8n
-  const N8N_WEBHOOK_URL = 'https://SEU_N8N_AQUI.com/webhook/typebot-lead';
+  // ===== WHATSAPP CONFIG =====
+  const WHATSAPP_PHONE = '5519974139848';
 
-  // ===== FORM CAPTURE & N8N WEBHOOK INTEGRATION =====
+  // ===== FORM CAPTURE → WHATSAPP =====
   const contactForms = document.querySelectorAll('#contact-form');
   contactForms.forEach(form => {
     form.addEventListener('submit', function(e) {
       e.preventDefault();
-      
+
       const nome = this.nome.value.trim();
       const tel  = this.telefone.value.trim();
       const email = this.email ? this.email.value.trim() : '';
       const interesse = this.interesse ? this.interesse.value : '';
       const mensagem = this.mensagem.value.trim();
-      
+
       // Campos extras do formulário de anúncio (anuncie.html)
       const tipo = this.tipo ? this.tipo.value : '';
       const localizacao = this.localizacao ? this.localizacao.value.trim() : '';
       const preco = this.preco ? this.preco.value.trim() : '';
       const area = this.area ? this.area.value : '';
       const dormitorios = this.dormitorios ? this.dormitorios.value : '';
-      
+
       const fb = this.querySelector('#form-feedback') || document.getElementById('form-feedback');
-      
       if (!fb) return;
 
       if (!nome || !tel) {
@@ -94,75 +92,36 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Visual loading state
-      const submitBtn = this.querySelector('button[type="submit"]');
-      const originalBtnText = submitBtn ? submitBtn.innerHTML : 'Enviar Mensagem →';
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = 'Enviando...';
+      // Determinar finalidade
+      const isAnuncie = window.location.pathname.includes('anuncie');
+      const finalidadeTexto = isAnuncie
+        ? 'vender/anunciar meu imóvel'
+        : (interesse || 'contato geral');
+
+      // Compor mensagem para o WhatsApp
+      let msg = `Olá Tatiana! Acabei de enviar uma mensagem pelo seu site.\n\n`;
+      msg += `*Nome:* ${nome}\n`;
+      msg += `*WhatsApp:* ${tel}\n`;
+      if (email) msg += `*E-mail:* ${email}\n`;
+      msg += `*Interesse:* ${finalidadeTexto}\n`;
+      if (mensagem) msg += `\n*Mensagem:* ${mensagem}\n`;
+      if (isAnuncie) {
+        msg += `\n*Detalhes do imóvel para anunciar:*\n`;
+        if (tipo) msg += `• Tipo: ${tipo}\n`;
+        if (localizacao) msg += `• Localização: ${localizacao}\n`;
+        if (preco) msg += `• Preço pretendido: R$ ${preco}\n`;
+        if (area) msg += `• Área: ${area} m²\n`;
+        if (dormitorios) msg += `• Dormitórios: ${dormitorios}\n`;
       }
 
-      // Determinar finalidade com base no contexto da página e campo interesse
-      let finalidadeTexto = interesse || 'contato geral';
-      const isAnuncie = window.location.pathname.includes('anuncie');
-      if (isAnuncie) finalidadeTexto = 'vender/anunciar meu imóvel';
+      const url = `https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(msg)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
 
-      // Compor texto completo da conversa para o Gemini
-      let textoCompleto = `O lead entrou em contato pelo formulário do site.`;
-      if (finalidadeTexto) textoCompleto += ` Interesse: ${finalidadeTexto}.`;
-      if (mensagem) textoCompleto += ` Mensagem: ${mensagem}.`;
-      if (localizacao) textoCompleto += ` Localização do imóvel: ${localizacao}.`;
-      if (preco) textoCompleto += ` Preço pretendido: R$ ${preco}.`;
-      if (tipo) textoCompleto += ` Tipo: ${tipo}.`;
-      if (area) textoCompleto += ` Área: ${area}m².`;
-      if (dormitorios) textoCompleto += ` Dormitórios: ${dormitorios}.`;
-
-      // Payload estruturado para o webhook n8n
-      const webhookPayload = {
-        sessionId: `site_form_${Date.now()}`,
-        timestamp: new Date().toISOString(),
-        lead: { nome, telefone: tel, email },
-        conversa: {
-          mensagens: [
-            { role: 'user', content: textoCompleto }
-          ],
-          textoCompleto
-        },
-        contexto: {
-          paginaOrigem: window.location.pathname + window.location.search,
-          imovelRef: '',
-          querAgendar: interesse === 'compra' || interesse === 'aluguel',
-          dataVisitaSugerida: '',
-          periodoVisita: ''
-        }
-      };
-
-      // Enviar ao webhook n8n
-      fetch(N8N_WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(webhookPayload)
-      })
-      .then(res => res.json())
-      .then(data => {
-        fb.textContent = data.mensagemCliente || '✓ Mensagem enviada com sucesso! Tatiana Colombo retornará em breve.';
-        fb.style.color = '#D2526E';
-        fb.style.fontWeight = '500';
-        form.reset();
-      })
-      .catch(() => {
-        // Fallback: mostra sucesso mesmo se webhook falhar (não bloquear o UX)
-        fb.textContent = '✓ Mensagem enviada com sucesso! Tatiana Colombo retornará em breve.';
-        fb.style.color = '#D2526E';
-        fb.style.fontWeight = '500';
-        form.reset();
-      })
-      .finally(() => {
-        if (submitBtn) {
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = originalBtnText;
-        }
-      });
+      fb.textContent = '✓ Abrindo o WhatsApp para finalizar o envio…';
+      fb.style.color = '#D2526E';
+      fb.style.fontWeight = '500';
+      fb.classList.add('reveal', 'active');
+      form.reset();
     });
   });
 
@@ -677,7 +636,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
 
-      // Handle Visit Scheduling Form Submit (n8n Webhook + WhatsApp fallback)
+      // Handle Visit Scheduling Form Submit → WhatsApp
       const visitaForm = document.getElementById('visita-form');
       if (visitaForm) {
         visitaForm.addEventListener('submit', function(e) {
@@ -696,70 +655,14 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
           }
 
-          const submitBtn = this.querySelector('button[type="submit"]');
-          if (submitBtn) {
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Enviando...';
-          }
+          const whatsappMsg = `Olá Tatiana! Gostaria de agendar uma visita privada ao imóvel "${imovel.nome}" (Ref: ${imovel.codigo}) no bairro ${imovel.bairro}.\n\n*Nome:* ${nome}\n*WhatsApp:* ${tel}\n*Data sugerida:* ${data || 'A combinar'}\n*Período:* ${hora}`;
+          const url = `https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(whatsappMsg)}`;
+          window.open(url, '_blank', 'noopener,noreferrer');
 
-          // Payload estruturado para o webhook n8n (fluxo de aprovação assíncrona)
-          const visitaPayload = {
-            sessionId: `site_visita_${Date.now()}`,
-            timestamp: new Date().toISOString(),
-            lead: { nome, telefone: tel, email: '' },
-            conversa: {
-              mensagens: [
-                { role: 'user', content: `Quero agendar uma visita ao imóvel "${imovel.nome}" (Ref: ${imovel.codigo}) no bairro ${imovel.bairro}. Data: ${data || 'a combinar'}. Período: ${hora}.` }
-              ],
-              textoCompleto: `Lead solicitou visita ao imóvel ${imovel.codigo} (${imovel.nome}) em ${imovel.bairro}. Finalidade: ${imovel.finalidade}. Preço: R$ ${imovel.preco?.toLocaleString('pt-BR')}. Data preferida: ${data || 'a combinar'}. Período: ${hora}.`
-            },
-            contexto: {
-              paginaOrigem: window.location.pathname + window.location.search,
-              imovelRef: imovel.codigo,
-              querAgendar: true,
-              dataVisitaSugerida: data,
-              periodoVisita: hora
-            }
-          };
-
-          // Enviar ao webhook n8n (ativa o fluxo de aprovação assíncrona)
-          fetch(N8N_WEBHOOK_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(visitaPayload)
-          })
-          .then(res => res.json())
-          .then(responseData => {
-            if (responseData.aguardarResposta) {
-              // Fluxo assíncrono: proprietário será notificado
-              fb.textContent = responseData.mensagemCliente || '✓ Sua solicitação foi registrada! Estamos confirmando com o proprietário e avisaremos pelo WhatsApp.';
-              fb.style.color = '#2d6a4f';
-              fb.style.fontWeight = '500';
-            } else {
-              fb.textContent = responseData.mensagemCliente || '✓ Agendamento solicitado com sucesso!';
-              fb.style.color = '#D2526E';
-              fb.style.fontWeight = '500';
-            }
-            visitaForm.reset();
-          })
-          .catch(() => {
-            // Fallback: redireciona para WhatsApp se webhook falhar
-            fb.textContent = '✓ Redirecionando para o WhatsApp...';
-            fb.style.color = '#D2526E';
-            fb.style.fontWeight = '500';
-
-            const whatsappMsg = `Olá Tatiana! Gostaria de agendar uma visita privada para o imóvel "${imovel.nome}" (Ref: ${imovel.codigo}).\n\nNome: ${nome}\nWhatsApp: ${tel}\nData sugerida: ${data || 'A combinar'}\nPeríodo: ${hora}`;
-            const encoded = encodeURIComponent(whatsappMsg);
-            window.open(`https://api.whatsapp.com/send?phone=5519974139848&text=${encoded}`, '_blank', 'noopener,noreferrer');
-
-            visitaForm.reset();
-          })
-          .finally(() => {
-            if (submitBtn) {
-              submitBtn.disabled = false;
-              submitBtn.innerHTML = 'Solicitar Agendamento →';
-            }
-          });
+          fb.textContent = '✓ Abrindo o WhatsApp para finalizar o agendamento…';
+          fb.style.color = '#D2526E';
+          fb.style.fontWeight = '500';
+          visitaForm.reset();
         });
       }
 
