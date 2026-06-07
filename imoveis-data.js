@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 07/06/2026 19:47:26
+   Data de Atualização: 07/06/2026 19:50:31
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -3743,7 +3743,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 4,
     "area": 105,
     "tag": "Oportunidade",
-    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepção qualificada. Além disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
+    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepç��o qualificada. Além disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
     "diferenciais": [
       "Área de Serviço"
     ],
