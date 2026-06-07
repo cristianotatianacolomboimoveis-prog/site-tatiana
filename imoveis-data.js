@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 07/06/2026 19:04:20
+   Data de Atualização: 07/06/2026 19:32:40
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -699,7 +699,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 92,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 3 dormitórios, 92 m² - venda por R$ 550.000 ou aluguel por R$ 3.750 - Jardim Nova Europa - Campinas/SP. Excelente oportunidade, lindo apartamento T��RREO COM QUINTAL. 92,89 m² de área privativa. Apartamento com sala 2 ambientes com painel; ampla cozinha planejada com bancada em granito São Gabriel; corredor com armário; 3 quartos com armários, sendo 1 suíte; banheiro social com gabinete, box e amplo espelho; banheiro suíte com ventilação natural, gabinete, box e amplo espelho; quintal com piso porcelanato, com parte em cobertura de telha e madeira, com bancada para escritório e fechamento de vidro; área de serviço com tanque em inox e granito São Gabriel e armários planejados. Uma vaga de garagem coberta com sombrite, próxima à entrada do bloco. Sol Poente. Condomínio com portaria 24h, piscinas adulto e infantil, quadra, salão de festas com churrasqueira, brinquedoteca, salão de jogos, academia, sala de ginástica/dança, playground, mini mercado Enxuto e bicicletário. Localização privilegiada, próximo às principais vias de acesso, infraestrutura em comércio e serviços, próximo ao Pq Prado. O imóvel estará disponível para visita a partir do dia 11/07/26. Entre em contato para agendarmos sua visita!",
+    "desc": "Apartamento com 3 dormitórios, 92 m² - venda por R$ 550.000 ou aluguel por R$ 3.750 - Jardim Nova Europa - Campinas/SP. Excelente oportunidade, lindo apartamento TÉRREO COM QUINTAL. 92,89 m² de área privativa. Apartamento com sala 2 ambientes com painel; ampla cozinha planejada com bancada em granito São Gabriel; corredor com armário; 3 quartos com armários, sendo 1 suíte; banheiro social com gabinete, box e amplo espelho; banheiro suíte com ventilação natural, gabinete, box e amplo espelho; quintal com piso porcelanato, com parte em cobertura de telha e madeira, com bancada para escritório e fechamento de vidro; área de serviço com tanque em inox e granito São Gabriel e armários planejados. Uma vaga de garagem coberta com sombrite, próxima à entrada do bloco. Sol Poente. Condomínio com portaria 24h, piscinas adulto e infantil, quadra, salão de festas com churrasqueira, brinquedoteca, salão de jogos, academia, sala de ginástica/dança, playground, mini mercado Enxuto e bicicletário. Localização privilegiada, próximo às principais vias de acesso, infraestrutura em comércio e serviços, próximo ao Pq Prado. O imóvel estará disponível para visita a partir do dia 11/07/26. Entre em contato para agendarmos sua visita!",
     "diferenciais": [
       "Espaço Gourmet",
       "Piscina Privativa",
@@ -3743,7 +3743,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 4,
     "area": 105,
     "tag": "Oportunidade",
-    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepção qualificada. Além disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
+    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepç��o qualificada. Além disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
     "diferenciais": [
       "Área de Serviço"
     ],
