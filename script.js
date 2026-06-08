@@ -3,27 +3,6 @@
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // ===== LEGACY URL REDIRECT (?codigo=XXX → /detalhes?id=N) =====
-  // Suporta URLs antigas do Kenlo/Google Ads que usam ?codigo=AP0123
-  // Redireciona para o novo formato /detalhes?id=N preservando o SEO/links indexados.
-  (function legacyCodigoRedirect() {
-    const params = new URLSearchParams(window.location.search);
-    const codigo = params.get('codigo');
-    if (!codigo) return;
-    if (typeof IMOVEIS_DATABASE === 'undefined') return;
-    const imovel = IMOVEIS_DATABASE.find(item =>
-      item.codigo && item.codigo.toLowerCase() === codigo.toLowerCase()
-    );
-    if (imovel) {
-      // 301-like client-side redirect preservando outros parâmetros úteis
-      params.delete('codigo');
-      params.set('id', imovel.id);
-      const extras = params.toString();
-      window.location.replace('/detalhes' + (extras ? '?' + extras : '?id=' + imovel.id));
-    }
-    // Se o código não existir mais, deixa o usuário na página de imóveis (catálogo)
-  })();
-
   // ===== NAVBAR CONTROL =====
   const nav = document.getElementById('nav');
   if (nav) {
@@ -484,8 +463,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (detailContainer && typeof IMOVEIS_DATABASE !== 'undefined') {
     const urlParams = new URLSearchParams(window.location.search);
-    const imovelId = parseInt(urlParams.get('id'), 10);
-    const imovel = IMOVEIS_DATABASE.find(item => item.id === imovelId);
+    // Suporta ?id=N (formato novo) e ?codigo=AP0123 (formato legado Kenlo/Ads)
+    const codigoParam = urlParams.get('codigo');
+    let imovel;
+    if (codigoParam) {
+      imovel = IMOVEIS_DATABASE.find(item =>
+        item.codigo && item.codigo.toLowerCase() === codigoParam.toLowerCase()
+      );
+    } else {
+      const imovelId = parseInt(urlParams.get('id'), 10);
+      imovel = IMOVEIS_DATABASE.find(item => item.id === imovelId);
+    }
 
     if (!imovel) {
       if (errorContainer) errorContainer.style.display = 'block';
