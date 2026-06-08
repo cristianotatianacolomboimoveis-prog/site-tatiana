@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 07/06/2026 21:31:37
+   Data de Atualização: 07/06/2026 21:38:19
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -13,7 +13,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1120000,
+    "condominio": 980,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 2,
     "area": 67,
@@ -21,10 +24,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios à venda, 67 m² por R$ 1.120.000 - Cambuí - Campinas/SP. Acabamento alto padrão. Sala com painel e rack; cozinha americana com armários planejados e cooktop; sacada com vista livre; quarto com armário e ventilador de teto; banheiro social com gabinete, boxe e espelho; quarto suíte com amplo armário e ventilador de teto; banheiro suíte com gabinete, boxe, espelho e ventilação natural. Persianas automatizadas nos quartos. Acabamento diferenciado. Dois aparelhos de ar condicionado, 17.000 e 12.000 BTUs. Pisos porcelanato e madeira nos quartos. Pronto para morar! 2 vagas cobertas e demarcadas. Condomínio com serviços pay-per-use, piscina com raia 20 m², espaço gourmet, playground, churrasqueira, jardim de inverno, horta, lavanderia coletiva e coleta de lavanderia. Localizado em um dos pontos mais altos do Cambuí, bairro completo em serviços, comércios e restaurantes. Entre em contato e agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Jardim",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/fn4ZL8wS3OrkIuQ6z6Xr6igzP4gkRTzJ.jpg",
@@ -74,14 +80,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 900000,
+    "condominio": 1340,
     "quartos": 0,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 84,
     "tag": "Oportunidade",
     "desc": "Hemisphere Office. Sala à venda, 84 m² por R$ 900.000 - Chácara da Barra - Campinas/SP. Junção de 2 salas, com 2 banheiros, 2 varandas, andar alto Excelente acabamento. Sala em prédio moderno, próximo à Av. Norte Sul, infra-estrutura completa no condomínio, com valet, recepção, acessibilidade, auditório e sala de reunião. Agende sua visita!",
     "diferenciais": [
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/7KPX8JYaWemFr41VYqOWxfwJhU5aNB9M.jpg",
@@ -100,7 +109,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 970000,
+    "condominio": 990,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 2,
     "area": 70,
@@ -108,10 +120,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Este lindo apartamento no Maxhaus Cambuí I, em estilo loft, está mobiliado conforme as fotos e apresenta um acabamento diferenciado. O imóvel possui duas vagas descobertas e demarcadas. As áreas comuns oferecem lazer completo com jardim, playground, boulevard, sauna, descanso, fitness, MaxHaus Café, lavanderia, piscina infantil, piscina adulto, deck e a conveniência de manobrista 24h. Portaria visrtual. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
+      "Armários Planejados",
       "Área de Serviço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Jardim",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/43cbf2caa4fc9d9a940cea98a12e2a8f.jpg",
@@ -164,7 +179,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 738258.23,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 36,
@@ -201,7 +219,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 230000,
+    "condominio": 391.75,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 0,
     "area": 41,
@@ -209,9 +230,9 @@ const IMOVEIS_DATABASE = [
     "desc": "Dona Stella. Apartamento com 1 dormitório à venda, 41 m² por R$ 230.000 - Jardim Guanabara - Campinas/SP. Apartamento com 1 dormitório com armário, banheiro com gabinete, boxe e espelho; sala; cozinha americana com armários planejados; área de serviço. Piso laminado. Prédio com elevador, portaria e mini mercado. Localização privilegiada, próximo à Av. Brasil e Barão de Itapura, infraestrutura em comércio, serviços e transportes. Documentação em ordem para financiamento. Analisa possibilidade de permuta, Agende já sua visita!",
     "diferenciais": [
       "Armários Planejados",
-      "Área de Serviço",
       "Aceita Permuta",
-      "Quintal Integrado"
+      "Área de Serviço",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ef8fd7dea2cb1c817cf313422a0b342d.jpg",
@@ -249,15 +270,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 410000,
+    "condominio": 800,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 74,
     "tag": "Oportunidade",
     "desc": "Apartamento no Edifício Solar do Bosque, com 2 dormitórios à venda, 74 m² por R$ 410.000 - Cambuí. Sala 2 ambientes, cozinha com armários planejados em excelente estado; Área de serviço com WC e com armário; 2 quartos com armários planejados em excelente estado; Banheiro com gabinete, boxe e espelho. Entradas social e de serviço. Piso frio. Andar alto, 1 vaga coberta. Localização privilegiada no Cambuí, infraestrutura em comércio, serviços e transportes. Documentação em ordem para financiamento. Agende sua visita!",
     "diferenciais": [
-      "Armários Planejados",
-      "Área de Serviço"
+      "Aceita Permuta",
+      "Área de Serviço",
+      "Armários Planejados"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/xyWJsCpSiC7RRQMonM2kDR62qE0OsZjd.jpg",
@@ -285,14 +310,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 575000,
+    "condominio": 924,
     "quartos": 2,
+    "suites": 1,
+    "salas": 3,
     "banheiros": 2,
     "vagas": 1,
     "area": 61,
     "tag": "Oportunidade",
     "desc": "Apartamento à venda reformado com 61m², apresentando 2 dormitórios, sendo 1 suíte e banheiro social em layout moderno. Este imóvel pronto para morar destaca-se pela sala integrada e cozinha com ilha, otimizando o conceito de apartamento garden ou living ampliado. Possui sacada, infraestrutura para ar-condicionado e 1 vaga de garagem coberta em localização privilegiada. Excelente oportunidade de investimento imobiliário para quem busca acabamento de alto padrão, funcionalidade e comprar apartamento novo com design contemporâneo.",
     "diferenciais": [
-      "Varanda",
+      "Armários Planejados",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -346,7 +375,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 4300000,
+    "condominio": 1905,
     "quartos": 6,
+    "suites": 5,
+    "salas": 3,
     "banheiros": 8,
     "vagas": 3,
     "area": 720,
@@ -354,10 +386,15 @@ const IMOVEIS_DATABASE = [
     "desc": "Arboreto dos Jequitibás. Sobrado com 6 dormitórios à venda, 720 m² por R$ 4.300.000 - Arboreto dos Jequitibás (Sousas) - Campinas/SP. 4 suítes com ar condicionado, sendo 1 máster com closet e banheira spa, e 2 com closet. 8 banheiros. Living amplo para 3 ambientes e com pé direito duplo, com cortinas e lustres. Sala de jantar com guarda louças e despensa. 2 cozinhas, sendo 1 interna com armários planejados e 1 externa. Lavanderia com armários. Quarto para empregada. Varanda gourmet com churrasqueira, deck e bar. Piscina com borda infinita e sauna. Sala de cinema, adega, home office e salão de jogos. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quintal",
+      "Armários Planejados",
+      "Área de Serviço",
       "Sauna",
-      "Armários Planejados"
+      "Varanda / Terraço",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/c459a556802ff6811b2f8d203f3d4f36.jpg",
@@ -465,18 +502,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 720000,
+    "condominio": 1012,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 65 m² por R$ 720.000 - Cambuí - Campinas/SP. Excelente oportunidade de apartamento mobiliado à venda no Setin Home & Life Cambuí, Campinas! 65m² com 2 dormitórios (1 suíte + banheiro social), sala 2 ambientes, cozinha planejada, área de serviço e sacada gourmet com ponto grill. Vaga coberta. Imóvel completo com mobília, eletrodomésticos e utensílios. Empreendimento premium: piscinas adulto/infantil, academia, spa com sauna, espaço gourmet com forno de pizza, salão de jogos/cinema, portaria e manobrista 24h. Localização estratégica entre Cambuí, Centro e Guanabara: próximo a transporte, comércio e serviços. Perfeito para investidor imóvel alugado! Documentação em ordem. Agende sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/8ec2e734045549cc46958810553d5462.jpg",
@@ -529,7 +572,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 680000,
+    "condominio": 1040,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -537,10 +583,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Este exclusivo apartamento mobiliado no miolo do Cambuí representa a oportunidade perfeita para quem busca sofisticação e praticidade em uma das localizações mais valorizadas de Campinas. Disponível tanto para venda quanto para locação, o imóvel foi planejado no conceito pronto para morar , oferecendo uma sala aconchegante equipada com ar-condicionado, sofá, rack, televisão, espelho que amplia o ambiente. A integração flui para a cozinha completa, que conta com armários planejados, geladeira, forno, cooktop, depurador, micro-ondas e todos os utensílios necessários para o seu dia a dia. O conforto se estende para a área íntima, onde o quarto dispõe de um amplo armário planejado, cama box baú para otimização de espaço, cortina e ar-condicionado. O banheiro possui excelente acabamento com gabinete, box de vidro e espelho, contando ainda com sistema de aquecimento a gás em toda a unidade. Para momentos de relaxamento, a sacada equipada com mesa e cadeiras oferece um espaço agradável e arejado. Inserido em um empreendimento de alto padrão com torre única e apenas 60 unidades, o condomínio garante exclusividade e segurança com portaria 24h. A estrutura de lazer é completa e moderna, dispondo de piscina, academia fitness, fire square, espaço gourmet com churrasqueira e lavanderia. Os moradores ainda contam com Wi-Fi nas áreas comuns, serviços pay-per-use e uma vaga de garagem coberta. Esta é a escolha ideal para quem não abre mão de morar com estilo no coração do Cambuí. Entre em contato agora mesmo para agendarmos sua visita e conhecer este imóvel único.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/04b8230fc62e3746deed63b87b54693d.jpg",
@@ -587,7 +636,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 4500,
+    "condominio": 921.3,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 70,
@@ -595,10 +647,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento decorado no estilo loft para locação no MaxHaus Cambuí, Campinas. Este apartamento de 1 dormitório possui 70 m². O imóvel está totalmente MOBILIADO, incluindo quarto com cama de casal, armário, ar-condicionado e TV; sala com sofá e mesa de jantar; cozinha planejada com cooktop, forno e geladeira; e banheiro com box. O condomínio oferece uma ampla variedade de áreas de lazer, como piscina adulto e infantil, fitness, sauna, playground, boulevard, jardim, Lavanderia e o exclusivo MaxHaus Café. Conta também com manobrista 24h e 1 vaga de garagem. Localizado no prestigiado bairro do Cambuí, o empreendimento proporciona uma experiência única de moradia. Entre em contato para agendar uma visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/0553d0dab1b5c83b0ab895d4a8db04e5.jpg",
@@ -653,7 +707,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 630000,
+    "condominio": 1366.37,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 48,
@@ -661,10 +718,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Habitat Cambuí - Apartamento com 1 dormitório à venda, 48 m² por R$ 630.000 - Cambuí - Campinas/SP. Apartamento mobiliado com sofá, mesa de jantar, rack; ar condicionado na sala e no quarto; cama, armário e criado no quarto; cozinha planejada, geladeira, micro-ondas e fogão; banheiro com gabinete, boxe e espelho; área de serviço com armário. Edifício alto padrão em localização privilegiada, próximo à Starbucks Cambuí. Condomínio com piscina, fitness, sauna, espaço gourmet e salas de reunião. Serviços inclusos: recepção e manobrista 24h; manutenção básica de hidráulica e elétrica; sistema de aquecimento central de água no banheiro; água e gás. Serviços Pay Per Use: limpeza (cobrada de acordo com a solicitação do morador); manutenções técnicas. OBS: os serviços listados acima estão sujeitos à mudanças. Oportunidade para investidor, o imóvel está locado.",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ff4f411e89cbce4f540828bac0256c11.jpg",
@@ -694,18 +753,25 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 458.65,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 92,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 3 dormitórios, 92 m² - venda por R$ 550.000 ou aluguel por R$ 3.750 - Jardim Nova Europa - Campinas/SP. Excelente oportunidade, lindo apartamento TÉRREO COM QUINTAL. 92,89 m�� de área privativa. Apartamento com sala 2 ambientes com painel; ampla cozinha planejada com bancada em granito São Gabriel; corredor com armário; 3 quartos com armários, sendo 1 suíte; banheiro social com gabinete, box e amplo espelho; banheiro suíte com ventilação natural, gabinete, box e amplo espelho; quintal com piso porcelanato, com parte em cobertura de telha e madeira, com bancada para escritório e fechamento de vidro; área de serviço com tanque em inox e granito São Gabriel e armários planejados. Uma vaga de garagem coberta com sombrite, próxima à entrada do bloco. Sol Poente. Condomínio com portaria 24h, piscinas adulto e infantil, quadra, salão de festas com churrasqueira, brinquedoteca, salão de jogos, academia, sala de ginástica/dança, playground, mini mercado Enxuto e bicicletário. Localização privilegiada, próximo às principais vias de acesso, infraestrutura em comércio e serviços, próximo ao Pq Prado. O imóvel estará disponível para visita a partir do dia 11/07/26. Entre em contato para agendarmos sua visita!",
+    "desc": "Apartamento com 3 dormitórios, 92 m² - venda por R$ 550.000 ou aluguel por R$ 3.750 - Jardim Nova Europa - Campinas/SP. Excelente oportunidade, lindo apartamento TÉRREO COM QUINTAL. 92,89 m² de área privativa. Apartamento com sala 2 ambientes com painel; ampla cozinha planejada com bancada em granito São Gabriel; corredor com armário; 3 quartos com armários, sendo 1 suíte; banheiro social com gabinete, box e amplo espelho; banheiro suíte com ventilação natural, gabinete, box e amplo espelho; quintal com piso porcelanato, com parte em cobertura de telha e madeira, com bancada para escritório e fechamento de vidro; área de serviço com tanque em inox e granito São Gabriel e armários planejados. Uma vaga de garagem coberta com sombrite, próxima à entrada do bloco. Sol Poente. Condomínio com portaria 24h, piscinas adulto e infantil, quadra, salão de festas com churrasqueira, brinquedoteca, salão de jogos, academia, sala de ginástica/dança, playground, mini mercado Enxuto e bicicletário. Localização privilegiada, próximo às principais vias de acesso, infraestrutura em comércio e serviços, próximo ao Pq Prado. O imóvel estará disponível para visita a partir do dia 11/07/26. Entre em contato para agendarmos sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Quintal Integrado",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/0a7b165092538ea968218a3162492142.jpg",
@@ -765,7 +831,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1280000,
+    "condominio": 1300,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 2,
     "area": 72,
@@ -773,10 +842,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Descubra a exclusividade de morar no Cambuí, no renomado Edifício Parigi. Esta é uma oportunidade única de adquirir um apartamento no último andar, garantindo total privacidade, silêncio e uma vista livre espetacular da cidade. Privilegiado pela posição solar norte, o imóvel recebe excelente iluminação natural e conforto térmico durante todo o dia. O apartamento conta com living para 2 ambientes integrado à sacada, cozinha planejada com cooktop e depurador, além de 2 dormitórios com armários embutidos, sendo 1 suíte. Outro grande diferencial são as 2 vagas de garagem cobertas. O condomínio oferece lazer completo e serviços que facilitam o dia a dia: piscina com raia, espaço gourmet, churrasqueira, playground e uma prática lavanderia coletiva. Localização nobre, cercada pelos melhores restaurantes e conveniências de Campinas. Imóvel pronto para morar. Agende sua visita",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/599adc5c64644dfb1147f3995bacd96f.jpg",
@@ -823,7 +893,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1970000,
+    "condominio": 590,
     "quartos": 3,
+    "suites": 3,
+    "salas": 1,
     "banheiros": 5,
     "vagas": 4,
     "area": 310,
@@ -831,9 +904,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Residencial Terras do Cancioneiro. Casa com 3 dormitórios à venda, 310 m² por R$ 1.970.000 - Terras do Cancioneiro - Paulínia/SP. Terreno de 390,02m2, área construída de 310m2, de esquina, com 2 vagas cobertas, aquecimento solar, bem arejada, iluminada, pé direito alto, rebaixada com gesso, piso de porcelanato e potencial para paisagismo. 3 suítes com armários, sendo 1 máster com closet, roupeiro. Living 3 ambientes e lavabo. Cozinha planejada com despensa. Área gourmet coberta com churrasqueira. Piscina aquecida com deck e banheiro. Todos os ambientes com instalação para TV a cabo. Condomínio com lazer completo.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Armários Planejados"
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Armários Planejados",
+      "Aceita Permuta",
+      "Área de Serviço",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/bfoiHfBIvp6lrZSdG8MyWX29zBEy8S4M.jpg",
@@ -890,18 +967,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 480000,
+    "condominio": 524,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 2,
     "area": 56,
     "tag": "Oportunidade",
     "desc": "Piazza Di Roma. Apartamento com 2 dormitórios, 56 m² - Vila Aurocan - Campinas/SP. Apartamento com sala 2 ambientes, cozinha com armários planejados e cooktop, 2 quartos com armários, 1 banheiro com gabinete, box e espelho, sacada, área de serviço. Piso porcelanato. Andar alto, 2 vagas de garagem. Condomínio com lazer completo e muito bem localizado, próximo ao Unimart Shopping. Piscina adulto e infantil, brinquedoteca, playground, academia, quadra poliesportiva, salão gourmet, churrasqueira e bicicletário. Agende sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ovpjJdKbvju4jRxyBu5TuJTCadqbe93C.jpg",
@@ -933,7 +1016,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1000000,
+    "condominio": 1100,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 70,
@@ -941,10 +1027,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 70 m² por R$ 1.000.000 - Cambuí - Campinas/SP. Privilege Residence alto padrão totalmente mobiliado e decorado Localizado em um andar alto, este apartamento recebe o sol da manhã e oferece uma vista deslumbrante da cidade. O espaço é cuidadosamente projetado, contando com uma sala de estar que se integra harmoniosamente à cozinha e à área de serviço. A sacada proporciona um espaço arejado e agradável para relaxar. A suíte conta com um amplo banheiro e um closet bem planejado, além de um lavabo para maior conveniência. O imóvel está pronto para morar, oferecendo todo o conforto e elegância que você procura. Inclui duas vagas paralelas cobertas para sua comodidade. O condomínio dispõe de uma portaria com segurança 24 horas e excelentes opções de lazer, como piscina, sauna, academia, espaço gourmet e lavanderia. Localizado no coração do Cambuí, você terá acesso fácil a uma completa infraestrutura de comércio, serviços e transportes. Apartamento locado, ideal para investidores. Agende já sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/0ef1a6e727c77c2de2a5909de3b53730.jpg",
@@ -983,7 +1073,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3000,
+    "condominio": 762,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -1010,7 +1103,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 749000,
+    "condominio": 1100,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 1129,
@@ -1053,7 +1149,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3300,
+    "condominio": 878.74,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 47,
@@ -1061,10 +1160,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade para locação no Unic Cambuí. Apartamento com 1 quarto rico em armários e ar-condicionado. Sala 2 ambientes com cortina. Sacada com pia, ponto grill e gabinete. Cozinha planejada com cooktop e geladeira. Área de serviço. Banheiro com gabinete, armário, boxe e espelho. Pronto para morar! 1 vaga de garagem no subsolo. Condomínio com portaria, piscina, fitness, espaço gourmet e churrasqueira com forno de pizza. Localização privilegiada, com toda infraestrutura em comércio e serviços, ao lado da Pizzaria Bráz. Disponível para visita a partir de 06/06/2026.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/A8NwdOXFmCNWXmBsoUvFOwaHm2P2OoLn.jpg",
@@ -1094,18 +1195,26 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 4100,
+    "condominio": 822,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 80,
     "tag": "Oportunidade",
     "desc": "Oportunidade para locação no Páteo Abolição, Ponte Preta. Apartamento com acabamento alto padrão. Em andar alto com vista livre. Possui 3 quartos, sendo 1 suíte com ar-condicionado, todos com armários planejados. Banheiros com gabinete, espelho, box. Living 2 ambientes, sacada gourmet com ponto grill e fechamento de vidro. Cozinha planejada com cooktop, forno e coifa. Área de serviço com porta blindex. Infraestrutura para ar condicionado na sala. Projeto de iluminação, cortinas sob medida, piso laminado e porcelanato. 2 vagas de garagens cobertas e livres. Gás incluso no valor do condomínio. Condomínio clube com piscina adulto, infantil e com raia; deck; sauna; cinema; salão de festas adulto e infantil; fitness, brinquedoteca, playground; quadra poliesportiva; espaço gourmet; lounge; churrasqueira; espaço wireless; office; pet place, entre outros. Portaria 24h. Localizado em um dos bairros mais antigos de Campinas, o empreendimento possui um projeto inovador que trabalha com o conceito de revitalização do patrimônio histórico. Fácil acesso à av. Ângelo Simões, Princesa d Oeste, Swift; com toda infraestrutura de comércio e serviços ao redor. Disponível para início da locação em julho.",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
+      "Quadra Poliesportiva",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/VXnolM12EinG5TspTgcGiUgU4ecKLm0e.jpg",
@@ -1154,7 +1263,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 697000,
+    "condominio": 905.29,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 60,
@@ -1162,10 +1274,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Ótima oportunidade à venda no bairro Cambuí! Apartamento com 1 dormitório à venda, 60 m² por R$ 697.000 - Cambuí - Campinas/SP. Apartamento reformado, com 1 suíte, armário embutido e ar-condicionado, sala em 2 ambientes com ar condicionado, sacada e lavabo, cozinha equipada com armários planejados e área de serviço prática. O imóvel conta com 2 vagas de garagem cobertas e apresenta excelente acabamento, estando pronto para morar. Localizado em condomínio privilegiado próximo ao Pão de Açúcar, oferece completa infraestrutura com portaria virtual, salão de festas, churrasqueira, sauna e piscina. Agende já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/fee3fd8016ecdefdb66786c6599ca6bd.jpg",
@@ -1215,7 +1329,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2990,
+    "condominio": 878.74,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 47,
@@ -1223,10 +1340,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade para locação no Unic Cambuí - Apartamento com 1 dormitório para alugar, 47 m² por R$ 4.022/mês - Cambuí - Campinas/SP. Apartamento em andar alto, sol da manhã, com linda vista. Semi-mobiliado conforme as fotos. Sala com painel e rack; sacada envidraçada e com pia; cozinha com armários, geladeira, micro-ondas, forno e cooktop; área de serviço com armário e máquina de lavar; quarto com armários e TV; banheiro com gabinete, box e espelho. Pronto para morar! Uma vaga coberta. Portaria 24h, piscina, academia, espaço gourmet e churrasqueira. Localização privilegiada no Cambuí. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/xqJhxz13TK23z08aJWMTQ7PY1LuyNrby.jpg",
@@ -1253,7 +1372,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 920000,
+    "condominio": 900,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 70,
@@ -1261,10 +1383,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Lindo apartamento, com acabamento diferenciado e sol da manhã. São 2 quartos com armários e ar condicionado, sendo1 suíte. Sala 2 ambientes com cortinas automatizadas, ar condicionado e móveis planejados; cozinha planejada com armários, cooktop à gás, forno e exaustor; área de serviço com armários e aquecedor à gás; banheiros com boxes e espelhos. Piso porcelanato. Infraestrutura para automação. Duas vagas demarcadas descobertas. Pronto para morar!!! Empreendimento com manobrista 24h, Max Café, academia, lavanderia, sauna e piscina. Localização privilegiada no Cambuí!!! Total infraestrutura em comércio e serviços. Excelente oportunidade, entre em contato para agendarmos sua visita.",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/d13d622ac6d96f37192567b8aad6a057.jpg",
@@ -1321,7 +1445,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2600,
+    "condominio": 1380,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 2,
     "area": 60,
@@ -1349,14 +1476,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 280000,
+    "condominio": 700,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 36,
     "tag": "Oportunidade",
     "desc": "Sala comercial à venda no Setin Midtown Office, 36 m² por R$ 280.000 - Centro - Campinas/SP. Últimas unidades direto com a incorporadora. Localização privilegiada na esquina da Avenida Aquidaban com a Rua José Paulino, vizinho ao bairro Cambuí, com fácil acesso às Rodovias D. Pedro I e Santos Dumont. Sala com sacada, 1 banheiro, 1 vaga de garagem com manobrista, recepção 24 horas e salas de reunião. Unidades de 33 a 38m² com possibilidade de junção. Agende sua visita!! Os valores estão sujeitos a alteração sem aviso prévio!",
     "diferenciais": [
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/fe4312caae0f782b032a039559fde29a.jpg",
@@ -1385,7 +1515,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 670000,
+    "condominio": 864.81,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -1393,10 +1526,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Excelente oportunidade no Living Design Cambuí, Campinas! Apartamento semi mobiliado com móveis planejados: cozinha com forno, cooktop e geladeira; sala com ar-condicionado e painel rack; quarto com armário espelhado e climatização; banheiro com boxe e gabinete. Pronto para morar: piso porcelanato (sala/cozinha) e vinílico (quarto). Empreendimento alto padrão em torre única (apenas 60 unidades). Condomínio com portaria 24h, piscina, fitness, fire square, lavanderia, espaço gourmet, churrasqueira e Wi-Fi nas áreas comuns. Localização premium: coração do Cambuí, próximo ao Tênis Clube e Hotel Meliá. Perfeito para investidor imóvel alugado! Agende visita.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/b1c803e7c09d4f2cab1149e8f5900be2.jpg",
@@ -1441,18 +1576,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2720000,
+    "condominio": 2340,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 4,
     "vagas": 4,
     "area": 208,
     "tag": "Exclusivo",
     "desc": "Penthouse com 3 dormitórios, 208 m² - venda por R$ 2.720.000 ou aluguel por R$ 21.040/mês - Cambuí - Campinas/SP. Excelente oportunidade de cobertura penthouse à venda no Bella Vita Cambuí, em Campinas - um imóvel de luxo em localização privilegiada. Esta cobertura exclusiva possui hall privativo, três suítes incluindo uma suíte master de 35m², lavabo, despensa, lavanderia ampla, cozinha planejada, escritório, sacada com churrasqueira e terraço com hidro. São quatro vagas de garagem com depósito de 10m², área privativa de 208,9472m² e área total de 246,4772m². O condomínio oferece portaria 24 horas, piscina, salão de festas, churrasqueira coletiva, playground, pomar, academia Life Fitness, brinquedoteca, sauna e home office. Documentação regularizada e valores sem mobília. Agende sua visita para conhecer esta oportunidade única no mercado imobiliário de Campinas!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
+      "Hidromassagem",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/6b2cd1835067b520536249c626b57f6d.jpg",
@@ -1519,7 +1660,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2765000,
+    "condominio": 1749.7,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 4,
     "vagas": 3,
     "area": 198,
@@ -1527,10 +1671,16 @@ const IMOVEIS_DATABASE = [
     "desc": "Acqua Galleria Condomínio Resort. Cobertura com 3 dormitórios à venda, 198 m² por R$ 2.765.000 - Galleria - Campinas/SP. Único dono, sol da manhã, 3 quartos, 3 vagas de garagem e vista para o Galleria Shopping. O primeiro pavimento possui 106m2 bem distribuídos, pé direito de quase 3 metros, ampla sala decorada integrada a cozinha rica em planejados e piso porcelanato Portobello de 80x80cm sugerindo cimento queimado, bancadas da cozinha e banheiro brancas de mármore sintético, louças e metais da marca Deca, área de serviço rica em planejados, lavabo com fino acabamento, 3 quartos sendo 1 suíte com cama Queen Size e piso vinílico proporcionando maior conforto térmico. Ar-condicionado quente e frio da marca Jujitsu e iluminação de LED amarela dimerizáveis em todos os ambientes. Excelente iluminação natural. O vitro da sala principal conta com 8 cortinas Silhouette Hunter Douglas automatizadas e independentes. O acesso ao pavimento superior com aproximadamente 92m2 se dá por uma belíssima escada do tipo espinha de peixe, de estrutura metálica, madeira Teka e corrimões de aço e vidro com o muro verde de plantas desidratadas contrastando com a decoração e proporcionando charme e requinte únicos ao ambiente. O segundo pavimento conta com linda sala decorada, área de churrasqueira equipada com chopeira embutida, amplas bancadas de apoio, spa aquecido para 4 pessoas, banheiro com ladrilhos hidráulicos e exuberante vegetação para você desfrutar de momentos prazerosos e alegres com sua família contemplando um lindo pôr do sol. Itens vendidos em conjunto: adega, cervejeira, churrasqueira a gás, cooktop 2 bocas, ar-condicionado, aquecedor a gás, lava-louças 14 serviços, lave e seca roupas, cooktop de indução, coifa, geladeira, micro-ondas e forno elétrico. Aceita permuta por casa no condomínio Sainte Helene em Sousas ou região do Galleria. O Acqua Galleria Resort é conhecido por sua maravilhosa e completa área de lazer com piscinas, brinquedoteca, churrasqueira, cineminha, espaço gourmet, playground, lindo paisagismo, quadra de futebol Society, quadra de tênis, poliesportiva, salão de festas, salão de jogos, sauna, mini mercado, portaria 24 horas e a famosa Academia Cia Atlética, inclusa no condomínio, para quem quer morar bem com qualidade de vida e ter praticidade no dia a dia sem precisar sair de casa, além da estratégica localização próxima às principais rodovias, ao Cambuí, Taquaral, Sam´s Club e ao Shopping Galleria, um dos mais requintados shoppings da cidade.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Aceita Permuta",
+      "Área de Serviço",
       "Sauna",
-      "Armários Planejados"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/2dc6c6a839bcad59e2583c66bc79a175.jpg",
@@ -1590,18 +1740,22 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1350000,
+    "condominio": 1036.78,
     "quartos": 3,
+    "suites": 3,
+    "salas": 3,
     "banheiros": 4,
     "vagas": 2,
     "area": 106,
     "tag": "Destaque",
     "desc": "Living Celebration. Apartamento com 3 dormitórios à venda, 106 m² por R$ 1.350.000 - Taquaral - Campinas/SP. Apartamento em andar alto, sol da manhã, iluminado e arejado, com belíssima vista da varanda e excelente acabamento. Fechadura biométrica; ampla sala 3 ambientes; lavabo; sacada com churrasqueira e envidraçada; cozinha com armários planejados, forno, cooktop e depurador; área de serviço com armário; 3 suítes com armários planejados conforme fotos, e banheiros com gabinete, box e espelho. Piso laminado e porcelanato. Marcenaria de qualidade. 2 vagas cobertas e livres. O condomínio Living Celebration é de altíssimo padrão, com piscina com uma vista espetacular, salão de jogos completo, salão de festa, salão gourmet, coworking (com duas salas de reunião), churrasqueira , academia com excelentes equipamentos, brinquedoteca, espaço pet e playground. Localização privilegiada em Rua tranquila no Bairro Taquaral, com fácil acesso a serviços, comércio, lazer e transportes. Documentação em ordem. Agende já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/5CbEqRtXCPJwQurt0hXdZNG3EVP2QReQ.jpg",
@@ -1661,18 +1815,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3000,
+    "condominio": 494,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 56,
     "tag": "Oportunidade",
     "desc": "Oportunidade para locação no Visione, Swift. Apartamento com 2 dormitórios para alugar, 56 m² por R$ 3.599/mês - Swift - Campinas/SP. Apartamento com dois quartos com armários, banheiro com box blindex, cozinha com armários planejados, sala 2 ambientes, sacada. Andar alto, sol nascente. Semi mobiliado conforme fotos. Uma vaga coberta - subsolo. Condomínio com lazer completo, com piscina, quadra, churrasqueira, fitness. Próximo as faculdades UNIP Swift e São Leopoldo Mandic e Extra Abolição. Agende já sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
-      "Varanda",
-      "Academia / Fitness"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/v2wfmmrpjZel6kUU7Co8wLdbMWRpJZjI.jpg",
@@ -1708,7 +1867,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3000,
+    "condominio": 938,
     "quartos": 1,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 41,
@@ -1718,7 +1880,7 @@ const IMOVEIS_DATABASE = [
       "Ar Condicionado",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -1762,7 +1924,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3500,
+    "condominio": 830,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
@@ -1770,10 +1935,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade para locação no Setin Home & Life Cambuí. Sala 2 ambientes, com ar condicionado; cozinha planejada; área de serviço; sacada gourmet envidraçada com ponto grill; 2 quartos, sendo 1 suíte; banheiro social. Armários planejados. Pronto para morar! Uma vaga coberta não demarcada. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada, mini mercado e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/8191fe2af87cd08902a6ea444d265670.jpg",
@@ -1818,7 +1986,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 310000,
+    "condominio": 664.4,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 0,
     "area": 50,
@@ -1827,7 +1998,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a4QFVLBFDIMAnpYc9SJn3xh79dGYrnH2.jpg",
@@ -1862,7 +2033,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 670000,
+    "condominio": 758.17,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 47,
@@ -1870,10 +2044,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento no Unic Cambuí, com 1 dormitório, 47 m² - venda por R$ 670.000 ou aluguel por R$ 4.660/mês. Mobiliado conforme as fotos exceto geladeira. Sala com ar condicionado, cozinha americana com armários; área de serviço; sacada com pia, gabinete e fechamento de vidro; quarto com armário, banheiro com gabinete, box, espelho e chuveiro com aquecimento à gás. Apartamento MOBILIADO conforme as fotos (EXCETO GELADEIRA). Uma vaga de garagem descoberta. Condomínio com portaria 24h, piscina, academia, espaço gourmet, churrasqueira e forno de pizza. Localização privilegiada no Cambuí, próximo ao Centro de Convivência, Pão de Açúcar e Pizzaria Bráz. Agenda já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/4921167d00a7161ca26b86ba15b3df3e.jpg",
@@ -1904,7 +2080,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 483.36,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 46,
@@ -1912,10 +2091,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Setin Home & Life Cambuí. Apartamento com 1 dormitório à venda, 46 m² por R$ 550.000 - Cambuí - Campinas/SP. Apartamento com sala dois ambientes, com ar condicionado, sofá-cama e mesa de jantar com cadeiras; cozinha americana com armários planejados, cooktop, forno, depurador, máquina de lavar louças, micro-ondas e geladeira; área de serviço com armário e máquina de lavar; sacada gourmet com armário, ponto grill e sofá de palete; quarto com armário, painel, cama Queen e ar condicionado; banheiro com gabinete, boxe, espelho e ducha com aquecimento à gás. Piso laminado. Excelente acabamento. Pronto para morar! Uma vaga de garagem coberta e não demarcada. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, mini mercado e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Documentação em ordem para financiamento. Agenda já sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Área de Serviço",
+      "Armários Planejados",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/EHku6Aou2iBnnHNFW8qRc3InUkZQ9C8T.jpg",
@@ -1962,7 +2144,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3150,
+    "condominio": 1039,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -1970,10 +2155,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.339/mês - Cambuí - Campinas/SP. Este sofisticado apartamento, com 40 m², está mobiliado conforme as fotos, e pronto para morar. A propriedade inclui uma vaga de garagem coberta e está situada em um condomínio com infraestrutura de alto padrão, que oferece piscina, academia, fire square, lavanderia, espaço gourmet e churrasqueira. Wi-Fi disponível nas áreas comuns para maior comodidade. Localizado no coração do Cambuí, uma das regiões mais valorizadas de Campinas, este imóvel une conforto, estilo e praticidade. Imóvel disponível para locação a partir de 25/06/2026. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/8fdef8cdb915219dd2e3fcbf63f22f90.jpg",
@@ -2022,7 +2209,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 220000,
+    "condominio": 1200,
     "quartos": 0,
+    "suites": 0,
+    "salas": 3,
     "banheiros": 2,
     "vagas": 0,
     "area": 73,
@@ -2058,7 +2248,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2300,
+    "condominio": 430,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 25,
@@ -2083,7 +2276,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1550,
+    "condominio": 748.61,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 36,
@@ -2091,7 +2287,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade no Midtown Office Aquidaban. Sala comercial para locação, bem iluminada, equipada com 2 aparelhos de ar condicionado, sendo possível a separação de ambientes, banheiro, sacada. Empreendimento moderno com fechadura biométrica. 1 vaga de garagem coberta. Pronta para você instalar seu escritório ou consultório. Sala de reuniões no condomínio. Excelente localização, próximo ao Cambuí, Hotel e Restaurantes. Entre em contato para agendarmos sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/O2XpOGGOtY3ddu0hF930b2Cy52FolRqi.jpg",
@@ -2119,17 +2315,22 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 690000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Excelente oportunidade de investimento em Campinas! Este apartamento de 2 quartos, localizado no conceituado condomínio Setin Home Life no Cambuí, está alugado e gera renda imediata, sendo uma opção perfeita para investidores que buscam retorno garantido e valorização. O imóvel, que está alugado e portanto disponível apenas para venda a investidores, possui posição sol da manhã, sala dois ambientes com painel e rack, e cozinha com armários amplos e acabamento diferenciado. A suíte e o quarto contam com armários embutidos, além de banheiros com gabinete. A sacada é envidraçada e o apartamento possui aquecimento a gás, uma vaga de garagem coberta.",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
       "Armários Planejados",
-      "Varanda",
+      "Área de Serviço",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -2178,7 +2379,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1600,
+    "condominio": 643.25,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 34,
@@ -2187,7 +2391,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Ar Condicionado",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/PIBygoHeRXRGmXHUTv5Kwoc6iJDaARKU.jpg",
@@ -2217,16 +2421,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 530000,
+    "condominio": 397.22,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 57,
     "tag": "Oportunidade",
     "desc": "Residencial Quirino 779. Apartamento com 2 dormitórios à venda, 57 m² por R$ 530.000 - Centro - Campinas/SP. 2 quartos sendo 1 suíte, sala de estar e jantar, varanda e vaga de garagem demarcada. O edifício tem somente uma torre com um condomínio completo: piscina adulto e infantil, salão de festas, horta comunitária, salão de jogos, brinquedoteca, academia, playground, espaço da churrasqueira, bicicletário e coworking. Pensando na segurança e facilidade do dia a dia, possui um elevador na parte externa da portaria para PCD e 3 elevadores para acesso na torre, também acesso ao estacionamento das vagas descobertas e 2 subsolos para as vagas de carros cobertas. Fácil acesso para importantes vias da cidade, como as avenidas Dr. Moraes Sales, Aquidabã e Norte-Sul, possui também ampla rede de linhas de ônibus. A região concentra grande parcela do comércio e dos serviços do município. Oportunidade para investidor, o imóvel está alugado. Agenda já sua visita!!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Armários Planejados",
+      "Aceita Permuta",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -2276,7 +2485,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 609268.49,
+    "condominio": 510,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 39,
@@ -2284,7 +2496,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 39m², em localização privilegiada no bairro mais desejado de Campinas, o Cambuí. Apartamento novo com sala 2 ambientes; sacada; cozinha e área de serviço integradas; quarto e banheiro. Uma vaga coberta. Unidades entregues com todos os acabamentos, inclusive chuveiros e cabeamento para o ar condicionado. Necessário apenas instalar a Marcenaria. Empreendimento novo, portaria virtual, espaço gourmet e fitness. Unidades a partir de R$ 548.845,44 (sujeito a alterações sem aviso). Fotos do apartamento decorado. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -2305,7 +2517,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 888078.61,
+    "condominio": 510,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 2,
     "area": 60,
@@ -2313,7 +2528,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 60m², em localização privilegiada no bairro mais desejado de Campinas, o Cambuí. Apartamento novo com sala 2 ambientes; sacada; cozinha e área de serviço integradas; 2 quartos e 1 banheiro. Duas vaga cobertas. Unidades entregues com todos os acabamentos, inclusive chuveiros e cabeamento para o ar condicionado. Necessário apenas instalar a Marcenaria. Empreendimento novo, portaria virtual, espaço gourmet e fitness. Unidades a partir de R$ 804.044,80 sujeito a alterações sem aviso). Fotos do apartamento decorado. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -2340,7 +2555,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 662333.76,
+    "condominio": 510,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 2,
     "area": 47,
@@ -2348,7 +2566,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 47m², em localização privilegiada no bairro mais desejado de Campinas, o Cambuí. Apartamento novo com sala 2 ambientes; sacada; cozinha e área de serviço integradas; 2 quartos e 2 banheiros. Uma vaga coberta. Unidades entregues com todos os acabamentos, inclusive chuveiros e cabeamento para o ar condicionado. Necessário apenas instalar a Marcenaria. Empreendimento novo, portaria virtual, espaço gourmet e fitness. Unidades a partir de R$ 642.470,40(sujeito a alterações sem aviso). Fotos do apartamento decorado. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -2369,7 +2587,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 980000,
+    "condominio": 1400,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 2,
     "area": 69,
@@ -2377,10 +2598,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Cobertura com 1 dormitório à venda, 69 m² por R$ 980.000 - Cambuí - Campinas/SP. Linda Cobertura Duplex, em localização privilegiada no Cambuí. Cozinha com armários planejados, cooktop, depurador, geladeira e mesa balcão em pedra São Gabriel; sala com ar condicionado; sacada; suíte com amplo armário e ar condicionado; banheiro com gabinete, box, espelho, ducha com aquecimento à gás, ventilação natural (janela); mezanino com pia e amários, ampla varanda. Duas vagas cobertas e livres. Portaria 24h, academia, piscina com spa, lavanderia coletiva, fire square (lareira), espaço gourmet e churrasqueira. Área comum finamente decorada. Wi-Fi na área comum. Serviços pay-per-use. Excelente localização, próximo ao Tênis Clube e Hotel Meliá. Oportunidade! Entre em contato para agendarmos sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/YBoTMme3EgiIHIa3MYzo5qCwKHzEOumc.jpg",
@@ -2429,7 +2652,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2500,
+    "condominio": 270,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 95,
@@ -2455,16 +2681,26 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1700000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 2,
+    "salas": 0,
     "banheiros": 6,
     "vagas": 12,
     "area": 2015,
     "tag": "Destaque",
     "desc": "Chácara com 3 dormitórios à venda, 2015 m² por R$ 1.700.000 - Parque Valinhos - Valinhos/SP. Documentação em dia. Casa principal ampla, aconchegante, com ótimo acabamento, suíte master com closet e banheira de hidromassagem. Possui vista privilegiada com varanda panorâmica para área de preservação, instalação para energia solar e aquecimento da piscina, campo de futebol, salão de festas para 100 pessoas, churrasqueira, quiosque, casa de boneca, canil, acomodação para visitas com quarto, banheiros e cozinha. Agende sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Varanda"
+      "Churrasqueira",
+      "Piscina",
+      "Lareira",
+      "Quintal",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Aceita Permuta",
+      "Área de Serviço",
+      "Closet",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/kEpjzqKlatT8k4Gwc508JfksPJoaQAdE.jpg",
@@ -2545,7 +2781,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1200000,
+    "condominio": 750,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 2,
     "area": 109,
@@ -2555,8 +2794,10 @@ const IMOVEIS_DATABASE = [
       "Ar Condicionado",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
-      "Academia / Fitness"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quintal Integrado",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ZSp6uuUeNVlewbERVo1LPbhuNqqmCzm2.jpg",
@@ -2600,14 +2841,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 265000,
+    "condominio": 540,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
     "tag": "Oportunidade",
     "desc": "Sala comercial à venda ou locação no Time Center, Campinas/SP. Sala de 35m² em edifício corporativo no Centro. Piso vinílico, forro de gesso, iluminação embutida, infraestrutura para ar condicionado, sacada, copa e um banheiro. Inclui 1 vaga de garagem coberta. Empreendimento completo com recepção, auditório e salas de reunião. Excelente localização com fácil acesso às principais avenidas e transporte público. Próximo aos Hospitais Vera Cruz, Beneficência Portuguesa e São Luiz. Agenda já sua visita!",
     "diferenciais": [
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/f0be2690d17e44ca5799067bc9de9d35.jpg",
@@ -2632,7 +2876,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1100,
+    "condominio": 540,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
@@ -2640,7 +2887,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Excelente Oportunidade de Locação para Sala comercial no Time Center, por R$ 1.919/mês - Centro - Campinas/SP. Sala com 35m2, 1 banheiro e sacada. Acabamento com piso vinílico, forro, iluminação e infraestrutura pronta para instalação de ar condicionado. 1 vaga de garagem. Empreendimento alto padrão, completo de serviços como recepção, auditório e salas de reunião. Possui excelente localização, além de facilidade de acesso para as principais avenidas da cidade e sistema de transporte. Próximo aos Hospitais Vera Cruz, Beneficência Portuguesa e São Luiz. Agenda já sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -2670,7 +2917,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 9500000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 4259,
@@ -2698,7 +2948,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3500,
+    "condominio": 860,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -2706,10 +2959,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.475/mês - Cambuí - Campinas/SP. Apartamento com mobília completa. Fechadura biométrica, planejados no dormitório, banheiro, sala, cozinha com cooktop, fechamento de vidro na varanda com persianas, metais diferenciados, ar condicionado na sala e 1 vaga de garagem coberta. Condomínio com Área de Lazer na Cobertura (Sky View) que contempla a piscina, academia premium, lounge, salão de festas gourmet. Lavanderia com máquinas profissionais. Portaria 24h. Todas as áreas comuns equipadas e decoradas. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/r2AuDk8wHc8ZwncYLWd6wTjVFlB8o6bM.jpg",
@@ -2754,7 +3009,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 3100000,
+    "condominio": 680,
     "quartos": 4,
+    "suites": 4,
+    "salas": 0,
     "banheiros": 6,
     "vagas": 4,
     "area": 320,
@@ -2762,10 +3020,15 @@ const IMOVEIS_DATABASE = [
     "desc": "Excelente casa à venda no condomínio Swiss Park - St. Moritz, em Campinas/SP. Esta belíssima casa de 320m² com 4 suítes está sendo oferecida por R$ 2.900.000. A propriedade conta com 4 dormitórios todos suítes, totalizando 6 banheiros, sala de estar, sala de jantar, 2 salas de TV, escritório, cozinha planejada com forno e cooktop embutidos, área de serviço completa com lavanderia e despensa. A casa possui acabamento de alto padrão, 8 aparelhos de ar condicionado, aquecimento solar com sistema fotovoltaico e boiler de 600L. Dois dos quartos suítes contam com closet e três oferecem vista para uma ampla varanda. O imóvel inclui uma área gourmet coberta com churrasqueira integrada à piscina, perfeita para entretenimento, além de 4 vagas de garagem. O condomínio Swiss Park oferece portaria 24 horas, espaço gourmet com churrasqueira e forno de pizza, salão de festas, quadra de tênis, futebol society, quadra poliesportiva e playground. Localizada no bairro planejado mais cobiçado de Campinas, a propriedade está próxima a padarias, supermercados, restaurantes, escolas e diversos estabelecimentos comerciais, com fácil acesso às principais rodovias. Agende uma visita para conhecer esta casa à venda no Swiss Park Campinas!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Quadra Poliesportiva",
       "Armários Planejados",
+      "Aceita Permuta",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Quadra Esportiva",
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/H4N9ZaSD9djE7ZOyBoM6CcXoKy2TaDgV.jpg",
@@ -2849,18 +3112,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 680000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 65 m² por R$ 680.000 - Cambuí - Campinas/SP. Excelente oportunidade à venda apenas para investidor no Setin Home & Life Cambuí, um condomínio de alto padrão e diferenciado. Apartamento pronto para morar com 2 quartos (sendo 1 suíte) e 2 banheiros, todos com armários planejados, box, espelho e gabinete. A cozinha é rica em armários e integra-se à área de serviço completa, que conta com aquecedor a gás. A sacada gourmet com ponto grill e o living de 2 ambientes com painel e rack complementam o imóvel, que possui piso laminado e sol da manhã por ser em andar alto com vista privilegiada. O empreendimento oferece lazer completo: piscina adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, mini mercado e solarium. Segurança total com portaria e manobrista 24 horas. Localização excelente e privilegiada, entre os bairros Cambuí, Centro e Guanabara, com fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/3b14a7568c874f7e45ac39a9b490ff9c.jpg",
@@ -2907,18 +3176,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 575000,
+    "condominio": 790,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Ótimo apartamento à venda no Setin Home & Life Cambuí - Apartamento com 2 dormitórios à venda, 65 m² por R$ 575.000 - Cambuí - Campinas/SP. Oportunidade para investidor, o imóvel está alugado. Living 2 ambientes integrados, Sacada gourmet com ponto grill e fechamento em vidro. Suíte e dormitório com armários embutidos, banheiros completos com gabinete espelho box e ducha com aquecimento a gás, cozinha planejada e área de serviço. 1 vaga de garagem coberta. Lazer completo com piscina adulto e infantil, academia completa, spa com sauna, espaço gourmet com churrasqueira e forno de pizza, salão de jogos com cinema, playground. Portaria 24h com manobrista. Excelente localização, entre o Cambuí, Centro e Guanabara, fácil acesso a transporte público comércio e serviços. Entre em contato e agende sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/dca992434a18b4b07c56e59e90f250f5.jpg",
@@ -2966,18 +3240,22 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 620000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios e 65 m² - Cambuí - Campinas/SP. Excelente apartamento com 2 quartos, sendo 1 suíte, todos com armários planejados. Conta com aquecimento a gás e ar-condicionado na suíte. O piso porcelanato em toda a área interna traz sofisticação e fácil limpeza. A ampla sala dois ambientes integra-se perfeitamente à varanda com fechamento em vidro, garantindo um ótimo aproveitamento do espaço e luminosidade, além de contar com painel e rack para TV. A cozinha é bem equipada, com armários planejados, cooktop e acesso à área de serviço. O condomínio oferece área de lazer completa e mini mercado de autoatendimento para sua comodidade. Localização estratégica, perfeita para quem busca morar bem com praticidade, próximo a tudo e com fácil acesso aos principais pontos da cidade. Excelente oportunidade! Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço",
-      "Varanda"
+      "Área de Serviço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/6423d3f52a1c9379cb16debc404cffbf.jpg",
@@ -3022,7 +3300,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 350000,
+    "condominio": 650,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 56,
@@ -3056,7 +3337,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 670000,
+    "condominio": 890,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 51,
@@ -3064,10 +3348,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 51 m² por R$ 670.000 - Cambuí - Campinas/SP. Oportunidade à venda no Edifício Barcelona no Cambuí. Localização privilegiada no Bairro Cambuí, torre única com apenas 36 apartamentos. Sala 2 ambientes com ar-condicionado, lavabo, sacada, cozinha com armários planejados equipada com fogão e coifa, área de serviço, suíte com armário e ar-condicionado, banheiro da suíte com gabinete, box e espelho. 1 vaga de garagem coberta. Condomínio com portaria virtual e presencial em horário comercial, piscina, academia e salão de festas. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/225d968579868edc2f66130da7d446f8.jpg",
@@ -3114,7 +3399,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3100,
+    "condominio": 1040,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
@@ -3122,10 +3410,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.189 - Cambuí - Campinas/SP. Excelente oportunidade, apartamento em localização privilegiada no Cambuí, mobiliado conforme fotos. Sala, sacada, cozinha, quarto e banheiro com janela. Uma vaga coberta. Pronto para morar! Empreendimento alto padrão, torre única, 60 unidades no total. More com exclusividade e na melhor localização do Cambuí. Condomínio com piscina, fitness, fire square, lavanderia, espaço gourmet e churrasqueira. Portaria 24h. Entre em contato para agendarmos sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/8fae486a8ee34b86abc0957cfc294c07.jpg",
@@ -3170,7 +3461,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3700,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
@@ -3178,10 +3472,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios para alugar, 65 m² por R$ 4.779 - Cambuí - Campinas/SP. 2 dormitórios (1 suíte) com armários, sala com living para dois ambientes, banheiro social, cozinha com geladeira e armários, varanda ampla. Ar condicionado nos quartos e sala. 1 Vaga de garagem coberta. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9f1dbd8bf7cf24b242a837df1e957a9f.jpg",
@@ -3227,17 +3524,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 690000,
+    "condominio": 650,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 1,
     "area": 120,
     "tag": "Oportunidade",
     "desc": "Spazio Carlos Pyles. Cobertura com 2 dormitórios à venda, 120 m² por R$ 690.000 - Jardim Proença - Campinas/SP. No pavimento inferior: 2 dormitórios, sendo 1 suíte, cozinha americana planejada com Cooktop e Forno, lavanderia, sala para 2 ambientes (estar e jantar) e banheiro social. No pavimento superior: Sala de TV/Escritório, closet, lavabo e área gourmet. Os móveis, itens de decoração e demais eletrodomésticos não estão inclusos na venda. Sol da manhã. 1 vaga de garagem descoberta. Lazer com Salão de Festas, Churrasqueira, Playground e Piscina. Portaria Virtual 24h e recebimento de encomendas em horário Comercial. Excelente localização, próximo às faculdades Unip, São Leopoldo Mandic, Supermercado Galassi, Farmácias e ao Hipermercado Assaí Abolição. Agenda já sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Aceita Permuta",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Jardim",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/Z6SrGdxnq0hrW4QuK3zL6Ng6VeC6mwRf.jpg",
@@ -3288,7 +3591,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 34,
@@ -3320,7 +3626,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 5000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 0,
     "area": 99,
@@ -3353,18 +3662,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 430000,
+    "condominio": 650,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 2,
     "area": 61,
     "tag": "Oportunidade",
     "desc": "Prime Acqua. Apartamento com 2 dormitórios à venda, 61 m² por R$ 430.000 - Jardim São Vicente - Campinas/SP. Lindo apartamento no primeiro andar, pôr do sol na varanda gourmet, com 2 quartos, sendo 1 suíte, cozinha americana, área de serviço, sala ampla e 2 vagas de garagem. Condomínio possui piscinas adulto e infantil, playground, brinquedotecas, academia, salão de festas, churrasqueiras, office, quadra poliesportivas, sauna e um container de mini mercado. Tudo isso em um condomínio resort com segurança 24hs, lazer completo, fácil acesso a Anhanguera e região central. Agenda já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/E4OK86bKXw7NO9zaVeJIncWI7C4Atrhs.jpg",
@@ -3399,7 +3714,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1650000,
+    "condominio": 860,
     "quartos": 3,
+    "suites": 2,
+    "salas": 0,
     "banheiros": 4,
     "vagas": 4,
     "area": 240,
@@ -3407,6 +3725,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Condomínio Flora e Milano. Sobrado com 3 dormitórios à venda, 240 m² por R$ 1.650.000 - Fazenda Santa Cândida - Campinas/SP. Casa de altíssimo padrão, com fino acabamento e rica em planejados! A Casa possui 240m² de área construída, 3 dormitórios, sendo 2 suítes e 1 dormitório utilizado em escritório atualmente, 4 banheiros, sala integrada à cozinha, despensa, área de serviço e belíssima área gourmet com churrasqueira. Ar condicionado instalado na suíte principal. 4 Vagas de garagem, sendo 2 cobertas e 2 descobertas. Portaria 24h, lazer com salão de festas, espaço gourmet com churrasqueira, piscina, vestiários, mini campo de futebol e academia. Venha conhecer e se apaixonar por essa linda casa. Excelente localização, possui fácil acesso para a rodovia Dom Pedro, rodovia Campinas/Mogi, próximo ao shopping Dom Pedro, hospital Madre Theodora, PUCC e Unicamp. Agende já sua visita!",
     "diferenciais": [
       "Armários Planejados",
+      "Aceita Permuta",
       "Área de Serviço",
       "Academia / Fitness"
     ],
@@ -3438,7 +3757,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 225000,
+    "condominio": 390,
     "quartos": 2,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 45,
@@ -3477,7 +3799,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 270000,
+    "condominio": 0,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 0,
     "area": 32,
@@ -3514,14 +3839,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 950000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 2,
     "area": 91,
     "tag": "Oportunidade",
     "desc": "Hípica Boulevard Residencial: Lançamento Exclusivo em Campinas com Apartamentos de 3 Quartos. Previsão de Entrega para Março de 2026. Unidade tipo a partir de R$ 950.000,00, sujeito a alteração, sem aviso prévio. Adquira seu apartamento novo no Hípica Boulevard Residencial, um empreendimento em fase de construção que já está com sua estrutura em ascensão, em Campinas. Com previsão de entrega para março de 2026, este é o momento ideal para garantir seu futuro com condições especiais. Os apartamentos possuem 3 dormitórios, com 91,29m² de área privativa, varanda gourmet e opções de planta com sala ampliada e/ou segunda suíte, perfeitos para quem busca conforto e espaço. O empreendimento oferece 2 vagas de garagem por unidade, com a possibilidade de comprar uma 3 vaga, e conta com a praticidade de 2 elevadores por torre. São apenas 196 unidades, distribuídas em 7 torres com 4 apartamentos por andar, garantindo mais exclusividade. O lazer é completo, com mais de 20 itens para toda a família. Área de festas, piscina adulto de raia de 25m² para natação, quadra de beach tennis, quadra poliesportiva, pista de caminhada, quiosques gourmet, pet place e muito mais. Tudo que você precisa para uma vida de bem-estar. Localização privilegiada no bairro Hípica, próximo ao Clube Hípica de Campinas, Shopping Iguatemi, Gramado Mall, Leroy Merlin, Decathlon, Hortifruti, Carrefour e renomadas escolas como Coração de Jesus e Notre Dame. Fácil acesso às Rodovias D. Pedro I e Magalhães Teixeira, e às principais avenidas como Dr. Moraes Sales, Princesa D Oeste e Avenida Norte Sul. Os valores informados estão sujeitos a alteração sem aviso prévio. Entre em contato e agende sua visita ao apartamento decorado e à obra.",
     "diferenciais": [
-      "Varanda",
+      "Varanda / Terraço",
       "Quadra Esportiva"
     ],
     "imagens": [
@@ -3560,7 +3888,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1670000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 2,
     "area": 165,
@@ -3605,7 +3936,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 850000,
+    "condominio": 1180.37,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 70,
@@ -3613,7 +3947,7 @@ const IMOVEIS_DATABASE = [
     "desc": "MaxHaus Cambuí II. Apartamento com 2 dormitórios à venda, 70 m² por R$ 850.000 - Cambuí - Campinas/SP. Com arquitetura contemporânea e concreto aparente. Amplo living 2 ambientes. 2 Quartos com armários, sendo 1 suíte. Banheiro Social. Cozinha planejada. Área de serviço. Apartamento mobiliado conforme fotos. 2 vagas de garagens. Empreendimento com piscina com raia, lavanderia coletiva, fitness, max café com wi-fi. Sistema pay-per-use de limpeza. Localização privilegiada no Cambuí, com excelente infraestrutura ao redor. Próximo à avenida Norte Sul. Entre em contato e agende uma visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
       "Academia / Fitness"
@@ -3663,15 +3997,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 430000,
+    "condominio": 0,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 4,
     "area": 110,
     "tag": "Oportunidade",
     "desc": "Sobrado com 2 dormitórios à venda, 110 m² por R$ 430.000 - Jardim Santa Eudóxia - Campinas/SP. No piso superior, 2 dormitórios , sala, cozinha, 1 banheiro social e área de serviço. No piso inferior, 1 dormitório, cozinha e 1 banheiro. O pavimento inferior possui entrada independente. Garagem para até 4 vagas. Ótima oportunidade! Entre em contato para agendarmos sua visita!!",
     "diferenciais": [
+      "Armários Planejados",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/o0ms2qn98weE514ziyac13jC8kf09jVt.jpg",
@@ -3702,7 +4040,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1000,
+    "condominio": 540,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
@@ -3738,12 +4079,15 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 600000,
+    "condominio": 1907,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 4,
     "area": 105,
     "tag": "Oportunidade",
-    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepção qualificada. Al��m disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
+    "desc": "Edifício Banco América Sul. Conjunto à venda, 105 m² por R$ 600.000 - Centro - Campinas/SP. O conjunto é composto por 4 salas comerciais que juntas somam 105m², acabamento completo, 4 aparelhos de ar condicionado, 3 banheiros e 1 copa. O conjunto conta ainda com 1 sala gerencial fechada com divisórias de vidro e 1 sala de reuniões mobiliada de forma elegante e funcional. Todos os móveis e equipamentos estão incluídos no valor de venda. 4 vagas de garagem cobertas. Localizado no Centro Empresarial América do Sul, o condomínio conta acessibilidade, elevadores, segurança 24h e recepç��o qualificada. Além disso, o conjunto fica próximo às principais ruas, avenidas e comercios da área central de Campinas. Fácil acesso ao sistema de transporte público, lanchonetes, restaurantes e demais comércios e serviços. Documentação em ordem! Agenda já sua visita!",
     "diferenciais": [
       "Área de Serviço"
     ],
@@ -3789,7 +4133,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 850000,
+    "condominio": 0,
     "quartos": 6,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 3,
     "area": 260,
@@ -3837,14 +4184,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 210000,
+    "condominio": 330,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 49,
     "tag": "Oportunidade",
     "desc": "Residencial Vega. Apartamento com 2 dormitórios à venda, 49 m² por R$ 210.000 - Residencial Cosmos - Campinas/SP. Apartamento com 2 dormitórios, sala para 2 ambientes, 1 banheiro, cozinha e área de serviço. Móveis planejados na cozinha, área de serviço, quarto do casal e banheiro. Painel para TV e rack na sala, ventilador de teto na sala e no quarto principal e blindex no box do banheiro. Condomínio com portaria 24h, salão de festas, 4 quiosques com churrasqueira, quadra poliesportiva e mini mercado. Esta unidade fica com 3° andar. 1 vaga de garagem coberta com sombrite. Sol da tarde. Documentação em ordem para financiamento! Agende uma visita!",
     "diferenciais": [
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
       "Quadra Esportiva"
@@ -3899,7 +4250,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 750000,
+    "condominio": 950,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 65,
@@ -3907,10 +4261,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 65 m² por R$ 750.000 - Cambuí - Campinas/SP. Apartamento à venda no Setin Home & Life Cambuí Campinas. Imóvel alto padrão pronto para morar com ar condicionado, suíte planejada e sacada envidraçada. Cozinha americana com ilha, cooktop, coifa, forno embutido e área de serviço funcional. Banheiro com box e gabinete. Condomínio com lazer completo, piscina, academia, spa, sauna, churrasqueira, espaço gourmet, cinema, coworking e mini mercado. Portaria 24h com manobrista e uma vaga coberta. Localização privilegiada entre Cambuí e Guanabara com fácil acesso a serviços e transporte. Apenas o que é fixo e planejado permanecerá no imóvel. Agende sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/2e46955b25e13e065f18fa40aa77d06f.jpg",
@@ -3958,7 +4316,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1800,
+    "condominio": 1574.5,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 4,
     "vagas": 2,
     "area": 85,
@@ -3991,7 +4352,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2700,
+    "condominio": 2361.75,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 6,
     "vagas": 3,
     "area": 129,
@@ -4024,7 +4388,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 900,
+    "condominio": 747.89,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 39,
@@ -4050,7 +4417,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 900,
+    "condominio": 866.01,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 45,
@@ -4076,7 +4446,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 900,
+    "condominio": 787.25,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 39,
@@ -4101,7 +4474,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 900,
+    "condominio": 787.25,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 39,
@@ -4127,7 +4503,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 426000,
+    "condominio": 850,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 317,
@@ -4153,17 +4532,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 699999.99,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 3,
     "area": 105,
     "tag": "Oportunidade",
     "desc": "Casa aconchegante à venda com 3 dormitórios, 105 m² por R$ 699.999 - Jardim São Francisco - Campinas/SP. Próximo ao terminal Ouro Verde. Casa com sala de TV e sala de jantar, cozinha equipada com lindos armários, três dormitórios (sendo um deles suíte), área de lavanderia e uma área de churrasqueira nos fundos, com banheiro. Os espaços na sala são bem divididos. A cozinha é no estilo americana integrada à sala de jantar. Os dormitórios são confortáveis, com destaque para a suíte com banheiro privativo. Nos fundos, há uma área de lazer com churrasqueira, ideal para momentos ao ar livre com a família e amigos. Excelente acabamento. Documentação em ordem. Agenda já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
+      "Churrasqueira",
       "Armários Planejados",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/PzlF3CmVJZv7GcqwT6fAZ2AUV9RQQEAU.jpg",
@@ -4201,18 +4583,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2300000,
+    "condominio": 2800,
     "quartos": 3,
+    "suites": 2,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 4,
     "area": 266,
     "tag": "Exclusivo",
     "desc": "Descubra a sua nova casa de luxo em Campinas! Apresentamos a deslumbrante cobertura duplex à venda no The Plaza Tower, um dos condomínios mais prestigiados da Vila Brandina. Este imóvel de 266 m² é a definição de sofisticação e conforto, perfeito para quem busca qualidade de vida e exclusividade. Ao entrar, você será recebido por um amplo living com pé-direito duplo, ideal para criar vários ambientes e receber convidados com elegância. A cozinha planejada, a sala de almoço e a área de serviço garantem a praticidade do dia a dia. A área íntima no andar inferior oferece duas suítes, ambas com armários planejados. A suíte master é um verdadeiro refúgio, com um closet espaçoso para organizar suas roupas com facilidade. O terceiro dormitório, localizado no piso superior, é versátil e pode ser facilmente adaptado como um escritório ou sala de TV. O ponto alto da cobertura é a área externa privativa com vista panorâmica. Imagine desfrutar de um churrasco gourmet com amigos na churrasqueira, relaxar na piscina com hidromassagem ou aproveitar a sauna. A cobertura também conta com um espaço multiuso que pode se tornar uma sala de jogos, cinema ou home office, adaptando-se às suas necessidades. O acabamento é impecável, com projeto de iluminação personalizado, ar-condicionado em todos os cômodos e móveis planejados de alta qualidade. O condomínio The Plaza Tower oferece uma infraestrutura de lazer completa: piscina com raia, academia moderna, salão de festas, quadra poliesportiva, playground e sauna. Localizado em uma das melhores regiões de Campinas, o imóvel oferece acesso rápido à Rodovia Dom Pedro I, ao Shopping Iguatemi Campinas e a diversos comércios e serviços, como o Carrefour e Farmácias. Não perca a chance de viver em um dos endereços mais cobiçados de Campinas! Agende sua visita agora e prepare-se para se encantar!",
     "diferenciais": [
-      "Sauna",
       "Armários Planejados",
+      "Aceita Permuta",
+      "Sauna",
       "Área de Serviço",
       "Academia / Fitness",
-      "Quadra Esportiva"
+      "Quadra Esportiva",
+      "Closet",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/993bed08ef57f6b379b462769a4e4120.jpg",
@@ -4298,18 +4686,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 419000,
+    "condominio": 389,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 0,
     "area": 90,
     "tag": "Oportunidade",
     "desc": "Ágata Ville. Cobertura com 2 dormitórios à venda, 90 m² por R$ 419.000 - Jardim Nova Europa - Campinas/SP. Excelente Cobertura Duplex com 2 dormitórios. No pavimento inferior: 2 quartos, sendo 1 suíte, 2 banheiros, cozinha americana, sala de jantar e estar integradas e área de serviço. No pavimento superior: Ampla sala de TV, lavabo e área gourmet com churrasqueira. 2 vagas de garagem. Condomínio com 2 piscinas, academia, quadra poliesportiva, salão de jogos, salão de festas, brinquedoteca, playground, mini mercado e portaria 24h. Excelente localização, próximo à Marginal do Piçarrão e Avenida Washington Luiz, fácil acesso às principais rodovias de Campinas, Shopping Prado e à ampla rede de comércio e serviços. Agende sua visita!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Armários Planejados",
       "Área de Serviço",
       "Academia / Fitness",
       "Quadra Esportiva",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/5ab56208a564425df25beacf191f1a69.jpg",
@@ -4355,17 +4748,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1560000,
+    "condominio": 710,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 4,
     "area": 295,
     "tag": "Destaque",
     "desc": "Canterville Residence - Chácara das Nações, Valinhos/SP. Excelente sobrado com 3 suítes à venda, 295 m² por R$ 1.560.000. Imóvel com ampla sala de 2 ambientes, sala de TV (que pode ser dormitório), banheiro social, lavabo, cozinha planejada, despensa, área de serviço e área gourmet com churrasqueira. Todas as 3 suítes possuem armários planejados, sendo a suíte master com closet, além de uma varanda ampla no piso superior. O sobrado é extremamente funcional, com muitos armários embutidos, 4 vagas de garagem (2 cobertas e 2 descobertas), aquecedor solar e ótima iluminação. Condomínio com segurança 24h e monitoramento. Localização privilegiada perto das rodovias Anhanguera, Dom Pedro, Bandeirantes, acesso rápido a Campinas e Aeroporto de Viracopos, além de comércios, serviços e hospitais. Aceita permuta por imóvel com valor de até 35% do total. Agende sua visita e conheça esse sobrado espetacular!!",
     "diferenciais": [
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço",
       "Aceita Permuta",
-      "Varanda"
+      "Área de Serviço",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/25950ecc057415aef3584e9b3385f6f9.jpg",
@@ -4439,7 +4836,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1290000,
+    "condominio": 800,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 4,
     "vagas": 4,
     "area": 194,
@@ -4447,10 +4847,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa à venda no Condomínio Vila Romana em Valinhos/SP 3 dormitórios, 194 m², área gourmet e quintal amplo Excelente casa à venda em Valinhos, localizada no desejado Condomínio Vila Romana, perfeita para quem busca imóvel em condomínio fechado com segurança 24h, conforto e qualidade de vida no interior de São Paulo. O imóvel possui 194 m² de área construída, com ambientes modernos e bem distribuídos. Conta com sala de estar e TV integradas, lavabo e uma sala de jantar com pé direito duplo, proporcionando mais iluminação natural e sensação de amplitude. A cozinha planejada é equipada com armários sob medida, além de despensa e área de serviço com armários, garantindo funcionalidade no dia a dia. Na área externa, destaque para o espaço de lazer com área gourmet completa, incluindo churrasqueira, forno de pizza, forno a lenha e fogão a lenha, além de banheiro de apoio e um amplo quintal gramado com espaço para piscina, ideal para momentos de lazer com família e amigos. No piso superior, são 3 dormitórios com armários planejados, sendo 1 suíte, todos com sacada privativa e ar-condicionado, garantindo conforto em todas as estações. Os banheiros contam com box em blindex e ótimo acabamento. O imóvel oferece ainda 4 vagas de garagem, sendo 2 cobertas, além de excelente espaço de armazenamento com armário na garagem. O condomínio fechado em Valinhos dispõe de portaria 24 horas, playground, campo gramado e pomar, em um ambiente tranquilo e com poucas casas ideal para quem busca segurança e exclusividade. Documentação em ordem para financiamento Aceita financiamento bancário Ótima oportunidade de investimento imobiliário em Valinhos! Agende sua visita e venha conhecer essa casa incrível.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Varanda / Terraço",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Quintal Integrado"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/54739cbba3fd663b809131532a977d27.jpg",
@@ -4496,7 +4897,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 850000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 3,
     "area": 164,
@@ -4505,7 +4909,9 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Quintal Integrado",
+      "Jardim",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/b6b339dbef8dfb17b4868224c775d7b3.jpg",
@@ -4541,7 +4947,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 500000,
+    "condominio": 765,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
@@ -4550,7 +4959,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
       "Acabamento Premium"
     ],
@@ -4595,7 +5004,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 2000000,
+    "condominio": 560,
     "quartos": 4,
+    "suites": 4,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 4,
     "area": 242,
@@ -4603,10 +5015,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Condomínio Royal Garden. Casa com 4 dormitórios à venda, 242 m² por R$ 2.000.000 - Jardim Pari - Paulínia/SP. Casa com fino acabamento, este imponente sobrado está localizado em um condomínio fechado, oferecendo conforto, segurança e uma gama de opções de lazer para toda a família. Com uma área total de terreno de 300m² e 242m² de área construída, esta propriedade impressiona com seus detalhes cuidadosamente projetados. No térreo, uma ampla sala de dois ambientes integrada à cozinha e à churrasqueira cria o ambiente perfeito para receber amigos e familiares. A área externa conta com uma piscina grande, complementada por um paisagismo exuberante e iluminação em LED, além de aquecimento e hidromassagem para momentos de relaxamento total. Corredores nas duas laterais da casa garantem privacidade adicional. O piso inferior também oferece uma suíte, área de serviço e despensa, proporcionando conveniência e funcionalidade. A garagem comporta 4 carros, sendo 2 vagas totalmente cobertas. No piso superior, três suítes, incluindo uma com closet, estão todas conectadas a varandas que oferecem vistas panorâmicas e uma atmosfera serena. Entre os detalhes de conforto e modernidade, destacam-se o aquecimento solar, com energia fotovoltaica, fechadura eletrônica e ar-condicionado em todos os ambientes, além de móveis planejados que combinam praticidade e elegância. O condomínio oferece segurança 24 horas, além de uma infraestrutura completa de lazer com piscina, salão de festas, mini campo e quadra de beach tennis, garantindo diversão para todas as idades. A área verde ao redor proporciona um ambiente natural e relaxante.",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Quadra Esportiva",
+      "Jardim",
+      "Closet",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/fd188f2803b327f162ae2d6c43d2194d.jpg",
@@ -4655,7 +5071,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 15000,
+    "condominio": 520,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 4,
     "vagas": 8,
     "area": 219,
@@ -4692,7 +5111,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 2250000,
+    "condominio": 802,
     "quartos": 4,
+    "suites": 4,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 4,
     "area": 254,
@@ -4700,8 +5122,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Residencial Terras do Cancioneiro. Casa com 4 dormitórios à venda, 254 m² por R$ 2.250.000 - Condomínio Terras do Cancioneiro - Paulínia/SP. Casa térrea entregue com excelente acabamento, 4 suítes, lavabo, móveis entregues nos quartos, banheiros, cozinha e lavanderia. Ar condicionado em todos ambientes, sistema de aquecimento solar, metais Deca. Condomínio com área de lazer completa.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Armários Planejados",
       "Área de Serviço"
     ],
     "imagens": [
@@ -4744,7 +5169,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 3100000,
+    "condominio": 3900,
     "quartos": 5,
+    "suites": 5,
+    "salas": 4,
     "banheiros": 8,
     "vagas": 3,
     "area": 368,
@@ -4752,10 +5180,15 @@ const IMOVEIS_DATABASE = [
     "desc": "Condomínio Maria Lucarelli. Apartamento Duplex com 5 dormitórios à venda, 368 m² por R$ 3.100.000 - Cambuí - Campinas/SP. 4 Dormitórios/Suítes sendo 1 Master com Closet, 3 Salas, sendo 2, 2 Ambientes, 2 Cozinhas, Copa, Área de Serviço, 2 Despensas (1 no piso inferior e 1 no piso superior), Lavabo, Hall Acesso Área Intima, Roupeiro, 2 Escadas de Acesso para Piso Superior, Bar, Escritório com Banheiro e Biblioteca, Jardins de Inverno, Churrasqueira, Piscina, Sauna Seca com Banheiro e Ducha, Dormitório de Empregada, Banheiro de Serviço, 3 Vagas de Garagem. Características: Apartamento Cobertura Duplex, Vista Livre, Sol da Manhã, Ambientes Amplos, Arejados e Iluminados, Ótimo Acabamento: Planejado nos Dormitórios, Cozinha, Copa, Corredores, Hall de Acesso Área Intima, Sala Superior, Bar, Escritório, Biblioteca, Ar Condicionado nas Suítes, Cozinhas com Coifa, Banheiros com blindex, Chuveiro a Gás e Ducha Higiênica, Tela de Proteção nas Janelas, Deck de madeira, Área de Serviço com 2 Tanques, Varal de Teto, Aquecedor Digital, 2 Escadas de Acesso para a Cobertura, Sendo 1 de Serviço e 1 Social, Paredes do Hall de Entrada, Lavado (Revestimento Parede e Teto), Corredor de Acesso para Cozinha do piso Superior são Revestidos com Sisal, Área da Cobertura com Janelas de Correr e Tela de Proteção, Toldo acima da Churrasqueira, 3 vagas de Garagens Cobertas, Sendo 1 Gaveta e 1 Solta, Piso Laminado nos Dormitorios, Hall de Acesso para Área Intima e Closet e Mármore nos Demais Ambientes. Único Proprietário; Negocia algumas mobílias e eletrodomésticos; Documentação em ordem. Condomínio bem localizado no bairro Cambuí, oferece: Portaria 24h Virtual, Portaria Presencial das 8h as 18h de Segunda a Sábado, Zelador, Acesso por Leitura Facial, Entrada Principal e Elevadores, 2 Elevadores, Academia, Salão de Festas. Localização: Localizada no privilegiado bairro Cambuí em Campinas, o apartamento e condomínio oferecem conforto, segurança e comodidade. Entre em contato agora mesmo com a Colombos Imóveis e agende sua visita. Não perca essa oportunidade!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Escritório",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/d6ca70c7606721daa7e2380df35af27e.jpg",
@@ -4870,7 +5303,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1890000,
+    "condominio": 539.4,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 4,
     "area": 213,
@@ -4878,8 +5314,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Residencial Club Santorini. Casa com 3 dormitórios à venda, 213 m² por R$ 1.890.000 - Parque Brasil 500 - Paulínia/SP. Casa térrea recém entregue no Residencial Club Santorini, 3 suítes, lavabo, escritório, ar condicionado em todos os ambientes, móveis nos quartos, banheiros, cozinha e lavanderia, sistema de aquecimento solar, persianas automatizadas. Condomínio com área de lazer completa.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Armários Planejados",
       "Área de Serviço"
     ],
     "imagens": [
@@ -4938,7 +5377,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1790000,
+    "condominio": 670,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 4,
     "area": 193,
@@ -4946,10 +5388,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa com 3 dormitórios à venda, 193 m² por R$ 1.790.000 - Parque Brasil 500 - Paulínia/SP. Excelente casa em condomínio com segurança 24h e guarita. Imóvel oferece 3 suítes, lavabo, banheiro externo e piscina privativa. Conta com ar condicionado em todos os ambientes, persianas automatizadas e sistema de água pressurizada. Totalmente mobiliada nos quartos, banheiros, cozinha e lavanderia, incluindo lava louças. A sala de estar e jantar impressiona com pé direito duplo, integrada à cozinha e área gourmet equipada. Completa com área de serviço, sistema de aquecimento solar e garagem para 2 carros com ponto para carro elétrico. Acabamentos de alto padrão com metais e louças Deca ou Celite, box e espelhos até o teto. O condomínio oferece amplo lazer com salão de festas, área de convívio, espaço pet, quadra poliesportiva, quadra de tênis, quadra para beach tênis, campo de futebol, piscina, playground e academia. Perfeita para quem busca conforto, luxo e praticidade em um único lugar. Agende já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Armários Planejados",
       "Área de Serviço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e85cf0428cd738c6988a4a9958619b68.jpg",
@@ -4973,16 +5419,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 950000,
+    "condominio": 893,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 90,
     "tag": "Oportunidade",
     "desc": "Dna Taquaral. Apartamento com 2 dormitórios à venda, 90 m² por R$ 950.000 - Taquaral - Campinas/SP. 2 suítes, sala estendida com possibilidade de integração com varanda gourmet, lavabo, varanda gourmet com churrasqueira, 2 vagas cobertas de garagem. Sacada já com fechamento com vidros. Infraestrutura de lazer completa, com piscina adulto, piscina infantil, área para pet, churrasqueira com lounge gourmet, playground, academia, salão de festas, salão de jogos, espaço cinema, brinquedoteca e bicicletário. A poucos minutos da Lagoa do Taquaral, Norte Sul e do Cambuí.",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Varanda",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -5012,7 +5462,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 320000,
+    "condominio": 516.25,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
@@ -5050,18 +5503,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 400000,
+    "condominio": 600,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 60,
     "tag": "Oportunidade",
     "desc": "Apartamento com 3 dormitórios à venda, 60 m² por R$ 400.000 - Residencial Parque da Fazenda - Campinas/SP. Com 3 dormitórios sendo 1 suíte, sala, cozinha, área de serviço, sacada, com armários nos quartos, 1 vaga de garagem coberta, condomínio com piscina, churrasqueira, lazer completo. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Armários Planejados",
+      "Churrasqueira",
+      "Piscina",
+      "Varanda / Terraço",
       "Área de Serviço",
-      "Varanda"
+      "Armários Planejados"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/da25b61266e81208a76b32c6f4a150e4.jpg",
@@ -5097,7 +5553,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1690000,
+    "condominio": 567,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 2,
     "area": 183,
@@ -5105,10 +5564,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa à venda com 3 suítes, piscina privativa e acabamentos de alto padrão, com 183 m² por R$ 1.690.000 - Royal Garden - Paulínia/SP. Imóvel completo com ar condicionado em todos os ambientes, persianas automatizadas e mobília inclusa nos quartos, cozinha gourmet e lavanderia. A propriedade possui garagem para 2 carros com ponto para carro elétrico, sistema de aquecimento solar e banheiro externo. A sala de estar e jantar impressiona com pé direito duplo. Condomínio oferece segurança 24h com guarita, salão de festas, quadra poliesportiva e piscina. Imóvel com metais e louças Deca ou Celite, box e espelhos até o teto, e cabeamento subterrâneo. Casa com piscina para quem busca conforto, luxo e praticidade. Agende já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Varanda / Terraço",
+      "Armários Planejados",
       "Área de Serviço",
-      "Quadra Esportiva"
+      "Quadra Esportiva",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9e028ca797991aed257a43453ac7ecfe.jpg",
@@ -5132,7 +5594,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1340000,
+    "condominio": 798,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 4,
     "vagas": 2,
     "area": 163,
@@ -5140,10 +5605,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa com 3 dormitórios à venda, 163 m² por R$ 1.340.000 - Parque Brasil 500 - Paulínia/SP. Esta casa charmosa, situada em uma área privilegiada, é perfeita para quem busca conforto e praticidade. Com três suítes, a suíte master conta com armários embutidos e um banheiro equipado com duas cubas e tela mosqueteira. O ambiente social é composto por um living amplo, que integra sala de TV/estar e jantar à cozinha planejada, proporcionando um espaço harmonioso e funcional. Além disso, a casa dispõe de um lavabo, despensa e área de serviço. Para momentos de lazer, a área gourmet com churrasqueira, adornada com um lindo paisagismo, se destaca. A garagem coberta comporta dois veículos, e todos os ambientes contam com ar-condicionado, garantindo conforto em qualquer estação. O sistema de aquecimento solar, acompanhado de 12 placas fotovoltaicas, trazendo uma economia na conta de energia. A documentação está em ordem, pronta para financiamento e uso de FGTS. O proprietário considera permuta por apartamento em Paulínia de até R$450.000,00. O condomínio Terras do Cancioneiro oferece uma excelente infraestrutura e segurança, com fácil acesso à entrada da cidade. A região é cercada por comodidades essenciais, como postos de combustível, renomadas instituições de ensino e o supermercado. Agende sua visita e descubra essa casa encantadora em uma localização privilegiada.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Aceita Permuta"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/391e95750198429025e31ec607622bc4.jpg",
@@ -5190,7 +5657,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 449000,
+    "condominio": 821,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 33,
@@ -5228,7 +5698,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 800000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 87,
@@ -5236,9 +5709,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Condomínio Inspiratto. Apartamento com 3 dormitórios à venda, 87 m² por R$ 800.000 - Vila Progresso - Campinas/SP. Apartamento com 3 dormitórios, 1 suíte, lavabo, varanda com churrasqueira, 2 vagas de garagem, ar condicionado, andar alto, localização privilegiada com faculdades, academia, supermercado, farmácias. Condomínio com área de lazer completa. Agende sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Varanda",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -5292,16 +5769,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 880000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 87,
     "tag": "Oportunidade",
     "desc": "Condomínio Inspiratto. Apartamento com 3 dormitórios à venda, 87 m² por R$ 880.000 - Vila Progresso - Campinas/SP. Apartamento com 3 dormitórios, 1 suíte, lavabo, varanda com churrasqueira, 2 vagas de garagem, mini mercado dentro do condomínio, localização privilegiada com faculdades, academia, supermercado, farmácias. Condomínio com área de lazer completa. Agenda já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Varanda",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Área de Serviço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -5347,18 +5829,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 500000,
+    "condominio": 550.91,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 63,
     "tag": "Oportunidade",
     "desc": "Reviva. Apartamento com 2 dormitórios à venda, 63 m² por R$ 500.000 - Loteamento Chácara Prado - Campinas/SP. Andar alto, vista livre. Living para 2 ambientes; sacada com churrasqueira à carvão, cozinha com armários planejados; área de serviço com armário; quartos com armários planejados; banheiro com gabinete, boxe, espelho e ducha com aquecimento à gás. 1 vaga de garagem coberta. Condomínio com piscina adulto (climatizada) e infantil, fitness, churrasqueira, playground, brinquedoteca, salão de jogos, espaço teen, salão gourmet, salão de festas, playgrund, quadra poliesportiva, churrasqueira, mini mercado entre outros. Portaria 24h. Ótima localização no Parque Prado, próximo ao Shopping Prado Boulevard, com total infraestrutura em comércio e serviços ao redor. Entre em contato e agende uma visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e717e287fa59ee96e9f9ef53acea664e.jpg",
@@ -5398,7 +5886,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 6800,
+    "condominio": 1275,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 92,
@@ -5456,18 +5947,27 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 3200000,
+    "condominio": 800,
     "quartos": 3,
+    "suites": 3,
+    "salas": 3,
     "banheiros": 5,
     "vagas": 3,
     "area": 356,
     "tag": "Exclusivo",
     "desc": "Casa com 3 dormitórios à venda, 356 m² por R$ 3.200.000 - Alphaville - Campinas/SP. Com uma localização tranquila em uma rua sem saída, esta residência de alto padrão oferece conforto, privacidade e uma estrutura impecável, ideal para quem busca sofisticação e qualidade de vida. O imóvel ocupa um terreno de 420 m², com 356 m² de área construída, e conta com uma planta moderna e bem distribuída. O piso térreo é composto escritório, lavabo e ampla sala com pé direito duplo, integrada à cozinha e área gourmet em conceito aberto. A área de serviço é equipada com despensa. Na parte externa, temos um quintal gramado, com a possibilidade de construção de piscina, depósito e banheiro externo. O terreno não possui viela, proporcionando mais liberdade e aproveitamento do espaço. No piso superior temos 3 suítes amplas, todas com varandas privativas, oferecendo uma vista encantadora e ventilação cruzada. Além disso, temos uma sala de TV, copa de apoio, área de luz para jardim, além de um quarto roupeiro para maior organização. A infraestrutura de climatização é um dos grandes destaques, com a preparação para a instalação de ar condicionado nas principais áreas, como salas, escritório e quartos. Para garantir o bem-estar e eficiência, o imóvel conta com aquecimento solar e elétrico, além de piso porcelanato na área social e vinílico nos quartos. As persianas dos quartos são elétricas. A casa não permite financiamento, mas a oportunidade de negociação inclui permuta por apartamento no valor de até R$ 800.000,00 em Campinas. Uma residência exclusiva para quem procura qualidade, conforto e a possibilidade de personalizar ainda mais o seu lar. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Área de Serviço",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Armários Planejados",
       "Aceita Permuta",
-      "Varanda"
+      "Área de Serviço",
+      "Quintal Integrado",
+      "Jardim",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a6a1d8fcea3b01a742bb2a0e9c0ffdf8.jpg",
@@ -5527,16 +6027,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 640000,
+    "condominio": 667,
     "quartos": 3,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 75,
     "tag": "Oportunidade",
     "desc": "Residencial Reviva. Apartamento com 3 dormitórios à venda, 75 m² por R$ 640.000 - Loteamento Chácara Prado - Campinas/SP. Apartamento com 3 quartos, sendo 1 suíte, 1 dormitório com armário planejado; banheiro social; sala para 2 ambientes; cozinha americana rica em armários; área de serviço com armário; varanda gourmet com churrasqueira à carvão. Andar intermediário e 1 vaga de garagem descoberta. Excelente condomínio com 2 churrasqueiras, piscina adulto (climatizada) e infantil, salão de jogos/teen, salão de festas, salão gourmet, academia, playground, quadra poliesportiva, brinquedoteca, sala de leitura e Mini Mercado Enxuto. Portaria e segurança 24h. Localização privilegiada no Parque Prado, com ótima infraestrutura comercial no entorno, próximo à padarias, hospital, farmácias, shopping e restaurantes. Fácil acesso às avenidas Washington Luís, Ângelo Simões e à marginal do Piçarrão. Agenda a sua visita!!",
     "diferenciais": [
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
       "Quadra Esportiva"
     ],
@@ -5594,15 +6098,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 799000,
+    "condominio": 779.16,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 428,
     "tag": "Oportunidade",
     "desc": "Excelente terreno à venda no Condomínio Arborais, um dos bairros mais valorizados de Campinas. Com área ampla e bem posicionada, esse terreno oferece a oportunidade de construir a casa dos seus sonhos em um ambiente tranquilo, seguro e cercado de natureza. Não perca a chance de morar em um lugar de paz e elegância. Analisa apartamento de menor valor como parte do pagamento. Agende uma visita e conheça este terreno incrível!",
     "diferenciais": [
-      "Excelente Localização",
-      "Acabamento Premium"
+      "Quadra Poliesportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/74da03da4dd57f36c4607c654c54a625.jpg",
@@ -5621,7 +6127,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 910000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 75,
@@ -5629,10 +6138,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Happy Patriani. Apartamento com 2 dormitórios à venda, 75 m² por R$ 910.000 - Parque Industrial - Campinas/SP. Apartamento com excelente acabamento, sala para 3 ambientes, 2 suítes ricas em armários e lavabo. Cozinha planejada e a área de serviço bem ventilada. Apartamento com excelente iluminação natural. A mobília não está inclusa no valor. 2 vagas de garagem cobertas. Condomínio com área de lazer completa com: academia, piscina infantil e piscina adulto aquecida, salão de festas, churrasqueira, sauna, espaço beauty, redário, horta, espaço pet e quadra poliesportiva. Portaria e segurança 24h. Entre em contato para mais informações e agenda uma visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Sauna",
       "Armários Planejados",
+      "Sauna",
       "Área de Serviço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/f069e575730dc5a5a23c9685ebe8c1bc.jpg",
@@ -5704,14 +6214,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 600,
     "quartos": 1,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 41,
     "tag": "Oportunidade",
     "desc": "Setin Midtown Home. Apartamento com 1 dormitório à venda, 41 m² por R$ 550.000 - Vila Lídia - Campinas/SP. Sala, sacada, cozinha, 1 suite e banheiro. Apartamento mobiliado conforme as fotos. 1 vaga de garagem coberta. O condomínio possui lazer completo com: espaço gourmet/salão de festas, espaço office, espaço fitness, pet place, churrasqueira e portaria 24h com monitoramento de câmeras. Excelente localização, possui fácil acesso às principais ruas e avenidas de Campinas. Agende sua visita!!",
     "diferenciais": [
-      "Varanda",
+      "Armários Planejados",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -5741,7 +6255,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 213000,
+    "condominio": 600.93,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 51,
@@ -5751,7 +6268,7 @@ const IMOVEIS_DATABASE = [
       "Armários Planejados",
       "Área de Serviço",
       "Quadra Esportiva",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/96757574c16709496af4e78598179d2b.jpg",
@@ -5789,7 +6306,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 430000,
+    "condominio": 469.81,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 1,
     "area": 57,
@@ -5798,7 +6318,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
       "Quadra Esportiva"
     ],
@@ -5857,14 +6377,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 8000000,
+    "condominio": 1640,
     "quartos": 4,
+    "suites": 4,
+    "salas": 0,
     "banheiros": 7,
     "vagas": 4,
     "area": 507,
     "tag": "Exclusivo",
     "desc": "Casa com 4 dormitórios à venda, 507 m² por R$ 8.000.000 - Alphaville - Campinas/SP. Linda casa no Alphaville Campinas/SP, em condomínio fechado, com 4 quartos, sendo 4 suítes. O imóvel será entregue com armários planejados na cozinha, quartos e banheiros. Toda a iluminação em LED, janelas automatizadas nas suítes e preparação para painéis solares. Conta com duas caixas d água de 1.000 litros cada e aquecedores solares. Estuda permuta na negociação. Agende sua visita!!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Sauna",
       "Armários Planejados",
       "Aceita Permuta"
     ],
@@ -5920,13 +6444,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 450000,
+    "condominio": 0,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 3,
     "area": 120,
     "tag": "Oportunidade",
     "desc": "Oportunidade!! Casa à venda, 120 m² por R$ 450.000 - Vila Lemos - Campinas/SP. Casa com 2 dormitórios , sendo 1 suíte, 2 banheiros, sala de estar, sala de jantar, cozinha e área de serviço. A casa possui um grande quintal. Garagem coberta pra 3 carros. Próxima à Unip, Sodimac e ao Açaí Atacadista. Documentação em ordem! Aceita financiamento! Agenda já sua visita!!",
     "diferenciais": [
+      "Aceita Permuta",
       "Área de Serviço",
       "Quintal Integrado"
     ],
@@ -5961,18 +6489,25 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1092000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 4,
     "vagas": 6,
     "area": 352,
     "tag": "Destaque",
     "desc": "Excelente oportunidade: Sobrado de Alto Padrão com 352 m² por R$ 1.092.000 - Parque das Universidades - Campinas/SP. Esta residência oferece um layout inteligente e distribuída em dois pisos, perfeita para quem busca conforto, espaço e sofisticação. No primeiro piso, você encontra um escritório privativo e lavabo, ideal para o trabalho home office. O segundo piso é um convite ao convívio e ao descanso, com uma ampla sala em 3 ambientes integrada a uma varanda, lavabo, cozinha, despensa e área de serviço. Uma suíte master com closet e banheiro com infraestrutura para hidromassagem, além de uma demi-suíte servindo a dois dormitórios. O imóvel possui um quintal amplo e arborizado, com área gourmet para churrasco, quarto de despejo e banheiro, além de acessibilidade por rampa. Com infraestrutura preparada para ar-condicionado e um generoso total de 6 vagas (3 cobertas e 3 descobertas), atende a todas as necessidades. Localizada em uma rua sem saída, tranquila e segura, a casa está próxima do Shopping Dom Pedro, dos principais Hospitais e das renomadas Universidades PUC e Unicamp, com fácil acesso à Rodovia Dom Pedro I. Uma oportunidade única de morar em uma das regiões mais valorizadas de Campinas. Agende sua visita!!!",
     "diferenciais": [
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Quintal",
+      "Varanda / Terraço",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
       "Quintal Integrado",
-      "Acabamento Premium"
+      "Acabamento Premium",
+      "Closet",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9ec642b0f70b85cbfe7b695d02d47af9.jpg",
@@ -6024,7 +6559,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 580000,
+    "condominio": 800,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 77,
@@ -6032,10 +6570,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento de 77m² mobiliado à venda no Centro de Campinas, por R$ 580.000. Divisa com o Cambuí. Imóvel com 2 dormitórios, sendo 1 suíte, banheiro social, sala 2 ambientes e cozinha americana. Possui varanda gourmet com churrasqueira, área de serviço completa e 1 vaga de garagem coberta. O apartamento é de andar alto, com vista livre, garantindo ambientes amplos, arejados e muito iluminados. Conta com bom acabamento, teto rebaixado e banheiros com blindex. Já inclui chuveiro e aquecedor a gás, além de ar condicionado na sala e na suíte. O condomínio oferece portaria 24h presencial, salão de festas, brinquedoteca, jardim e sistema de segurança eletrônico com câmeras. Excelente localização, próximo à Praça Carlos Gomes, Avenida Anchieta e Centro de Convivência. Agende sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Varanda / Terraço",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/32063e987a9cdc519fade90ab6ec8534.jpg",
@@ -6070,7 +6609,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 850000,
+    "condominio": 907,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
@@ -6080,7 +6622,7 @@ const IMOVEIS_DATABASE = [
       "Sauna",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -6128,7 +6670,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 888,
     "quartos": 2,
+    "suites": 2,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 1,
     "area": 61,
@@ -6136,7 +6681,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Edifício Rio Amazonas. Apartamento com 2 dormitórios à venda, 61 m² por R$ 550.000 - Botafogo - Campinas/SP. Imóvel muito bem construído, no 1º andar com recuo da rua e alto. 2 quartos, 3 banheiros, cozinha com armários e sacada. 1 vaga de garagem e 2 entradas independentes. O condomínio conta com 2 elevadores, piscina, salão de festas com cozinha que passará por uma reforma, academia equipada e revisada, portaria eletrônica 24h, 2 portão para segurança. Muito bem localizado há 5 minutos dos principais hospitais e da Torre do Castelo, está há 7 minutos do Cambuí, do Centro e da Rodoviária de Campinas, e há 10 minutos do Taquaral. Agende sua visita.",
     "diferenciais": [
       "Armários Planejados",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -6157,7 +6702,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 590000,
+    "condominio": 1700,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 611,
@@ -6165,7 +6713,8 @@ const IMOVEIS_DATABASE = [
     "desc": "Ecovilla Bela Vista. Terreno à venda, 611 m² por R$ 590.000 - Condomínio Residencial Ecovilla - Valinhos/SP. Grande terreno com leve aclive. Condomínio com área kids, quadras poliesportiva, de tênis, beach tênis, futebol de gramado, churrasqueiras, estacionamento para visitantes, portaria e ronda 24h com biometria. Ainda está para concluir a piscina com borda infinita, salão adulto, academia e as trilhas internas. O condomínio tem a maior área verde da região, com dois lindos lagos, além de sua própria estação de tratamento de água, sendo hidroliticamente independente. Agende sua visita!!",
     "diferenciais": [
       "Academia / Fitness",
-      "Quadra Esportiva"
+      "Quadra Esportiva",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/37a890fc813d6eaf1be10d2644ba5476.jpg",
@@ -6213,15 +6762,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 740000,
+    "condominio": 632,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 2,
     "area": 80,
     "tag": "Oportunidade",
     "desc": "Pateo Abolição. Apartamento com 3 dormitórios à venda, 80 m² por R$ 740.000 - Ponte Preta - Campinas/SP. Lindo apartamento completíssimo, mobiliado com mesa de jantar, cadeiras, sofá e armários planejados embutidos em todos os ambientes, transmitindo conforto e modernidade. São 3 quartos amplos, sendo 1 suíte, cozinha americana, sala de TV, 2 vagas de garagem e varanda. Agenda já sua visita!",
     "diferenciais": [
+      "Quadra Poliesportiva",
       "Armários Planejados",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/fedc778b06985c047513fab6e6575b48.jpg",
@@ -6281,7 +6834,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 267,
@@ -6320,7 +6876,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1300000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 4,
     "vagas": 2,
     "area": 313,
@@ -6328,7 +6887,8 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade à venda ou locação. Casa com 3 dormitórios, 313 m² - venda por R$ 1.300.000 ou aluguel por R$ 6.471/mês - Centro - Campinas/SP. Casa para uso comercial ou residencial com 2 quartos na parte interna, sendo 1 suíte, 1 quarto separado no quintal, 4 banheiros, sala de estar, sala de jantar, sala de tv, cozinha, despensa, lavanderia e jardim coberto. Agende já sua visita!!",
     "diferenciais": [
       "Área de Serviço",
-      "Quintal Integrado"
+      "Quintal Integrado",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e34e4871e214765a535ea78b5c0b9855.jpg",
@@ -6363,18 +6923,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 750000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios, 65 m² - venda por R$ 750.000 ou aluguel por R$ 5.880/mês - Cambuí - Campinas/SP. Apartamento com 2 quartos, sendo 1 suíte; sala 2 ambientes; sacada envidraçada, cozinha, área de serviço e banheiro social. Excelente acabamento, com armários planejados e aquecimento à gás. Uma vaga coberta não demarcada. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada, mini mercado e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e74b0e025515d67b59acbd6fe09bf1b3.jpg",
@@ -6424,16 +6989,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1460000,
+    "condominio": 0,
     "quartos": 2,
+    "suites": 2,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 2,
     "area": 84,
     "tag": "Destaque",
     "desc": "Apartamento à Venda no MM536 - Cambuí, Campinas. Localizado no coração do Cambuí, um dos bairros mais valorizados de Campinas, este apartamento no MM536 oferece sofisticação, conforto e uma localização privilegiada. Características do Imóvel: 2 dormitórios, sendo todos suítes, com acabamentos de alto padrão. 1 Lavabo. Living e uma varanda com vista panorâmica. Infraestrutura para ar-condicionado, aquecimento elétrico. Lazer completo no condomínio: piscina, academia, espaço gourmet e lavanderia. Segurança 24h com portaria e monitoramento. A localização é um destaque à parte, com fácil acesso a restaurantes, cafés, shoppings e outras conveniências, além de rápido acesso às principais vias de Campinas. Não perca a chance de viver em um dos melhores empreendimentos da cidade! Não perca essa oportunidade, agende sua visita e venha conferir. Valor sujeito a alteração, conforme tabela da Incorporadora.",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
       "Acabamento Premium"
     ],
@@ -6488,16 +7056,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 620000,
+    "condominio": 790,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 40,
     "tag": "Oportunidade",
     "desc": "IND Cambuí. Apartamento com 1 dormitório, 40 m², à venda por R$ 620.000 ou aluguel por R$3.000/mês - Cambuí -Campinas/SP. Sala, sacada, cozinha, 1 quarto e 1 banheiro. Armários planejados na cozinha, banheiro e dormitório. Ar condicionado instalado na sala. O apartamento será vendido mobiliado conforme fotos. Belíssimo acabamento. 1 vaga livre e demarcada. Empreendimento alto padrão, com diferenciais na construção. Lazer completo e portaria 24h. Entre em contato para mais informações e agende sua visita!!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
-      "Varanda",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -6539,18 +7110,25 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 400000,
+    "condominio": 366,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 51,
     "tag": "Oportunidade",
     "desc": "Condomínio Terras da Espanha. Apartamento com 2 dormitórios à venda, 51 m² por R$ 400.000 - Jardim do Lago - Campinas/SP. Apartamento com 2 dormitórios ricos em armários planejados; banheiro com boxe e gabinete; sala para 2 ambientes; cozinha americana; área de serviço e sacada. Excelente acabamento! 1 vaga de garagem descoberta. Condomínio com 4 churrasqueiras, piscina adulto e infantil, salão de festas, academia, playground, quadra poliesportiva e trilha de caminhada. Portaria e segurança 24h. Localização privilegiada, próximo à Rodovia Santos Dumont . Fácil acesso à Avenida das Amoreiras, Campinas Shopping e com diversos comércios e serviços no entorno. Entre em contato para mais informações e agende já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/433900e22d6203722158e4545a44a916.jpg",
@@ -6606,17 +7184,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 7200000,
+    "condominio": 1209.64,
     "quartos": 4,
+    "suites": 4,
+    "salas": 2,
     "banheiros": 6,
     "vagas": 0,
     "area": 685,
     "tag": "Exclusivo",
     "desc": "Sobrado com 4 dormitórios à venda por R$ 7.200.000 - Alphaville - Campinas/SP. - Automação completa com controle por celular, tablet ou Alexa -Som Ambiente -Cameras de Monitoramento -Preparada para instalação de energia foto voltaica -Preparada para instalação de carregador para carro elétrico -Iluminação LED -Elevador -Paisagismo - 4 suítes, todas com closet já com armários planejados, esquadrias com persianas elétricas e tela mosquiteiro, WC da suíte Master com banheira , pia dupla e chuveiro duplo -Copa no piso superior com espaço para roupeiro. -Ar condicionado na Sala, Gourmet, Home Theater, Quartos e Escritório. -Home Theater com preparação para projetor. -Escritório com WC (possível utilização como suíte no térreo) -Área gourmet Fechada com churrasqueira a gás, cooktop a gás, adega e frigobar, moveis planejados da marca Kitchens. -WC para área de lazer. -Cozinha com moveis planejados da marca Kitchens, coifa de ilha e cooktop de indução. -Lavanderia -Dependência para empregada (suíte) -Sala em dois ambientes, pé direito duplo, -Piscina com Spa e prainha (preparada para aquecimento solar) -Aquecedor solar para agua dos WCs, cozinha e gourmet. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a2907f5766ae391eb8bf8059d7ec3786.jpg",
@@ -6690,18 +7272,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 5200,
+    "condominio": 445.5,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 58,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios para alugar, 58 m² por R$ 5.765/mês - Jardim Guanabara - Campinas/SP. Lindo apartamento mobiliado e decorado conforme fotos, com 2 dormitórios, 1 banheiro e 1 lavabo. Sala de jantar e estar integradas e com varanda, com moderna decoração de design brasileiro assinado, cozinha planejada com muitos armários, maquina lava e seca, ar condicionado na sala e no quarto principal. 1 vaga de garagem descoberta. Muito ventilado. Condomínio bem localizado, em rua calma com várias facilidades próximas, a duas quadras do Cambuí. Academia, salão de festas, playground, coworking, piscina e mercadinho no prédio. Portaria virtual. Agenda já sua visita!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Área de Serviço",
       "Armários Planejados",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
-      "Quadra Esportiva"
+      "Quadra Esportiva",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/b3452ee383536ef113144fe932559cbf.jpg",
@@ -6722,17 +7309,21 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 660000,
+    "condominio": 935,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 51,
     "tag": "Oportunidade",
     "desc": "Unic Cambuí. Apartamento com 1 dormitório, 51 m², à venda por R$660.000 - Campinas/SP. Apartamento mobiliado, 1 dormitório, 1 banheiro, living para 2 ambientes, cozinha americana, sacada e área de serviço. 1 vaga de garagem coberta. Portaria e segurança 24h. Área de lazer com academia, salão de festas e piscina. Ótima localização, está no coração do Cambuí. Uma excelente opção para quem procura um imóvel funcional e moderno. Estuda permuta com automóvel. Agenda já sua visita!!",
     "diferenciais": [
-      "Piscina Privativa",
-      "Área de Serviço",
+      "Piscina",
+      "Varanda / Terraço",
+      "Armários Planejados",
       "Aceita Permuta",
-      "Varanda",
+      "Área de Serviço",
       "Academia / Fitness"
     ],
     "imagens": [
@@ -6753,18 +7344,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 520000,
+    "condominio": 500,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 68,
     "tag": "Oportunidade",
     "desc": "Vita Belle. Apartamento com 3 dormitórios à venda, 68 m² por R$ 520.000 - Vila Industrial - Campinas/SP. Excelente apartamento com três dormitórios, sendo 1 suíte, sala para dois ambientes, cozinha americana com planejados e eletromésticos embutidos, sacada, banheiro social com boxe e espelho e área de serviço 1 vaga de garagem coberta. Condomínio com lazer completo com Playground, Quadra Poliesportiva, 2 Quiosques com Churrasqueira, Piscina infantil e adulto, Salão de jogos, Salão de festas infantil e adulto, Brinquedoteca, Espaço Fitness e Bicicletário. Portaria 24 horas. Ótima localização, está próximo de escolas, faculdade Wyden (Metrocamp), supermercados, shopping e à 8 minutos de distância da área central da cidade. Agende já uma visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://lh3.googleusercontent.com/NHf1m2hC4lDNlZArBJ8XXhKTLd_JEJG9HvGZADg355p2Bmpjg1Z9OR3M0cIV3z2mfdsuPjs7MTxzHp6dQvJ2qdfks9SQm6yaAQ_cV3UTZJSng-I",
@@ -6793,18 +7390,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 3490000,
+    "condominio": 920,
     "quartos": 3,
+    "suites": 3,
+    "salas": 0,
     "banheiros": 6,
     "vagas": 2,
     "area": 305,
     "tag": "Exclusivo",
     "desc": "Casa com 3 dormitórios à venda, 305 m² por R$ 3.490.000 - Parque dos Alecrins - Campinas/SP. Com uma localização tranquila em uma rua sem saída, esta residência de alto padrão oferece conforto, privacidade e uma estrutura impecável, ideal para quem busca sofisticação e qualidade de vida. O imóvel ocupa um terreno de 426 m², com 305m² de área construída, e conta com uma planta moderna e bem distribuída. O piso térreo é composto por sala de TV, lavabo, sala de estar e jantar integradas à cozinha e área gourmet em conceito aberto. A área de serviço é equipada com despensa e neste pavimento fica ainda o banheiro da piscina. Na parte externa, uma linda área de lazer com piscina e banheiro de serviço. No piso superior temos 3 suítes amplas com closet ou armários planejados, todas integradas por uma varanda que proporciona um belíssima vista. Além disso, tem um escritório funcional e planejado. Para garantir o bem-estar, o imóvel conta com ar condicionado instalado nos quartos, salas e escritório. Conta também com sistema de energia fotovoltaica com aquecimento solar. Sendo uma casa acessível, conta ainda com elevador. As persianas dos quartos são automatizadas e o projeto de iluminação possui automatização compatível com o sistema Alexa. A piscina, além de ser totalmente privativa, possui sistema de aquecimento. Uma residência exclusiva que oferece modernidade, sustentabilidade e acessibilidade para quem procura qualidade, conforto e tranquilidade. Agenda já sua visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/1f31b587b1dc920c1ce56403f6f09f0d.jpg",
@@ -6877,7 +7480,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 930000,
+    "condominio": 850,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 154,
@@ -6887,7 +7493,7 @@ const IMOVEIS_DATABASE = [
       "Armários Planejados",
       "Área de Serviço",
       "Academia / Fitness",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/59187efcc863b92340a81ffef5be6dab.jpg",
@@ -6949,18 +7555,26 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 2280000,
+    "condominio": 980,
     "quartos": 5,
+    "suites": 5,
+    "salas": 3,
     "banheiros": 7,
     "vagas": 4,
     "area": 467,
     "tag": "Exclusivo",
     "desc": "Casa com 5 dormitórios à venda, 467 m² por R$ 2.280.000 - Swiss Park - Campinas/SP. Belíssima Casa com 467m² de área construída, 5 Suítes, 7 Banheiros, 2 Salas de Estar (pavimento inferior e superior), Sala de Jantar, Escritório, Cozinha finamente planejada com forno, coifa, micro-ondas e cooktop embutidos, área de serviço com lavanderia e banheiro externo. A casa possui ainda uma linda área gourmet com churrasqueira, sauna e piscina aquecida. Um excelente espaço para se divertir, receber amigos e familiares. Todas as suítes possuem closet, além disso, os dormitórios do pavimento superior possuem linda vista para varanda. Com exceção do lavabo, todos os banheiros internos possuem banheira de hidromassagem. O imóvel possui fino acabamento, pé direito alto e belíssimos lustres. Conta com 7 aparelhos de Ar Condicionado instalados, oferecendo ambientes climatizados e extremamente confortáveis. Além disso, a casa possui 4 vagas de garagem, sendo 2 cobertas e 2 descobertas e está localizada em uma rua tranquila e sem saída dentro do condomínio. Excelente localização, está situada no Bairro planejado mais cobiçado da cidade de Campinas, próximo à padarias, supermercados, restaurantes, escolas e uma infinidade de estabelecimentos comerciais e de serviço. Também, possui fácil acesso às principais rodovias. Agenda já sua visita!!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
       "Sauna",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
+      "Aceita Permuta",
       "Área de Serviço",
-      "Varanda"
+      "Closet",
+      "Hidromassagem"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/399cde17936aa88a4de09406ce3750e3.jpg",
@@ -7043,18 +7657,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1200000,
+    "condominio": 680,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 1,
     "area": 80,
     "tag": "Destaque",
     "desc": "Wide Cambuí. Apartamento com 2 dormitórios à venda, 80 m² por R$ 1.200.000 - Cambuí - Campinas/SP. Apartamento com 2 dormitórios, sendo duas suítes ricas em armário, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e dormitórios. 01 vaga de garagem coberta. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Agenda já sua visita!",
     "diferenciais": [
-      "Piscina Privativa",
-      "Sauna",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
+      "Sauna",
       "Área de Serviço",
-      "Varanda"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a19ba82991cca20ebec73c235330dc23.jpg",
@@ -7108,16 +7728,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1690000,
+    "condominio": 1300,
     "quartos": 2,
+    "suites": 2,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 2,
     "area": 91,
     "tag": "Destaque",
     "desc": "Quartier Cambuí. Apartamento Mobiliado com 2 dormitórios à venda, 91m², por R$ 1.650.000 - Campinas/SP. Apartamento Mobiliado com 2 dormitórios, sendo 2 suítes, 3 banheiros, living para 2 ambientes, cozinha planejada com eletrodomésticos embutidos, varanda, despensa e área de serviço. Rico em armários, possui fino acabamento e ar condicionado instalado na sala e nos dormitórios. Apartamento em andar intermediário, com 2 vagas de garagem cobertas. Possui depósito. Edifício super moderno, área de lazer com piscina, churrasqueira e espaço gourmet, em localização privilegiada no Cambuí. Portaria e segurança 24h. Entre em contato para agendar sua visita!",
     "diferenciais": [
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço",
-      "Varanda"
+      "Área de Serviço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/f9b863f303c38ee5d7673100b20ff878.jpg",
@@ -7174,18 +7797,24 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1480000,
+    "condominio": 824,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 2,
     "area": 80,
     "tag": "Destaque",
     "desc": "Wide Cambuí. Apartamento Mobiliado, com 2 dormitórios, 80m², à venda por R$ 1.480.000 - Campinas/SP. Apartamento Mobiliado com 2 dormitórios, sendo uma suíte rica em armários, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e na suíte. 02 vagas de garagem cobertas. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Entre em contato e agenda já sua visita!!! Agenda já sua visita!",
     "diferenciais": [
-      "Sauna",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
+      "Aceita Permuta",
+      "Sauna",
       "Área de Serviço",
-      "Varanda",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/1c9f91f607341fcb75f62f7771537f88.jpg",
@@ -7233,7 +7862,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1100000,
+    "condominio": 1100,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 67,
@@ -7241,10 +7873,11 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios à venda, 67 m² por R$ 1.100.000 - Cambuí - Campinas/SP. Sala com painel e rack; cozinha americana com armários planejados e eletrodomésticos embutidos; sacada com vista livre; 2 dormitórios, sendo 1 suíte, ambos com armários; banheiros com gabinete, boxe e espelho, sendo o banheiro da suíte com ventilação natural; Persianas automatizadas nos quartos. Apartamento com fino acabamento! Pronto para morar! Aparelhos de ar condicionado instalados na sala e dormitórios. 2 vagas de garagem cobertas. Condomínio com serviços pay-per-use, piscina com raia 20 m², espaço gourmet, playground, churrasqueira, jardim de inverno, horta, lavanderia coletiva e coleta de lavanderia. Localizado em um dos pontos mais altos do Cambuí, bairro completo em serviços, comércios e restaurantes. Entre em contato e agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/c536aebbf860448e7974328622f5160e.jpg",
@@ -7297,7 +7930,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1100000,
+    "condominio": 1315,
     "quartos": 1,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 2,
     "area": 84,
@@ -7305,9 +7941,10 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 84 m² por R$ 1.100.000 - Cambuí - Campinas/SP. Sala para 3 ambientes; cozinha americana com armários planejados e eletrodomésticos embutidos; sacada com churrasqueira à carvão e fechamento com vidro; 1 suíte e 1 dormitório convertido em closet; banheiro da suíte com gabinete, boxe, espelho e ventilação natural; lavabo e lavanderia. Ar condicionado na sala e suíte. Apartamento com excelente acabamento! 2 vagas de garagem cobertas. Excelente localização no Cambuí, bairro completo em serviços, comércios e restaurantes. Agenda já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
+      "Varanda / Terraço",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/090251e60a2a1bf3df98aca962e0ee44.jpg",
@@ -7361,7 +7998,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 540000,
+    "condominio": 874,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 65,
@@ -7370,7 +8010,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Quadra Esportiva"
     ],
     "imagens": [
@@ -7405,18 +8045,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 460000,
+    "condominio": 411,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 56,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 56 m² por R$ 460.000 - Swift - Campinas/SP. Apartamento com 2 dormitórios, ambos com planejados, 1 banheiro, sala para 2 ambientes, cozinha planejada, área de serviço e sacada. 1 vaga de garagem rotativa. Condomínio com piscina, salão de festas, academia, loja de conveniência e agradável jardim de descanso. Portaria 24h. Está bem localizado, próximo a pontos de interesse, tais como Universidade Paulista (UNIP), Bosque dos Artistas, Philos - Escola de Educação Infantil, Faculdade São Leopoldo Mandic, Assaí atacadista e Sodimac. Agenda já uma visita!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9c87c79c72349e0a8bfc814d8a5470ed.jpg",
@@ -7439,7 +8084,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 17000000,
+    "condominio": 5600,
     "quartos": 5,
+    "suites": 5,
+    "salas": 4,
     "banheiros": 8,
     "vagas": 16,
     "area": 1150,
@@ -7447,8 +8095,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa com 5 dormitórios à venda, 1150 m² por R$ 17.000.000 - Village Sans Souci - Valinhos/SP. Descubra o equilíbrio perfeito entre arquitetura icônica e natureza nesta magnífica residência, projetada pelo renomado Ruy Ohtake e com paisagismo de Burle Marx. Situada em um amplo terreno de 5.000 m², com 1.050 m² de área construída, esta propriedade exclusiva oferece 5 suítes, amplos ambientes sociais e quartos espaçosos, todos mobiliados com requinte e pronto para proporcionar uma experiência de vida única. Destaque para o sistema de geração própria de energia elétrica (solar) e poço artesiano, que garantem sustentabilidade e autonomia. A piscina com vista privilegiada e a área gourmet totalmente privativa criam o cenário ideal para momentos de lazer e entretenimento sofisticado. Localizada no cobiçado Condomínio Village Sans Souci, a propriedade oferece acesso a infraestrutura premium, incluindo hípica, quadra de tênis, campo de futebol e sistema compartilhado de geração de energia. Privacidade, segurança e exclusividade em um dos endereços mais desejados de Valinhos. Agende sua visita e more em uma obra de arte arquitetônica!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Lareira",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço",
       "Quadra Esportiva",
       "Acabamento Premium"
     ],
@@ -7522,15 +8176,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 920000,
+    "condominio": 350,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 4,
     "area": 153,
     "tag": "Oportunidade",
     "desc": "Casa térrea com 3 dormitórios à venda, 153 m² por R$ 920.000 - Residencial Monterrey - Monte Mor/SP. Excelente casa térrea moderna localizada no condomínio fechado Monterrey, em Monte Mor/SP. Com 250 m² de terreno e 153 m² de área construída, este imóvel residencial oferece conforto, funcionalidade e praticidade para quem busca qualidade de vida em condomínio fechado. O imóvel possui 3 dormitórios, sendo 1 suíte, além de 1 banheiro social e área de serviço. A cozinha planejada é equipada com cooktop e coifa, churrasqueira no quintal, ideal para quem gosta de praticidade e receber amigos. A casa conta com piso porcelanato e vinílico, infraestrutura elétrica e hidráulica prontas, além de preparação para instalação de ar-condicionado. O Condomínio Monterrey oferece segurança 24 horas, portaria, infraestrutura completa, e é ideal para famílias que procuram tranquilidade, segurança e boa localização. Casa pronta para morar, com projeto arquitetônico finalizado. Ideal para quem busca imóvel em condomínio fechado. Agende sua visita!!!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Área de Serviço",
       "Quintal Integrado"
     ],
@@ -7573,7 +8231,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 5900,
+    "condominio": 1100,
     "quartos": 2,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 62,
@@ -7584,7 +8245,9 @@ const IMOVEIS_DATABASE = [
       "Sauna",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/57435dd37d111a9a077b63df9c14c349.jpg",
@@ -7621,7 +8284,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 500000,
+    "condominio": 411,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 54,
@@ -7630,9 +8296,9 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Academia / Fitness",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a537ec888ecaec0a4a42612e8ecca42a.jpg",
@@ -7659,7 +8325,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1800,
+    "condominio": 430,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 21,
@@ -7685,7 +8354,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 535000,
+    "condominio": 861.84,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 40,
@@ -7693,7 +8365,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 40 m² por R$ 535.000 - Nova Campinas - Campinas/SP. Excelente oportunidade de apartamento funcional à venda no Nova Campinas, bairro nobre de Campinas! Imóvel prático com layout inteligente: sala, cozinha, quarto, banheiro e varanda para máximo aproveitamento. Localização premium: região valorizada com fácil acesso a comércio, restaurantes, escolas e serviços, além de proximidade com a Avenida Norte-Sul. Perfeito para morar ou investir, oferecendo segurança, comodidade e qualidade de vida em uma das áreas mais cobiçadas da cidade. Agende sua visita!!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -7735,7 +8407,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 789000,
+    "condominio": 1356.89,
     "quartos": 2,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 2,
     "area": 59,
@@ -7743,7 +8418,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios à venda, 59 m² por R$ 789.000 - Nova Campinas - Campinas/SP. Excelente oportunidade de apartamento funcional à venda no Nova Campinas, região nobre de Campinas! Imóvel prático com layout inteligente: sala, cozinha, 2 quartos (sendo 1 suíte), banheiro e varanda para máximo aproveitamento. Localização premium: bairro valorizado com fácil acesso ao comércio, restaurantes, escolas e serviços de alto padrão, além de proximidade com a Avenida Norte-Sul. Perfeito para moradia ou investimento, oferecendo segurança, comodidade e qualidade de vida. Agende sua visita!!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -7790,7 +8465,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 4400000,
+    "condominio": 6335,
     "quartos": 0,
+    "suites": 0,
+    "salas": 4,
     "banheiros": 8,
     "vagas": 10,
     "area": 320,
@@ -7798,7 +8476,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Laje, 320 m² - venda por R$ 4.400.000 ou aluguel por R$ 38.332/mês - Jardim Guanabara - Campinas/SP. Espaço corporativo de alto padrão à venda e para locação no Guanabara, Campinas - 352m² de área útil com infraestrutura completa! Laje comercial preparada com piso elevado e instalação para ar-condicionado, oferecendo total flexibilidade para customização. Destaque para a ampla área envidraçada com esquadrias premium e vidros espelhados que garantem iluminação natural e vista privilegiada da cidade, criando um ambiente de trabalho inspirador. O espaço inclui 4 salas comerciais, banheiros, copa e generosas 10 vagas de garagem. Localizado em edifício com recepção sofisticada, acessibilidade PCD, catracas com reconhecimento facial e serviço de manobrista para máxima segurança e conveniência. Perfeito para empresas de tecnologia, advocacia, saúde e outros segmentos que exigem excelência em localização e infraestrutura - posicionado estrategicamente no bairro Guanabara, próximo a principais vias e centros empresariais. Oportunidade única para negócios que valorizam prestígio, funcionalidade e produtividade. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Quintal Integrado",
+      "Jardim",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -7835,7 +8513,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "aluguel",
     "preco": 7800,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 7,
     "banheiros": 6,
     "vagas": 3,
     "area": 420,
@@ -7875,7 +8556,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1150000,
+    "condominio": 1502,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 3,
     "vagas": 2,
     "area": 115,
@@ -7883,10 +8567,14 @@ const IMOVEIS_DATABASE = [
     "desc": "Casa com 3 dormitórios à venda, 115 m² por R$ 1.150.000 - Parque Imperador - Campinas/SP. Excelente localização em área tranquila com fácil acesso a rodovias. A casa conta com living de 2 ambientes com ar condicionado, cozinha planejada, área de serviço separada e quintal amplo. São 3 dormitórios, sendo 1 suíte, todos com armários planejados e ar condicionado. As fotos do anúncio mostram a fachada da propriedade; as demais imagens são das áreas de lazer do condomínio, que inclui quadra, playground, salão de festas, churrasqueira, piscina e academia. A propriedade inclui 2 vagas de garagem e possui total segurança. Agende já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Quintal Integrado"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ea4d3c16365e7c0315a2eef0437cd5fb.jpg",
@@ -7937,13 +8625,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1330000,
+    "condominio": 1500,
     "quartos": 3,
+    "suites": 3,
+    "salas": 1,
     "banheiros": 4,
     "vagas": 2,
     "area": 126,
     "tag": "Destaque",
     "desc": "Apartamento com 3 dormitórios à venda, 126 m² por R$ 1.330.000 - Cambuí - Campinas/SP. Morar no Cambuí nunca foi tão acessível. Conheça o Edifício Yard Cambuí, da Tegra, com opções a partir de R$ R$ 1.330.000,00 para unidades a partir do quinto andar. Apartamentos de 2 e 3 suítes, com o alto padrão de acabamento Tegra, vagas de garagem e completa área de lazer com piscina, academia e espaço gourmet. A localização é perfeita: perto do Quitandinha, com feira, mercados e os melhores bares e restaurantes a poucos passos. Uma oportunidade única de viver no coração do Cambuí com o respaldo de uma das melhores construtoras do país. As imagens são de unidades decoradas profissionalmente. Imóvel será entregue no padrão de acabamento da construtora. Valores sujeitos à alteração sem prévio aviso. Agenda já sua visita!",
     "diferenciais": [
+      "Quadra Poliesportiva",
       "Academia / Fitness",
       "Acabamento Premium"
     ],
@@ -8002,17 +8694,22 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1648481.6,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 3,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 2,
     "area": 208,
     "tag": "Destaque",
     "desc": "Casa com 3 dormitórios à venda, 208 m² por R$ 1.648.481 - Swiss Park - Campinas/SP. Descubra a sofisticação e o conforto de viver no primeiro condomínio de casas prontas do Swiss Park. O Lausanne Residence oferece residências de 208 m² com 3 a 4 suítes, incluindo uma suíte master com closet e banheiro privativo. Cada casa conta com elevador privativo, proporcionando acessibilidade e praticidade no dia a dia. O projeto arquitetônico apresenta quatro opções de fachadas modernas e elegantes: Maison Blanc, Maison Beton, Maison Rocher e Maison Ciment, todas com acabamentos de alto padrão. O interior das casas é projetado para maximizar a iluminação e ventilação natural, com persianas automatizadas tipo blackout nos quartos, chuveiros e torneiras monocomando, além de preparação para instalação de aquecedor solar. No rooftop, você encontrará um espaço gourmet com churrasqueira a carvão, deck e spa, ideal para momentos de lazer e confraternização. O condomínio oferece segurança 24 horas com portaria com acesso facial, monitoramento por câmeras e espaço de entregas com lockers individuais. Além disso, os moradores podem desfrutar de áreas de lazer como piscina, salão de festas, academia, playground, mini campo, beach tênis, horta, pomar e redário, tudo em um ambiente tranquilo e arborizado. Com previsão de entrega para dezembro de 2027, o Lausanne Residence é a escolha perfeita para quem busca qualidade de vida, segurança e praticidade em uma localização privilegiada. Os valores mencionados estão sujeitos a alteração sem aviso prévio!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Academia / Fitness",
-      "Acabamento Premium"
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/f11cf7e22f1c788eb130c0140a500fc9.jpg",
@@ -8057,7 +8754,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2700,
+    "condominio": 919,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 65,
@@ -8066,7 +8766,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Quadra Esportiva"
     ],
     "imagens": [
@@ -8091,7 +8791,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2500000,
+    "condominio": 2469,
     "quartos": 3,
+    "suites": 3,
+    "salas": 2,
     "banheiros": 5,
     "vagas": 3,
     "area": 181,
@@ -8099,10 +8802,16 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento de Alto Padrão à Venda no Loteamento Residencial Vila Bella, Mansões Santo Antônio - Campinas/SP. Excelente oportunidade para adquirir um apartamento espaçoso e sofisticado em Campinas, situado no desejado bairro Loteamento Residencial Vila Bella. Com 181 m² de área útil, este imóvel oferece 3 suítes, elevador privativo e 3 vagas de garagem cobertas. A planta funcional inclui sala de estar integrada à varanda gourmet, sala de TV, escritório, lavabo, despensa e banheiro de serviço, ideal para conforto e praticidade. Os acabamentos impressionam pela qualidade, com destaque para o piso de mármore Travertino na sala, granito na cozinha, tacos de madeira nos quartos e armários planejados em todos os ambientes, além de ar-condicionado. O condomínio dispõe de uma completa área de lazer, com academia, brinquedoteca, churrasqueira gourmet, piscinas aquecidas (adulto e infantil), playground, quadra poliesportiva e espaço pet, proporcionando bem-estar e entretenimento para toda a família. Para informações detalhadas, agendamento de visita ou consulta de valores, entre em contato com a Tatiana Colombo Consultoria Imobiliária. Atuamos com seriedade, expertise e dedicação para garantir a realização do seu sonho da casa própria. Valores, condições e disponibilidade sujeitos a alteração sem aviso prévio.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Escritório",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Quadra Esportiva",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e5a5a49150724479ad8082a3c76b424d.jpg",
@@ -8166,7 +8875,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2350000,
+    "condominio": 3974.46,
     "quartos": 3,
+    "suites": 3,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 3,
     "area": 187,
@@ -8174,10 +8886,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 3 dormitórios à venda, 187 m² por R$ 2.350.000 - Cambuí - Campinas/SP. Este exuberante apartamento de alto padrão no Residencial Provence oferece 3 suítes (sendo uma master com closet) e 3 vagas de garagem. A varanda gourmet espaçosa encanta pela vista panorâmica e integra-se perfeitamente à área de TV, criando um ambiente ideal para entretenimento. A cozinha planejada pela marcenaria Kitchens inclui despensa e é complementada pela lavanderia e banheiro de serviço. Segurança e privacidade são garantidas pelas 2 portas blindadas (entrada social e de serviço), enquanto os acabamentos refinados e layout inteligente traduzem o conceito de moradia sofisticada no Cambuí. Agenda sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/e53f4db65b365de69acdcf7bff4fddb9.jpg",
@@ -8233,7 +8948,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1800000,
+    "condominio": 1800,
     "quartos": 3,
+    "suites": 3,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 2,
     "area": 139,
@@ -8241,7 +8959,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 3 dormitórios à venda, 139 m² por R$ 1.800.000 - Cambuí - Campinas/SP. Excelente apartamento com sacada gourmet, no conceituado Residencial Vestra, no bairro do Cambuí. Um imóvel moderno e bem distribuído, perfeito para quem busca conforto e sofisticação em uma localização privilegiada, com fácil acesso a toda a estrutura de serviços e lazer da região. Condomínio com completa área de lazer. Agende uma visita e venha conhecer!!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/539e42009ce5d7612566842f94f22af3.jpg",
@@ -8269,7 +8987,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1050000,
+    "condominio": 980,
     "quartos": 2,
+    "suites": 2,
+    "salas": 1,
     "banheiros": 3,
     "vagas": 2,
     "area": 89,
@@ -8278,7 +8999,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/2e555194a4bfb423edbd5df56e633f21.jpg",
@@ -8302,15 +9023,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 399000,
+    "condominio": 902,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 60,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 60 m² por R$ 399.000 - Centro - Campinas/SP. Excelente oportunidade no coração de Campinas! Apartamento de 60 m² com 2 dormitórios, sendo 1 suíte, ideal para quem busca conforto e localização privilegiada. Imóvel bem distribuído, em condomínio com ótima localização, próximo a comércios, mercados, farmácias e transporte público. Perfeito para moradia ou investimento! Valor: R$ 399.000 Agende sua visita e aproveite essa chance!",
     "diferenciais": [
-      "Excelente Localização",
-      "Acabamento Premium"
+      "Armários Planejados"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/673bff615f3f5c4c395db7ca02683b48.jpg",
@@ -8332,7 +9055,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 1500000,
+    "condominio": 700,
     "quartos": 3,
+    "suites": 3,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 3,
     "area": 210,
@@ -8372,7 +9098,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1080000,
+    "condominio": 1050,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 2,
     "area": 83,
@@ -8380,10 +9109,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Oportunidade à venda no Living Celebration Taquaral - Campinas/SP. Este apartamento oferece 3 quartos sendo 1 suíte, 2 vagas cobertas e acabamento de primeira linha com porcelanato Portobello, ar condicionado Fujitsu inverter quente e frio, fechadura eletrônica e marcenaria de qualidade, aproveitando o sol da manhã. A planta inteligente integra a sala com sacada envidraçada e churrasqueira, cozinha completa com armários planejados, triturador de alimentos, forno, cooktop e depurador, além de área de serviço integrada. O condomínio Living Celebration é um empreendimento de alto padrão com piscina de vista espetacular, salão de jogos completo, salão de festas, salão gourmet, espaço coworking com duas salas de reunião, churrasqueira, academia bem equipada, brinquedoteca, espaço pet e playground. Localização privilegiada em rua tranquila no Bairro Taquaral, com fácil acesso a serviços, comércio, lazer e transportes. Documentação 100% regularizada e agendamento de visitas disponível.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/4262d1ecb9e930b0408f531b1b1025ac.jpg",
@@ -8430,7 +9162,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 848000,
+    "condominio": 850,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 56,
@@ -8466,7 +9201,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 530000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 201,
@@ -8493,7 +9231,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 1100000,
+    "condominio": 1286.85,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 2,
     "area": 130,
@@ -8502,7 +9243,8 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/0625cd741357d9a38e86653970aab111.jpg",
@@ -8543,15 +9285,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 375000,
+    "condominio": 675.6,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 68,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 68 m² por R$ 375.000 - Jardim Proença - Campinas/SP. Localizado no coração do Jardim Proença, um dos bairros mais tradicionais e valorizados de Campinas, este apartamento combina conforto, praticidade e excelente custo-benefício. Com 88,68 m² de área total (sendo 68,41 m² de área útil), o imóvel oferece ambientes bem distribuídos e ótima iluminação natural. A planta conta com sala de estar e jantar integradas a um terraço, dois dormitórios confortáveis, cozinha funcional, área de serviço com WC, banheiro social e hall de circulação, além de 1 vaga de garagem. O Edifício Guadalajara possui salão de festas como diferencial, proporcionando um espaço ideal para lazer e confraternizações. A localização é um grande destaque: o imóvel está a poucos minutos da Av. Princesa DOeste (650m), dos estádios Moisés Lucarelli e Brinco de Ouro, e do Bosque dos Jequitibás, além de contar com fácil acesso a supermercados, escolas, universidades (PUC-Campinas, UNIP) e hospitais (Mário Gatti, Centro Médico). Este é o imóvel perfeito para quem busca qualidade de vida, comodidade e valorização imobiliária, seja para moradia própria ou investimento. Documentação em ordem. Agende sua visita!!",
     "diferenciais": [
+      "Armários Planejados",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/cef3851bd440f9a16421c3eb7913194a.jpg",
@@ -8591,7 +9337,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 260000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 226,
@@ -8622,17 +9371,23 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3890,
+    "condominio": 690,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 66,
     "tag": "Oportunidade",
     "desc": "Páteo Abolição. Apartamento com 2 dormitórios para alugar, 66 m² por R$ 4.890/mês - Ponte Preta - Campinas/SP. O Páteo Abolição oferece um apartamento moderno de 66 m², perfeito para quem busca conforto, vista privilegiada e excelente localização na Ponte Preta. São dois dormitórios, incluindo uma suíte espaçosa, em um imóvel localizado em andar alto, com sol da manhã e ambientes amplamente iluminados. O living integrado para dois ambientes conecta-se à varanda gourmet com ponto grill, ideal para reunir amigos e familiares com praticidade e charme. A cozinha americana planejada, junto à área de serviço, traz funcionalidade ao dia a dia, complementando o layout inteligente desta planta. O imóvel conta ainda com banheiro social e 01 vaga cobertas de garagem.",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Área de Serviço",
-      "Varanda"
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/170cc63388832a2a16ff7b91eb4eec15.jpg",
@@ -8699,7 +9454,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 670000,
+    "condominio": 792.79,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 72,
@@ -8732,7 +9490,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 770000,
+    "condominio": 1000,
     "quartos": 3,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 88,
@@ -8772,7 +9533,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1100,
+    "condominio": 540,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 35,
@@ -8805,7 +9569,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 550000,
+    "condominio": 0,
     "quartos": 2,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 49,
@@ -8847,14 +9614,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 3280000,
+    "condominio": 908.63,
     "quartos": 4,
+    "suites": 4,
+    "salas": 0,
     "banheiros": 5,
     "vagas": 4,
     "area": 333,
     "tag": "Exclusivo",
     "desc": "Sobrado com 4 dormitórios à venda, 333 m² por R$ 3.280.000 - Loteamento Parque dos Alecrins - Campinas/SP. O imóvel possuí sala para dois ambientes com pé direito duplo, escritório e Home Theater. A cozinha conta com armários planejados, cooktop e coifa de ilha. Na área de lazer, há uma área gourmet fechada equipada com churrasqueira a gás, cooktop e armários, além de piscina e paisagismo. A parte íntima dispõe de quatro suítes com armários planejados, sendo a máster com closet, pia dupla e chuveiro duplo; todas as esquadrias dos dormitórios possuem persianas elétricas com tela mosquiteiro. A infraestrutura inclui aquecedor solar para chuveiros e cozinha, e iluminação em LED. Agenda já sua visita!!",
     "diferenciais": [
-      "Armários Planejados"
+      "Armários Planejados",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/a04de2e18950f174688c68d40f880392.jpg",
@@ -8880,7 +9651,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 680000,
+    "condominio": 620,
     "quartos": 1,
+    "suites": 1,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 39,
@@ -8890,8 +9664,9 @@ const IMOVEIS_DATABASE = [
       "Ar Condicionado",
       "Sauna",
       "Área de Serviço",
-      "Varanda",
-      "Academia / Fitness"
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/2e1f24a4a6a2eecda1c78808ba531feb.jpg",
@@ -8939,7 +9714,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 4500,
+    "condominio": 1300,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 55,
@@ -8947,10 +9725,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios para alugar, 55 m² por R$ 6.023/mês - Cambuí - Campinas/SP. Esta é a oportunidade ideal para quem busca um apartamento para locação no Living Design Cambuí, um dos endereços mais sofisticados e desejados de Campinas. Este imóvel semi mobiliado destaca-se pelo excelente acabamento e pela praticidade de estar pronto para morar, unindo o design moderno do piso porcelanato nas áreas sociais e dormitórios. A sala de estar, equipada com ar-condicionado integra-se perfeitamente à cozinha planejada, que já conta com forno, cooktop e geladeira; área de serviço com máquina de lavar, facilitando a mudança para quem busca agilidade e estilo de vida urbano. Os dormitórios foram projetados para oferecerem o máximo de bem-estar, contando ótimos armários que otimizam o espaço, sendo um deles com sistema de climatização por ar-condicionado. O banheiro possui ótimo acabamento, incluindo boxe de vidro e gabinete planejado. Situado no coração do Cambuí, em uma localização privilegiada próxima ao Tênis Clube e ao Hotel Meliá, o empreendimento de torre única com apenas 60 unidades oferece uma experiência de moradia exclusiva e reservada. O condomínio Living Design proporciona uma infraestrutura completa para o morador moderno, incluindo portaria 24 horas, piscina, academia fitness, fire square, lavanderia coletiva e espaço gourmet com churrasqueira, além de Wi-Fi nas áreas comuns. Por estar em uma região premium, cercada pelos melhores serviços e conveniências de Campinas, este apartamento é a escolha definitiva para quem exige qualidade e conveniência em um contrato de locação. Entre em contato para consultar as condições e agende sua visita para conhecer seu próximo endereço no Cambuí. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/1275fdca36a24515c5d20d92ec0d24d1.jpg",
@@ -9001,17 +9781,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 690000,
+    "condominio": 650,
     "quartos": 2,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 55,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios, 55 m² - venda por R$ 690.000 ou aluguel por R$ 3.850/mês - Bonfim - Campinas/SP. Oportunidade de morar ou investir no Living Blend Bonfim. Este apartamento de 55 m² oferece uma planta inteligente com 2 dormitórios e acabamentos modernos. Localizado em um andar que privilegia a iluminação natural, a unidade conta com varanda equipada com Ponto Grill, ideal para momentos de lazer. 1 vaga coberta. O condomínio eleva o conceito de conveniência com o sistema Smart Home 2.0, incluindo fechadura digital e infraestrutura para automação, além de serviços exclusivos como Car Sharing e um Mini Market 24h à disposição dos moradores. Agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/8c7c87e653d26168eab2af9860a2b23b.jpg",
@@ -9044,7 +9827,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 5000,
+    "condominio": 900,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 2,
     "vagas": 1,
     "area": 65,
@@ -9052,10 +9838,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Ótimo apartamento para locação no Setin Home & Life Cambuí. Living 2 ambientes integrados, Sacada gourmet com ponto grill. Suíte com armários planejados, banheiros completos com gabinete espelho box e ducha com aquecimento a gás, cozinha planejada e área de serviço. 1 vaga de garagem coberta. Lazer completo com piscina adulto e infantil, academia completa, spa com sauna, espaço gourmet com churrasqueira e forno de pizza, salão de jogos com cinema, playground. Portaria 24h com manobrista. Excelente localização, entre o Cambuí, Centro e Guanabara, fácil acesso a transporte público comércio e serviços. Entre em contato e agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/2eca80b34a98b996ac9044cbd903d13a.jpg",
@@ -9102,7 +9891,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 2520000,
+    "condominio": 899,
     "quartos": 4,
+    "suites": 4,
+    "salas": 2,
     "banheiros": 6,
     "vagas": 4,
     "area": 284,
@@ -9110,10 +9902,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Sobrado com 4 dormitórios à venda, 284 m² de construção por R$ 2.520.000. Esta belíssima residência de alto padrão no condomínio Residencial Terras do Cancioneiro, em Paulínia, combina modernidade e sofisticação em um projeto arquitetônico impecável, ideal para quem busca conforto e elegância. O imóvel conta com 1 suíte térrea com piso em madeira; um imponente living com pé-direito duplo, sala de jantar, sala de TV com ar condicionado, lavabo, cozinha planejada espaçosa, despensa, área de serviço. O lazer é um destaque à parte, apresentando um espaço gourmet completo com churrasqueira, ideal para receber amigos e familiares em momentos inesquecíveis; quintal, área pet e banheiro. Com pisos em porcelanato de grandes formatos, projeto luminotécnico em LED e esquadrias de alumínio de alta qualidade, cada detalhe desta casa foi pensado para oferecer uma experiência de moradia exclusiva e funcional. Piso superior com 3 suítes confortáveis, todas com armários, ar condicionado e varanda, piso em madeira, sendo a master com closet. Garagem para 4 carros, sendo 2 coberta e 2 descoberta. Agende sua visita neste imóvel localizado em um dos condomínios mais desejados da região.",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
+      "Churrasqueira",
+      "Varanda / Terraço",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Quintal Integrado",
+      "Acabamento Premium",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/d0554bb3cdcf6ed39b7d10d521fdb6b2.jpg",
@@ -9175,7 +9970,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3650,
+    "condominio": 780,
     "quartos": 1,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 58,
@@ -9208,15 +10006,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 2600,
+    "condominio": 654.54,
     "quartos": 3,
+    "suites": 1,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 70,
     "tag": "Oportunidade",
     "desc": "Apartamento de 3 dormitórios com 70 m² disponível para alugar no Jardim Anton Von Zuben, em Campinas, por R$ 3.364 mensais. Instalado em um condomínio que conta com portaria 24 horas, piscina, salão de festas, brinquedoteca, quadra esportiva, churrasqueira e espaço gourmet, o imóvel se destaca por estar de frente para a mata, garantindo sol da manhã e um ambiente tranquilo. Além disso, oferece vaga descoberta posicionada em frente à torre e é um espaço pet friendly, ideal para quem busca conforto, segurança e bem-estar.",
     "diferenciais": [
+      "Quadra Poliesportiva",
+      "Armários Planejados",
       "Quadra Esportiva",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/d60882cd4d8a289e128ad1f7cbd92f7b.jpg",
@@ -9260,7 +10063,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 180000,
+    "condominio": 800,
     "quartos": 1,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 60,
@@ -9292,18 +10098,25 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 850000,
+    "condominio": 1131.13,
     "quartos": 3,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 3,
     "vagas": 1,
     "area": 94,
     "tag": "Oportunidade",
     "desc": "Apartamento com 3 dormitórios à venda, 94 m² por R$ 850.000 - Taquaral - Campinas/SP. Apartamento para venda no Condomínio Cidades do México, no bairro Taquaral, Campinas/SP. São 3 dormitórios com armários embutidos, sendo 1 suíte; ampla sala para dois ambientes com sacada; cozinha com armários; despensa; área de serviço; banheiros social e de serviço; Uma vaga de garagem coberta. Condomínio completo em infraestrutura de lazer com salão de festas, churrasqueira, quadra poliesportiva, piscina, sauna, academia, playground, segurança, portaria 24 horas e padaria/ restaurante. Localização privilegiada com mercados, farmácias, fácil acesso para as principais rodovias, bem como para os principais bairros. Entre em contato para mais informações e agende sua visita!",
     "diferenciais": [
-      "Espaço Gourmet",
-      "Piscina Privativa",
-      "Sauna",
+      "Churrasqueira",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Varanda / Terraço",
       "Armários Planejados",
-      "Área de Serviço"
+      "Sauna",
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Quadra Esportiva"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/c95dd068ed33110e80c9ea888f79bb74.jpg",
@@ -9340,7 +10153,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3800,
+    "condominio": 600,
     "quartos": 1,
+    "suites": 1,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 46,
@@ -9348,10 +10164,13 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento de 1 dormitório para locação no Setin Home & Life Cambuí, com 46 m² e valor de aluguel de R$ 4.541 mensais. O imóvel possui sala com 2 ambientes, cozinha equipada com armários planejados, área de serviço, quarto com armário planejado e banheiro completo com gabinete, boxe e espelho. Destaque para a sacada prolongada com fechamento em vidro e persiana. Mobiliado conforme as fotos do anúncio. O apartamento conta ainda com aquecimento a gás, piso laminado, ar-condicionado no quarto e uma vaga coberta não determinada. O condomínio Setin Home & Life Cambuí oferece infraestrutura completa com piscinas adulto climatizada e infantil, academia equipada, spa com sauna, espaço gourmet com churrasqueira e forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada, minimercado, solário, portaria 24 horas e manobrista. A localização é privilegiada, com fácil acesso ao transporte público, comércio e serviços, estando entre os bairros Cambuí, Centro e Guanabara. Pronto para morar, agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Sauna",
-      "Armários Planejados"
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9a600725e0fb543b2b8aa07f05b96caf.jpg",
@@ -9398,7 +10217,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 4100,
+    "condominio": 878,
     "quartos": 1,
+    "suites": 0,
+    "salas": 2,
     "banheiros": 1,
     "vagas": 1,
     "area": 47,
@@ -9406,10 +10228,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório para alugar, 47 m² - Cambuí - Campinas/SP. Apartamento de 47m² com 1 dormitório, 1 banheiro, sala, cozinha, área de serviço e sacada. Pronto para morar e mobiliado conforme as fotos do anúncio. Andar alto, sol nascente, 1 vaga de garagem coberta. O condomínio dispõe de portaria, piscina, fitness, espaço gourmet e churrasqueira com forno de pizza, tudo isso em localização privilegiada, com toda a infraestrutura de comércio e serviços ao lado da Pizzaria Bráz. Entre em contato e agende uma visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço",
+      "Academia / Fitness"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/ecf38527d76270a203e6cdf3c956a3d5.jpg",
@@ -9437,7 +10261,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 590000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 267,
@@ -9474,7 +10301,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 260000,
+    "condominio": 428.02,
     "quartos": 2,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 0,
     "area": 49,
@@ -9507,7 +10337,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 895000,
+    "condominio": 810.34,
     "quartos": 1,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 43,
@@ -9515,10 +10348,12 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 1 dormitório à venda, 43 m² por R$ 895.000 - Cambuí - Campinas/SP. Este apartamento de alto padrão, recém entregue pela construtora e ainda sob garantia, oferece uma experiência de moradia sofisticada e completa no coração do Cambuí. Localizado em andar alto, o imóvel é inundado por luz natural e presenteia o morador com o sol da tarde e uma vista panorâmica deslumbrante do pôr do sol. Todo o projeto foi executado com marcenaria de primeira linha e acabamentos impecáveis, como o piso em porcelanato e eletrodomésticos novos. A cozinha é um destaque à parte, rica em armários que alcançam o teto e equipada com iluminação LED touch, bancadas em granito levigado, forno elétrico, purificador refrigerado e uma ilha funcional com cooktop a gás e depurador, além de contar com máquina lava e seca integrada e cortinas double vision para o equilíbrio ideal entre privacidade e iluminação. A área social integra-se harmoniosamente à sala, que dispõe de painel para TV, rack e uma mesa dedicada para trabalho ou estudos, tudo emoldurado por janelas do teto ao chão com cortinas elegantes e climatização via ar-condicionado Fujitsu Inverter quente/frio. No dormitório, o conforto é prioridade, com armários profundos em toda a extensão da parede, persiana blackout automatizada com controle remoto, mesas de cabeceira e painel com LED touch, além de um segundo ponto de climatização Fujitsu. O banheiro segue o padrão de luxo com cuba de apoio, espelho amplo, box blindex e aquecimento a gás tanto no chuveiro quanto na pia. Para completar, o imóvel possui uma vaga de garagem coberta, livre e espaçosa no subsolo. A infraestrutura do condomínio é um verdadeiro diferencial para quem busca conveniência ou rentabilidade, sendo um empreendimento que admite locação via Airbnb. No 5º andar, os moradores desfrutam de um acolhedor espaço de convivência com cozinha completa e fogueira para recepções, enquanto o 22º andar abriga uma academia completa, lavanderia coletiva e uma piscina com vista infinita sobre Campinas. Tudo isso inserido na melhor localização do Cambuí, cercado pelos clubes Tênis e Regatas, além de farmácias, bancos, cafeterias e o melhor roteiro gastronômico da cidade, permitindo fazer tudo a pé com total praticidade. Agenda sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
-      "Espaço Gourmet",
-      "Piscina Privativa",
+      "Churrasqueira",
+      "Piscina",
       "Armários Planejados",
-      "Área de Serviço"
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/6a574946e5a7619e636575f139f2df15.jpg",
@@ -9553,7 +10388,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 269990,
+    "condominio": 700,
     "quartos": 3,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 63,
@@ -9562,7 +10400,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Armários Planejados",
       "Área de Serviço",
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/c121f47ed25d7a9d196ae6c8ab4155c4.jpg",
@@ -9592,17 +10430,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 539000,
+    "condominio": 0,
     "quartos": 3,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 2,
     "area": 69,
     "tag": "Oportunidade",
     "desc": "Condomínio Parque dos Pássaros. Apartamento com 3 dormitórios à venda, 69,73 m² por R$ 539.000 - Jardim dos Oliveiras - Campinas/SP. Apartamento com sala dois ambientes com painel; cozinha com amplos armários; área de serviço com despensa; quartos com armários; banheiros com gabinete, box e espelho; sacada com tela de proteção. Duas vagas cobertas. Agende sua visita!",
     "diferenciais": [
-      "Armários Planejados",
       "Área de Serviço",
-      "Varanda",
-      "Quintal Integrado"
+      "Armários Planejados",
+      "Varanda / Terraço",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/178e3e74e6b295c0f8495f00eb019e45.jpg",
@@ -9645,7 +10486,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 155000,
+    "condominio": 950,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 38,
@@ -9673,7 +10517,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 299000,
+    "condominio": 791.43,
     "quartos": 0,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 1,
     "vagas": 1,
     "area": 33,
@@ -9681,7 +10528,7 @@ const IMOVEIS_DATABASE = [
     "desc": "Sala comercial à venda no Midtown Office Aquidaban. Com 33 m² em contrapiso, o espaço é versátil e pode ser adaptado conforme a necessidade do seu negócio. Possui um banheiro privativo, uma vaga de garagem e sacada que garante boa iluminação natural e ventilação. A localização é estratégica, em uma das principais avenidas da cidade, com fácil acesso ao centro, às rodovias e a diversos serviços e comércios. É uma excelente oportunidade para quem busca praticidade, visibilidade e um ambiente moderno para escritório, consultório ou pequeno empreendimento. Oportunidade também para investimento, o condomínio possui alta demanda para locação. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/6e57c4c0bcb3aa7ec8dcc62b820939de.jpg",
@@ -9711,14 +10558,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 87000,
+    "condominio": 670,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 36,
     "tag": "Oportunidade",
     "desc": "Sala, 36 m² - venda por R$ 87.000 ou aluguel por R$ 1.395/mês - Centro - Campinas/SP. Sala toda reformada, com ar condicionado novo, persianas sob medida, piso porcelanato, espelhos, teto rebaixado, led embutidos, parede com detalhes em gesso. Localizada no 6º andar, ao lado da praça, com uma linda vista. Portaria com recepcionista, elevadores novos e espelhados. Não possui vaga, mas tem um estacionamento na proximidade. Oportunidade para escritório, estética, consultório, etc. Agenda já sua visita!!",
     "diferenciais": [
-      "Ar Condicionado"
+      "Ar Condicionado",
+      "Aceita Permuta"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/9a0743b7538fda59ab9178290bf3f6fa.jpg",
@@ -9739,7 +10590,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 330000,
+    "condominio": 800,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 36,
@@ -9748,7 +10602,7 @@ const IMOVEIS_DATABASE = [
     "diferenciais": [
       "Ar Condicionado",
       "Área de Serviço",
-      "Varanda",
+      "Varanda / Terraço",
       "Acabamento Premium"
     ],
     "imagens": [
@@ -9782,7 +10636,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 1500,
+    "condominio": 1021,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 1,
     "area": 60,
@@ -9814,14 +10671,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 210000,
+    "condominio": 531,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 57,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios à venda, 57 m² por R$ 210.000 - Parque Dom Pedro II - Campinas/SP. Condomínio possui uma área de lazer: portaria 24h, piscina adulto e infantil, quadra poliesportiva, playground, mini mercado. Infraestrutura completa nas proximidades. 1 vaga de garagem. Próximo à farmácias, lojas, escolas, Hospital Ouro Verde, Terminal Ouro Verde e ao Shopping Spazio. Agenda sua visita!",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Quadra Poliesportiva",
       "Quadra Esportiva"
     ],
     "imagens": [
@@ -9864,7 +10725,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 470000,
+    "condominio": 540,
     "quartos": 2,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 1,
     "area": 51,
@@ -9872,8 +10736,8 @@ const IMOVEIS_DATABASE = [
     "desc": "Vista Prado. Apartamento com 2 dormitórios à venda, 51 m² por R$ 470.000 - Jardim Nova Europa - Campinas/SP. Imóvel aconchegante com 2 quartos, 1 banheiro, cozinha, área de serviço e sala com sacada com ampla vista. 1 vaga de garagem coberta com tenda. O condomínio possui uma ótima localização, próximo a diversos segmentos de comércios. Agende sua visita!!",
     "diferenciais": [
       "Área de Serviço",
-      "Varanda",
-      "Quintal Integrado"
+      "Varanda / Terraço",
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/1bcda19e3be04e63f7ba26fc643155f7.jpg",
@@ -9899,15 +10763,19 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "compra",
     "preco": 4600000,
+    "condominio": 1500,
     "quartos": 4,
+    "suites": 4,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 0,
     "area": 387,
     "tag": "Exclusivo",
     "desc": "Casa com 4 dormitórios à venda, 387 m² por R$ 4.600.000 - Alphaville Dom Pedro 2 - Campinas/SP. Sobrado no Alphaville Dom Pedro 2 a venda por R$ 4.600.000. 4 suítes com armários planejados (sendo a máster com closet, banheira e pia dupla), todas as esquadrias dos dormitórios são persianas elétricas com tela mosquiteiro, armários embutidos. A residência conta com: -Home Theater; - Escritório; -Área gourmet fechada com churrasqueira a gás, cooktop e armários planejados Kitchens; -Sala em dois ambientes com pé direito duplo; -Piscina (preparada para aquecimento solar); -Cozinha com armários planejados Kitchens, entregue com cooktop e coifa de ilha; -Aquecedor solar nos WCs e cozinha; -Iluminação LED; -Automação; -Paisagismo. Agende sua visita!",
     "diferenciais": [
-      "Piscina Privativa",
-      "Armários Planejados"
+      "Piscina",
+      "Armários Planejados",
+      "Closet"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/d546c4a727643df17d6d7f590bdd0d1b.jpg",
@@ -9938,16 +10806,20 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 4000,
+    "condominio": 1690.89,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 2,
     "vagas": 2,
     "area": 70,
     "tag": "Oportunidade",
     "desc": "Sala Comercial para Locação com 73 m² no Setin Midtown Office. Excelente Sala em conjunção com móveis planejados, 2 sacadas, 1 copa e 2 banheiros. Acabamento com piso, forro e luminárias instaladas. 2 vagas cobertas. Situada no primeiro complexo multiuso da região, conta com serviço de recepção, segurança 24 horas, vallet, elevadores, wi-fi nas áreas comuns, salas de reunião e muito mais. Localização privilegiada: Avenida Aquidaban com a Rua José Paulino. Como vizinho, o nobre Cambuí, um bairro dos mais desejados por sua rede completa de comércio e serviços. Fácil acesso às rodovias Dom Pedro I e Santos Dumont à 25 km do Aeroporto de Viracopos. Entre em contato para agendarmos sua visita!",
     "diferenciais": [
+      "Escritório",
       "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/7c32178edd3dc2c9f76819fdd80f6d2d.jpg",
@@ -9978,14 +10850,18 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "aluguel",
     "preco": 3450,
+    "condominio": 952,
     "quartos": 2,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 68,
     "tag": "Oportunidade",
     "desc": "Apartamento com 2 dormitórios para alugar, 68 m² por R$ 4.552/ano - Cambuí - Campinas/SP. Apartamento para locação no Cambuí, a 600 metros do Centro de Convivência, próximo a supermercados, colégio e conveniências. Apartamento mobiliado conforme as fotos. 01 garagem coberta. Área de lazer: Piscina , brinquedos para as crianças, salão de festas, bicicletário e lavanderia .",
     "diferenciais": [
-      "Piscina Privativa",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço"
     ],
     "imagens": [
@@ -10032,7 +10908,10 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 540000,
+    "condominio": 952,
     "quartos": 2,
+    "suites": 0,
+    "salas": 1,
     "banheiros": 2,
     "vagas": 1,
     "area": 68,
@@ -10040,9 +10919,10 @@ const IMOVEIS_DATABASE = [
     "desc": "Apartamento com 2 dormitórios à venda, 68 m² por R$ 540.000 - Cambuí - Campinas/SP. Apartamento à venda no Cambuí. Imóvel com 2 quartos, sacada, cozinha, lavabo, banheiro e ar-condicionado em um dos quartos. O condomínio conta com piscina, área com brinquedos para crianças, bicicletário, salão de festas e lavanderia. Localizado a poucos passos do Colégio Progresso, do laboratório Fleury, do Centro de Convivência e de diversas outras facilidades do Cambuí. Agenda já sua visita!",
     "diferenciais": [
       "Ar Condicionado",
-      "Piscina Privativa",
+      "Piscina",
+      "Armários Planejados",
       "Área de Serviço",
-      "Varanda"
+      "Varanda / Terraço"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/077a97d2c94b71fad1170b483fcfbb91.jpg",
@@ -10081,14 +10961,17 @@ const IMOVEIS_DATABASE = [
     "tipo": "casa",
     "finalidade": "aluguel",
     "preco": 12000,
+    "condominio": 0,
     "quartos": 0,
+    "suites": 0,
+    "salas": 0,
     "banheiros": 1,
     "vagas": 10,
     "area": 395,
     "tag": "Boutique",
     "desc": "Casa para alugar, 395 m² por R$ 12.772/ano - Jardim Planalto de Viracopos - Campinas/SP. O imóvel possui amplo espaço interno, fachada comercial, área externa na frente, portões/entradas amplas e potencial para diferentes tipos de operação. Localizado em uma região com perfil comercial/industrial. Com 10 vagas, sendo duas cobertas. Agenda já sua visita!",
     "diferenciais": [
-      "Quintal Integrado"
+      "Jardim"
     ],
     "imagens": [
       "https://images.ingaiasites.com.br/80e5d45fb81f605345ecb3c68280a74e.jpg",
