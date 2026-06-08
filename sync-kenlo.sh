@@ -2,7 +2,7 @@
 # Sincronização automática do portfólio Kenlo/inGaia -> site Tatiana Colombo
 # Executado pelo LaunchAgent.
 
-cd "/Users/cristianocolombo/site-tatiana" || exit 1
+cd "/Users/cristianocolombo/Downloads/site-tatiana" || exit 1
 
 echo "==================== $(date '+%Y-%m-%d %H:%M:%S') ===================="
 /usr/local/bin/node import-kenlo.js
