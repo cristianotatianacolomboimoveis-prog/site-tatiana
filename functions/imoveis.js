@@ -15,8 +15,14 @@ export async function onRequestGet(context) {
 
   if (codigo) {
     const detalhesUrl = new URL('/detalhes.html', url.origin);
-    const resp = await env.ASSETS.fetch(new Request(detalhesUrl, request));
-    // Mantém todos os headers do detalhes.html (Content-Type, cache, etc.)
+    let resp = await env.ASSETS.fetch(new Request(detalhesUrl, request));
+    
+    // Se a resposta for um redirecionamento (por causa de regras do Cloudflare clean URLs),
+    // busca diretamente o arquivo estático detalhes.html sem herdar os headers da requisição original
+    if (resp.status >= 300 && resp.status < 400) {
+      resp = await env.ASSETS.fetch(detalhesUrl);
+    }
+    
     return new Response(resp.body, {
       status: resp.status,
       statusText: resp.statusText,
@@ -24,7 +30,6 @@ export async function onRequestGet(context) {
     });
   }
 
-  // Sem código: serve o catálogo /imoveis.html normalmente
-  const imoveisUrl = new URL('/imoveis.html', url.origin);
-  return env.ASSETS.fetch(new Request(imoveisUrl, request));
+  // Sem código: deixa o Cloudflare Pages servir o catálogo /imoveis.html normalmente
+  return context.next();
 }
