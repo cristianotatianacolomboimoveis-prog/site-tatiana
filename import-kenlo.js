@@ -84,7 +84,10 @@ function mapPropertyType(subTipo, tipo) {
 }
 
 // Determina a tag de destaque do imóvel
-function getPropertyTag(preco, finalidade, tipo, codigo) {
+function getPropertyTag(preco, finalidade, tipo, codigo, tipoOferta) {
+  if (tipoOferta === '3') return 'Super Destaque';
+  if (tipoOferta === '2') return 'Destaque';
+  
   if (preco >= 2000000) return 'Exclusivo';
   if (preco >= 12000 && finalidade === 'aluguel') return 'Boutique';
   if (codigo.startsWith('SA') || tipo === 'comercial') return 'Oportunidade';
@@ -217,7 +220,8 @@ function parseXMLFeed(xmlData) {
     const condominio = parseFloat(getTagValue(imovelXML, 'PrecoCondominio', '0')) || 0;
     
     // Tag
-    const tag = getPropertyTag(preco, finalidade, tipo, codigo);
+    const tipoOferta = getTagValue(imovelXML, 'TipoOferta', '1');
+    const tag = getPropertyTag(preco, finalidade, tipo, codigo, tipoOferta);
     
     // Diferenciais
     const diferenciais = extractDifferentials(imovelXML, desc);
@@ -248,6 +252,7 @@ function parseXMLFeed(xmlData) {
       finalidade,
       preco,
       condominio,
+      tipoOferta,
       quartos,
       suites,
       salas,
