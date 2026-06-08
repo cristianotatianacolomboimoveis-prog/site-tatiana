@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 08/06/2026 09:10:53
+   Data de Atualização: 08/06/2026 09:14:32
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -2189,7 +2189,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 40,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.339/mês - Cambuí - Campinas/SP. Este sofisticado apartamento, com 40 m², está mobiliado conforme as fotos, e pronto para morar. A propriedade inclui uma vaga de garagem coberta e está situada em um condomínio com infraestrutura de alto padrão, que oferece piscina, academia, fire square, lavanderia, espaço gourmet e churrasqueira. Wi-Fi disponível nas áreas comuns para maior comodidade. Localizado no coração do Cambuí, uma das regiões mais valorizadas de Campinas, este imóvel une conforto, estilo e praticidade. Imóvel disponível para locação a partir de 25/06/2026. Agende sua visita!",
+    "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.339/mês - Cambuí - Campinas/SP. Este sofisticado apartamento, com 40 m², está mobiliado conforme as fotos, e pronto para morar. A propriedade inclui uma vaga de garagem coberta e está situada em um condomínio com infraestrutura de alto padrão, que oferece piscina, academia, fire square, lavanderia, espaço gourmet e churrasqueira. Wi-Fi disponível nas áreas comuns para maior comodidade. Localizado no coração do Cambuí, uma das regiões mais valorizadas de Campinas, este im��vel une conforto, estilo e praticidade. Imóvel disponível para locação a partir de 25/06/2026. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
       "Churrasqueira",
