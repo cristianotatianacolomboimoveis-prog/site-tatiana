@@ -353,11 +353,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterForm = document.getElementById('filter-form');
   
   if (catalogGrid && typeof IMOVEIS_DATABASE !== 'undefined') {
-    // Redireciona links antigos /imoveis?codigo=AP0363 para detalhes.html?ref=AP0363
+    // Exibe a visualização de detalhes e oculta o catálogo para links do Kenlo /imoveis?codigo=AP0363
     const urlParamsCheck = new URLSearchParams(window.location.search);
     const oldCodeParam = urlParamsCheck.get('codigo');
     if (oldCodeParam) {
-      window.location.href = `detalhes.html?ref=${oldCodeParam.trim()}`;
+      const catalogWrapper = document.getElementById('catalog-view-wrapper');
+      const detailsWrapper = document.getElementById('details-view-wrapper');
+      if (catalogWrapper && detailsWrapper) {
+        catalogWrapper.style.display = 'none';
+        detailsWrapper.style.display = 'block';
+      }
       return;
     }
 
@@ -519,7 +524,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (detailContainer && typeof IMOVEIS_DATABASE !== 'undefined') {
     const urlParams = new URLSearchParams(window.location.search);
-    const refParam = urlParams.get('ref') || urlParams.get('id');
+    const refParam = urlParams.get('ref') || urlParams.get('codigo') || urlParams.get('id');
     let imovel;
     if (refParam) {
       imovel = IMOVEIS_DATABASE.find(item => item.codigo.toLowerCase() === refParam.toLowerCase().trim());

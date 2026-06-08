@@ -74,6 +74,7 @@
 </header>
 
 <main id="main-content">
+  <div id="catalog-view-wrapper">
   <!-- PAGE HEADER -->
   <section class="page-header" aria-labelledby="page-title">
     <div class="page-header-content reveal">
@@ -274,6 +275,26 @@
       </div>
     </div>
   </section>
+  </div> <!-- Fim de catalog-view-wrapper -->
+
+  <!-- DETALHES DO IMÓVEL (DINÂMICO) - exibido apenas quando ?codigo=AP0363 estiver presente -->
+  <div id="details-view-wrapper" style="display: none;">
+    <!-- DETALHES DO IMÓVEL (DINÂMICO) -->
+    <article id="detalhe-imovel-content" class="detalhe-imovel-container">
+      <div style="text-align:center; padding:10rem 2rem; min-height:60vh;">
+        <h2 style="font-family:'Cormorant Garamond', serif; font-size:2.5rem; color:var(--neutral-dark);">Buscando detalhes do imóvel...</h2>
+        <p style="margin-top:1rem; color:var(--neutral-muted);">Por favor, aguarde enquanto carregamos a curadoria exclusiva.</p>
+      </div>
+    </article>
+
+    <!-- FALLBACK SE NÃO ENCONTRADO -->
+    <section id="detalhe-error-content" style="display:none; text-align:center; padding:10rem 2rem; min-height:80vh;" class="no-print">
+      <span style="font-size:4rem;">🔍</span>
+      <h1 style="font-family:'Cormorant Garamond', serif; font-size:3rem; margin:1.5rem 0; color:var(--neutral-dark);">Imóvel Não Encontrado</h1>
+      <p style="color:var(--neutral-muted); max-width:500px; margin:0 auto 2.5rem auto;">O imóvel solicitado pode ter sido vendido ou não está mais ativo em nossa curadoria exclusiva. Explore outras opções em nosso catálogo.</p>
+      <a href="imoveis.html" class="btn-primary">Ver Todos os Imóveis</a>
+    </section>
+  </div>
 </main>
 
 <!-- ===== FOOTER ===== -->
@@ -346,7 +367,7 @@
     <div class="concierge-body">
       <p class="concierge-msg">Olá! Seja bem-vindo à nossa curadoria. Como posso ajudar na sua jornada hoje?</p>
       <div class="concierge-options">
-        <button class="concierge-opt" data-msg="Olá Tatiana! Gostaria de agendar uma visita a um dos seus imóveis.">
+        <button class="concierge-opt" id="concierge-opt-custom" data-msg="Olá Tatiana! Gostaria de agendar uma visita a um dos seus imóveis.">
           📅 Agendar Visita Privada
         </button>
         <button class="concierge-opt" data-msg="Olá Tatiana! Tenho interesse em avaliar e anunciar o meu imóvel com você.">
