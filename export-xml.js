@@ -70,7 +70,7 @@ database.forEach(imovel => {
       <ListingID>${imovel.id}</ListingID>
       <Title><![CDATA[${imovel.nome} - Alto Padrão no ${imovel.bairro}]]></Title>
       <TransactionType>${transaction}</TransactionType>
-      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?id=${imovel.id}</DetailViewUrl>
+      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=${imovel.codigo}</DetailViewUrl>
       ${mediaXML}
       <Details>
         <UsageType>${usage}</UsageType>

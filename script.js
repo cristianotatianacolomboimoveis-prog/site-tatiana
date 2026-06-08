@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <li>📐 ${imovel.area} m²</li>
           </ul>
           <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
-          <a class="imovel-link" href="detalhes.html?id=${imovel.id}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
+          <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
         </div>
       `;
       featuredGrid.appendChild(card);
@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <li>📐 ${imovel.area} m²</li>
             </ul>
             <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
-            <a class="imovel-link" href="detalhes.html?id=${imovel.id}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
+            <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
           </div>
         `;
         catalogGrid.appendChild(card);
@@ -504,8 +504,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (detailContainer && typeof IMOVEIS_DATABASE !== 'undefined') {
     const urlParams = new URLSearchParams(window.location.search);
-    const imovelId = parseInt(urlParams.get('id'), 10);
-    const imovel = IMOVEIS_DATABASE.find(item => item.id === imovelId);
+    const refParam = urlParams.get('ref') || urlParams.get('id');
+    let imovel;
+    if (refParam) {
+      imovel = IMOVEIS_DATABASE.find(item => item.codigo.toLowerCase() === refParam.toLowerCase().trim());
+      if (!imovel) {
+        const numericId = parseInt(refParam, 10);
+        if (!isNaN(numericId)) {
+          imovel = IMOVEIS_DATABASE.find(item => item.id === numericId);
+        }
+      }
+    }
 
     if (!imovel) {
       if (errorContainer) errorContainer.style.display = 'block';
