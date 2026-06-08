@@ -106,6 +106,17 @@
             />
           </div>
 
+          <!-- Ordenação -->
+          <div class="filter-group">
+            <label for="filter-order">Ordenar por</label>
+            <select id="filter-order">
+              <option value="">Padrão</option>
+              <option value="preco-asc">Menor Preço</option>
+              <option value="preco-desc">Maior Preço</option>
+              <option value="area-desc">Maior Área</option>
+            </select>
+          </div>
+
           <!-- Tipo -->
           <div class="filter-group">
             <label for="filter-tipo">Tipo de Imóvel</label>
@@ -136,14 +147,49 @@
             </div>
           </div>
 
+          <!-- Área Útil -->
+          <div class="filter-group">
+            <label>Área útil (m²)</label>
+            <div class="range-inputs">
+              <input type="number" id="filter-area-min" placeholder="Mínimo" min="0" />
+              <input type="number" id="filter-area-max" placeholder="Máximo" min="0" />
+            </div>
+          </div>
+
           <!-- Dormitórios -->
           <div class="filter-group">
             <label for="filter-quartos">Mínimo de dormitórios</label>
             <select id="filter-quartos">
               <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
               <option value="3">3 ou mais</option>
               <option value="4">4 ou mais</option>
               <option value="5">5 ou mais</option>
+            </select>
+          </div>
+
+          <!-- Banheiros -->
+          <div class="filter-group">
+            <label for="filter-banheiros">Mínimo de banheiros</label>
+            <select id="filter-banheiros">
+              <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
+              <option value="3">3 ou mais</option>
+              <option value="4">4 ou mais</option>
+            </select>
+          </div>
+
+          <!-- Vagas -->
+          <div class="filter-group">
+            <label for="filter-vagas">Vagas de garagem</label>
+            <select id="filter-vagas">
+              <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
+              <option value="3">3 ou mais</option>
+              <option value="4">4 ou mais</option>
             </select>
           </div>
 
@@ -156,20 +202,40 @@
                 Piscina
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Varanda Gourmet" />
-                Varanda Gourmet
+                <input type="checkbox" name="diferenciais" value="Churrasqueira" />
+                Churrasqueira
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Adega" />
-                Adega / Espaço Vinho
+                <input type="checkbox" name="diferenciais" value="Ar Condicionado" />
+                Ar Condicionado
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Academia" />
+                <input type="checkbox" name="diferenciais" value="Sauna" />
+                Sauna
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Varanda / Terraço" />
+                Varanda / Terraço
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Closet" />
+                Closet
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Escritório" />
+                Escritório
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Lareira" />
+                Lareira
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Jardim" />
+                Jardim
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Academia / Fitness" />
                 Academia / Fitness
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Segurança 24h" />
-                Segurança 24h
               </label>
             </div>
           </div>

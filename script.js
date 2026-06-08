@@ -457,11 +457,16 @@ document.addEventListener('DOMContentLoaded', () => {
       const finalidadeVal = document.getElementById('filter-finalidade').value;
       const priceMin = parseFloat(document.getElementById('filter-price-min').value) || 0;
       const priceMax = parseFloat(document.getElementById('filter-price-max').value) || Infinity;
+      const areaMin = parseFloat(document.getElementById('filter-area-min').value) || 0;
+      const areaMax = parseFloat(document.getElementById('filter-area-max').value) || Infinity;
       const quartosVal = parseInt(document.getElementById('filter-quartos').value, 10) || 0;
+      const banheirosVal = parseInt(document.getElementById('filter-banheiros').value, 10) || 0;
+      const vagasVal = parseInt(document.getElementById('filter-vagas').value, 10) || 0;
+      const orderVal = document.getElementById('filter-order').value;
       
       const checkedDifs = Array.from(filterForm.querySelectorAll('input[name="diferenciais"]:checked')).map(cb => cb.value);
 
-      const filtered = IMOVEIS_DATABASE.filter(imovel => {
+      let filtered = IMOVEIS_DATABASE.filter(imovel => {
         // Keyword Search (Nome, Bairro, Descrição ou Código de Referência Kenlo)
         const matchesKeyword = searchVal === '' || 
           imovel.codigo.toLowerCase().includes(searchVal) || 
@@ -473,15 +478,27 @@ document.addEventListener('DOMContentLoaded', () => {
         const matchesTipo = tipoVal === '' || imovel.tipo === tipoVal;
         const matchesFinalidade = finalidadeVal === '' || imovel.finalidade === finalidadeVal;
 
-        // Price & Bedrooms
+        // Price, Bedrooms, Bathrooms, Garages & Area
         const matchesPrice = imovel.preco >= priceMin && imovel.preco <= priceMax;
+        const matchesArea = imovel.area >= areaMin && imovel.area <= areaMax;
         const matchesQuartos = imovel.quartos >= quartosVal;
+        const matchesBanheiros = imovel.banheiros >= banheirosVal;
+        const matchesVagas = imovel.vagas >= vagasVal;
 
         // Amenities
-        const matchesDifs = checkedDifs.every(dif => imovel.diferenciais.includes(dif));
+        const matchesDifs = checkedDifs.every(dif => imovel.diferenciais && imovel.diferenciais.includes(dif));
 
-        return matchesKeyword && matchesTipo && matchesFinalidade && matchesPrice && matchesQuartos && matchesDifs;
+        return matchesKeyword && matchesTipo && matchesFinalidade && matchesPrice && matchesArea && matchesQuartos && matchesBanheiros && matchesVagas && matchesDifs;
       });
+
+      // Sorting
+      if (orderVal === 'preco-asc') {
+        filtered.sort((a, b) => a.preco - b.preco);
+      } else if (orderVal === 'preco-desc') {
+        filtered.sort((a, b) => b.preco - a.preco);
+      } else if (orderVal === 'area-desc') {
+        filtered.sort((a, b) => b.area - a.area);
+      }
 
       renderCatalog(filtered);
     };
