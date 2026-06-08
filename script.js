@@ -443,8 +443,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const checkedDifs = Array.from(filterForm.querySelectorAll('input[name="diferenciais"]:checked')).map(cb => cb.value);
 
       const filtered = IMOVEIS_DATABASE.filter(imovel => {
-        // Keyword Search
+        // Keyword Search (Nome, Bairro, Descrição ou Código de Referência Kenlo)
         const matchesKeyword = searchVal === '' || 
+          imovel.codigo.toLowerCase().includes(searchVal) || 
           imovel.nome.toLowerCase().includes(searchVal) || 
           imovel.bairro.toLowerCase().includes(searchVal) || 
           imovel.desc.toLowerCase().includes(searchVal);
