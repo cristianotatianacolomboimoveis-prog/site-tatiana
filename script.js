@@ -462,16 +462,22 @@ document.addEventListener('DOMContentLoaded', () => {
       renderCatalog(filtered);
     };
 
-    // Pre-fill filters from URL Query parameters (Home search connection)
+    // Pre-fill filters from URL Query parameters (Home search connection & legacy Kenlo URLs)
     const loadFiltersFromURL = () => {
       const urlParams = new URLSearchParams(window.location.search);
       const tipo = urlParams.get('tipo');
       const finalidade = urlParams.get('finalidade');
       const local = urlParams.get('local');
+      const codigo = urlParams.get('codigo') || urlParams.get('ref');
 
       if (tipo) document.getElementById('filter-tipo').value = tipo;
       if (finalidade) document.getElementById('filter-finalidade').value = finalidade;
-      if (local) document.getElementById('filter-search').value = local;
+      
+      if (codigo) {
+        document.getElementById('filter-search').value = codigo;
+      } else if (local) {
+        document.getElementById('filter-search').value = local;
+      }
 
       filterImoveis();
     };
