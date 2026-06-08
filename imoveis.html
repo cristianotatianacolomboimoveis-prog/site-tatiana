@@ -37,7 +37,7 @@
   <nav class="nav scrolled" id="nav" aria-label="Navegação principal">
     <a class="nav-brand" href="index.html" aria-label="Tatiana Colombo – página inicial">
       <img
-        src="/assets/logo-mark.png"
+        src="/assets/logo-mark-Dzl1CmP3.png"
         alt="Logo Tatiana Colombo Consultoria Imobiliária"
         width="76" height="76"
         loading="eager"
@@ -74,6 +74,7 @@
 </header>
 
 <main id="main-content">
+  <div id="catalog-view-wrapper">
   <!-- PAGE HEADER -->
   <section class="page-header" aria-labelledby="page-title">
     <div class="page-header-content reveal">
@@ -103,6 +104,17 @@
               placeholder="Bairro, condomínio ou nome..."
               autocomplete="off"
             />
+          </div>
+
+          <!-- Ordenação -->
+          <div class="filter-group">
+            <label for="filter-order">Ordenar por</label>
+            <select id="filter-order">
+              <option value="">Padrão</option>
+              <option value="preco-asc">Menor Preço</option>
+              <option value="preco-desc">Maior Preço</option>
+              <option value="area-desc">Maior Área</option>
+            </select>
           </div>
 
           <!-- Tipo -->
@@ -135,14 +147,49 @@
             </div>
           </div>
 
+          <!-- Área Útil -->
+          <div class="filter-group">
+            <label>Área útil (m²)</label>
+            <div class="range-inputs">
+              <input type="number" id="filter-area-min" placeholder="Mínimo" min="0" />
+              <input type="number" id="filter-area-max" placeholder="Máximo" min="0" />
+            </div>
+          </div>
+
           <!-- Dormitórios -->
           <div class="filter-group">
             <label for="filter-quartos">Mínimo de dormitórios</label>
             <select id="filter-quartos">
               <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
               <option value="3">3 ou mais</option>
               <option value="4">4 ou mais</option>
               <option value="5">5 ou mais</option>
+            </select>
+          </div>
+
+          <!-- Banheiros -->
+          <div class="filter-group">
+            <label for="filter-banheiros">Mínimo de banheiros</label>
+            <select id="filter-banheiros">
+              <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
+              <option value="3">3 ou mais</option>
+              <option value="4">4 ou mais</option>
+            </select>
+          </div>
+
+          <!-- Vagas -->
+          <div class="filter-group">
+            <label for="filter-vagas">Vagas de garagem</label>
+            <select id="filter-vagas">
+              <option value="">Qualquer quantidade</option>
+              <option value="1">1 ou mais</option>
+              <option value="2">2 ou mais</option>
+              <option value="3">3 ou mais</option>
+              <option value="4">4 ou mais</option>
             </select>
           </div>
 
@@ -155,20 +202,40 @@
                 Piscina
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Varanda Gourmet" />
-                Varanda Gourmet
+                <input type="checkbox" name="diferenciais" value="Churrasqueira" />
+                Churrasqueira
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Adega" />
-                Adega / Espaço Vinho
+                <input type="checkbox" name="diferenciais" value="Ar Condicionado" />
+                Ar Condicionado
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Academia" />
+                <input type="checkbox" name="diferenciais" value="Sauna" />
+                Sauna
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Varanda / Terraço" />
+                Varanda / Terraço
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Closet" />
+                Closet
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Escritório" />
+                Escritório
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Lareira" />
+                Lareira
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Jardim" />
+                Jardim
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="diferenciais" value="Academia / Fitness" />
                 Academia / Fitness
-              </label>
-              <label class="checkbox-label">
-                <input type="checkbox" name="diferenciais" value="Segurança 24h" />
-                Segurança 24h
               </label>
             </div>
           </div>
@@ -274,6 +341,26 @@
       </div>
     </div>
   </section>
+  </div> <!-- Fim de catalog-view-wrapper -->
+
+  <!-- DETALHES DO IMÓVEL (DINÂMICO) - exibido apenas quando ?codigo=AP0363 estiver presente -->
+  <div id="details-view-wrapper" style="display: none;">
+    <!-- DETALHES DO IMÓVEL (DINÂMICO) -->
+    <article id="detalhe-imovel-content" class="detalhe-imovel-container">
+      <div style="text-align:center; padding:10rem 2rem; min-height:60vh;">
+        <h2 style="font-family:'Cormorant Garamond', serif; font-size:2.5rem; color:var(--neutral-dark);">Buscando detalhes do imóvel...</h2>
+        <p style="margin-top:1rem; color:var(--neutral-muted);">Por favor, aguarde enquanto carregamos a curadoria exclusiva.</p>
+      </div>
+    </article>
+
+    <!-- FALLBACK SE NÃO ENCONTRADO -->
+    <section id="detalhe-error-content" style="display:none; text-align:center; padding:10rem 2rem; min-height:80vh;" class="no-print">
+      <span style="font-size:4rem;">🔍</span>
+      <h1 style="font-family:'Cormorant Garamond', serif; font-size:3rem; margin:1.5rem 0; color:var(--neutral-dark);">Imóvel Não Encontrado</h1>
+      <p style="color:var(--neutral-muted); max-width:500px; margin:0 auto 2.5rem auto;">O imóvel solicitado pode ter sido vendido ou não está mais ativo em nossa curadoria exclusiva. Explore outras opções em nosso catálogo.</p>
+      <a href="imoveis.html" class="btn-primary">Ver Todos os Imóveis</a>
+    </section>
+  </div>
 </main>
 
 <!-- ===== FOOTER ===== -->
@@ -311,9 +398,8 @@
       <h2 class="h4">Conecte-se</h2>
       <ul role="list">
         <li><a href="https://instagram.com/tatianacolomboconsultoria" rel="noopener noreferrer" target="_blank">Instagram</a></li>
-        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
         <li><a href="https://api.whatsapp.com/send?phone=5519974139848" rel="noopener noreferrer" target="_blank">WhatsApp</a></li>
-        <li><a href="index.html#contato">Política de privacidade</a></li>
+        <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
       </ul>
     </div>
   </div>
@@ -331,7 +417,7 @@
       <div class="concierge-profile">
         <div class="concierge-avatar-wrap">
           <img
-            src="/assets/tatiana-portrait.jpeg"
+            src="/assets/tatiana-portrait-DuNYqgUE.jpeg"
             alt="Tatiana Colombo"
             width="44" height="44"
           />
@@ -347,7 +433,7 @@
     <div class="concierge-body">
       <p class="concierge-msg">Olá! Seja bem-vindo à nossa curadoria. Como posso ajudar na sua jornada hoje?</p>
       <div class="concierge-options">
-        <button class="concierge-opt" data-msg="Olá Tatiana! Gostaria de agendar uma visita a um dos seus imóveis.">
+        <button class="concierge-opt" id="concierge-opt-custom" data-msg="Olá Tatiana! Gostaria de agendar uma visita a um dos seus imóveis.">
           📅 Agendar Visita Privada
         </button>
         <button class="concierge-opt" data-msg="Olá Tatiana! Tenho interesse em avaliar e anunciar o meu imóvel com você.">

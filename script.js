@@ -275,12 +275,15 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="imovel-loc">📍 ${imovel.bairro}, Campinas – SP</p>
           <div class="imovel-sep" aria-hidden="true"></div>
           <ul class="imovel-features" aria-label="Características">
-            <li>🛏 ${imovel.quartos} quartos</li>
-            <li>🚿 ${imovel.banheiros} banheiros</li>
+            <li>🛏 ${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</li>
+            <li>🚿 ${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</li>
             <li>📐 ${imovel.area} m²</li>
           </ul>
-          <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
-          <a class="imovel-link" href="detalhes.html?id=${imovel.id}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
+          <p class="imovel-preco">
+            ${formatBRL(imovel.preco, imovel.finalidade)}
+            ${imovel.condominio > 0 ? `<span style="font-size:0.75rem;color:var(--text3);font-weight:300;display:block;margin-top:2px;">+ Cond: R$ ${imovel.condominio.toLocaleString('pt-BR')}</span>` : ''}
+          </p>
+          <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
         </div>
       `;
       featuredGrid.appendChild(card);
@@ -309,6 +312,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterForm = document.getElementById('filter-form');
   
   if (catalogGrid && typeof IMOVEIS_DATABASE !== 'undefined') {
+    // Exibe a visualização de detalhes e oculta o catálogo para links do Kenlo /imoveis?codigo=AP0363
+    const urlParamsCheck = new URLSearchParams(window.location.search);
+    const oldCodeParam = urlParamsCheck.get('codigo');
+    if (oldCodeParam) {
+      const catalogWrapper = document.getElementById('catalog-view-wrapper');
+      const detailsWrapper = document.getElementById('details-view-wrapper');
+      if (catalogWrapper && detailsWrapper) {
+        catalogWrapper.style.display = 'none';
+        detailsWrapper.style.display = 'block';
+      }
+      return;
+    }
+
     const resultsCount = document.getElementById('results-count');
     const noResultsBox = document.getElementById('no-results-box');
     const clearFiltersBtn = document.getElementById('clear-filters');
@@ -375,12 +391,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class="imovel-loc">📍 ${imovel.bairro}, Campinas – SP</p>
             <div class="imovel-sep" aria-hidden="true"></div>
             <ul class="imovel-features" aria-label="Características">
-              <li>🛏 ${imovel.quartos} quartos</li>
-              <li>🚿 ${imovel.banheiros} banheiros</li>
+              <li>🛏 ${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</li>
+              <li>🚿 ${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</li>
               <li>📐 ${imovel.area} m²</li>
             </ul>
-            <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
-            <a class="imovel-link" href="detalhes.html?id=${imovel.id}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
+            <p class="imovel-preco">
+              ${formatBRL(imovel.preco, imovel.finalidade)}
+              ${imovel.condominio > 0 ? `<span style="font-size:0.75rem;color:var(--text3);font-weight:300;display:block;margin-top:2px;">+ Cond: R$ ${imovel.condominio.toLocaleString('pt-BR')}</span>` : ''}
+            </p>
+            <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
           </div>
         `;
         catalogGrid.appendChild(card);
@@ -397,13 +416,19 @@ document.addEventListener('DOMContentLoaded', () => {
       const finalidadeVal = document.getElementById('filter-finalidade').value;
       const priceMin = parseFloat(document.getElementById('filter-price-min').value) || 0;
       const priceMax = parseFloat(document.getElementById('filter-price-max').value) || Infinity;
+      const areaMin = parseFloat(document.getElementById('filter-area-min').value) || 0;
+      const areaMax = parseFloat(document.getElementById('filter-area-max').value) || Infinity;
       const quartosVal = parseInt(document.getElementById('filter-quartos').value, 10) || 0;
+      const banheirosVal = parseInt(document.getElementById('filter-banheiros').value, 10) || 0;
+      const vagasVal = parseInt(document.getElementById('filter-vagas').value, 10) || 0;
+      const orderVal = document.getElementById('filter-order').value;
       
       const checkedDifs = Array.from(filterForm.querySelectorAll('input[name="diferenciais"]:checked')).map(cb => cb.value);
 
-      const filtered = IMOVEIS_DATABASE.filter(imovel => {
-        // Keyword Search
+      let filtered = IMOVEIS_DATABASE.filter(imovel => {
+        // Keyword Search (Nome, Bairro, Descrição ou Código de Referência Kenlo)
         const matchesKeyword = searchVal === '' || 
+          imovel.codigo.toLowerCase().includes(searchVal) || 
           imovel.nome.toLowerCase().includes(searchVal) || 
           imovel.bairro.toLowerCase().includes(searchVal) || 
           imovel.desc.toLowerCase().includes(searchVal);
@@ -412,15 +437,27 @@ document.addEventListener('DOMContentLoaded', () => {
         const matchesTipo = tipoVal === '' || imovel.tipo === tipoVal;
         const matchesFinalidade = finalidadeVal === '' || imovel.finalidade === finalidadeVal;
 
-        // Price & Bedrooms
+        // Price, Bedrooms, Bathrooms, Garages & Area
         const matchesPrice = imovel.preco >= priceMin && imovel.preco <= priceMax;
+        const matchesArea = imovel.area >= areaMin && imovel.area <= areaMax;
         const matchesQuartos = imovel.quartos >= quartosVal;
+        const matchesBanheiros = imovel.banheiros >= banheirosVal;
+        const matchesVagas = imovel.vagas >= vagasVal;
 
         // Amenities
-        const matchesDifs = checkedDifs.every(dif => imovel.diferenciais.includes(dif));
+        const matchesDifs = checkedDifs.every(dif => imovel.diferenciais && imovel.diferenciais.includes(dif));
 
-        return matchesKeyword && matchesTipo && matchesFinalidade && matchesPrice && matchesQuartos && matchesDifs;
+        return matchesKeyword && matchesTipo && matchesFinalidade && matchesPrice && matchesArea && matchesQuartos && matchesBanheiros && matchesVagas && matchesDifs;
       });
+
+      // Sorting
+      if (orderVal === 'preco-asc') {
+        filtered.sort((a, b) => a.preco - b.preco);
+      } else if (orderVal === 'preco-desc') {
+        filtered.sort((a, b) => b.preco - a.preco);
+      } else if (orderVal === 'area-desc') {
+        filtered.sort((a, b) => b.area - a.area);
+      }
 
       renderCatalog(filtered);
     };
@@ -463,21 +500,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (detailContainer && typeof IMOVEIS_DATABASE !== 'undefined') {
     const urlParams = new URLSearchParams(window.location.search);
+    
     // Localiza o imóvel a partir de qualquer formato de URL suportado:
     //   1) ?id=N            — formato novo
-    //   2) ?codigo=AP0123   — formato legado Kenlo (querystring)
+    //   2) ?codigo=AP0123 ou ?ref=AP0123 — formato legado Kenlo (querystring)
     //   3) /imovel/<slug>/<CODIGO[-SUFIXO]>?from=...  — formato Kenlo (path)
     let codigoFromPath = null;
     const pathMatch = window.location.pathname.match(/^\/imovel\/[^/]+\/([A-Za-z]{2}\d{3,5})/i);
     if (pathMatch) codigoFromPath = pathMatch[1];
-    const codigoParam = urlParams.get('codigo') || codigoFromPath;
+
+    const refParam = urlParams.get('ref') || urlParams.get('codigo') || codigoFromPath;
+    const idParam = urlParams.get('id');
     let imovel;
-    if (codigoParam) {
+
+    if (refParam) {
+      const cleanRef = refParam.trim().toLowerCase();
       imovel = IMOVEIS_DATABASE.find(item =>
-        item.codigo && item.codigo.toLowerCase() === codigoParam.toLowerCase()
+        item.codigo && item.codigo.toLowerCase() === cleanRef
       );
-    } else {
-      const imovelId = parseInt(urlParams.get('id'), 10);
+      if (!imovel) {
+        // Fallback: se o código não for encontrado, tenta tratar como ID numérico
+        const numericId = parseInt(refParam, 10);
+        if (!isNaN(numericId)) {
+          imovel = IMOVEIS_DATABASE.find(item => item.id === numericId);
+        }
+      }
+    }
+
+    if (!imovel && idParam) {
+      const imovelId = parseInt(idParam, 10);
       imovel = IMOVEIS_DATABASE.find(item => item.id === imovelId);
     }
 
@@ -536,7 +587,10 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="detalhe-kicker">${imovel.tipo} · ${imovel.finalidade === 'aluguel' ? 'Locação de Alto Padrão' : 'Venda Exclusiva'} · Ref: ${imovel.codigo}</span>
               <h1 class="detalhe-title">${imovel.nome}</h1>
               <p class="detalhe-bairro">📍 ${imovel.bairro}, Campinas – SP</p>
-              <p class="detalhe-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
+              <p class="detalhe-preco">
+                ${formatBRL(imovel.preco, imovel.finalidade)}
+                ${imovel.condominio > 0 ? `<span style="font-size:1.15rem;color:var(--text3);font-weight:300;margin-left:12px;">+ Condomínio: R$ ${imovel.condominio.toLocaleString('pt-BR')}/mês</span>` : ''}
+              </p>
             </div>
 
             <!-- Specs Grid -->
@@ -548,17 +602,17 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <div class="spec-box">
                 <span>🛏</span>
-                <p class="spec-value">${imovel.quartos} suítes</p>
+                <p class="spec-value">${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</p>
                 <p class="spec-label">Dormitórios</p>
               </div>
               <div class="spec-box">
                 <span>🚿</span>
-                <p class="spec-value">${imovel.banheiros} banheiros</p>
+                <p class="spec-value">${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</p>
                 <p class="spec-label">Banheiros</p>
               </div>
               <div class="spec-box">
                 <span>🚗</span>
-                <p class="spec-value">${imovel.vagas} vagas</p>
+                <p class="spec-value">${imovel.vagas} ${imovel.vagas === 1 ? 'vaga' : 'vagas'}</p>
                 <p class="spec-label">Vagas</p>
               </div>
             </div>
