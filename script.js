@@ -353,6 +353,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterForm = document.getElementById('filter-form');
   
   if (catalogGrid && typeof IMOVEIS_DATABASE !== 'undefined') {
+    // Redireciona links antigos /imoveis?codigo=AP0363 para detalhes.html?ref=AP0363
+    const urlParamsCheck = new URLSearchParams(window.location.search);
+    const oldCodeParam = urlParamsCheck.get('codigo');
+    if (oldCodeParam) {
+      window.location.href = `detalhes.html?ref=${oldCodeParam.trim()}`;
+      return;
+    }
+
     const resultsCount = document.getElementById('results-count');
     const noResultsBox = document.getElementById('no-results-box');
     const clearFiltersBtn = document.getElementById('clear-filters');
