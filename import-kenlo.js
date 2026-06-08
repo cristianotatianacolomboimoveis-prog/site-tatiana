@@ -96,29 +96,57 @@ function getPropertyTag(preco, finalidade, tipo, codigo) {
 function extractDifferentials(imovelXML, desc) {
   const difs = [];
   
-  // From XML tags
+  // From XML tags (Mapeamento completo das tags Kenlo)
   if (getTagValue(imovelXML, 'ArCondicionado') === '1') difs.push('Ar Condicionado');
-  if (getTagValue(imovelXML, 'Churrasqueira') === '1') difs.push('Espaço Gourmet');
-  if (getTagValue(imovelXML, 'Piscina') === '1') difs.push('Piscina Privativa');
-  if (getTagValue(imovelXML, 'SalaoJogos') === '1') difs.push('Segurança / Lazer');
-  
-  // From Description keywords
+  if (getTagValue(imovelXML, 'Churrasqueira') === '1') difs.push('Churrasqueira');
+  if (getTagValue(imovelXML, 'Piscina') === '1') difs.push('Piscina');
+  if (getTagValue(imovelXML, 'Sauna') === '1') difs.push('Sauna');
+  if (getTagValue(imovelXML, 'Hidromassagem') === '1') difs.push('Hidromassagem');
+  if (getTagValue(imovelXML, 'Lareira') === '1') difs.push('Lareira');
+  if (getTagValue(imovelXML, 'Escritorio') === '1') difs.push('Escritório');
+  if (getTagValue(imovelXML, 'Jardim') === '1') difs.push('Jardim');
+  if (getTagValue(imovelXML, 'Quintal') === '1') difs.push('Quintal');
+  if (getTagValue(imovelXML, 'Playground') === '1') difs.push('Playground');
+  if (getTagValue(imovelXML, 'SalaoFestas') === '1') difs.push('Salão de Festas');
+  if (getTagValue(imovelXML, 'SalaoJogos') === '1') difs.push('Salão de Jogos');
+  if (getTagValue(imovelXML, 'SalaGinastica') === '1') difs.push('Academia / Fitness');
+  if (getTagValue(imovelXML, 'QuadraTenis') === '1') difs.push('Quadra de Tênis');
+  if (getTagValue(imovelXML, 'QuadraPoliEsportiva') === '1') difs.push('Quadra Poliesportiva');
+  if (getTagValue(imovelXML, 'Varanda') === '1' || getTagValue(imovelXML, 'Terraco') === '1') difs.push('Varanda / Terraço');
+  if (getTagValue(imovelXML, 'ArmarioCozinha') === '1') difs.push('Armários Planejados');
+  if (getTagValue(imovelXML, 'SegurancaInterna') === '1') difs.push('Segurança 24h');
+  if (getTagValue(imovelXML, 'AceitaPermuta') === '1') difs.push('Aceita Permuta');
+  if (getTagValue(imovelXML, 'AreaServico') === '1') difs.push('Área de Serviço');
+  if (getTagValue(imovelXML, 'LavanderiaColetiva') === '1') difs.push('Lavanderia Coletiva');
+
+  // From Description keywords (evitando duplicados)
   const descLower = (desc || '').toLowerCase();
-  if (descLower.includes('sauna')) difs.push('Sauna');
-  if (descLower.includes('armário') || descLower.includes('planejado')) difs.push('Armários Planejados');
-  if (descLower.includes('serviço') || descLower.includes('lavanderia')) difs.push('Área de Serviço');
-  if (descLower.includes('permuta')) difs.push('Aceita Permuta');
-  if (descLower.includes('varanda') || descLower.includes('sacada')) {
-    if (!difs.includes('Varanda')) difs.push('Varanda');
-  }
-  if (descLower.includes('academia') || descLower.includes('fitness') || descLower.includes('ginástica')) {
-    if (!difs.includes('Academia / Fitness')) difs.push('Academia / Fitness');
-  }
-  if (descLower.includes('quadra')) difs.push('Quadra Esportiva');
-  if (descLower.includes('quintal') || descLower.includes('jardim')) difs.push('Quintal Integrado');
-  if (descLower.includes('acabamento diferenciado') || descLower.includes('alto padrão') || descLower.includes('premium')) {
-    if (!difs.includes('Acabamento Premium')) difs.push('Acabamento Premium');
-  }
+  
+  const addIfKeywordMatched = (keyword, displayVal) => {
+    if (descLower.includes(keyword) && !difs.includes(displayVal)) {
+      difs.push(displayVal);
+    }
+  };
+
+  addIfKeywordMatched('sauna', 'Sauna');
+  addIfKeywordMatched('armário', 'Armários Planejados');
+  addIfKeywordMatched('planejado', 'Armários Planejados');
+  addIfKeywordMatched('serviço', 'Área de Serviço');
+  addIfKeywordMatched('lavanderia', 'Área de Serviço');
+  addIfKeywordMatched('permuta', 'Aceita Permuta');
+  addIfKeywordMatched('varanda', 'Varanda / Terraço');
+  addIfKeywordMatched('sacada', 'Varanda / Terraço');
+  addIfKeywordMatched('academia', 'Academia / Fitness');
+  addIfKeywordMatched('fitness', 'Academia / Fitness');
+  addIfKeywordMatched('ginástica', 'Academia / Fitness');
+  addIfKeywordMatched('quadra', 'Quadra Esportiva');
+  addIfKeywordMatched('quintal', 'Quintal Integrado');
+  addIfKeywordMatched('jardim', 'Jardim');
+  addIfKeywordMatched('acabamento diferenciado', 'Acabamento Premium');
+  addIfKeywordMatched('alto padrão', 'Acabamento Premium');
+  addIfKeywordMatched('premium', 'Acabamento Premium');
+  addIfKeywordMatched('closet', 'Closet');
+  addIfKeywordMatched('hidro', 'Hidromassagem');
   
   // Default fallbacks if empty
   if (difs.length === 0) {
@@ -126,7 +154,7 @@ function extractDifferentials(imovelXML, desc) {
     difs.push('Acabamento Premium');
   }
   
-  return difs.slice(0, 5);
+  return difs.slice(0, 15);
 }
 
 // Função de parse principal
@@ -182,8 +210,11 @@ function parseXMLFeed(xmlData) {
     // Especificações
     const area = parseInt(getTagValue(imovelXML, 'AreaUtil', '0'), 10) || parseInt(getTagValue(imovelXML, 'AreaTotal', '0'), 10) || 0;
     const quartos = parseInt(getTagValue(imovelXML, 'QtdDormitorios', '0'), 10);
+    const suites = parseInt(getTagValue(imovelXML, 'QtdSuites', '0'), 10);
+    const salas = parseInt(getTagValue(imovelXML, 'QtdSalas', '0'), 10);
     const banheiros = parseInt(getTagValue(imovelXML, 'QtdBanheiros', '0'), 10) || 1;
     const vagas = parseInt(getTagValue(imovelXML, 'QtdVagas', '0'), 10);
+    const condominio = parseFloat(getTagValue(imovelXML, 'PrecoCondominio', '0')) || 0;
     
     // Tag
     const tag = getPropertyTag(preco, finalidade, tipo, codigo);
@@ -216,7 +247,10 @@ function parseXMLFeed(xmlData) {
       tipo,
       finalidade,
       preco,
+      condominio,
       quartos,
+      suites,
+      salas,
       banheiros,
       vagas,
       area,

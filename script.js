@@ -316,11 +316,14 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="imovel-loc">📍 ${imovel.bairro}, Campinas – SP</p>
           <div class="imovel-sep" aria-hidden="true"></div>
           <ul class="imovel-features" aria-label="Características">
-            <li>🛏 ${imovel.quartos} quartos</li>
-            <li>🚿 ${imovel.banheiros} banheiros</li>
+            <li>🛏 ${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</li>
+            <li>🚿 ${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</li>
             <li>📐 ${imovel.area} m²</li>
           </ul>
-          <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
+          <p class="imovel-preco">
+            ${formatBRL(imovel.preco, imovel.finalidade)}
+            ${imovel.condominio > 0 ? `<span style="font-size:0.75rem;color:var(--text3);font-weight:300;display:block;margin-top:2px;">+ Cond: R$ ${imovel.condominio.toLocaleString('pt-BR')}</span>` : ''}
+          </p>
           <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
         </div>
       `;
@@ -416,11 +419,14 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class="imovel-loc">📍 ${imovel.bairro}, Campinas – SP</p>
             <div class="imovel-sep" aria-hidden="true"></div>
             <ul class="imovel-features" aria-label="Características">
-              <li>🛏 ${imovel.quartos} quartos</li>
-              <li>🚿 ${imovel.banheiros} banheiros</li>
+              <li>🛏 ${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</li>
+              <li>🚿 ${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</li>
               <li>📐 ${imovel.area} m²</li>
             </ul>
-            <p class="imovel-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
+            <p class="imovel-preco">
+              ${formatBRL(imovel.preco, imovel.finalidade)}
+              ${imovel.condominio > 0 ? `<span style="font-size:0.75rem;color:var(--text3);font-weight:300;display:block;margin-top:2px;">+ Cond: R$ ${imovel.condominio.toLocaleString('pt-BR')}</span>` : ''}
+            </p>
             <a class="imovel-link" href="detalhes.html?ref=${imovel.codigo}" aria-label="Ver detalhes de ${imovel.nome}">Ver detalhes →</a>
           </div>
         `;
@@ -572,7 +578,10 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="detalhe-kicker">${imovel.tipo} · ${imovel.finalidade === 'aluguel' ? 'Locação de Alto Padrão' : 'Venda Exclusiva'} · Ref: ${imovel.codigo}</span>
               <h1 class="detalhe-title">${imovel.nome}</h1>
               <p class="detalhe-bairro">📍 ${imovel.bairro}, Campinas – SP</p>
-              <p class="detalhe-preco">${formatBRL(imovel.preco, imovel.finalidade)}</p>
+              <p class="detalhe-preco">
+                ${formatBRL(imovel.preco, imovel.finalidade)}
+                ${imovel.condominio > 0 ? `<span style="font-size:1.15rem;color:var(--text3);font-weight:300;margin-left:12px;">+ Condomínio: R$ ${imovel.condominio.toLocaleString('pt-BR')}/mês</span>` : ''}
+              </p>
             </div>
 
             <!-- Specs Grid -->
@@ -584,17 +593,17 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               <div class="spec-box">
                 <span>🛏</span>
-                <p class="spec-value">${imovel.quartos} suítes</p>
+                <p class="spec-value">${imovel.quartos} ${imovel.quartos === 1 ? 'quarto' : 'quartos'}${imovel.suites > 0 ? ` (${imovel.suites} ${imovel.suites === 1 ? 'suíte' : 'suítes'})` : ''}</p>
                 <p class="spec-label">Dormitórios</p>
               </div>
               <div class="spec-box">
                 <span>🚿</span>
-                <p class="spec-value">${imovel.banheiros} banheiros</p>
+                <p class="spec-value">${imovel.banheiros} ${imovel.banheiros === 1 ? 'banheiro' : 'banheiros'}</p>
                 <p class="spec-label">Banheiros</p>
               </div>
               <div class="spec-box">
                 <span>🚗</span>
-                <p class="spec-value">${imovel.vagas} vagas</p>
+                <p class="spec-value">${imovel.vagas} ${imovel.vagas === 1 ? 'vaga' : 'vagas'}</p>
                 <p class="spec-label">Vagas</p>
               </div>
             </div>

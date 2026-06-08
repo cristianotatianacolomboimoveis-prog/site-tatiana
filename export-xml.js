@@ -76,10 +76,11 @@ database.forEach(imovel => {
         <UsageType>${usage}</UsageType>
         <PropertyType>${propType}</PropertyType>
         <ListPrice>${imovel.preco}</ListPrice>
+        <CondominiumFee>${imovel.condominio || 0}</CondominiumFee>
         <LivingArea unit="square metres">${imovel.area}</LivingArea>
         <Bedrooms>${imovel.quartos}</Bedrooms>
         <Bathrooms>${imovel.banheiros}</Bathrooms>
-        <Suites>${imovel.quartos}</Suites>
+        <Suites>${imovel.suites || 0}</Suites>
         <Garage>${imovel.vagas}</Garage>
         <Description><![CDATA[${cleanDesc}]]></Description>
         ${featuresXML}
