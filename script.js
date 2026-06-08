@@ -463,8 +463,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (detailContainer && typeof IMOVEIS_DATABASE !== 'undefined') {
     const urlParams = new URLSearchParams(window.location.search);
-    // Suporta ?id=N (formato novo) e ?codigo=AP0123 (formato legado Kenlo/Ads)
-    const codigoParam = urlParams.get('codigo');
+    // Localiza o imóvel a partir de qualquer formato de URL suportado:
+    //   1) ?id=N            — formato novo
+    //   2) ?codigo=AP0123   — formato legado Kenlo (querystring)
+    //   3) /imovel/<slug>/<CODIGO[-SUFIXO]>?from=...  — formato Kenlo (path)
+    let codigoFromPath = null;
+    const pathMatch = window.location.pathname.match(/^\/imovel\/[^/]+\/([A-Za-z]{2}\d{3,5})/i);
+    if (pathMatch) codigoFromPath = pathMatch[1];
+    const codigoParam = urlParams.get('codigo') || codigoFromPath;
     let imovel;
     if (codigoParam) {
       imovel = IMOVEIS_DATABASE.find(item =>
