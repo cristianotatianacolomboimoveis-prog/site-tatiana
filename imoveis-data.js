@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 09/06/2026 11:57:33
+   Data de Atualização: 10/06/2026 12:18:10
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -217,58 +217,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 5,
-    "codigo": "AP0378",
-    "nome": "Apartamento no Jardim Guanabara",
-    "bairro": "Jardim Guanabara",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 230000,
-    "condominio": 391.75,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 0,
-    "salas": 1,
-    "banheiros": 1,
-    "vagas": 0,
-    "area": 41,
-    "tag": "Oportunidade",
-    "desc": "Dona Stella. Apartamento com 1 dormitório à venda, 41 m² por R$ 230.000 - Jardim Guanabara - Campinas/SP. Apartamento com 1 dormitório com armário, banheiro com gabinete, boxe e espelho; sala; cozinha americana com armários planejados; área de serviço. Piso laminado. Prédio com elevador, portaria e mini mercado. Localização privilegiada, próximo à Av. Brasil e Barão de Itapura, infraestrutura em comércio, serviços e transportes. Documentação em ordem para financiamento. Analisa possibilidade de permuta, Agende já sua visita!",
-    "diferenciais": [
-      "Armários Planejados",
-      "Aceita Permuta",
-      "Área de Serviço",
-      "Jardim"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/ef8fd7dea2cb1c817cf313422a0b342d.jpg",
-      "https://images.ingaiasites.com.br/0a261bdad6b804b163e38899f986e9fe.jpg",
-      "https://images.ingaiasites.com.br/d7d985b4ba8abc07c99ee32300652937.jpg",
-      "https://images.ingaiasites.com.br/c873d33156cabdcbc0ebbcb696168273.jpg",
-      "https://images.ingaiasites.com.br/c743cbbbdf57df847259d878825c3c54.jpg",
-      "https://images.ingaiasites.com.br/25820f3213f873ac01a9b14bab690db2.jpg",
-      "https://images.ingaiasites.com.br/392578616947b89656e9b9cf33aa8461.jpg",
-      "https://images.ingaiasites.com.br/3dbbb2592a113f9737e93666497d33dc.jpg",
-      "https://images.ingaiasites.com.br/4d1b3e967bb344a7623f2982b6922fc4.jpg",
-      "https://images.ingaiasites.com.br/102ca2db84436b4a67b4cbc76cd9e0fa.jpg",
-      "https://images.ingaiasites.com.br/46ccb5fc5c122b9b3be1fbd3f802e535.jpg",
-      "https://images.ingaiasites.com.br/2515781f64bff75b8fa83ecd7312abea.jpg",
-      "https://images.ingaiasites.com.br/acad4c08b4f486c835e668639a349174.jpg",
-      "https://images.ingaiasites.com.br/af3e5332378a2be40a75c9efdc636592.jpg",
-      "https://images.ingaiasites.com.br/00d5221b280f58f24afa3b22704ea14d.jpg",
-      "https://images.ingaiasites.com.br/732790ebc81813911823c90fe98f463f.jpg",
-      "https://images.ingaiasites.com.br/3d5e40f9024e5ede05e8e4b3f7c803ca.jpg",
-      "https://images.ingaiasites.com.br/19e6787cd501595083ef328ee2bafa91.jpg",
-      "https://images.ingaiasites.com.br/0aa3819d218fabdd7735dc1877a4addb.jpg",
-      "https://images.ingaiasites.com.br/8d2732565b8b9520b37fee05c9dd0430.jpg",
-      "https://images.ingaiasites.com.br/6ea59ef1b3e784c2fce05b9152a59546.jpg",
-      "https://images.ingaiasites.com.br/f4d4e82831a60caf197691fd985ff6a1.jpg",
-      "https://images.ingaiasites.com.br/441c11cb39ed8cd1eb42047811e932f9.jpg",
-      "https://images.ingaiasites.com.br/2d8ab8d54ec755df926fc258818fc2fd.jpg",
-      "https://images.ingaiasites.com.br/a733b366df6226ee165accb06eba6fef.jpg"
-    ]
-  },
-  {
-    "id": 6,
     "codigo": "AP0397",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -309,7 +257,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "codigo": "AP0428",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -375,7 +323,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "codigo": "SO0056",
     "nome": "Casa de Condomínio no Arboreto dos Jequitibás (Sousas)",
     "bairro": "Arboreto dos Jequitibás (Sousas)",
@@ -503,7 +451,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "codigo": "AP0519",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -574,7 +522,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "codigo": "CA0045",
     "nome": "Casa de Condomínio no Terras do Cancioneiro",
     "bairro": "Terras do Cancioneiro",
@@ -649,7 +597,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "codigo": "AP0534",
     "nome": "Apartamento no Vila Aurocan",
     "bairro": "Vila Aurocan",
@@ -699,7 +647,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "codigo": "AP0539",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -757,7 +705,167 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
+    "id": 12,
+    "codigo": "AP0121",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 680000,
+    "condominio": 1040,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 1,
+    "salas": 1,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 40,
+    "tag": "Oportunidade",
+    "desc": "Este exclusivo apartamento mobiliado no miolo do Cambuí representa a oportunidade perfeita para quem busca sofisticação e praticidade em uma das localizações mais valorizadas de Campinas. Disponível tanto para venda quanto para locação, o imóvel foi planejado no conceito pronto para morar , oferecendo uma sala aconchegante equipada com ar-condicionado, sofá, rack, televisão, espelho que amplia o ambiente. A integração flui para a cozinha completa, que conta com armários planejados, geladeira, forno, cooktop, depurador, micro-ondas e todos os utensílios necessários para o seu dia a dia. O conforto se estende para a área íntima, onde o quarto dispõe de um amplo armário planejado, cama box baú para otimização de espaço, cortina e ar-condicionado. O banheiro possui excelente acabamento com gabinete, box de vidro e espelho, contando ainda com sistema de aquecimento a gás em toda a unidade. Para momentos de relaxamento, a sacada equipada com mesa e cadeiras oferece um espaço agradável e arejado. Inserido em um empreendimento de alto padrão com torre única e apenas 60 unidades, o condomínio garante exclusividade e segurança com portaria 24h. A estrutura de lazer é completa e moderna, dispondo de piscina, academia fitness, fire square, espaço gourmet com churrasqueira e lavanderia. Os moradores ainda contam com Wi-Fi nas áreas comuns, serviços pay-per-use e uma vaga de garagem coberta. Esta é a escolha ideal para quem não abre mão de morar com estilo no coração do Cambuí. Entre em contato agora mesmo para agendarmos sua visita e conhecer este imóvel único.",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/04b8230fc62e3746deed63b87b54693d.jpg",
+      "https://images.ingaiasites.com.br/b06a32e5cbaae481a2dcfddc9c0f4e48.jpg",
+      "https://images.ingaiasites.com.br/dde00b89c5cc944d8eb8763a40b24433.jpg",
+      "https://images.ingaiasites.com.br/29de4181f498e33bf8c160cbd78cd80a.jpg",
+      "https://images.ingaiasites.com.br/c904f2cf5cf5d4b9650cea6f52e36b66.jpg",
+      "https://images.ingaiasites.com.br/f28cd745caec235ebf7343b357f552ec.jpg",
+      "https://images.ingaiasites.com.br/7597686cf61d917d5a853cb00299ec83.jpg",
+      "https://images.ingaiasites.com.br/e3e7acbe751e4127d406b70e4445e5a1.jpg",
+      "https://images.ingaiasites.com.br/3173f5b909cdf582bb123f4c618925e1.jpg",
+      "https://images.ingaiasites.com.br/fac83291fc04b3484b59ec49bd5fba71.jpg",
+      "https://images.ingaiasites.com.br/q1qc3ohqcFLArZalpgSFMZ9K6FtqN4Vz.jpg",
+      "https://images.ingaiasites.com.br/2IjtJyjtn1hE62Uma42KikH7B5xuT6zG.jpg",
+      "https://images.ingaiasites.com.br/6lBRFrVcYGheaPaGDBuFrbKLJBfFHotj.jpg",
+      "https://images.ingaiasites.com.br/nvAZuiMTGNUH7dDELwPTW9wOqDIJFFhj.jpg",
+      "https://images.ingaiasites.com.br/N5o4KpFEKf4yR85UXBtnfX8sOseX6oJp.jpg",
+      "https://images.ingaiasites.com.br/j2kGO1bTfNppWnIDhCeYqWWKIyR3WwWJ.jpg",
+      "https://images.ingaiasites.com.br/Lrzhn7zYwnTL6ywOPS4ah9EDMxEM89Pa.jpg",
+      "https://images.ingaiasites.com.br/7sD1QCWgbZGfAsFaDi11vEu46s09WtVa.jpg",
+      "https://images.ingaiasites.com.br/orWcX6WE08nmoziWLghX1rEoekvmPnqV.jpg",
+      "https://images.ingaiasites.com.br/iourWZHvRh8gDFHsNa3uzQm9cD1pKNTs.jpg",
+      "https://images.ingaiasites.com.br/o6ZZU6zYLtjZ3LdMMUGVzjsAbF7Qiyb2.jpg",
+      "https://images.ingaiasites.com.br/KCxcvH7gjYTfsr7bur0DQjed7rAqIc0z.jpg",
+      "https://images.ingaiasites.com.br/aCKRM2vuOsJRQaAZXVS4bmgPo3zrrN0O.jpg",
+      "https://images.ingaiasites.com.br/G90PnI3R56NygEOE4adYmiZmCLBWulDK.jpg",
+      "https://images.ingaiasites.com.br/A2qRopmOuaeoLA1pifwYNu9vRy7DCvOc.jpg",
+      "https://images.ingaiasites.com.br/vfF4ce4FDteATYxzfxnwy2ZLWXRaFL2f.jpg",
+      "https://images.ingaiasites.com.br/f10mnJTeVv0MpYsGCmNBIpcjru2eVJoh.jpg",
+      "https://images.ingaiasites.com.br/B9SwPZZ8Nt4c0vq1OqSnHIVJYS2kjunQ.jpg",
+      "https://images.ingaiasites.com.br/fOjYtsbKGphu7nf6uXVyury5gfcYzpbP.jpg",
+      "https://images.ingaiasites.com.br/ovJkHw9BV0nquNhuEK3f5xi7ROKdjS71.jpg",
+      "https://images.ingaiasites.com.br/4oK3auQk5krZ1OMlMMN6sEOLLIXU8MmL.jpg",
+      "https://images.ingaiasites.com.br/GHcc4qMeGIQIJCYMIZJKp2mjb9N4PCjb.jpg",
+      "https://images.ingaiasites.com.br/GPLX8wmIhfTAnW1kh9HsHGdIdSldLrfa.jpg",
+      "https://images.ingaiasites.com.br/ODc0gnNc4CxZuNX2KECqK52cc1GiQUJR.jpg"
+    ]
+  },
+  {
     "id": 13,
+    "codigo": "AP0017",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 630000,
+    "condominio": 1366.37,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 2,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 48,
+    "tag": "Oportunidade",
+    "desc": "Habitat Cambuí - Apartamento com 1 dormitório à venda, 48 m² por R$ 630.000 - Cambuí - Campinas/SP. Apartamento mobiliado com sofá, mesa de jantar, rack; ar condicionado na sala e no quarto; cama, armário e criado no quarto; cozinha planejada, geladeira, micro-ondas e fogão; banheiro com gabinete, boxe e espelho; área de serviço com armário. Edifício alto padrão em localização privilegiada, próximo à Starbucks Cambuí. Condomínio com piscina, fitness, sauna, espaço gourmet e salas de reunião. Serviços inclusos: recepção e manobrista 24h; manutenção básica de hidráulica e elétrica; sistema de aquecimento central de água no banheiro; água e gás. Serviços Pay Per Use: limpeza (cobrada de acordo com a solicitação do morador); manutenções técnicas. OBS: os serviços listados acima estão sujeitos à mudanças. Oportunidade para investidor, o imóvel está locado.",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Piscina",
+      "Sauna",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Academia / Fitness",
+      "Acabamento Premium"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/ff4f411e89cbce4f540828bac0256c11.jpg",
+      "https://images.ingaiasites.com.br/4d877e6e240eff46e46f5894e1402e3a.jpg",
+      "https://images.ingaiasites.com.br/6cb96485f637a2edffedf3a3281d046a.jpg",
+      "https://images.ingaiasites.com.br/205abba5f727ca52452b929024bd6c8e.jpg",
+      "https://images.ingaiasites.com.br/10b4415f929326073f1f70f9823fa45b.jpg",
+      "https://images.ingaiasites.com.br/16805a7cabb1efe9f45ef290e67ecf27.jpg",
+      "https://images.ingaiasites.com.br/b59c869a2ae9aee1c6b6ab0ffdab5dbc.jpg",
+      "https://images.ingaiasites.com.br/36833fefd0ce2f5dc14619801a3ab00c.jpg",
+      "https://images.ingaiasites.com.br/c9c9c50268bf6dc2cd1a8f93a16ef7f4.jpg",
+      "https://images.ingaiasites.com.br/9e659019b830d6c329e94fbf6481042e.jpg",
+      "https://images.ingaiasites.com.br/faad780dd660f1002c477153cacbfdcf.jpg",
+      "https://images.ingaiasites.com.br/eea534e98347c6b1ea5bb0ab6806f76b.jpg",
+      "https://images.ingaiasites.com.br/EPTwDTLQJgttJ7Pp2vhIu6NzJ00qKPNc.jpg",
+      "https://images.ingaiasites.com.br/KUijsgOnHk8xf7LI1bu3GwMXeGQ59RkT.jpg",
+      "https://images.ingaiasites.com.br/c8HpW3YaKytSxSvrmU6gyIF1lTszntOB.jpg",
+      "https://images.ingaiasites.com.br/wSouxzMOjhQhKHgNwTfkus9euPgbLipU.jpg",
+      "https://images.ingaiasites.com.br/lglHNEZ0u8doZQ1B4XVhT1Bj5BcpjE82.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "codigo": "AP0081",
+    "nome": "Apartamento no Centro",
+    "bairro": "Centro",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 670000,
+    "condominio": 758.17,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 1,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 47,
+    "tag": "Oportunidade",
+    "desc": "Apartamento no Unic Cambuí, com 1 dormitório, 47 m² - venda por R$ 670.000 ou aluguel por R$ 4.660/mês. Mobiliado conforme as fotos exceto geladeira. Sala com ar condicionado, cozinha americana com armários; área de serviço; sacada com pia, gabinete e fechamento de vidro; quarto com armário, banheiro com gabinete, box, espelho e chuveiro com aquecimento à gás. Apartamento MOBILIADO conforme as fotos (EXCETO GELADEIRA). Uma vaga de garagem descoberta. Condomínio com portaria 24h, piscina, academia, espaço gourmet, churrasqueira e forno de pizza. Localização privilegiada no Cambuí, próximo ao Centro de Convivência, Pão de Açúcar e Pizzaria Bráz. Agenda já sua visita!!",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/4921167d00a7161ca26b86ba15b3df3e.jpg",
+      "https://images.ingaiasites.com.br/6420c92130190024c148c139958bf156.jpg",
+      "https://images.ingaiasites.com.br/ff2a79e3d9f479cb1fd343b7f4e5319c.jpg",
+      "https://images.ingaiasites.com.br/977f42fe15067857a8f440bdbd753f12.jpg",
+      "https://images.ingaiasites.com.br/c3b12383dd56eb33a8f9c0e105457209.jpg",
+      "https://images.ingaiasites.com.br/9a1aa44b898229df99ca541473c2df9c.jpg",
+      "https://images.ingaiasites.com.br/5bc971d05e2ccf3a107950b3eaf7ba2c.jpg",
+      "https://images.ingaiasites.com.br/07445c35f15f985056127878a26f7a19.jpg",
+      "https://images.ingaiasites.com.br/48ed157027826220dfaa2a2445cfab64.jpg",
+      "https://images.ingaiasites.com.br/80cc3ffbb2b54d392d53f2568c7800cb.jpg",
+      "https://images.ingaiasites.com.br/a8dfade4564acfe391bf9faaeb8cc804.jpg",
+      "https://images.ingaiasites.com.br/d93f7580dd0f9586910f1bd8b8cc7b3d.jpg",
+      "https://images.ingaiasites.com.br/58a5eafb8e4f05b887c7209047fbf1ca.jpg",
+      "https://images.ingaiasites.com.br/75495dd16a3a9c94ccd5904b4dca5950.jpg",
+      "https://images.ingaiasites.com.br/17134221b6c98a474533436d0cbca524.jpg",
+      "https://images.ingaiasites.com.br/f380b1750f226c507d0042053115cae2.jpg",
+      "https://images.ingaiasites.com.br/CzBZvCycalzzTDwZ3c3kkFLFw5xVDJ33.jpg",
+      "https://images.ingaiasites.com.br/f1sWieV2vkV3qkK33qY4vg6jVNQcsyAa.jpg"
+    ]
+  },
+  {
+    "id": 15,
     "codigo": "SA0074",
     "nome": "Conjunto Comercial/sala no Cambuí",
     "bairro": "Cambuí",
@@ -788,7 +896,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 14,
+    "id": 16,
     "codigo": "TE0017",
     "nome": "Loteamento/Condomínio no Observatório",
     "bairro": "Observatório",
@@ -835,7 +943,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 15,
+    "id": 17,
     "codigo": "AP0603",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -882,7 +990,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "codigo": "AP0612",
     "nome": "Apartamento no Ponte Preta",
     "bairro": "Ponte Preta",
@@ -951,7 +1059,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "codigo": "AP0616",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1018,7 +1126,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "codigo": "AP0621",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1062,7 +1170,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "codigo": "AP0523",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1136,72 +1244,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 20,
-    "codigo": "AP0121",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 680000,
-    "condominio": 1040,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 1,
-    "salas": 1,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 40,
-    "tag": "Oportunidade",
-    "desc": "Este exclusivo apartamento mobiliado no miolo do Cambuí representa a oportunidade perfeita para quem busca sofisticação e praticidade em uma das localizações mais valorizadas de Campinas. Disponível tanto para venda quanto para locação, o imóvel foi planejado no conceito pronto para morar , oferecendo uma sala aconchegante equipada com ar-condicionado, sofá, rack, televisão, espelho que amplia o ambiente. A integração flui para a cozinha completa, que conta com armários planejados, geladeira, forno, cooktop, depurador, micro-ondas e todos os utensílios necessários para o seu dia a dia. O conforto se estende para a área íntima, onde o quarto dispõe de um amplo armário planejado, cama box baú para otimização de espaço, cortina e ar-condicionado. O banheiro possui excelente acabamento com gabinete, box de vidro e espelho, contando ainda com sistema de aquecimento a gás em toda a unidade. Para momentos de relaxamento, a sacada equipada com mesa e cadeiras oferece um espaço agradável e arejado. Inserido em um empreendimento de alto padrão com torre única e apenas 60 unidades, o condomínio garante exclusividade e segurança com portaria 24h. A estrutura de lazer é completa e moderna, dispondo de piscina, academia fitness, fire square, espaço gourmet com churrasqueira e lavanderia. Os moradores ainda contam com Wi-Fi nas áreas comuns, serviços pay-per-use e uma vaga de garagem coberta. Esta é a escolha ideal para quem não abre mão de morar com estilo no coração do Cambuí. Entre em contato agora mesmo para agendarmos sua visita e conhecer este imóvel único.",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Churrasqueira",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness",
-      "Acabamento Premium"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/04b8230fc62e3746deed63b87b54693d.jpg",
-      "https://images.ingaiasites.com.br/b06a32e5cbaae481a2dcfddc9c0f4e48.jpg",
-      "https://images.ingaiasites.com.br/dde00b89c5cc944d8eb8763a40b24433.jpg",
-      "https://images.ingaiasites.com.br/29de4181f498e33bf8c160cbd78cd80a.jpg",
-      "https://images.ingaiasites.com.br/c904f2cf5cf5d4b9650cea6f52e36b66.jpg",
-      "https://images.ingaiasites.com.br/f28cd745caec235ebf7343b357f552ec.jpg",
-      "https://images.ingaiasites.com.br/7597686cf61d917d5a853cb00299ec83.jpg",
-      "https://images.ingaiasites.com.br/e3e7acbe751e4127d406b70e4445e5a1.jpg",
-      "https://images.ingaiasites.com.br/3173f5b909cdf582bb123f4c618925e1.jpg",
-      "https://images.ingaiasites.com.br/fac83291fc04b3484b59ec49bd5fba71.jpg",
-      "https://images.ingaiasites.com.br/q1qc3ohqcFLArZalpgSFMZ9K6FtqN4Vz.jpg",
-      "https://images.ingaiasites.com.br/2IjtJyjtn1hE62Uma42KikH7B5xuT6zG.jpg",
-      "https://images.ingaiasites.com.br/6lBRFrVcYGheaPaGDBuFrbKLJBfFHotj.jpg",
-      "https://images.ingaiasites.com.br/nvAZuiMTGNUH7dDELwPTW9wOqDIJFFhj.jpg",
-      "https://images.ingaiasites.com.br/N5o4KpFEKf4yR85UXBtnfX8sOseX6oJp.jpg",
-      "https://images.ingaiasites.com.br/j2kGO1bTfNppWnIDhCeYqWWKIyR3WwWJ.jpg",
-      "https://images.ingaiasites.com.br/Lrzhn7zYwnTL6ywOPS4ah9EDMxEM89Pa.jpg",
-      "https://images.ingaiasites.com.br/7sD1QCWgbZGfAsFaDi11vEu46s09WtVa.jpg",
-      "https://images.ingaiasites.com.br/orWcX6WE08nmoziWLghX1rEoekvmPnqV.jpg",
-      "https://images.ingaiasites.com.br/iourWZHvRh8gDFHsNa3uzQm9cD1pKNTs.jpg",
-      "https://images.ingaiasites.com.br/o6ZZU6zYLtjZ3LdMMUGVzjsAbF7Qiyb2.jpg",
-      "https://images.ingaiasites.com.br/KCxcvH7gjYTfsr7bur0DQjed7rAqIc0z.jpg",
-      "https://images.ingaiasites.com.br/aCKRM2vuOsJRQaAZXVS4bmgPo3zrrN0O.jpg",
-      "https://images.ingaiasites.com.br/G90PnI3R56NygEOE4adYmiZmCLBWulDK.jpg",
-      "https://images.ingaiasites.com.br/A2qRopmOuaeoLA1pifwYNu9vRy7DCvOc.jpg",
-      "https://images.ingaiasites.com.br/vfF4ce4FDteATYxzfxnwy2ZLWXRaFL2f.jpg",
-      "https://images.ingaiasites.com.br/f10mnJTeVv0MpYsGCmNBIpcjru2eVJoh.jpg",
-      "https://images.ingaiasites.com.br/B9SwPZZ8Nt4c0vq1OqSnHIVJYS2kjunQ.jpg",
-      "https://images.ingaiasites.com.br/fOjYtsbKGphu7nf6uXVyury5gfcYzpbP.jpg",
-      "https://images.ingaiasites.com.br/ovJkHw9BV0nquNhuEK3f5xi7ROKdjS71.jpg",
-      "https://images.ingaiasites.com.br/4oK3auQk5krZ1OMlMMN6sEOLLIXU8MmL.jpg",
-      "https://images.ingaiasites.com.br/GHcc4qMeGIQIJCYMIZJKp2mjb9N4PCjb.jpg",
-      "https://images.ingaiasites.com.br/GPLX8wmIhfTAnW1kh9HsHGdIdSldLrfa.jpg",
-      "https://images.ingaiasites.com.br/ODc0gnNc4CxZuNX2KECqK52cc1GiQUJR.jpg"
-    ]
-  },
-  {
-    "id": 21,
+    "id": 22,
     "codigo": "LO0001",
     "nome": "Loja/Salão no Swiss Park",
     "bairro": "Swiss Park",
@@ -1233,7 +1276,47 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 22,
+    "id": 23,
+    "codigo": "SA0078",
+    "nome": "Conjunto Comercial/sala no Centro",
+    "bairro": "Centro",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 280000,
+    "condominio": 700,
+    "tipoOferta": "1",
+    "quartos": 0,
+    "suites": 0,
+    "salas": 0,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 36,
+    "tag": "Oportunidade",
+    "desc": "Sala comercial à venda no Setin Midtown Office, 36 m² por R$ 280.000 - Centro - Campinas/SP. Últimas unidades direto com a incorporadora. Localização privilegiada na esquina da Avenida Aquidaban com a Rua José Paulino, vizinho ao bairro Cambuí, com fácil acesso às Rodovias D. Pedro I e Santos Dumont. Sala com sacada, 1 banheiro, 1 vaga de garagem com manobrista, recepção 24 horas e salas de reunião. Unidades de 33 a 38m² com possibilidade de junção. Agende sua visita!! Os valores estão sujeitos a alteração sem aviso prévio!",
+    "diferenciais": [
+      "Varanda / Terraço"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/fe4312caae0f782b032a039559fde29a.jpg",
+      "https://images.ingaiasites.com.br/b355c76c1fb359eaeecb85c37e1cddb1.jpg",
+      "https://images.ingaiasites.com.br/00f6a01504c0d7e9e1d582c24948da47.jpg",
+      "https://images.ingaiasites.com.br/d7ee3d430596a90c693accd2f2f72fa9.jpg",
+      "https://images.ingaiasites.com.br/bf02697e7c4d74c968b2f2bf18452c41.jpg",
+      "https://images.ingaiasites.com.br/bd40d6805ecf2dc7cb6c51fa816a1d66.jpg",
+      "https://images.ingaiasites.com.br/29ced19cea03e4950a3654e26757343f.jpg",
+      "https://images.ingaiasites.com.br/106e826b72a6fa8fd5f8b15794b2017e.jpg",
+      "https://images.ingaiasites.com.br/cb5c7600e6cede97f6af42bc95b3a848.jpg",
+      "https://images.ingaiasites.com.br/d08bedc8e4eb739c02d003b83beb6f73.jpg",
+      "https://images.ingaiasites.com.br/6cd949babda112825c46369211af9764.jpg",
+      "https://images.ingaiasites.com.br/6f6c981595e731f8e3462d261e82e33e.jpg",
+      "https://images.ingaiasites.com.br/11f70f9dd5757f28123cd8817f5e53e2.jpg",
+      "https://images.ingaiasites.com.br/63d9b7c0f85c095321d751673eccc761.jpg",
+      "https://images.ingaiasites.com.br/1aa8c4e66d85ebb3dbc0f32256cd364c.jpg",
+      "https://images.ingaiasites.com.br/d62fec626d6b397852386f7a11e3708d.jpg"
+    ]
+  },
+  {
+    "id": 24,
     "codigo": "AP0440",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1295,7 +1378,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "codigo": "AP0359",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1367,7 +1450,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "codigo": "AP0363",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -1417,101 +1500,6 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/a8fe24689fb0a54fe4685b3bfe4c7910.jpg",
       "https://images.ingaiasites.com.br/d15a89ecd2e9b64e595ec845653ae216.jpg",
       "https://images.ingaiasites.com.br/3773e485207a623c3b13c64dbe0af620.jpg"
-    ]
-  },
-  {
-    "id": 25,
-    "codigo": "AP0017",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 630000,
-    "condominio": 1366.37,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 0,
-    "salas": 2,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 48,
-    "tag": "Oportunidade",
-    "desc": "Habitat Cambuí - Apartamento com 1 dormitório à venda, 48 m² por R$ 630.000 - Cambuí - Campinas/SP. Apartamento mobiliado com sofá, mesa de jantar, rack; ar condicionado na sala e no quarto; cama, armário e criado no quarto; cozinha planejada, geladeira, micro-ondas e fogão; banheiro com gabinete, boxe e espelho; área de serviço com armário. Edifício alto padrão em localização privilegiada, próximo à Starbucks Cambuí. Condomínio com piscina, fitness, sauna, espaço gourmet e salas de reunião. Serviços inclusos: recepção e manobrista 24h; manutenção básica de hidráulica e elétrica; sistema de aquecimento central de água no banheiro; água e gás. Serviços Pay Per Use: limpeza (cobrada de acordo com a solicitação do morador); manutenções técnicas. OBS: os serviços listados acima estão sujeitos à mudanças. Oportunidade para investidor, o imóvel está locado.",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Piscina",
-      "Sauna",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Academia / Fitness",
-      "Acabamento Premium"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/ff4f411e89cbce4f540828bac0256c11.jpg",
-      "https://images.ingaiasites.com.br/4d877e6e240eff46e46f5894e1402e3a.jpg",
-      "https://images.ingaiasites.com.br/6cb96485f637a2edffedf3a3281d046a.jpg",
-      "https://images.ingaiasites.com.br/205abba5f727ca52452b929024bd6c8e.jpg",
-      "https://images.ingaiasites.com.br/10b4415f929326073f1f70f9823fa45b.jpg",
-      "https://images.ingaiasites.com.br/16805a7cabb1efe9f45ef290e67ecf27.jpg",
-      "https://images.ingaiasites.com.br/b59c869a2ae9aee1c6b6ab0ffdab5dbc.jpg",
-      "https://images.ingaiasites.com.br/36833fefd0ce2f5dc14619801a3ab00c.jpg",
-      "https://images.ingaiasites.com.br/c9c9c50268bf6dc2cd1a8f93a16ef7f4.jpg",
-      "https://images.ingaiasites.com.br/9e659019b830d6c329e94fbf6481042e.jpg",
-      "https://images.ingaiasites.com.br/faad780dd660f1002c477153cacbfdcf.jpg",
-      "https://images.ingaiasites.com.br/eea534e98347c6b1ea5bb0ab6806f76b.jpg",
-      "https://images.ingaiasites.com.br/EPTwDTLQJgttJ7Pp2vhIu6NzJ00qKPNc.jpg",
-      "https://images.ingaiasites.com.br/KUijsgOnHk8xf7LI1bu3GwMXeGQ59RkT.jpg",
-      "https://images.ingaiasites.com.br/c8HpW3YaKytSxSvrmU6gyIF1lTszntOB.jpg",
-      "https://images.ingaiasites.com.br/wSouxzMOjhQhKHgNwTfkus9euPgbLipU.jpg",
-      "https://images.ingaiasites.com.br/lglHNEZ0u8doZQ1B4XVhT1Bj5BcpjE82.jpg"
-    ]
-  },
-  {
-    "id": 26,
-    "codigo": "AP0081",
-    "nome": "Apartamento no Centro",
-    "bairro": "Centro",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 670000,
-    "condominio": 758.17,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 0,
-    "salas": 1,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 47,
-    "tag": "Oportunidade",
-    "desc": "Apartamento no Unic Cambuí, com 1 dormitório, 47 m² - venda por R$ 670.000 ou aluguel por R$ 4.660/mês. Mobiliado conforme as fotos exceto geladeira. Sala com ar condicionado, cozinha americana com armários; área de serviço; sacada com pia, gabinete e fechamento de vidro; quarto com armário, banheiro com gabinete, box, espelho e chuveiro com aquecimento à gás. Apartamento MOBILIADO conforme as fotos (EXCETO GELADEIRA). Uma vaga de garagem descoberta. Condomínio com portaria 24h, piscina, academia, espaço gourmet, churrasqueira e forno de pizza. Localização privilegiada no Cambuí, próximo ao Centro de Convivência, Pão de Açúcar e Pizzaria Bráz. Agenda já sua visita!!",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Churrasqueira",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/4921167d00a7161ca26b86ba15b3df3e.jpg",
-      "https://images.ingaiasites.com.br/6420c92130190024c148c139958bf156.jpg",
-      "https://images.ingaiasites.com.br/ff2a79e3d9f479cb1fd343b7f4e5319c.jpg",
-      "https://images.ingaiasites.com.br/977f42fe15067857a8f440bdbd753f12.jpg",
-      "https://images.ingaiasites.com.br/c3b12383dd56eb33a8f9c0e105457209.jpg",
-      "https://images.ingaiasites.com.br/9a1aa44b898229df99ca541473c2df9c.jpg",
-      "https://images.ingaiasites.com.br/5bc971d05e2ccf3a107950b3eaf7ba2c.jpg",
-      "https://images.ingaiasites.com.br/07445c35f15f985056127878a26f7a19.jpg",
-      "https://images.ingaiasites.com.br/48ed157027826220dfaa2a2445cfab64.jpg",
-      "https://images.ingaiasites.com.br/80cc3ffbb2b54d392d53f2568c7800cb.jpg",
-      "https://images.ingaiasites.com.br/a8dfade4564acfe391bf9faaeb8cc804.jpg",
-      "https://images.ingaiasites.com.br/d93f7580dd0f9586910f1bd8b8cc7b3d.jpg",
-      "https://images.ingaiasites.com.br/58a5eafb8e4f05b887c7209047fbf1ca.jpg",
-      "https://images.ingaiasites.com.br/75495dd16a3a9c94ccd5904b4dca5950.jpg",
-      "https://images.ingaiasites.com.br/17134221b6c98a474533436d0cbca524.jpg",
-      "https://images.ingaiasites.com.br/f380b1750f226c507d0042053115cae2.jpg",
-      "https://images.ingaiasites.com.br/CzBZvCycalzzTDwZ3c3kkFLFw5xVDJ33.jpg",
-      "https://images.ingaiasites.com.br/f1sWieV2vkV3qkK33qY4vg6jVNQcsyAa.jpg"
     ]
   },
   {
@@ -1791,46 +1779,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 31,
-    "codigo": "SA0078",
-    "nome": "Conjunto Comercial/sala no Centro",
-    "bairro": "Centro",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 280000,
-    "condominio": 700,
-    "tipoOferta": "1",
-    "quartos": 0,
-    "suites": 0,
-    "salas": 0,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 36,
-    "tag": "Oportunidade",
-    "desc": "Sala comercial à venda no Setin Midtown Office, 36 m² por R$ 280.000 - Centro - Campinas/SP. Últimas unidades direto com a incorporadora. Localização privilegiada na esquina da Avenida Aquidaban com a Rua José Paulino, vizinho ao bairro Cambuí, com fácil acesso às Rodovias D. Pedro I e Santos Dumont. Sala com sacada, 1 banheiro, 1 vaga de garagem com manobrista, recepção 24 horas e salas de reunião. Unidades de 33 a 38m² com possibilidade de junção. Agende sua visita!! Os valores estão sujeitos a alteração sem aviso prévio!",
-    "diferenciais": [
-      "Varanda / Terraço"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/fe4312caae0f782b032a039559fde29a.jpg",
-      "https://images.ingaiasites.com.br/b355c76c1fb359eaeecb85c37e1cddb1.jpg",
-      "https://images.ingaiasites.com.br/00f6a01504c0d7e9e1d582c24948da47.jpg",
-      "https://images.ingaiasites.com.br/d7ee3d430596a90c693accd2f2f72fa9.jpg",
-      "https://images.ingaiasites.com.br/bf02697e7c4d74c968b2f2bf18452c41.jpg",
-      "https://images.ingaiasites.com.br/bd40d6805ecf2dc7cb6c51fa816a1d66.jpg",
-      "https://images.ingaiasites.com.br/29ced19cea03e4950a3654e26757343f.jpg",
-      "https://images.ingaiasites.com.br/106e826b72a6fa8fd5f8b15794b2017e.jpg",
-      "https://images.ingaiasites.com.br/cb5c7600e6cede97f6af42bc95b3a848.jpg",
-      "https://images.ingaiasites.com.br/d08bedc8e4eb739c02d003b83beb6f73.jpg",
-      "https://images.ingaiasites.com.br/6cd949babda112825c46369211af9764.jpg",
-      "https://images.ingaiasites.com.br/6f6c981595e731f8e3462d261e82e33e.jpg",
-      "https://images.ingaiasites.com.br/11f70f9dd5757f28123cd8817f5e53e2.jpg",
-      "https://images.ingaiasites.com.br/63d9b7c0f85c095321d751673eccc761.jpg",
-      "https://images.ingaiasites.com.br/1aa8c4e66d85ebb3dbc0f32256cd364c.jpg",
-      "https://images.ingaiasites.com.br/d62fec626d6b397852386f7a11e3708d.jpg"
-    ]
-  },
-  {
-    "id": 32,
     "codigo": "PH0001",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1915,10 +1863,10 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "codigo": "CO0028",
-    "nome": "Apartamento no Galleria",
-    "bairro": "Galleria",
+    "nome": "Apartamento no Fazenda São Quirino",
+    "bairro": "Fazenda São Quirino",
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 2765000,
@@ -1996,7 +1944,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "codigo": "AP0663",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -2072,7 +2020,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "codigo": "AP0685",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2130,7 +2078,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "codigo": "AP0693",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2193,13 +2141,13 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "codigo": "AP0706",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
     "tipo": "apartamento",
     "finalidade": "compra",
-    "preco": 310000,
+    "preco": 350000,
     "condominio": 664.4,
     "tipoOferta": "1",
     "quartos": 1,
@@ -2241,7 +2189,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "codigo": "AP0724",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2306,7 +2254,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 39,
+    "id": 38,
     "codigo": "AP0744",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2372,7 +2320,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 40,
+    "id": 39,
     "codigo": "SA0095",
     "nome": "Conjunto Comercial/sala no Cambuí",
     "bairro": "Cambuí",
@@ -2412,7 +2360,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 41,
+    "id": 40,
     "codigo": "SA0099",
     "nome": "Conjunto Comercial/sala no Barão Geraldo",
     "bairro": "Barão Geraldo",
@@ -2441,7 +2389,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "codigo": "SA0102",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -2481,7 +2429,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 43,
+    "id": 42,
     "codigo": "SA0104",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -2524,7 +2472,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 44,
+    "id": 43,
     "codigo": "AP0795",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -2589,7 +2537,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 45,
+    "id": 44,
     "codigo": "AP0786",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2622,7 +2570,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 46,
+    "id": 45,
     "codigo": "AP0785",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2661,7 +2609,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 47,
+    "id": 46,
     "codigo": "AP0784",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2694,7 +2642,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 48,
+    "id": 47,
     "codigo": "SA0109",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -2724,7 +2672,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 49,
+    "id": 48,
     "codigo": "CH0007",
     "nome": "Chácara no Parque Valinhos",
     "bairro": "Parque Valinhos",
@@ -2825,7 +2773,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 50,
+    "id": 49,
     "codigo": "SO0062",
     "nome": "Casa de Condomínio no Vila Bourbon (Sousas)",
     "bairro": "Vila Bourbon (Sousas)",
@@ -2886,7 +2834,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 51,
+    "id": 50,
     "codigo": "SA0113",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -2922,7 +2870,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 52,
+    "id": 51,
     "codigo": "SA0116",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -2964,7 +2912,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 53,
+    "id": 52,
     "codigo": "PR0002",
     "nome": "Prédio Inteiro no Centro",
     "bairro": "Centro",
@@ -2996,7 +2944,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 54,
+    "id": 53,
     "codigo": "AP0818",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3058,7 +3006,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 55,
+    "id": 54,
     "codigo": "CA0069",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -3162,7 +3110,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 56,
+    "id": 55,
     "codigo": "CO0024",
     "nome": "Apartamento no Jardim Proença",
     "bairro": "Jardim Proença",
@@ -3230,7 +3178,424 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
+    "id": 56,
+    "codigo": "AP0424",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 575000,
+    "condominio": 790,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 65,
+    "tag": "Oportunidade",
+    "desc": "Ótimo apartamento à venda no Setin Home & Life Cambuí - Apartamento com 2 dormitórios à venda, 65 m² por R$ 575.000 - Cambuí - Campinas/SP. Oportunidade para investidor, o imóvel está alugado. Living 2 ambientes integrados, Sacada gourmet com ponto grill e fechamento em vidro. Suíte e dormitório com armários embutidos, banheiros completos com gabinete espelho box e ducha com aquecimento a gás, cozinha planejada e área de serviço. 1 vaga de garagem coberta. Lazer completo com piscina adulto e infantil, academia completa, spa com sauna, espaço gourmet com churrasqueira e forno de pizza, salão de jogos com cinema, playground. Portaria 24h com manobrista. Excelente localização, entre o Cambuí, Centro e Guanabara, fácil acesso a transporte público comércio e serviços. Entre em contato e agende sua visita!!",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/dca992434a18b4b07c56e59e90f250f5.jpg",
+      "https://images.ingaiasites.com.br/c7965885fb00c90639aeeedddb7d4c33.jpg",
+      "https://images.ingaiasites.com.br/02f51186d2cbb7f3cd76908d2a7f9db1.jpg",
+      "https://images.ingaiasites.com.br/074a550b6d79217fa215e531854489fe.jpg",
+      "https://images.ingaiasites.com.br/68fb30247bbb5973ccda60d4edd37725.jpg",
+      "https://images.ingaiasites.com.br/418fc4b4843ea10def6180c52807a888.jpg",
+      "https://images.ingaiasites.com.br/25f4ca1154926ba10bffaebebbf2f63c.jpg",
+      "https://images.ingaiasites.com.br/792c5e7e780138a6d00e8bbd2189fcb8.jpg",
+      "https://images.ingaiasites.com.br/e9ba98e57b7b1af444b402cc39c51e3f.jpg",
+      "https://images.ingaiasites.com.br/cf90cd1a98b72d418b5d3d7ff6d6abef.jpg",
+      "https://images.ingaiasites.com.br/f80192945cba9eeb24be1a80aec95451.jpg",
+      "https://images.ingaiasites.com.br/abd6a2cc56516e699536e11887bad22b.jpg",
+      "https://images.ingaiasites.com.br/025352bbf4df573ef13594b5b34f581d.jpg",
+      "https://images.ingaiasites.com.br/63840ec3995ed8e6a99308ee4eb3cc32.jpg",
+      "https://images.ingaiasites.com.br/c92fe7f9e123bf1f3b93fd47b890c594.jpg",
+      "https://images.ingaiasites.com.br/7d3ae16fa56440b8d80551ed2f8f6e9b.jpg",
+      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
+      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
+      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
+      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
+      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
+      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
+      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
+      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
+      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
+      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
+      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
+      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
+      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
+      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
+      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
+      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
+      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
+      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
+      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
+    ]
+  },
+  {
     "id": 57,
+    "codigo": "AP0649",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 620000,
+    "condominio": 850,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 65,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 2 dormitórios e 65 m² - Cambuí - Campinas/SP. Excelente apartamento com 2 quartos, sendo 1 suíte, todos com armários planejados. Conta com aquecimento a gás e ar-condicionado na suíte. O piso porcelanato em toda a área interna traz sofisticação e fácil limpeza. A ampla sala dois ambientes integra-se perfeitamente à varanda com fechamento em vidro, garantindo um ótimo aproveitamento do espaço e luminosidade, além de contar com painel e rack para TV. A cozinha é bem equipada, com armários planejados, cooktop e acesso à área de serviço. O condomínio oferece área de lazer completa e mini mercado de autoatendimento para sua comodidade. Localização estratégica, perfeita para quem busca morar bem com praticidade, próximo a tudo e com fácil acesso aos principais pontos da cidade. Excelente oportunidade! Agende sua visita!",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/6423d3f52a1c9379cb16debc404cffbf.jpg",
+      "https://images.ingaiasites.com.br/9b38d075f9bea19645d905f585971551.jpg",
+      "https://images.ingaiasites.com.br/38c845bc969e0ae6571deb9c9d971086.jpg",
+      "https://images.ingaiasites.com.br/5d2c422e5d173f9c2e5cff9281f785b4.jpg",
+      "https://images.ingaiasites.com.br/ec568d5f624edd67cb48b50e604e3245.jpg",
+      "https://images.ingaiasites.com.br/3ba9e6ad4e86bd473c1a280cf8234d08.jpg",
+      "https://images.ingaiasites.com.br/b81b55466cfdd18edec3ce03e80a309c.jpg",
+      "https://images.ingaiasites.com.br/9dcebc7306de9f893173faefc8c69dc4.jpg",
+      "https://images.ingaiasites.com.br/24febfbef6b4f0ee45b2afce6f4303d1.jpg",
+      "https://images.ingaiasites.com.br/5c1f2e18bcbc508b1cefbd24475707fe.jpg",
+      "https://images.ingaiasites.com.br/4eb2bf3a2923310741818ae7ca3390af.jpg",
+      "https://images.ingaiasites.com.br/637e6a0531e94d517e0a9ff07b66558e.jpg",
+      "https://images.ingaiasites.com.br/f5e35d44023c872fd6ad75bce711710c.jpg",
+      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
+      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
+      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
+      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
+      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
+      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
+      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
+      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
+      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
+      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
+      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
+      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
+      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
+      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
+      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
+      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
+      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
+      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
+      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "codigo": "AP0474",
+    "nome": "Apartamento no Centro",
+    "bairro": "Centro",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 350000,
+    "condominio": 650,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 56,
+    "tag": "Oportunidade",
+    "desc": "Oportunidade única no Centro de Campinas! Apartamento de 1 dormitório à venda no Residencial Evidence. Aprecie este apartamento de 56 m², perfeitamente planejado para oferecer o máximo em conforto e funcionalidade. A planta inteligente conta com 1 dormitório, sala em 2 ambientes, cozinha, área de serviço e 2 banheiros (social e de serviço). O imóvel é um grande diferencial por ser semimobiliado, incluindo sofá, geladeira, fogão, micro-ondas e máquina de lavar, e possui armários embutidos na cozinha, banheiro, quarto e roupeiro, garantindo praticidade total. Localizado em um andar alto, oferece ainda 1 vaga de garagem coberta. O condomínio apresenta infraestrutura completa com 2 elevadores, espaço de lazer com brinquedos e aparelhos de ginástica, e um moderno sistema de segurança com porteiro em horário comercial e portaria virtual 24h. Localização privilegiada na Avenida Anchieta, em uma região nobre do Centro com fácil acesso ao Cambuí. À poucos passos de importantes pontos de interesse como o Museu Universitário da PUC, MAC, Hospital do Coração, Santa Casa de Campinas e Maternidade de Campinas. Perfeito para quem busca conveniência, praticidade e um excelente custo-benefício em um endereço de alto valor. Agende sua visita!",
+    "diferenciais": [
+      "Armários Planejados",
+      "Área de Serviço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/OZLGob2B2MiVJwn9OaeRL0LeK3XZQpbR.jpg",
+      "https://images.ingaiasites.com.br/YxKfFuFFGAZGON4fa0UOYkbx1468SJEp.jpg",
+      "https://images.ingaiasites.com.br/52RYOxpRfacTQD4k2m5tx8PHq1Z65KyY.jpg",
+      "https://images.ingaiasites.com.br/RQRMGaDkwgh9yAl6YCbY11qsbrUPeLQW.jpg",
+      "https://images.ingaiasites.com.br/XKo2uTbyjP8DiHWhuwYHFHjfVpntFNjM.jpg",
+      "https://images.ingaiasites.com.br/LS6JOQ3goSuSUBXNzvJU8IX9ogB2Um2w.jpg",
+      "https://images.ingaiasites.com.br/8Ex7yzax4ZMJEfgAxXaqBZyidZsFcVA8.jpg",
+      "https://images.ingaiasites.com.br/THxptGBVCR57YPaYnhTXj3YbYP2YQImq.jpg",
+      "https://images.ingaiasites.com.br/dyi48yz6BEbucrcX6GRXVmaNBK4MVV54.jpg",
+      "https://images.ingaiasites.com.br/wyTwIlWMsbtWbd9vqKqkzMGVRGRGZAUV.jpg",
+      "https://images.ingaiasites.com.br/eF99BfWwYAyCC88l10VU3ROOpHjBrN3g.jpg",
+      "https://images.ingaiasites.com.br/v7UKLnBhpDnchGiZUCOyXMrHwPe43gCy.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "codigo": "AP0055",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 1280000,
+    "condominio": 1300,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 1,
+    "salas": 1,
+    "banheiros": 2,
+    "vagas": 2,
+    "area": 72,
+    "tag": "Destaque",
+    "desc": "Descubra a exclusividade de morar no Cambuí, no renomado Edifício Parigi. Esta é uma oportunidade única de adquirir um apartamento no último andar, garantindo total privacidade, silêncio e uma vista livre espetacular da cidade. Privilegiado pela posição solar norte, o imóvel recebe excelente iluminação natural e conforto térmico durante todo o dia. O apartamento conta com living para 2 ambientes integrado à sacada, cozinha planejada com cooktop e depurador, além de 2 dormitórios com armários embutidos, sendo 1 suíte. Outro grande diferencial são as 2 vagas de garagem cobertas. O condomínio oferece lazer completo e serviços que facilitam o dia a dia: piscina com raia, espaço gourmet, churrasqueira, playground e uma prática lavanderia coletiva. Localização nobre, cercada pelos melhores restaurantes e conveniências de Campinas. Imóvel pronto para morar. Agende sua visita",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/599adc5c64644dfb1147f3995bacd96f.jpg",
+      "https://images.ingaiasites.com.br/02f537719c95f0ab0747583120bedc44.jpg",
+      "https://images.ingaiasites.com.br/eb17ea6cb07372e62186e2972245b768.jpg",
+      "https://images.ingaiasites.com.br/bbccd255df062c9f50c610364dbbb5b0.jpg",
+      "https://images.ingaiasites.com.br/bf0e887dd48d4fd45921c54ca7085045.jpg",
+      "https://images.ingaiasites.com.br/159af39288ae3dcf3ec6dc7cdddfe518.jpg",
+      "https://images.ingaiasites.com.br/5f295f3c2839b7095fa9e137a4a96b47.jpg",
+      "https://images.ingaiasites.com.br/cddddeb169ec4b44f5597ed18858422d.jpg",
+      "https://images.ingaiasites.com.br/d4c828b13aae9aa6c3d945c85182f502.jpg",
+      "https://images.ingaiasites.com.br/412a940d939acfd2e03e597c611549f3.jpg",
+      "https://images.ingaiasites.com.br/6d210f213cbc0d1e3540bd20bbddb62d.jpg",
+      "https://images.ingaiasites.com.br/ceeb111d3d2c78d2f37643a4213c46a6.jpg",
+      "https://images.ingaiasites.com.br/5335f8cfda07e85b1d621931a6f363dd.jpg",
+      "https://images.ingaiasites.com.br/ZQIpuNq0ux8XuadTsE9EsVmftZXcqedE.jpg",
+      "https://images.ingaiasites.com.br/3jQ0JOOYHLqCcOAZTyGJacRxNwEpqTxC.jpg",
+      "https://images.ingaiasites.com.br/FnUx66TTjrXa9Jp3BlHGzcncG7NGd9ib.jpg",
+      "https://images.ingaiasites.com.br/rKavmnVGg3F3so4FkuzecHyMJyKSQZkg.jpg",
+      "https://images.ingaiasites.com.br/TYOfnitLhycpoF6ise9Ki5OwBYxbBu2f.jpg",
+      "https://images.ingaiasites.com.br/i6xonCrDaW7voJeAXhSg8VjHAm6mzhH6.jpg",
+      "https://images.ingaiasites.com.br/5osdlNqLzbuBIiIlN8NP5DmoHLvkWtx2.jpg",
+      "https://images.ingaiasites.com.br/RiREAukoNS2gmRe2DMSNFfmytpdBksdF.jpg",
+      "https://images.ingaiasites.com.br/nEQQ5iCgWufFz2iJMAUM6kmB9TCCTC99.jpg",
+      "https://images.ingaiasites.com.br/GFDBTGxcN7Yq3DH7NPvvEktHw093KYaX.jpg",
+      "https://images.ingaiasites.com.br/kqCxJf0sPuOIKgOf0B2NnDjPHMFmBvfS.jpg",
+      "https://images.ingaiasites.com.br/XorVr63FThFjAb0BUSd1JQB8MQhDBMTP.jpg",
+      "https://images.ingaiasites.com.br/VJoBqtTTbQp9TL1j7bZg2pJiqaAGoUL2.jpg",
+      "https://images.ingaiasites.com.br/7Bk2JzjIFLDxWYTuCk39FtBkYc5hSglF.jpg",
+      "https://images.ingaiasites.com.br/55emEfyqtaZvTWvs9ttx9HOISVvlxAFj.jpg",
+      "https://images.ingaiasites.com.br/cisaged7bwh2tsssdMBMTOpfhe1GUZII.jpg",
+      "https://images.ingaiasites.com.br/jMyogN5tbkdJPxshuhyNdMKStk0DdzWf.jpg",
+      "https://images.ingaiasites.com.br/NDMaKdPQFnfloNAZ5H9j5QiCtjyWSsLA.jpg",
+      "https://images.ingaiasites.com.br/BR8F9jTKAuHXcAqrOZsykSiWUqZegQOD.jpg",
+      "https://images.ingaiasites.com.br/Wq3NGnkt9wU8LYm3wNqFtC1gM8MAmMlm.jpg",
+      "https://images.ingaiasites.com.br/Ou3QUcdzKdMiuNdecFzMUMRJvgEmBi3K.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "codigo": "AP0351",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 670000,
+    "condominio": 890,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 51,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 1 dormitório à venda, 51 m² por R$ 670.000 - Cambuí - Campinas/SP. Oportunidade à venda no Edifício Barcelona no Cambuí. Localização privilegiada no Bairro Cambuí, torre única com apenas 36 apartamentos. Sala 2 ambientes com ar-condicionado, lavabo, sacada, cozinha com armários planejados equipada com fogão e coifa, área de serviço, suíte com armário e ar-condicionado, banheiro da suíte com gabinete, box e espelho. 1 vaga de garagem coberta. Condomínio com portaria virtual e presencial em horário comercial, piscina, academia e salão de festas. Agende sua visita!",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/225d968579868edc2f66130da7d446f8.jpg",
+      "https://images.ingaiasites.com.br/cf978cba73dc5a96dc83f1cb66222bed.jpg",
+      "https://images.ingaiasites.com.br/427a2d492e8375ea39d14a40f2b5a4ad.jpg",
+      "https://images.ingaiasites.com.br/844bc899edc26b87c78f664fa07b5ff1.jpg",
+      "https://images.ingaiasites.com.br/5898a491ee850879742596a9c626285a.jpg",
+      "https://images.ingaiasites.com.br/eb06929d1780f14c80d4d87605928628.jpg",
+      "https://images.ingaiasites.com.br/4f55388e86eb6214cb9e4e3521da9df1.jpg",
+      "https://images.ingaiasites.com.br/05ea3a688da474438492d6c0595ad4bf.jpg",
+      "https://images.ingaiasites.com.br/59055a4192a88c459be9a6ff4b6137a8.jpg",
+      "https://images.ingaiasites.com.br/ac4e60e67e2523daf3becd70f8f7a6a1.jpg",
+      "https://images.ingaiasites.com.br/dc2e49924accaaadc0b33b1e2e14e386.jpg",
+      "https://images.ingaiasites.com.br/741623f2cf7daccd8c194e37241e3c11.jpg",
+      "https://images.ingaiasites.com.br/a6ff7acb01668a78000c07489bb7df73.jpg",
+      "https://images.ingaiasites.com.br/80f3704b18ca5e98977ea3ba441d668e.jpg",
+      "https://images.ingaiasites.com.br/880d85484c99e865157a7a40e1bee930.jpg",
+      "https://images.ingaiasites.com.br/ed40f103a108344c9171925802ee71f6.jpg",
+      "https://lh3.googleusercontent.com/vWFcJ-yvk-ZMAnbYtYI3Z9bwMuGmrzUe1_vSh-bKgr35vB57L_iHHV_L42pBj_Sb-JPQyxHjwMY9tdK0pdVJDuS3mRWeaFJBGk3jwh5OH6bXfcA=w1024-h768-r180",
+      "https://images.ingaiasites.com.br/a42d8b4579f2feda8c4ff0678e11910c.jpg",
+      "https://images.ingaiasites.com.br/e460a2ab4749e70b457c291b4a752e21.jpg",
+      "https://images.ingaiasites.com.br/b5e989fea75f08b843f359c07ce528d1.jpg",
+      "https://lh3.googleusercontent.com/cXCtOyWLiMsQO8thie9vRPajgDTumzA6fnIeQik8zb5mMshfLN7D6JR0Fz8o2uPiKZfDjNp6gJOwVt32s48c7VIREWZ6sHWbjJoHjUCuX9b-jAk=w1024-h768-r180",
+      "https://images.ingaiasites.com.br/215f8ec6bfdeda5cbe37b27d21bce965.jpg",
+      "https://images.ingaiasites.com.br/fd59238fea6ef8b3389aa9e25afc987e.jpg",
+      "https://images.ingaiasites.com.br/f19b3243a3c3609b822b8ab821f28404.jpg",
+      "https://images.ingaiasites.com.br/ee01c9b2da938804d24aaf039142bd80.jpg",
+      "https://images.ingaiasites.com.br/2sAHRvapFHIcikI0LAFdY8NZOhF9mOei.jpg",
+      "https://images.ingaiasites.com.br/vCCdT1CulU2oNoqw7NsVobMurRZoVznf.jpg",
+      "https://images.ingaiasites.com.br/Llb1Mk1MNRCVbYYUJY20R11EVp8d7aD6.jpg",
+      "https://images.ingaiasites.com.br/3mDxT0s9HCDU9PJTLjrC0yebjTZ0hjxi.jpg",
+      "https://images.ingaiasites.com.br/X5tmn6fXS9ttIB8o3ErgRQaUc1lRD5Aa.jpg",
+      "https://images.ingaiasites.com.br/996QVeH08MCv2uhDiNoQ5qht02DA9egA.jpg",
+      "https://images.ingaiasites.com.br/WMhYANRMrYCmxzOVicydjdtDQPYpmMzC.jpg",
+      "https://images.ingaiasites.com.br/a9ZS4wdapcn5WjeFAV9Q0JC5Z5f5rOqx.jpg",
+      "https://images.ingaiasites.com.br/NP9BNIqbd8El3jJQmvxaqvDYzZ62CtvF.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "codigo": "AP0054",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 3100,
+    "condominio": 1040,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 1,
+    "salas": 1,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 40,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.189 - Cambuí - Campinas/SP. Excelente oportunidade, apartamento em localização privilegiada no Cambuí, mobiliado conforme fotos. Sala, sacada, cozinha, quarto e banheiro com janela. Uma vaga coberta. Pronto para morar! Empreendimento alto padrão, torre única, 60 unidades no total. More com exclusividade e na melhor localização do Cambuí. Condomínio com piscina, fitness, fire square, lavanderia, espaço gourmet e churrasqueira. Portaria 24h. Entre em contato para agendarmos sua visita!!",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Acabamento Premium"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/8fae486a8ee34b86abc0957cfc294c07.jpg",
+      "https://images.ingaiasites.com.br/86cbdb6a6ea5bea2cca49b84ea374071.jpg",
+      "https://images.ingaiasites.com.br/7ee56757a5cffa150dce6a1b0f3f02e9.jpg",
+      "https://images.ingaiasites.com.br/ebe8929b2041cf5886cf68900eac37ca.jpg",
+      "https://images.ingaiasites.com.br/85fd62d10d7725681afaf2bcb2bbda26.jpg",
+      "https://images.ingaiasites.com.br/97e90cc82cf6e9f649d3625163211244.jpg",
+      "https://images.ingaiasites.com.br/2ab489fb9e2d3755ea48886d525c8e4b.jpg",
+      "https://images.ingaiasites.com.br/fc8e2bb013a5bb10e5d102606aa502d9.jpg",
+      "https://images.ingaiasites.com.br/q1qc3ohqcFLArZalpgSFMZ9K6FtqN4Vz.jpg",
+      "https://images.ingaiasites.com.br/2IjtJyjtn1hE62Uma42KikH7B5xuT6zG.jpg",
+      "https://images.ingaiasites.com.br/6lBRFrVcYGheaPaGDBuFrbKLJBfFHotj.jpg",
+      "https://images.ingaiasites.com.br/nvAZuiMTGNUH7dDELwPTW9wOqDIJFFhj.jpg",
+      "https://images.ingaiasites.com.br/N5o4KpFEKf4yR85UXBtnfX8sOseX6oJp.jpg",
+      "https://images.ingaiasites.com.br/j2kGO1bTfNppWnIDhCeYqWWKIyR3WwWJ.jpg",
+      "https://images.ingaiasites.com.br/Lrzhn7zYwnTL6ywOPS4ah9EDMxEM89Pa.jpg",
+      "https://images.ingaiasites.com.br/7sD1QCWgbZGfAsFaDi11vEu46s09WtVa.jpg",
+      "https://images.ingaiasites.com.br/orWcX6WE08nmoziWLghX1rEoekvmPnqV.jpg",
+      "https://images.ingaiasites.com.br/iourWZHvRh8gDFHsNa3uzQm9cD1pKNTs.jpg",
+      "https://images.ingaiasites.com.br/o6ZZU6zYLtjZ3LdMMUGVzjsAbF7Qiyb2.jpg",
+      "https://images.ingaiasites.com.br/KCxcvH7gjYTfsr7bur0DQjed7rAqIc0z.jpg",
+      "https://images.ingaiasites.com.br/aCKRM2vuOsJRQaAZXVS4bmgPo3zrrN0O.jpg",
+      "https://images.ingaiasites.com.br/G90PnI3R56NygEOE4adYmiZmCLBWulDK.jpg",
+      "https://images.ingaiasites.com.br/A2qRopmOuaeoLA1pifwYNu9vRy7DCvOc.jpg",
+      "https://images.ingaiasites.com.br/vfF4ce4FDteATYxzfxnwy2ZLWXRaFL2f.jpg",
+      "https://images.ingaiasites.com.br/f10mnJTeVv0MpYsGCmNBIpcjru2eVJoh.jpg",
+      "https://images.ingaiasites.com.br/B9SwPZZ8Nt4c0vq1OqSnHIVJYS2kjunQ.jpg",
+      "https://images.ingaiasites.com.br/fOjYtsbKGphu7nf6uXVyury5gfcYzpbP.jpg",
+      "https://images.ingaiasites.com.br/ovJkHw9BV0nquNhuEK3f5xi7ROKdjS71.jpg",
+      "https://images.ingaiasites.com.br/4oK3auQk5krZ1OMlMMN6sEOLLIXU8MmL.jpg",
+      "https://images.ingaiasites.com.br/GHcc4qMeGIQIJCYMIZJKp2mjb9N4PCjb.jpg",
+      "https://images.ingaiasites.com.br/GPLX8wmIhfTAnW1kh9HsHGdIdSldLrfa.jpg",
+      "https://images.ingaiasites.com.br/ODc0gnNc4CxZuNX2KECqK52cc1GiQUJR.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "codigo": "AP0343",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 3700,
+    "condominio": 850,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 65,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 2 dormitórios para alugar, 65 m² por R$ 4.779 - Cambuí - Campinas/SP. 2 dormitórios (1 suíte) com armários, sala com living para dois ambientes, banheiro social, cozinha com geladeira e armários, varanda ampla. Ar condicionado nos quartos e sala. 1 Vaga de garagem coberta. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Sauna",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/9f1dbd8bf7cf24b242a837df1e957a9f.jpg",
+      "https://images.ingaiasites.com.br/e1ce5705f296e01f5be1649c60e33c27.jpg",
+      "https://images.ingaiasites.com.br/47b6213c67d54df4485779425bec98d1.jpg",
+      "https://images.ingaiasites.com.br/b3bc23866ec96fa978c042849f9cc6f2.jpg",
+      "https://images.ingaiasites.com.br/3fb1dcc0c41d111aa4267142ff6a2460.jpg",
+      "https://images.ingaiasites.com.br/875f4bb1bb9689c5115a9e9bf5c880fc.jpg",
+      "https://images.ingaiasites.com.br/d198fe5406103f46e0b9fb382815a0e1.jpg",
+      "https://images.ingaiasites.com.br/502f1849d6a2f508c136e3b16ba41406.jpg",
+      "https://images.ingaiasites.com.br/cdfbb108e8e8ee2ae2e1773c96b765f0.jpg",
+      "https://images.ingaiasites.com.br/e69a1b364841f4820e1198b95f61bcd0.jpg",
+      "https://images.ingaiasites.com.br/3821a04a298a42cadd2f52b2efaa1f56.jpg",
+      "https://images.ingaiasites.com.br/6072046c992b5bf631e7c0ebf15884cf.jpg",
+      "https://images.ingaiasites.com.br/aae02491068e876e505d3b61c5590c7d.jpg",
+      "https://images.ingaiasites.com.br/b36018cbd1f92b84752150a87dc6c7d2.jpg",
+      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
+      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
+      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
+      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
+      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
+      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
+      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
+      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
+      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
+      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
+      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
+      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
+      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
+      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
+      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
+      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
+      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
+      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
+      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
+    ]
+  },
+  {
+    "id": 63,
     "codigo": "SA0119",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3266,7 +3631,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 58,
+    "id": 64,
     "codigo": "SA0120",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3303,7 +3668,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 59,
+    "id": 65,
     "codigo": "AP0901",
     "nome": "Apartamento no Jardim São Vicente",
     "bairro": "Jardim São Vicente",
@@ -3356,7 +3721,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 60,
+    "id": 66,
     "codigo": "SO0066",
     "nome": "Casa de Condomínio no Fazenda Santa Cândida",
     "bairro": "Fazenda Santa Cândida",
@@ -3400,7 +3765,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 61,
+    "id": 67,
     "codigo": "AP0914",
     "nome": "Apartamento no Sao Bernado",
     "bairro": "Sao Bernado",
@@ -3443,7 +3808,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 62,
+    "id": 68,
     "codigo": "FL0002",
     "nome": "Flat no Alphaville",
     "bairro": "Alphaville",
@@ -3484,7 +3849,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 63,
+    "id": 69,
     "codigo": "AP0920",
     "nome": "Apartamento no Parque da Hípica",
     "bairro": "Parque da Hípica",
@@ -3534,7 +3899,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 64,
+    "id": 70,
     "codigo": "CO0027",
     "nome": "Apartamento no Parque da Hípica",
     "bairro": "Parque da Hípica",
@@ -3583,7 +3948,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 65,
+    "id": 71,
     "codigo": "AP0923",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3645,7 +4010,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 66,
+    "id": 72,
     "codigo": "SO0072",
     "nome": "Casa Padrão no Jardim Santa Eudóxia",
     "bairro": "Jardim Santa Eudóxia",
@@ -3689,7 +4054,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 67,
+    "id": 73,
     "codigo": "SA0125",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3729,7 +4094,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 68,
+    "id": 74,
     "codigo": "CJ0001",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3784,7 +4149,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 69,
+    "id": 75,
     "codigo": "CA0084",
     "nome": "Casa Padrão no Vila Jequitibás",
     "bairro": "Vila Jequitibás",
@@ -3836,7 +4201,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 70,
+    "id": 76,
     "codigo": "AP0950",
     "nome": "Apartamento no Residencial Cosmos",
     "bairro": "Residencial Cosmos",
@@ -3903,7 +4268,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 71,
+    "id": 77,
     "codigo": "AP0955",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3970,7 +4335,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 72,
+    "id": 78,
     "codigo": "SA0130",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4007,7 +4372,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 73,
+    "id": 79,
     "codigo": "SA0135",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4044,7 +4409,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 74,
+    "id": 80,
     "codigo": "SA0134",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4074,7 +4439,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 75,
+    "id": 81,
     "codigo": "SA0131",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4104,7 +4469,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 76,
+    "id": 82,
     "codigo": "SA0133",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4133,7 +4498,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 77,
+    "id": 83,
     "codigo": "SA0132",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4163,7 +4528,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 78,
+    "id": 84,
     "codigo": "TE0027",
     "nome": "Loteamento/Condomínio no Fazenda Santa Cândida",
     "bairro": "Fazenda Santa Cândida",
@@ -4193,7 +4558,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 79,
+    "id": 85,
     "codigo": "CA0088",
     "nome": "Casa Padrão no Jardim São Francisco",
     "bairro": "Jardim São Francisco",
@@ -4245,7 +4610,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 80,
+    "id": 86,
     "codigo": "CO0029",
     "nome": "Apartamento no Vila Brandina",
     "bairro": "Vila Brandina",
@@ -4349,7 +4714,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 81,
+    "id": 87,
     "codigo": "CO0030",
     "nome": "Apartamento no Jardim Nova Europa",
     "bairro": "Jardim Nova Europa",
@@ -4412,7 +4777,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 82,
+    "id": 88,
     "codigo": "SO0073",
     "nome": "Casa de Condomínio no Chácara das Nações",
     "bairro": "Chácara das Nações",
@@ -4501,7 +4866,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 83,
+    "id": 89,
     "codigo": "CA0096",
     "nome": "Casa de Condomínio no Condomínio Residencial Villa Romana",
     "bairro": "Condomínio Residencial Villa Romana",
@@ -4563,7 +4928,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 84,
+    "id": 90,
     "codigo": "CA0098",
     "nome": "Casa Padrão no São Bernardo",
     "bairro": "São Bernardo",
@@ -4614,7 +4979,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 85,
+    "id": 91,
     "codigo": "AP1017",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -4672,7 +5037,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 86,
+    "id": 92,
     "codigo": "CA0101",
     "nome": "Casa de Condomínio no Jardim Pari",
     "bairro": "Jardim Pari",
@@ -4740,7 +5105,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 87,
+    "id": 93,
     "codigo": "SL0003",
     "nome": "Loja/Salão no Swiss Park",
     "bairro": "Swiss Park",
@@ -4781,7 +5146,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 88,
+    "id": 94,
     "codigo": "CA0102",
     "nome": "Casa de Condomínio no Condomínio Terras do Cancioneiro",
     "bairro": "Condomínio Terras do Cancioneiro",
@@ -4840,7 +5205,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 89,
+    "id": 95,
     "codigo": "AD0008",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -4975,7 +5340,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 90,
+    "id": 96,
     "codigo": "CA0103",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -5050,7 +5415,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 91,
+    "id": 97,
     "codigo": "CA0104",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -5093,7 +5458,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 92,
+    "id": 98,
     "codigo": "AP1023",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -5137,7 +5502,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 93,
+    "id": 99,
     "codigo": "SA0144",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -5179,7 +5544,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 94,
+    "id": 100,
     "codigo": "AP1032",
     "nome": "Apartamento no Residencial Parque da Fazenda",
     "bairro": "Residencial Parque da Fazenda",
@@ -5230,7 +5595,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 95,
+    "id": 101,
     "codigo": "CA0107",
     "nome": "Casa de Condomínio no Royal Garden",
     "bairro": "Royal Garden",
@@ -5272,7 +5637,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 96,
+    "id": 102,
     "codigo": "CA0111",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -5336,7 +5701,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 97,
+    "id": 103,
     "codigo": "SA0145",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -5378,7 +5743,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 98,
+    "id": 104,
     "codigo": "AP1059",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -5450,7 +5815,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 99,
+    "id": 105,
     "codigo": "AP1062",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -5511,7 +5876,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 100,
+    "id": 106,
     "codigo": "AP1065",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -5569,7 +5934,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 101,
+    "id": 107,
     "codigo": "AP1076",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5631,7 +5996,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 102,
+    "id": 108,
     "codigo": "CA0115",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5712,7 +6077,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 103,
+    "id": 109,
     "codigo": "AP1080",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -5784,7 +6149,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 104,
+    "id": 110,
     "codigo": "TE0031",
     "nome": "Loteamento/Condomínio no Arborais",
     "bairro": "Arborais",
@@ -5814,7 +6179,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 105,
+    "id": 111,
     "codigo": "AP1092",
     "nome": "Apartamento no Parque Industrial",
     "bairro": "Parque Industrial",
@@ -5902,7 +6267,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 106,
+    "id": 112,
     "codigo": "AP1095",
     "nome": "Apartamento no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -5944,7 +6309,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 107,
+    "id": 113,
     "codigo": "AP1116",
     "nome": "Apartamento no Jardim Ipiranga",
     "bairro": "Jardim Ipiranga",
@@ -5996,7 +6361,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 108,
+    "id": 114,
     "codigo": "CA0118",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -6064,7 +6429,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 109,
+    "id": 115,
     "codigo": "AP1120",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6131,72 +6496,75 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 110,
-    "codigo": "AP0424",
+    "id": 116,
+    "codigo": "AP1126",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
     "tipo": "apartamento",
     "finalidade": "compra",
-    "preco": 575000,
-    "condominio": 790,
+    "preco": 1460000,
+    "condominio": 0,
     "tipoOferta": "1",
     "quartos": 2,
-    "suites": 1,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 65,
-    "tag": "Oportunidade",
-    "desc": "Ótimo apartamento à venda no Setin Home & Life Cambuí - Apartamento com 2 dormitórios à venda, 65 m² por R$ 575.000 - Cambuí - Campinas/SP. Oportunidade para investidor, o imóvel está alugado. Living 2 ambientes integrados, Sacada gourmet com ponto grill e fechamento em vidro. Suíte e dormitório com armários embutidos, banheiros completos com gabinete espelho box e ducha com aquecimento a gás, cozinha planejada e área de serviço. 1 vaga de garagem coberta. Lazer completo com piscina adulto e infantil, academia completa, spa com sauna, espaço gourmet com churrasqueira e forno de pizza, salão de jogos com cinema, playground. Portaria 24h com manobrista. Excelente localização, entre o Cambuí, Centro e Guanabara, fácil acesso a transporte público comércio e serviços. Entre em contato e agende sua visita!!",
+    "suites": 2,
+    "salas": 0,
+    "banheiros": 3,
+    "vagas": 2,
+    "area": 84,
+    "tag": "Destaque",
+    "desc": "Apartamento à Venda no MM536 - Cambuí, Campinas. Localizado no coração do Cambuí, um dos bairros mais valorizados de Campinas, este apartamento no MM536 oferece sofisticação, conforto e uma localização privilegiada. Características do Imóvel: 2 dormitórios, sendo todos suítes, com acabamentos de alto padrão. 1 Lavabo. Living e uma varanda com vista panorâmica. Infraestrutura para ar-condicionado, aquecimento elétrico. Lazer completo no condomínio: piscina, academia, espaço gourmet e lavanderia. Segurança 24h com portaria e monitoramento. A localização é um destaque à parte, com fácil acesso a restaurantes, cafés, shoppings e outras conveniências, além de rápido acesso às principais vias de Campinas. Não perca a chance de viver em um dos melhores empreendimentos da cidade! Não perca essa oportunidade, agende sua visita e venha conferir. Valor sujeito a alteração, conforme tabela da Incorporadora.",
     "diferenciais": [
-      "Churrasqueira",
       "Piscina",
-      "Sauna",
-      "Armários Planejados",
       "Área de Serviço",
       "Varanda / Terraço",
-      "Academia / Fitness"
+      "Academia / Fitness",
+      "Acabamento Premium"
     ],
     "imagens": [
-      "https://images.ingaiasites.com.br/dca992434a18b4b07c56e59e90f250f5.jpg",
-      "https://images.ingaiasites.com.br/c7965885fb00c90639aeeedddb7d4c33.jpg",
-      "https://images.ingaiasites.com.br/02f51186d2cbb7f3cd76908d2a7f9db1.jpg",
-      "https://images.ingaiasites.com.br/074a550b6d79217fa215e531854489fe.jpg",
-      "https://images.ingaiasites.com.br/68fb30247bbb5973ccda60d4edd37725.jpg",
-      "https://images.ingaiasites.com.br/418fc4b4843ea10def6180c52807a888.jpg",
-      "https://images.ingaiasites.com.br/25f4ca1154926ba10bffaebebbf2f63c.jpg",
-      "https://images.ingaiasites.com.br/792c5e7e780138a6d00e8bbd2189fcb8.jpg",
-      "https://images.ingaiasites.com.br/e9ba98e57b7b1af444b402cc39c51e3f.jpg",
-      "https://images.ingaiasites.com.br/cf90cd1a98b72d418b5d3d7ff6d6abef.jpg",
-      "https://images.ingaiasites.com.br/f80192945cba9eeb24be1a80aec95451.jpg",
-      "https://images.ingaiasites.com.br/abd6a2cc56516e699536e11887bad22b.jpg",
-      "https://images.ingaiasites.com.br/025352bbf4df573ef13594b5b34f581d.jpg",
-      "https://images.ingaiasites.com.br/63840ec3995ed8e6a99308ee4eb3cc32.jpg",
-      "https://images.ingaiasites.com.br/c92fe7f9e123bf1f3b93fd47b890c594.jpg",
-      "https://images.ingaiasites.com.br/7d3ae16fa56440b8d80551ed2f8f6e9b.jpg",
-      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
-      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
-      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
-      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
-      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
-      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
-      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
-      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
-      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
-      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
-      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
-      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
-      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
-      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
-      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
-      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
-      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
-      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
-      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
+      "https://images.ingaiasites.com.br/4411c6a66df005120101c6fa88b8184d.jpg",
+      "https://images.ingaiasites.com.br/6b82e9b2e7b9e53c4711435aca8e79f2.jpg",
+      "https://images.ingaiasites.com.br/838e5a9431c053dd98f915cc47fa88ef.jpg",
+      "https://images.ingaiasites.com.br/0ace9122577c268d143c6a9f9a338c5a.jpg",
+      "https://images.ingaiasites.com.br/5677e3216faecf58db14a0df330b979d.jpg",
+      "https://images.ingaiasites.com.br/35042db70f441df2b3e68936502d8ce5.jpg",
+      "https://images.ingaiasites.com.br/7db8e762d8670d04519ea035c4f2da80.jpg",
+      "https://images.ingaiasites.com.br/3316414603b2e00b623ff00053f0645f.jpg",
+      "https://images.ingaiasites.com.br/3906ec69ac29c1e053199afc5f5867cd.jpg",
+      "https://images.ingaiasites.com.br/ad4854475cf01049f2b37462e73dd4a0.jpg",
+      "https://images.ingaiasites.com.br/f1c49d85f0fb3102affb686a2f17e7c7.jpg",
+      "https://images.ingaiasites.com.br/c44bbce9dbe02fda14200bcc257e7ed7.jpg",
+      "https://images.ingaiasites.com.br/5f7277b6da0cf6b5da12939f36d581eb.jpg",
+      "https://images.ingaiasites.com.br/105413bd57e7c4dfafa2bf292b951015.jpg",
+      "https://images.ingaiasites.com.br/840a19db2d74f6493f7cab262e669b9f.jpg",
+      "https://images.ingaiasites.com.br/0be696fcf460c4b1f052172050672c59.jpg",
+      "https://images.ingaiasites.com.br/22990e2cc2214d01116cc7dcde9942f5.jpg",
+      "https://images.ingaiasites.com.br/78fd50eeaa22a4f70bed71daa84ee4e5.jpg",
+      "https://images.ingaiasites.com.br/c32481637bff9b46953c7c9e66047422.jpg",
+      "https://images.ingaiasites.com.br/58e911e483cc0e02f180d22b46ffbed6.jpg",
+      "https://images.ingaiasites.com.br/91d758a191aa60e6b7c010ddc82a38a0.jpg",
+      "https://images.ingaiasites.com.br/5cdd42dd032dc12d5fee067d3e7cd74e.jpg",
+      "https://images.ingaiasites.com.br/3c8fd4881d1a92766e0ab9de96e884e0.jpg",
+      "https://images.ingaiasites.com.br/cf74dd8a520f91293b61e5da7f17ad18.jpg",
+      "https://images.ingaiasites.com.br/104992bede4d4ad06cc6faf807a487fa.jpg",
+      "https://images.ingaiasites.com.br/a50f263e6ede5803effca8f1131d4368.jpg",
+      "https://images.ingaiasites.com.br/35bdbfe426c8d825f355835fa880076c.jpg",
+      "https://images.ingaiasites.com.br/b6cc0b00ec83fab5a673fabf2839b193.jpg",
+      "https://images.ingaiasites.com.br/600f4b28be7e34ba99bb3dc806856d5f.jpg",
+      "https://images.ingaiasites.com.br/cb395165f5e00c7b9b8d1d35909cccd4.jpg",
+      "https://images.ingaiasites.com.br/f8dd551a8fc0ec9c1356ff79b9172d29.jpg",
+      "https://images.ingaiasites.com.br/4d45443ce13194943ff1d3f7e80a4ad4.jpg",
+      "https://images.ingaiasites.com.br/ea051778dce971611711d1b78a26dd83.jpg",
+      "https://images.ingaiasites.com.br/3c4cc2e2833f559a1d95efeb273036ec.jpg",
+      "https://images.ingaiasites.com.br/e6be4e3276a657fd40c6a3a496aa7d63.jpg",
+      "https://images.ingaiasites.com.br/58369b60721b9fc7b2bd265cda2c9b9e.jpg",
+      "https://images.ingaiasites.com.br/23ad8b452a3ff8b14db7fe73e9892aa2.jpg",
+      "https://images.ingaiasites.com.br/7caa5d084fed59045eca249cb2b6ce40.jpg",
+      "https://images.ingaiasites.com.br/a7b98b6fe804f24d2556f6217025a474.jpg",
+      "https://images.ingaiasites.com.br/4340227ee845e8c2bcd18f34f81ff60b.jpg"
     ]
   },
   {
-    "id": 111,
+    "id": 117,
     "codigo": "CA0091",
     "nome": "Casa Padrão no Vila Lemos",
     "bairro": "Vila Lemos",
@@ -6242,7 +6610,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 112,
+    "id": 118,
     "codigo": "CA0113",
     "nome": "Casa Padrão no Parque das Universidades",
     "bairro": "Parque das Universidades",
@@ -6313,106 +6681,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 113,
-    "codigo": "AP0649",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 620000,
-    "condominio": 850,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 1,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 65,
-    "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormitórios e 65 m² - Cambuí - Campinas/SP. Excelente apartamento com 2 quartos, sendo 1 suíte, todos com armários planejados. Conta com aquecimento a gás e ar-condicionado na suíte. O piso porcelanato em toda a área interna traz sofisticação e fácil limpeza. A ampla sala dois ambientes integra-se perfeitamente à varanda com fechamento em vidro, garantindo um ótimo aproveitamento do espaço e luminosidade, além de contar com painel e rack para TV. A cozinha é bem equipada, com armários planejados, cooktop e acesso à área de serviço. O condomínio oferece área de lazer completa e mini mercado de autoatendimento para sua comodidade. Localização estratégica, perfeita para quem busca morar bem com praticidade, próximo a tudo e com fácil acesso aos principais pontos da cidade. Excelente oportunidade! Agende sua visita!",
-    "diferenciais": [
-      "Churrasqueira",
-      "Piscina",
-      "Sauna",
-      "Varanda / Terraço",
-      "Armários Planejados",
-      "Área de Serviço"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/6423d3f52a1c9379cb16debc404cffbf.jpg",
-      "https://images.ingaiasites.com.br/9b38d075f9bea19645d905f585971551.jpg",
-      "https://images.ingaiasites.com.br/38c845bc969e0ae6571deb9c9d971086.jpg",
-      "https://images.ingaiasites.com.br/5d2c422e5d173f9c2e5cff9281f785b4.jpg",
-      "https://images.ingaiasites.com.br/ec568d5f624edd67cb48b50e604e3245.jpg",
-      "https://images.ingaiasites.com.br/3ba9e6ad4e86bd473c1a280cf8234d08.jpg",
-      "https://images.ingaiasites.com.br/b81b55466cfdd18edec3ce03e80a309c.jpg",
-      "https://images.ingaiasites.com.br/9dcebc7306de9f893173faefc8c69dc4.jpg",
-      "https://images.ingaiasites.com.br/24febfbef6b4f0ee45b2afce6f4303d1.jpg",
-      "https://images.ingaiasites.com.br/5c1f2e18bcbc508b1cefbd24475707fe.jpg",
-      "https://images.ingaiasites.com.br/4eb2bf3a2923310741818ae7ca3390af.jpg",
-      "https://images.ingaiasites.com.br/637e6a0531e94d517e0a9ff07b66558e.jpg",
-      "https://images.ingaiasites.com.br/f5e35d44023c872fd6ad75bce711710c.jpg",
-      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
-      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
-      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
-      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
-      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
-      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
-      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
-      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
-      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
-      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
-      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
-      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
-      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
-      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
-      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
-      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
-      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
-      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
-      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
-    ]
-  },
-  {
-    "id": 114,
-    "codigo": "AP0474",
-    "nome": "Apartamento no Centro",
-    "bairro": "Centro",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 350000,
-    "condominio": 650,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 0,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 56,
-    "tag": "Oportunidade",
-    "desc": "Oportunidade única no Centro de Campinas! Apartamento de 1 dormitório à venda no Residencial Evidence. Aprecie este apartamento de 56 m², perfeitamente planejado para oferecer o máximo em conforto e funcionalidade. A planta inteligente conta com 1 dormitório, sala em 2 ambientes, cozinha, área de serviço e 2 banheiros (social e de serviço). O imóvel é um grande diferencial por ser semimobiliado, incluindo sofá, geladeira, fogão, micro-ondas e máquina de lavar, e possui armários embutidos na cozinha, banheiro, quarto e roupeiro, garantindo praticidade total. Localizado em um andar alto, oferece ainda 1 vaga de garagem coberta. O condomínio apresenta infraestrutura completa com 2 elevadores, espaço de lazer com brinquedos e aparelhos de ginástica, e um moderno sistema de segurança com porteiro em horário comercial e portaria virtual 24h. Localização privilegiada na Avenida Anchieta, em uma região nobre do Centro com fácil acesso ao Cambuí. À poucos passos de importantes pontos de interesse como o Museu Universitário da PUC, MAC, Hospital do Coração, Santa Casa de Campinas e Maternidade de Campinas. Perfeito para quem busca conveniência, praticidade e um excelente custo-benefício em um endereço de alto valor. Agende sua visita!",
-    "diferenciais": [
-      "Armários Planejados",
-      "Área de Serviço",
-      "Academia / Fitness"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/OZLGob2B2MiVJwn9OaeRL0LeK3XZQpbR.jpg",
-      "https://images.ingaiasites.com.br/YxKfFuFFGAZGON4fa0UOYkbx1468SJEp.jpg",
-      "https://images.ingaiasites.com.br/52RYOxpRfacTQD4k2m5tx8PHq1Z65KyY.jpg",
-      "https://images.ingaiasites.com.br/RQRMGaDkwgh9yAl6YCbY11qsbrUPeLQW.jpg",
-      "https://images.ingaiasites.com.br/XKo2uTbyjP8DiHWhuwYHFHjfVpntFNjM.jpg",
-      "https://images.ingaiasites.com.br/LS6JOQ3goSuSUBXNzvJU8IX9ogB2Um2w.jpg",
-      "https://images.ingaiasites.com.br/8Ex7yzax4ZMJEfgAxXaqBZyidZsFcVA8.jpg",
-      "https://images.ingaiasites.com.br/THxptGBVCR57YPaYnhTXj3YbYP2YQImq.jpg",
-      "https://images.ingaiasites.com.br/dyi48yz6BEbucrcX6GRXVmaNBK4MVV54.jpg",
-      "https://images.ingaiasites.com.br/wyTwIlWMsbtWbd9vqKqkzMGVRGRGZAUV.jpg",
-      "https://images.ingaiasites.com.br/eF99BfWwYAyCC88l10VU3ROOpHjBrN3g.jpg",
-      "https://images.ingaiasites.com.br/v7UKLnBhpDnchGiZUCOyXMrHwPe43gCy.jpg"
-    ]
-  },
-  {
-    "id": 115,
+    "id": 119,
     "codigo": "AP1056",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -6463,7 +6732,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 116,
+    "id": 120,
     "codigo": "AP1037",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6525,196 +6794,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 117,
-    "codigo": "AP0055",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 1280000,
-    "condominio": 1300,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 1,
-    "salas": 1,
-    "banheiros": 2,
-    "vagas": 2,
-    "area": 72,
-    "tag": "Destaque",
-    "desc": "Descubra a exclusividade de morar no Cambuí, no renomado Edifício Parigi. Esta é uma oportunidade única de adquirir um apartamento no último andar, garantindo total privacidade, silêncio e uma vista livre espetacular da cidade. Privilegiado pela posição solar norte, o imóvel recebe excelente iluminação natural e conforto térmico durante todo o dia. O apartamento conta com living para 2 ambientes integrado à sacada, cozinha planejada com cooktop e depurador, além de 2 dormitórios com armários embutidos, sendo 1 suíte. Outro grande diferencial são as 2 vagas de garagem cobertas. O condomínio oferece lazer completo e serviços que facilitam o dia a dia: piscina com raia, espaço gourmet, churrasqueira, playground e uma prática lavanderia coletiva. Localização nobre, cercada pelos melhores restaurantes e conveniências de Campinas. Imóvel pronto para morar. Agende sua visita",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Churrasqueira",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/599adc5c64644dfb1147f3995bacd96f.jpg",
-      "https://images.ingaiasites.com.br/02f537719c95f0ab0747583120bedc44.jpg",
-      "https://images.ingaiasites.com.br/eb17ea6cb07372e62186e2972245b768.jpg",
-      "https://images.ingaiasites.com.br/bbccd255df062c9f50c610364dbbb5b0.jpg",
-      "https://images.ingaiasites.com.br/bf0e887dd48d4fd45921c54ca7085045.jpg",
-      "https://images.ingaiasites.com.br/159af39288ae3dcf3ec6dc7cdddfe518.jpg",
-      "https://images.ingaiasites.com.br/5f295f3c2839b7095fa9e137a4a96b47.jpg",
-      "https://images.ingaiasites.com.br/cddddeb169ec4b44f5597ed18858422d.jpg",
-      "https://images.ingaiasites.com.br/d4c828b13aae9aa6c3d945c85182f502.jpg",
-      "https://images.ingaiasites.com.br/412a940d939acfd2e03e597c611549f3.jpg",
-      "https://images.ingaiasites.com.br/6d210f213cbc0d1e3540bd20bbddb62d.jpg",
-      "https://images.ingaiasites.com.br/ceeb111d3d2c78d2f37643a4213c46a6.jpg",
-      "https://images.ingaiasites.com.br/5335f8cfda07e85b1d621931a6f363dd.jpg",
-      "https://images.ingaiasites.com.br/ZQIpuNq0ux8XuadTsE9EsVmftZXcqedE.jpg",
-      "https://images.ingaiasites.com.br/3jQ0JOOYHLqCcOAZTyGJacRxNwEpqTxC.jpg",
-      "https://images.ingaiasites.com.br/FnUx66TTjrXa9Jp3BlHGzcncG7NGd9ib.jpg",
-      "https://images.ingaiasites.com.br/rKavmnVGg3F3so4FkuzecHyMJyKSQZkg.jpg",
-      "https://images.ingaiasites.com.br/TYOfnitLhycpoF6ise9Ki5OwBYxbBu2f.jpg",
-      "https://images.ingaiasites.com.br/i6xonCrDaW7voJeAXhSg8VjHAm6mzhH6.jpg",
-      "https://images.ingaiasites.com.br/5osdlNqLzbuBIiIlN8NP5DmoHLvkWtx2.jpg",
-      "https://images.ingaiasites.com.br/RiREAukoNS2gmRe2DMSNFfmytpdBksdF.jpg",
-      "https://images.ingaiasites.com.br/nEQQ5iCgWufFz2iJMAUM6kmB9TCCTC99.jpg",
-      "https://images.ingaiasites.com.br/GFDBTGxcN7Yq3DH7NPvvEktHw093KYaX.jpg",
-      "https://images.ingaiasites.com.br/kqCxJf0sPuOIKgOf0B2NnDjPHMFmBvfS.jpg",
-      "https://images.ingaiasites.com.br/XorVr63FThFjAb0BUSd1JQB8MQhDBMTP.jpg",
-      "https://images.ingaiasites.com.br/VJoBqtTTbQp9TL1j7bZg2pJiqaAGoUL2.jpg",
-      "https://images.ingaiasites.com.br/7Bk2JzjIFLDxWYTuCk39FtBkYc5hSglF.jpg",
-      "https://images.ingaiasites.com.br/55emEfyqtaZvTWvs9ttx9HOISVvlxAFj.jpg",
-      "https://images.ingaiasites.com.br/cisaged7bwh2tsssdMBMTOpfhe1GUZII.jpg",
-      "https://images.ingaiasites.com.br/jMyogN5tbkdJPxshuhyNdMKStk0DdzWf.jpg",
-      "https://images.ingaiasites.com.br/NDMaKdPQFnfloNAZ5H9j5QiCtjyWSsLA.jpg",
-      "https://images.ingaiasites.com.br/BR8F9jTKAuHXcAqrOZsykSiWUqZegQOD.jpg",
-      "https://images.ingaiasites.com.br/Wq3NGnkt9wU8LYm3wNqFtC1gM8MAmMlm.jpg",
-      "https://images.ingaiasites.com.br/Ou3QUcdzKdMiuNdecFzMUMRJvgEmBi3K.jpg"
-    ]
-  },
-  {
-    "id": 118,
-    "codigo": "AP0351",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 670000,
-    "condominio": 890,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 1,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 51,
-    "tag": "Oportunidade",
-    "desc": "Apartamento com 1 dormitório à venda, 51 m² por R$ 670.000 - Cambuí - Campinas/SP. Oportunidade à venda no Edifício Barcelona no Cambuí. Localização privilegiada no Bairro Cambuí, torre única com apenas 36 apartamentos. Sala 2 ambientes com ar-condicionado, lavabo, sacada, cozinha com armários planejados equipada com fogão e coifa, área de serviço, suíte com armário e ar-condicionado, banheiro da suíte com gabinete, box e espelho. 1 vaga de garagem coberta. Condomínio com portaria virtual e presencial em horário comercial, piscina, academia e salão de festas. Agende sua visita!",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/225d968579868edc2f66130da7d446f8.jpg",
-      "https://images.ingaiasites.com.br/cf978cba73dc5a96dc83f1cb66222bed.jpg",
-      "https://images.ingaiasites.com.br/427a2d492e8375ea39d14a40f2b5a4ad.jpg",
-      "https://images.ingaiasites.com.br/844bc899edc26b87c78f664fa07b5ff1.jpg",
-      "https://images.ingaiasites.com.br/5898a491ee850879742596a9c626285a.jpg",
-      "https://images.ingaiasites.com.br/eb06929d1780f14c80d4d87605928628.jpg",
-      "https://images.ingaiasites.com.br/4f55388e86eb6214cb9e4e3521da9df1.jpg",
-      "https://images.ingaiasites.com.br/05ea3a688da474438492d6c0595ad4bf.jpg",
-      "https://images.ingaiasites.com.br/59055a4192a88c459be9a6ff4b6137a8.jpg",
-      "https://images.ingaiasites.com.br/ac4e60e67e2523daf3becd70f8f7a6a1.jpg",
-      "https://images.ingaiasites.com.br/dc2e49924accaaadc0b33b1e2e14e386.jpg",
-      "https://images.ingaiasites.com.br/741623f2cf7daccd8c194e37241e3c11.jpg",
-      "https://images.ingaiasites.com.br/a6ff7acb01668a78000c07489bb7df73.jpg",
-      "https://images.ingaiasites.com.br/80f3704b18ca5e98977ea3ba441d668e.jpg",
-      "https://images.ingaiasites.com.br/880d85484c99e865157a7a40e1bee930.jpg",
-      "https://images.ingaiasites.com.br/ed40f103a108344c9171925802ee71f6.jpg",
-      "https://lh3.googleusercontent.com/vWFcJ-yvk-ZMAnbYtYI3Z9bwMuGmrzUe1_vSh-bKgr35vB57L_iHHV_L42pBj_Sb-JPQyxHjwMY9tdK0pdVJDuS3mRWeaFJBGk3jwh5OH6bXfcA=w1024-h768-r180",
-      "https://images.ingaiasites.com.br/a42d8b4579f2feda8c4ff0678e11910c.jpg",
-      "https://images.ingaiasites.com.br/e460a2ab4749e70b457c291b4a752e21.jpg",
-      "https://images.ingaiasites.com.br/b5e989fea75f08b843f359c07ce528d1.jpg",
-      "https://lh3.googleusercontent.com/cXCtOyWLiMsQO8thie9vRPajgDTumzA6fnIeQik8zb5mMshfLN7D6JR0Fz8o2uPiKZfDjNp6gJOwVt32s48c7VIREWZ6sHWbjJoHjUCuX9b-jAk=w1024-h768-r180",
-      "https://images.ingaiasites.com.br/215f8ec6bfdeda5cbe37b27d21bce965.jpg",
-      "https://images.ingaiasites.com.br/fd59238fea6ef8b3389aa9e25afc987e.jpg",
-      "https://images.ingaiasites.com.br/f19b3243a3c3609b822b8ab821f28404.jpg",
-      "https://images.ingaiasites.com.br/ee01c9b2da938804d24aaf039142bd80.jpg",
-      "https://images.ingaiasites.com.br/2sAHRvapFHIcikI0LAFdY8NZOhF9mOei.jpg",
-      "https://images.ingaiasites.com.br/vCCdT1CulU2oNoqw7NsVobMurRZoVznf.jpg",
-      "https://images.ingaiasites.com.br/Llb1Mk1MNRCVbYYUJY20R11EVp8d7aD6.jpg",
-      "https://images.ingaiasites.com.br/3mDxT0s9HCDU9PJTLjrC0yebjTZ0hjxi.jpg",
-      "https://images.ingaiasites.com.br/X5tmn6fXS9ttIB8o3ErgRQaUc1lRD5Aa.jpg",
-      "https://images.ingaiasites.com.br/996QVeH08MCv2uhDiNoQ5qht02DA9egA.jpg",
-      "https://images.ingaiasites.com.br/WMhYANRMrYCmxzOVicydjdtDQPYpmMzC.jpg",
-      "https://images.ingaiasites.com.br/a9ZS4wdapcn5WjeFAV9Q0JC5Z5f5rOqx.jpg",
-      "https://images.ingaiasites.com.br/NP9BNIqbd8El3jJQmvxaqvDYzZ62CtvF.jpg"
-    ]
-  },
-  {
-    "id": 119,
-    "codigo": "AP0054",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "aluguel",
-    "preco": 3100,
-    "condominio": 1040,
-    "tipoOferta": "1",
-    "quartos": 1,
-    "suites": 1,
-    "salas": 1,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 40,
-    "tag": "Oportunidade",
-    "desc": "Apartamento com 1 dormitório para alugar, 40 m² por R$ 4.189 - Cambuí - Campinas/SP. Excelente oportunidade, apartamento em localização privilegiada no Cambuí, mobiliado conforme fotos. Sala, sacada, cozinha, quarto e banheiro com janela. Uma vaga coberta. Pronto para morar! Empreendimento alto padrão, torre única, 60 unidades no total. More com exclusividade e na melhor localização do Cambuí. Condomínio com piscina, fitness, fire square, lavanderia, espaço gourmet e churrasqueira. Portaria 24h. Entre em contato para agendarmos sua visita!!",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Churrasqueira",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness",
-      "Acabamento Premium"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/8fae486a8ee34b86abc0957cfc294c07.jpg",
-      "https://images.ingaiasites.com.br/86cbdb6a6ea5bea2cca49b84ea374071.jpg",
-      "https://images.ingaiasites.com.br/7ee56757a5cffa150dce6a1b0f3f02e9.jpg",
-      "https://images.ingaiasites.com.br/ebe8929b2041cf5886cf68900eac37ca.jpg",
-      "https://images.ingaiasites.com.br/85fd62d10d7725681afaf2bcb2bbda26.jpg",
-      "https://images.ingaiasites.com.br/97e90cc82cf6e9f649d3625163211244.jpg",
-      "https://images.ingaiasites.com.br/2ab489fb9e2d3755ea48886d525c8e4b.jpg",
-      "https://images.ingaiasites.com.br/fc8e2bb013a5bb10e5d102606aa502d9.jpg",
-      "https://images.ingaiasites.com.br/q1qc3ohqcFLArZalpgSFMZ9K6FtqN4Vz.jpg",
-      "https://images.ingaiasites.com.br/2IjtJyjtn1hE62Uma42KikH7B5xuT6zG.jpg",
-      "https://images.ingaiasites.com.br/6lBRFrVcYGheaPaGDBuFrbKLJBfFHotj.jpg",
-      "https://images.ingaiasites.com.br/nvAZuiMTGNUH7dDELwPTW9wOqDIJFFhj.jpg",
-      "https://images.ingaiasites.com.br/N5o4KpFEKf4yR85UXBtnfX8sOseX6oJp.jpg",
-      "https://images.ingaiasites.com.br/j2kGO1bTfNppWnIDhCeYqWWKIyR3WwWJ.jpg",
-      "https://images.ingaiasites.com.br/Lrzhn7zYwnTL6ywOPS4ah9EDMxEM89Pa.jpg",
-      "https://images.ingaiasites.com.br/7sD1QCWgbZGfAsFaDi11vEu46s09WtVa.jpg",
-      "https://images.ingaiasites.com.br/orWcX6WE08nmoziWLghX1rEoekvmPnqV.jpg",
-      "https://images.ingaiasites.com.br/iourWZHvRh8gDFHsNa3uzQm9cD1pKNTs.jpg",
-      "https://images.ingaiasites.com.br/o6ZZU6zYLtjZ3LdMMUGVzjsAbF7Qiyb2.jpg",
-      "https://images.ingaiasites.com.br/KCxcvH7gjYTfsr7bur0DQjed7rAqIc0z.jpg",
-      "https://images.ingaiasites.com.br/aCKRM2vuOsJRQaAZXVS4bmgPo3zrrN0O.jpg",
-      "https://images.ingaiasites.com.br/G90PnI3R56NygEOE4adYmiZmCLBWulDK.jpg",
-      "https://images.ingaiasites.com.br/A2qRopmOuaeoLA1pifwYNu9vRy7DCvOc.jpg",
-      "https://images.ingaiasites.com.br/vfF4ce4FDteATYxzfxnwy2ZLWXRaFL2f.jpg",
-      "https://images.ingaiasites.com.br/f10mnJTeVv0MpYsGCmNBIpcjru2eVJoh.jpg",
-      "https://images.ingaiasites.com.br/B9SwPZZ8Nt4c0vq1OqSnHIVJYS2kjunQ.jpg",
-      "https://images.ingaiasites.com.br/fOjYtsbKGphu7nf6uXVyury5gfcYzpbP.jpg",
-      "https://images.ingaiasites.com.br/ovJkHw9BV0nquNhuEK3f5xi7ROKdjS71.jpg",
-      "https://images.ingaiasites.com.br/4oK3auQk5krZ1OMlMMN6sEOLLIXU8MmL.jpg",
-      "https://images.ingaiasites.com.br/GHcc4qMeGIQIJCYMIZJKp2mjb9N4PCjb.jpg",
-      "https://images.ingaiasites.com.br/GPLX8wmIhfTAnW1kh9HsHGdIdSldLrfa.jpg",
-      "https://images.ingaiasites.com.br/ODc0gnNc4CxZuNX2KECqK52cc1GiQUJR.jpg"
-    ]
-  },
-  {
-    "id": 120,
+    "id": 121,
     "codigo": "AP1058",
     "nome": "Apartamento no Vila Rossi Borghi e Siqueira",
     "bairro": "Vila Rossi Borghi e Siqueira",
@@ -6744,70 +6824,6 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/10ea1cd035d3f03b87a09f874bcd8008.jpg",
       "https://images.ingaiasites.com.br/6c6b9961a92556003fd0722e69ed38ea.jpg",
       "https://images.ingaiasites.com.br/43191492d2d88e2d4f020c356e0400bb.jpg"
-    ]
-  },
-  {
-    "id": 121,
-    "codigo": "AP0343",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "aluguel",
-    "preco": 3700,
-    "condominio": 850,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 1,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 65,
-    "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormitórios para alugar, 65 m² por R$ 4.779 - Cambuí - Campinas/SP. 2 dormitórios (1 suíte) com armários, sala com living para dois ambientes, banheiro social, cozinha com geladeira e armários, varanda ampla. Ar condicionado nos quartos e sala. 1 Vaga de garagem coberta. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Churrasqueira",
-      "Piscina",
-      "Sauna",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/9f1dbd8bf7cf24b242a837df1e957a9f.jpg",
-      "https://images.ingaiasites.com.br/e1ce5705f296e01f5be1649c60e33c27.jpg",
-      "https://images.ingaiasites.com.br/47b6213c67d54df4485779425bec98d1.jpg",
-      "https://images.ingaiasites.com.br/b3bc23866ec96fa978c042849f9cc6f2.jpg",
-      "https://images.ingaiasites.com.br/3fb1dcc0c41d111aa4267142ff6a2460.jpg",
-      "https://images.ingaiasites.com.br/875f4bb1bb9689c5115a9e9bf5c880fc.jpg",
-      "https://images.ingaiasites.com.br/d198fe5406103f46e0b9fb382815a0e1.jpg",
-      "https://images.ingaiasites.com.br/502f1849d6a2f508c136e3b16ba41406.jpg",
-      "https://images.ingaiasites.com.br/cdfbb108e8e8ee2ae2e1773c96b765f0.jpg",
-      "https://images.ingaiasites.com.br/e69a1b364841f4820e1198b95f61bcd0.jpg",
-      "https://images.ingaiasites.com.br/3821a04a298a42cadd2f52b2efaa1f56.jpg",
-      "https://images.ingaiasites.com.br/6072046c992b5bf631e7c0ebf15884cf.jpg",
-      "https://images.ingaiasites.com.br/aae02491068e876e505d3b61c5590c7d.jpg",
-      "https://images.ingaiasites.com.br/b36018cbd1f92b84752150a87dc6c7d2.jpg",
-      "https://images.ingaiasites.com.br/8c310392568ba8ea02220486b2bf9eb9.jpg",
-      "https://images.ingaiasites.com.br/b0810bd02770a259fda9e57ac058fa5a.jpg",
-      "https://images.ingaiasites.com.br/d21363806c1c0f8ad4e53421649d4cc8.jpg",
-      "https://images.ingaiasites.com.br/0f8c5815a1a519ccd480eb0196d4b9a1.jpg",
-      "https://images.ingaiasites.com.br/6e13538a2a9818343a7030c1bb94106b.jpg",
-      "https://images.ingaiasites.com.br/f6bd470ec701225fe21d076c6e34a8cc.jpg",
-      "https://images.ingaiasites.com.br/8649d2fbcf28c9fd8ae9740d3cbb7b6e.jpg",
-      "https://images.ingaiasites.com.br/1921b359a1814caa1365c41410030ded.jpg",
-      "https://images.ingaiasites.com.br/80bdba711b0847e19f7d400d7d0172bc.jpg",
-      "https://images.ingaiasites.com.br/fc69010b444dee67eac672c59d322ba4.jpg",
-      "https://images.ingaiasites.com.br/2c0ac6188cb2defedae707279a52223c.jpg",
-      "https://images.ingaiasites.com.br/ac1c6f33145707298c8923cb9048ed80.jpg",
-      "https://images.ingaiasites.com.br/7ec8e1ba1aedfa6565dcf5f7b541694f.jpg",
-      "https://images.ingaiasites.com.br/3e77cee56f0af2083fdd5b58d1333985.jpg",
-      "https://images.ingaiasites.com.br/01c7ab1acb6685251c9b9266f32c6f92.jpg",
-      "https://images.ingaiasites.com.br/77c3c8677ab682dc8f631ce6150ce673.jpg",
-      "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
-      "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
-      "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
     ]
   },
   {
@@ -7037,74 +7053,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 126,
-    "codigo": "AP1126",
-    "nome": "Apartamento no Cambuí",
-    "bairro": "Cambuí",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 1460000,
-    "condominio": 0,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 2,
-    "salas": 0,
-    "banheiros": 3,
-    "vagas": 2,
-    "area": 84,
-    "tag": "Destaque",
-    "desc": "Apartamento à Venda no MM536 - Cambuí, Campinas. Localizado no coração do Cambuí, um dos bairros mais valorizados de Campinas, este apartamento no MM536 oferece sofisticação, conforto e uma localização privilegiada. Características do Imóvel: 2 dormitórios, sendo todos suítes, com acabamentos de alto padrão. 1 Lavabo. Living e uma varanda com vista panorâmica. Infraestrutura para ar-condicionado, aquecimento elétrico. Lazer completo no condomínio: piscina, academia, espaço gourmet e lavanderia. Segurança 24h com portaria e monitoramento. A localização é um destaque à parte, com fácil acesso a restaurantes, cafés, shoppings e outras conveniências, além de rápido acesso às principais vias de Campinas. Não perca a chance de viver em um dos melhores empreendimentos da cidade! Não perca essa oportunidade, agende sua visita e venha conferir. Valor sujeito a alteração, conforme tabela da Incorporadora.",
-    "diferenciais": [
-      "Piscina",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness",
-      "Acabamento Premium"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/4411c6a66df005120101c6fa88b8184d.jpg",
-      "https://images.ingaiasites.com.br/6b82e9b2e7b9e53c4711435aca8e79f2.jpg",
-      "https://images.ingaiasites.com.br/838e5a9431c053dd98f915cc47fa88ef.jpg",
-      "https://images.ingaiasites.com.br/0ace9122577c268d143c6a9f9a338c5a.jpg",
-      "https://images.ingaiasites.com.br/5677e3216faecf58db14a0df330b979d.jpg",
-      "https://images.ingaiasites.com.br/35042db70f441df2b3e68936502d8ce5.jpg",
-      "https://images.ingaiasites.com.br/7db8e762d8670d04519ea035c4f2da80.jpg",
-      "https://images.ingaiasites.com.br/3316414603b2e00b623ff00053f0645f.jpg",
-      "https://images.ingaiasites.com.br/3906ec69ac29c1e053199afc5f5867cd.jpg",
-      "https://images.ingaiasites.com.br/ad4854475cf01049f2b37462e73dd4a0.jpg",
-      "https://images.ingaiasites.com.br/f1c49d85f0fb3102affb686a2f17e7c7.jpg",
-      "https://images.ingaiasites.com.br/c44bbce9dbe02fda14200bcc257e7ed7.jpg",
-      "https://images.ingaiasites.com.br/5f7277b6da0cf6b5da12939f36d581eb.jpg",
-      "https://images.ingaiasites.com.br/105413bd57e7c4dfafa2bf292b951015.jpg",
-      "https://images.ingaiasites.com.br/840a19db2d74f6493f7cab262e669b9f.jpg",
-      "https://images.ingaiasites.com.br/0be696fcf460c4b1f052172050672c59.jpg",
-      "https://images.ingaiasites.com.br/22990e2cc2214d01116cc7dcde9942f5.jpg",
-      "https://images.ingaiasites.com.br/78fd50eeaa22a4f70bed71daa84ee4e5.jpg",
-      "https://images.ingaiasites.com.br/c32481637bff9b46953c7c9e66047422.jpg",
-      "https://images.ingaiasites.com.br/58e911e483cc0e02f180d22b46ffbed6.jpg",
-      "https://images.ingaiasites.com.br/91d758a191aa60e6b7c010ddc82a38a0.jpg",
-      "https://images.ingaiasites.com.br/5cdd42dd032dc12d5fee067d3e7cd74e.jpg",
-      "https://images.ingaiasites.com.br/3c8fd4881d1a92766e0ab9de96e884e0.jpg",
-      "https://images.ingaiasites.com.br/cf74dd8a520f91293b61e5da7f17ad18.jpg",
-      "https://images.ingaiasites.com.br/104992bede4d4ad06cc6faf807a487fa.jpg",
-      "https://images.ingaiasites.com.br/a50f263e6ede5803effca8f1131d4368.jpg",
-      "https://images.ingaiasites.com.br/35bdbfe426c8d825f355835fa880076c.jpg",
-      "https://images.ingaiasites.com.br/b6cc0b00ec83fab5a673fabf2839b193.jpg",
-      "https://images.ingaiasites.com.br/600f4b28be7e34ba99bb3dc806856d5f.jpg",
-      "https://images.ingaiasites.com.br/cb395165f5e00c7b9b8d1d35909cccd4.jpg",
-      "https://images.ingaiasites.com.br/f8dd551a8fc0ec9c1356ff79b9172d29.jpg",
-      "https://images.ingaiasites.com.br/4d45443ce13194943ff1d3f7e80a4ad4.jpg",
-      "https://images.ingaiasites.com.br/ea051778dce971611711d1b78a26dd83.jpg",
-      "https://images.ingaiasites.com.br/3c4cc2e2833f559a1d95efeb273036ec.jpg",
-      "https://images.ingaiasites.com.br/e6be4e3276a657fd40c6a3a496aa7d63.jpg",
-      "https://images.ingaiasites.com.br/58369b60721b9fc7b2bd265cda2c9b9e.jpg",
-      "https://images.ingaiasites.com.br/23ad8b452a3ff8b14db7fe73e9892aa2.jpg",
-      "https://images.ingaiasites.com.br/7caa5d084fed59045eca249cb2b6ce40.jpg",
-      "https://images.ingaiasites.com.br/a7b98b6fe804f24d2556f6217025a474.jpg",
-      "https://images.ingaiasites.com.br/4340227ee845e8c2bcd18f34f81ff60b.jpg"
-    ]
-  },
-  {
-    "id": 127,
     "codigo": "AP1130",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7159,7 +7107,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 128,
+    "id": 127,
     "codigo": "AP1133",
     "nome": "Apartamento no Jardim do Lago",
     "bairro": "Jardim do Lago",
@@ -7234,7 +7182,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 129,
+    "id": 128,
     "codigo": "SO0074",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -7323,7 +7271,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 130,
+    "id": 129,
     "codigo": "AP1139",
     "nome": "Apartamento no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -7361,7 +7309,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 131,
+    "id": 130,
     "codigo": "AP1143",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7397,7 +7345,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "codigo": "AP1144",
     "nome": "Apartamento no Vila Industrial",
     "bairro": "Vila Industrial",
@@ -7444,7 +7392,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 133,
+    "id": 132,
     "codigo": "CA0122",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -7535,7 +7483,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 134,
+    "id": 133,
     "codigo": "AP1156",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -7611,7 +7559,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 135,
+    "id": 134,
     "codigo": "CA0123",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -7714,7 +7662,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 136,
+    "id": 135,
     "codigo": "AP1161",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7786,7 +7734,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 137,
+    "id": 136,
     "codigo": "AP1162",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7856,7 +7804,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 138,
+    "id": 137,
     "codigo": "AP1163",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7922,7 +7870,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 139,
+    "id": 138,
     "codigo": "AP1167",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7991,7 +7939,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 140,
+    "id": 139,
     "codigo": "AP1171",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8060,7 +8008,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 141,
+    "id": 140,
     "codigo": "AP1174",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -8108,7 +8056,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 142,
+    "id": 141,
     "codigo": "AP1177",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -8148,7 +8096,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 143,
+    "id": 142,
     "codigo": "CA0126",
     "nome": "Casa de Condomínio no Village Sans Souci",
     "bairro": "Village Sans Souci",
@@ -8241,7 +8189,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 144,
+    "id": 143,
     "codigo": "CA0127",
     "nome": "Casa de Condomínio no Residencial Monterrey",
     "bairro": "Residencial Monterrey",
@@ -8297,7 +8245,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 145,
+    "id": 144,
     "codigo": "AP1181",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8351,7 +8299,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 146,
+    "id": 145,
     "codigo": "AP1187",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -8393,7 +8341,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 147,
+    "id": 146,
     "codigo": "SA0151",
     "nome": "Conjunto Comercial/sala no Barão Geraldo",
     "bairro": "Barão Geraldo",
@@ -8423,7 +8371,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 148,
+    "id": 147,
     "codigo": "AP1199",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -8477,7 +8425,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 149,
+    "id": 148,
     "codigo": "AP1200",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -8536,7 +8484,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 150,
+    "id": 149,
     "codigo": "LJ0001",
     "nome": "Conjunto Comercial/sala no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -8585,7 +8533,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 151,
+    "id": 150,
     "codigo": "CA0129",
     "nome": "Casa Comercial no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -8629,7 +8577,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 152,
+    "id": 151,
     "codigo": "CA0131",
     "nome": "Casa de Condomínio no Parque Imperador",
     "bairro": "Parque Imperador",
@@ -8699,7 +8647,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 153,
+    "id": 152,
     "codigo": "AP1206",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8769,7 +8717,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 154,
+    "id": 153,
     "codigo": "CA0132",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -8830,7 +8778,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 155,
+    "id": 154,
     "codigo": "AP1175",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -8868,7 +8816,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 156,
+    "id": 155,
     "codigo": "AP1207",
     "nome": "Apartamento no Mansões Santo Antônio",
     "bairro": "Mansões Santo Antônio",
@@ -8953,7 +8901,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 157,
+    "id": 156,
     "codigo": "AP1209",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9027,7 +8975,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 158,
+    "id": 157,
     "codigo": "AP1213",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9067,7 +9015,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 159,
+    "id": 158,
     "codigo": "AP1214",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -9104,7 +9052,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 160,
+    "id": 159,
     "codigo": "AP1215",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -9137,7 +9085,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 161,
+    "id": 160,
     "codigo": "CA0136",
     "nome": "Casa de Condomínio no Parque Rural Fazenda Santa Cândida",
     "bairro": "Parque Rural Fazenda Santa Cândida",
@@ -9181,7 +9129,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "codigo": "AP1217",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -9246,7 +9194,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 163,
+    "id": 162,
     "codigo": "SA0155",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9286,7 +9234,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 164,
+    "id": 163,
     "codigo": "SL0004",
     "nome": "Loja/Salão no Centro",
     "bairro": "Centro",
@@ -9317,7 +9265,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 165,
+    "id": 164,
     "codigo": "AP1220",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9372,7 +9320,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 166,
+    "id": 165,
     "codigo": "AP1226",
     "nome": "Apartamento no Jardim Proença",
     "bairro": "Jardim Proença",
@@ -9425,7 +9373,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 167,
+    "id": 166,
     "codigo": "TE0033",
     "nome": "Loteamento/Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -9460,7 +9408,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 168,
+    "id": 167,
     "codigo": "AP1228",
     "nome": "Apartamento no Ponte Preta",
     "bairro": "Ponte Preta",
@@ -9544,7 +9492,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 169,
+    "id": 168,
     "codigo": "AP1231",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -9581,7 +9529,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 170,
+    "id": 169,
     "codigo": "AP1232",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9625,7 +9573,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 171,
+    "id": 170,
     "codigo": "SA0156",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9662,7 +9610,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 172,
+    "id": 171,
     "codigo": "AP1244",
     "nome": "Apartamento no Mansões Santo Antônio",
     "bairro": "Mansões Santo Antônio",
@@ -9708,7 +9656,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 173,
+    "id": 172,
     "codigo": "SO0075",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -9746,7 +9694,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 174,
+    "id": 173,
     "codigo": "AP1246",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9810,7 +9758,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 175,
+    "id": 174,
     "codigo": "AP1248",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9878,7 +9826,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 176,
+    "id": 175,
     "codigo": "AP1249",
     "nome": "Apartamento no Bonfim",
     "bairro": "Bonfim",
@@ -9925,7 +9873,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 177,
+    "id": 176,
     "codigo": "AP1250",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9990,7 +9938,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 178,
+    "id": 177,
     "codigo": "CA0138",
     "nome": "Casa de Condomínio no Jardim Pari",
     "bairro": "Jardim Pari",
@@ -10070,7 +10018,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 179,
+    "id": 178,
     "codigo": "AP1253",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10107,7 +10055,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 180,
+    "id": 179,
     "codigo": "AP1256",
     "nome": "Apartamento no Jardim Anton Von Zuben",
     "bairro": "Jardim Anton Von Zuben",
@@ -10165,7 +10113,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 181,
+    "id": 180,
     "codigo": "KN0009",
     "nome": "Kitchenette/Conjugados no Centro",
     "bairro": "Centro",
@@ -10201,7 +10149,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 182,
+    "id": 181,
     "codigo": "AP1259",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -10257,7 +10205,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 183,
+    "id": 182,
     "codigo": "AP1261",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10322,7 +10270,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 184,
+    "id": 183,
     "codigo": "AP1263",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10367,7 +10315,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 185,
+    "id": 184,
     "codigo": "TE0034",
     "nome": "Loteamento/Condomínio no Residencial Jatibela",
     "bairro": "Residencial Jatibela",
@@ -10408,7 +10356,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 186,
+    "id": 185,
     "codigo": "AP1264",
     "nome": "Apartamento no Villa Flora Hortolandia",
     "bairro": "Villa Flora Hortolandia",
@@ -10445,7 +10393,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 187,
+    "id": 186,
     "codigo": "AP1265",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10497,7 +10445,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 188,
+    "id": 187,
     "codigo": "AP1267",
     "nome": "Apartamento no Jardim Flamboyant",
     "bairro": "Jardim Flamboyant",
@@ -10540,7 +10488,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 189,
+    "id": 188,
     "codigo": "AP1266",
     "nome": "Apartamento no Jardim das Oliveiras",
     "bairro": "Jardim das Oliveiras",
@@ -10597,7 +10545,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 190,
+    "id": 189,
     "codigo": "SA0157",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -10629,7 +10577,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 191,
+    "id": 190,
     "codigo": "SA0158",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -10671,7 +10619,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 192,
+    "id": 191,
     "codigo": "SA0159",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -10704,7 +10652,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 193,
+    "id": 192,
     "codigo": "SA0160",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -10751,7 +10699,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 194,
+    "id": 193,
     "codigo": "AP1268",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -10787,7 +10735,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 195,
+    "id": 194,
     "codigo": "AP1269",
     "nome": "Apartamento no Parque Dom Pedro II",
     "bairro": "Parque Dom Pedro II",
@@ -10842,7 +10790,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 196,
+    "id": 195,
     "codigo": "AP1137",
     "nome": "Apartamento no Jardim Nova Europa",
     "bairro": "Jardim Nova Europa",
@@ -10881,9 +10829,9 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 197,
+    "id": 196,
     "codigo": "CA0121",
-    "nome": "Casa Padrão no Alphaville Dom Pedro 2",
+    "nome": "Casa de Condomínio no Alphaville Dom Pedro 2",
     "bairro": "Alphaville Dom Pedro 2",
     "tipo": "casa",
     "finalidade": "compra",
@@ -10892,9 +10840,9 @@ const IMOVEIS_DATABASE = [
     "tipoOferta": "1",
     "quartos": 4,
     "suites": 4,
-    "salas": 0,
-    "banheiros": 1,
-    "vagas": 0,
+    "salas": 2,
+    "banheiros": 6,
+    "vagas": 4,
     "area": 387,
     "tag": "Exclusivo",
     "desc": "Casa com 4 dormitórios à venda, 387 m² por R$ 4.600.000 - Alphaville Dom Pedro 2 - Campinas/SP. Sobrado no Alphaville Dom Pedro 2 a venda por R$ 4.600.000. 4 suítes com armários planejados (sendo a máster com closet, banheira e pia dupla), todas as esquadrias dos dormitórios são persianas elétricas com tela mosquiteiro, armários embutidos. A residência conta com: -Home Theater; - Escritório; -Área gourmet fechada com churrasqueira a gás, cooktop e armários planejados Kitchens; -Sala em dois ambientes com pé direito duplo; -Piscina (preparada para aquecimento solar); -Cozinha com armários planejados Kitchens, entregue com cooktop e coifa de ilha; -Aquecedor solar nos WCs e cozinha; -Iluminação LED; -Automação; -Paisagismo. Agende sua visita!",
@@ -10925,7 +10873,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 198,
+    "id": 197,
     "codigo": "SA0161",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -10970,7 +10918,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 199,
+    "id": 198,
     "codigo": "AP1270",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -11029,7 +10977,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 200,
+    "id": 199,
     "codigo": "AP1271",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -11083,7 +11031,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 201,
+    "id": 200,
     "codigo": "CA0139",
     "nome": "Casa Comercial no Jardim Planalto de Viracopos",
     "bairro": "Jardim Planalto de Viracopos",
