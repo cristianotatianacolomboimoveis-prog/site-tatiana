@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 12/06/2026 12:16:27
+   Data de Atualização: 13/06/2026 11:12:13
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -10759,7 +10759,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 33,
     "tag": "Oportunidade",
-    "desc": "Sala comercial à venda no Midtown Office Aquidaban. Com 33 m² em contrapiso, o espaço é versátil e pode ser adaptado conforme a necessidade do seu negócio. Possui um banheiro privativo, uma vaga de garagem e sacada que garante boa iluminação natural e ventilação. A localização é estratégica, em uma das principais avenidas da cidade, com fácil acesso ao centro, às rodovias e a diversos serviços e comércios. É uma excelente oportunidade para quem busca praticidade, visibilidade e um ambiente moderno para escritório, consultório ou pequeno empreendimento. Oportunidade também para investimento, o condomínio possui alta demanda para locação. Agende sua visita!",
+    "desc": "Sala comercial à venda no Midtown Office Aquidaban. Com 33 m² em contrapiso, o espaço é versátil e pode ser adaptado conforme a necessidade do seu negócio. Possui um banheiro privativo, uma vaga de garagem e sacada que garante boa iluminação natural e ventilação. A localização é estrat��gica, em uma das principais avenidas da cidade, com fácil acesso ao centro, às rodovias e a diversos serviços e comércios. É uma excelente oportunidade para quem busca praticidade, visibilidade e um ambiente moderno para escritório, consultório ou pequeno empreendimento. Oportunidade também para investimento, o condomínio possui alta demanda para locação. Agende sua visita!",
     "diferenciais": [
       "Área de Serviço",
       "Varanda / Terraço"
