@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 18/06/2026 12:21:46
+   Data de Atualização: 19/06/2026 12:43:37
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -9123,7 +9123,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 60,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormit��rios à venda, 60 m² por R$ 399.000 - Centro - Campinas/SP. Excelente oportunidade no coração de Campinas! Apartamento de 60 m² com 2 dormitórios, sendo 1 suíte, ideal para quem busca conforto e localização privilegiada. Imóvel bem distribuído, em condomínio com ótima localização, próximo a comércios, mercados, farmácias e transporte público. Perfeito para moradia ou investimento! Valor: R$ 399.000 Agende sua visita e aproveite essa chance!",
+    "desc": "Apartamento com 2 dormitórios à venda, 60 m² por R$ 399.000 - Centro - Campinas/SP. Excelente oportunidade no coração de Campinas! Apartamento de 60 m² com 2 dormitórios, sendo 1 suíte, ideal para quem busca conforto e localização privilegiada. Imóvel bem distribuído, em condomínio com ótima localização, próximo a comércios, mercados, farmácias e transporte público. Perfeito para moradia ou investimento! Valor: R$ 399.000 Agende sua visita e aproveite essa chance!",
     "diferenciais": [
       "Armários Planejados"
     ],
@@ -11247,6 +11247,54 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/9990441ffbedd09bfa94ca5bca8e524c.jpg",
       "https://images.ingaiasites.com.br/13aa77bda52acd4f0fe926d6b3d6870b.jpg",
       "https://images.ingaiasites.com.br/2491369d718e493f9bea6ebd42e33dd4.jpg"
+    ]
+  },
+  {
+    "id": 204,
+    "codigo": "AP1272",
+    "nome": "Apartamento no Residencial Parque da Fazenda",
+    "bairro": "Residencial Parque da Fazenda",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 240000,
+    "condominio": 350,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 0,
+    "salas": 0,
+    "banheiros": 1,
+    "vagas": 0,
+    "area": 37,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 2 dormitórios, 37 m² - venda por R$ 240.000 ou aluguel por R$ 2.014/mês - Residencial Parque da Fazenda - Campinas/SP. Apartamento de 37m² para venda e locação no condomínio Urban Parque das Bandeiras. O imóvel possui 2 dormitórios, sala, banheiro e cozinha com tanque integrado. Não inclui mobília. Permanecerá no imóvel para locação: guarda roupa do quarto principal, na cozinha armário embaixo da pia e o fogão. O condomínio possui infraestrutura completa com espaço beleza, pet place, cine open air, fitness, salão de festas, churrasqueira e apoio, coworking, bicicletário, praça de convivência, food square, playground, Easy Market (mini mercado) e brinquedoteca. É uma opção ideal para estudantes e profissionais que buscam praticidade, conforto e uma localização estratégica em Campinas. Fica em frente ao Hospital e à PUC e oferece vista para a Avenida John Boyd Dunlop. A localização é prática, com fácil acesso às rodovias Santos Dumont, Bandeirantes e Anhanguera, além de estar ao lado do Shopping Bandeiras. Agenda já sua visita!!",
+    "diferenciais": [
+      "Churrasqueira",
+      "Armários Planejados",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/c10ce5f3fbfe2b9a479b3eb914d2f954.jpg",
+      "https://images.ingaiasites.com.br/78be4913e6cb890f4b8ffcd23687a4cf.jpg",
+      "https://images.ingaiasites.com.br/dea08a63b1ab0ebbaf8e3dfeb7e1cf6b.jpg",
+      "https://images.ingaiasites.com.br/ce3e3b02812a13bbc5e8759ebdfee2d3.jpg",
+      "https://images.ingaiasites.com.br/5987f49e222109117abe0da4019567a2.jpg",
+      "https://images.ingaiasites.com.br/5ab32ce711eb76ac8b03c8e330e7f1b6.jpg",
+      "https://images.ingaiasites.com.br/527df004d90439cb4e773cc9e2071646.jpg",
+      "https://images.ingaiasites.com.br/097a04727c0f12e85b6033b455551a60.jpg",
+      "https://images.ingaiasites.com.br/d98dbc28646c9ea9dc7ac5f543ac26a6.jpg",
+      "https://images.ingaiasites.com.br/095f22a623081fbbbf16539950a1ceec.jpg",
+      "https://images.ingaiasites.com.br/1f38e0d7efb9cbeaefdb0e1a79118e34.jpg",
+      "https://images.ingaiasites.com.br/774326ff74f19598a1f58c12ec7df077.jpg",
+      "https://images.ingaiasites.com.br/c2a9a0725595ae7f163dc56cc7df7bea.jpg",
+      "https://images.ingaiasites.com.br/b9e067663e7e80ff8a0aabb2447e18b0.jpg",
+      "https://images.ingaiasites.com.br/a3ae9b72ad87a5c99ba673906fbef3d3.jpg",
+      "https://images.ingaiasites.com.br/81a1e4e45427a7e7f5f1a2d8a2cfe171.jpg",
+      "https://images.ingaiasites.com.br/70b0f189a2801d08109050f830f66258.jpg",
+      "https://images.ingaiasites.com.br/f57992bb22e70e7abe1328c7f347857e.jpg",
+      "https://images.ingaiasites.com.br/a0ec60294d50594b3c713f2d6f7d0d1d.jpg",
+      "https://images.ingaiasites.com.br/4bada6db577ac2232fa199fb7aa4de74.jpg",
+      "https://images.ingaiasites.com.br/05b2eeaa8ccacd73653e7780924bed37.jpg",
+      "https://images.ingaiasites.com.br/e4df6da55ed69f88fc04dc264a97b2b2.jpg"
     ]
   }
 ];
