@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 19/06/2026 12:43:37
+   Data de Atualização: 20/06/2026 11:13:51
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -9123,7 +9123,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 60,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormitórios à venda, 60 m² por R$ 399.000 - Centro - Campinas/SP. Excelente oportunidade no coração de Campinas! Apartamento de 60 m² com 2 dormitórios, sendo 1 suíte, ideal para quem busca conforto e localização privilegiada. Imóvel bem distribuído, em condomínio com ótima localização, próximo a comércios, mercados, farmácias e transporte público. Perfeito para moradia ou investimento! Valor: R$ 399.000 Agende sua visita e aproveite essa chance!",
+    "desc": "Apartamento com 2 dormit��rios à venda, 60 m² por R$ 399.000 - Centro - Campinas/SP. Excelente oportunidade no coração de Campinas! Apartamento de 60 m² com 2 dormitórios, sendo 1 suíte, ideal para quem busca conforto e localização privilegiada. Imóvel bem distribuído, em condomínio com ótima localização, próximo a comércios, mercados, farmácias e transporte público. Perfeito para moradia ou investimento! Valor: R$ 399.000 Agende sua visita e aproveite essa chance!",
     "diferenciais": [
       "Armários Planejados"
     ],
