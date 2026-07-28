@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 27/07/2026 12:17:41
+   Data de Atualização: 28/07/2026 11:13:47
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -6544,7 +6544,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 67,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormitórios para alugar, 67 m² por R$ 4.992/mês - Taquaral - Campinas/SP. Apartamento com excelente posição solar (sol da manhã), proporcionando ambientes mais iluminados e agradáveis ao longo do dia. O imóvel conta com 2 suítes, sendo a suíte principal equipada com ar-condicionado para maior conforto. A sala também dispõe de ar-condicionado, garantindo bem-estar em todas as estações. Além disso, possui móveis planejados na cozinha, nos banheiros e nos quartos, oferecendo praticidade, organização e melhor aproveitamento dos espaços. Um apartamento que reúne conforto, funcionalidade e excelente incidência de luz natural, ideal para quem busca qualidade de vida. Condomínio localizado no Taquaral e conta com churrasqueira, academia, quadra poliesportiva, elevador, espaço gourmet, piscina infantil, piscina para adulto, brinquedoteca, bicicletário, coworking, acesso para deficientes, espaço verde / parque, campo de futebol e estacionamento para visitantes. Viva o privilégio de morar no Taquaral em um condomínio de alto padrão, com lazer completo estilo clube. Agenda j�� sua visita!!",
+    "desc": "Apartamento com 2 dormitórios para alugar, 67 m² por R$ 4.992/mês - Taquaral - Campinas/SP. Apartamento com excelente posição solar (sol da manhã), proporcionando ambientes mais iluminados e agradáveis ao longo do dia. O imóvel conta com 2 suítes, sendo a suíte principal equipada com ar-condicionado para maior conforto. A sala também dispõe de ar-condicionado, garantindo bem-estar em todas as estações. Além disso, possui móveis planejados na cozinha, nos banheiros e nos quartos, oferecendo praticidade, organização e melhor aproveitamento dos espaços. Um apartamento que reúne conforto, funcionalidade e excelente incidência de luz natural, ideal para quem busca qualidade de vida. Condomínio localizado no Taquaral e conta com churrasqueira, academia, quadra poliesportiva, elevador, espaço gourmet, piscina infantil, piscina para adulto, brinquedoteca, bicicletário, coworking, acesso para deficientes, espaço verde / parque, campo de futebol e estacionamento para visitantes. Viva o privilégio de morar no Taquaral em um condomínio de alto padrão, com lazer completo estilo clube. Agenda já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
       "Churrasqueira",
