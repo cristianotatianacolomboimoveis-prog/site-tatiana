@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 03/08/2026 12:18:22
+   Data de Atualização: 04/08/2026 11:20:29
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
