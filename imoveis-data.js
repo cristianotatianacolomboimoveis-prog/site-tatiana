@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 22/09/2026 13:51:08
+   Data de Atualização: 23/09/2026 14:02:25
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -1776,7 +1776,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 36,
     "tag": "Oportunidade",
-    "desc": "Oportunidade no Midtown Office Aquidaban. Sala comercial para locação, bem iluminada, equipada com 2 aparelhos de ar condicionado, sendo possível a separação de ambientes, banheiro, sacada. Empreendimento moderno com fechadura biométrica. 1 vaga de garagem coberta. Pronta para você instalar seu escritório ou consult��rio. Sala de reuniões no condomínio. Excelente localização, próximo ao Cambuí, Hotel e Restaurantes. Entre em contato para agendarmos sua visita!!",
+    "desc": "Oportunidade no Midtown Office Aquidaban. Sala comercial para locação, bem iluminada, equipada com 2 aparelhos de ar condicionado, sendo possível a separação de ambientes, banheiro, sacada. Empreendimento moderno com fechadura biométrica. 1 vaga de garagem coberta. Pronta para você instalar seu escritório ou consultório. Sala de reuniões no condomínio. Excelente localização, próximo ao Cambuí, Hotel e Restaurantes. Entre em contato para agendarmos sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
       "Varanda / Terraço"
@@ -3817,7 +3817,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 46,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 1 dormitório à venda, 46 m² por R$ 488.000 - Cambuí - Campinas/SP. Oportunidade para investidor, o imóvel está alugado. Sala para 2 ambientes; sacada com ponto grill; cozinha americana com armários planejados e fog��o; área de serviço; suíte com armário e ar condicionado; banheiro com gabinete, box e espelho. Andar alto. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada, mini mercado e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços.",
+    "desc": "Apartamento com 1 dormitório à venda, 46 m² por R$ 488.000 - Cambuí - Campinas/SP. Oportunidade para investidor, o imóvel está alugado. Sala para 2 ambientes; sacada com ponto grill; cozinha americana com armários planejados e fogão; área de serviço; suíte com armário e ar condicionado; banheiro com gabinete, box e espelho. Andar alto. O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada, mini mercado e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços.",
     "diferenciais": [
       "Sauna",
       "Armários Planejados",
