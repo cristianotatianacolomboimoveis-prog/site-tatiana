@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 27/09/2026 14:31:20
+   Data de Atualização: 28/09/2026 17:17:31
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -1073,7 +1073,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 2,
     "area": 91,
     "tag": "Destaque",
-    "desc": "Quartier Cambuí. Apartamento Mobiliado com 2 dormitórios à venda, 91m², por R$ 1.650.000 - Campinas/SP. Apartamento Mobiliado com 2 dormitórios, sendo 2 suítes, 3 banheiros, living para 2 ambientes, cozinha planejada com eletrodom��sticos embutidos, varanda, despensa e área de serviço. Rico em armários, possui fino acabamento e ar condicionado instalado na sala e nos dormitórios. Apartamento em andar intermediário, com 2 vagas de garagem cobertas. Possui depósito. Edifício super moderno, área de lazer com piscina, churrasqueira e espaço gourmet, em localização privilegiada no Cambuí. Portaria e segurança 24h. Entre em contato para agendar sua visita!",
+    "desc": "Quartier Cambuí. Apartamento Mobiliado com 2 dormitórios à venda, 91m², por R$ 1.650.000 - Campinas/SP. Apartamento Mobiliado com 2 dormitórios, sendo 2 suítes, 3 banheiros, living para 2 ambientes, cozinha planejada com eletrodomésticos embutidos, varanda, despensa e área de serviço. Rico em armários, possui fino acabamento e ar condicionado instalado na sala e nos dormitórios. Apartamento em andar intermediário, com 2 vagas de garagem cobertas. Possui depósito. Edifício super moderno, área de lazer com piscina, churrasqueira e espaço gourmet, em localização privilegiada no Cambuí. Portaria e segurança 24h. Entre em contato para agendar sua visita!",
     "diferenciais": [
       "Varanda / Terraço",
       "Armários Planejados",
