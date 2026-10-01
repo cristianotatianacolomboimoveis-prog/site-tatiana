@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 30/09/2026 15:33:14
+   Data de Atualização: 01/10/2026 15:57:20
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -5203,7 +5203,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 0,
     "area": 428,
     "tag": "Oportunidade",
-    "desc": "Terreno à venda, 428 m² por R$ 750.000 - Arborais - Campinas/SP. Excelente terreno �� venda no Condomínio Arborais, um dos bairros mais valorizados de Campinas. Com área ampla e bem posicionada, esse terreno oferece a oportunidade de construir a casa dos seus sonhos em um ambiente tranquilo, seguro e cercado de natureza. Não perca a chance de morar em um lugar de paz e elegância. Analisa apartamento de menor valor como parte do pagamento e analisa pagamento com parcelamento. Agende uma visita e conheça este terreno incrível!",
+    "desc": "Terreno à venda, 428 m² por R$ 750.000 - Arborais - Campinas/SP. Excelente terreno à venda no Condomínio Arborais, um dos bairros mais valorizados de Campinas. Com área ampla e bem posicionada, esse terreno oferece a oportunidade de construir a casa dos seus sonhos em um ambiente tranquilo, seguro e cercado de natureza. Não perca a chance de morar em um lugar de paz e elegância. Analisa apartamento de menor valor como parte do pagamento e analisa pagamento com parcelamento. Agende uma visita e conheça este terreno incrível!",
     "diferenciais": [
       "Quadra Poliesportiva"
     ],
