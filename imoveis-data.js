@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 09/10/2026 15:46:52
+   Data de Atualização: 10/10/2026 14:59:06
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -791,6 +791,52 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 14,
+    "codigo": "AP0598",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 3500,
+    "condominio": 836.9,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 2,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 47,
+    "tag": "Oportunidade",
+    "desc": "Ótimo apartamento para locação no Unic Cambuí. Apartamento semimobiliado, Possui 1 quarto com armário, bancada escritório, ar-condicionado. Sala 2 ambientes com rack e cortina. Sacada com pia com ponto grill e gabinete. Cozinha planejada com cooktop e geladeira. Área de serviço. Banheiro com gabinete, boxe e espelho. Pronto para morar! 1 vaga de garagem no subsolo. Condomínio com portaria, piscina, fitness, espaço gourmet e churrasqueira com forno de pizza. Localização privilegiada com toda infraestrutura de comércio e serviços ao redor, ao lado da Pizzaria Bráz. Entre em contato e agende uma visita!",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Churrasqueira",
+      "Piscina",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/542ff6af1b87c7a489ce6ed5c3704fc3.jpg",
+      "https://images.ingaiasites.com.br/852580ead154ef38b9a0126a704ff06f.jpg",
+      "https://images.ingaiasites.com.br/940d715dc8d52b489bd7395e66cfdef9.jpg",
+      "https://images.ingaiasites.com.br/bea232e92ad4a8935276551b0d71c24d.jpg",
+      "https://images.ingaiasites.com.br/48c6ebd385a28fa5157cd3c8f3b05dcb.jpg",
+      "https://images.ingaiasites.com.br/875e7003613c08cb32c6ac09608217fa.jpg",
+      "https://images.ingaiasites.com.br/76ec6cfe6788b0aca255a5dd12b674c0.jpg",
+      "https://images.ingaiasites.com.br/6a74ca2dbb6058861a14263e285ad081.jpg",
+      "https://images.ingaiasites.com.br/70214e0caf8851470ad0c0c5cc69926b.jpg",
+      "https://images.ingaiasites.com.br/023ff5ca11aa6bf86bb6a5fe0a33e322.jpg",
+      "https://images.ingaiasites.com.br/226d479ba9589c4ad8b2268df8aa3ff5.jpg",
+      "https://images.ingaiasites.com.br/a64706d582e54401383563a388c9a0ca.jpg",
+      "https://images.ingaiasites.com.br/8940c7535e9a768db07b86552dc9d4be.jpg",
+      "https://images.ingaiasites.com.br/ce82eab34a263cbf83cc7ebf9e67fc23.jpg",
+      "https://images.ingaiasites.com.br/CzBZvCycalzzTDwZ3c3kkFLFw5xVDJ33.jpg",
+      "https://images.ingaiasites.com.br/f1sWieV2vkV3qkK33qY4vg6jVNQcsyAa.jpg"
+    ]
+  },
+  {
+    "id": 15,
     "codigo": "AP0616",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -857,7 +903,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "codigo": "AP0523",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -931,7 +977,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 16,
+    "id": 17,
     "codigo": "LO0001",
     "nome": "Loja/Salão no Swiss Park",
     "bairro": "Swiss Park",
@@ -963,7 +1009,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "codigo": "SA0078",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -1003,7 +1049,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "codigo": "AP0440",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1065,7 +1111,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 19,
+    "id": 20,
     "codigo": "PH0001",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1150,7 +1196,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 20,
+    "id": 21,
     "codigo": "CO0028",
     "nome": "Apartamento no Fazenda São Quirino",
     "bairro": "Fazenda São Quirino",
@@ -1231,7 +1277,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 21,
+    "id": 22,
     "codigo": "AP0663",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -1307,7 +1353,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 22,
+    "id": 23,
     "codigo": "AP0363",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -1384,7 +1430,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 23,
+    "id": 24,
     "codigo": "AP0670",
     "nome": "Apartamento no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -1450,7 +1496,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 24,
+    "id": 25,
     "codigo": "AP0694",
     "nome": "Apartamento no Ponte Preta",
     "bairro": "Ponte Preta",
@@ -1509,7 +1555,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 25,
+    "id": 26,
     "codigo": "AP0704",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1586,7 +1632,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 26,
+    "id": 27,
     "codigo": "AP0017",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1633,7 +1679,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "codigo": "AP0040",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1697,7 +1743,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "codigo": "AP0521",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1761,7 +1807,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "codigo": "AP0724",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1826,7 +1872,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 30,
+    "id": 31,
     "codigo": "AP0756",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1886,7 +1932,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 31,
+    "id": 32,
     "codigo": "SA0095",
     "nome": "Conjunto Comercial/sala no Cambuí",
     "bairro": "Cambuí",
@@ -1926,7 +1972,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 32,
+    "id": 33,
     "codigo": "SA0102",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -1966,7 +2012,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "codigo": "AP0774",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -2027,7 +2073,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 34,
+    "id": 35,
     "codigo": "AP0780",
     "nome": "Apartamento no Bosque",
     "bairro": "Bosque",
@@ -2081,7 +2127,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 35,
+    "id": 36,
     "codigo": "SA0104",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -2124,7 +2170,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 36,
+    "id": 37,
     "codigo": "AP0795",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -2189,7 +2235,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 37,
+    "id": 38,
     "codigo": "AP0786",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2222,7 +2268,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 38,
+    "id": 39,
     "codigo": "AP0785",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2261,7 +2307,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 39,
+    "id": 40,
     "codigo": "AP0784",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2294,7 +2340,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 40,
+    "id": 41,
     "codigo": "CO0002",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2360,7 +2406,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 41,
+    "id": 42,
     "codigo": "CH0007",
     "nome": "Chácara no Parque Valinhos",
     "bairro": "Parque Valinhos",
@@ -2461,7 +2507,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 42,
+    "id": 43,
     "codigo": "CA0069",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -2565,7 +2611,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 43,
+    "id": 44,
     "codigo": "CO0024",
     "nome": "Apartamento no Jardim Proença",
     "bairro": "Jardim Proença",
@@ -2633,7 +2679,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 44,
+    "id": 45,
     "codigo": "AP0886",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2697,7 +2743,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 45,
+    "id": 46,
     "codigo": "SA0119",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -2733,7 +2779,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 46,
+    "id": 47,
     "codigo": "SA0120",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -2770,7 +2816,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 47,
+    "id": 48,
     "codigo": "AP0914",
     "nome": "Apartamento no Sao Bernado",
     "bairro": "Sao Bernado",
@@ -2813,7 +2859,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 48,
+    "id": 49,
     "codigo": "FL0002",
     "nome": "Flat no Alphaville",
     "bairro": "Alphaville",
@@ -2854,7 +2900,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 49,
+    "id": 50,
     "codigo": "AP0920",
     "nome": "Apartamento no Parque da Hípica",
     "bairro": "Parque da Hípica",
@@ -2904,7 +2950,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 50,
+    "id": 51,
     "codigo": "CO0027",
     "nome": "Apartamento no Parque da Hípica",
     "bairro": "Parque da Hípica",
@@ -2953,7 +2999,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 51,
+    "id": 52,
     "codigo": "AP0923",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3015,7 +3061,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 52,
+    "id": 53,
     "codigo": "SA0122",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -3058,7 +3104,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 53,
+    "id": 54,
     "codigo": "CJ0001",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3113,7 +3159,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 54,
+    "id": 55,
     "codigo": "CA0084",
     "nome": "Casa Padrão no Vila Jequitibás",
     "bairro": "Vila Jequitibás",
@@ -3165,7 +3211,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 55,
+    "id": 56,
     "codigo": "AP0955",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3232,7 +3278,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 56,
+    "id": 57,
     "codigo": "SA0130",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3269,7 +3315,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 57,
+    "id": 58,
     "codigo": "SA0135",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3306,7 +3352,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 58,
+    "id": 59,
     "codigo": "SA0134",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3336,7 +3382,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 59,
+    "id": 60,
     "codigo": "SA0131",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3366,7 +3412,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 60,
+    "id": 61,
     "codigo": "SA0133",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3395,7 +3441,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 61,
+    "id": 62,
     "codigo": "SA0132",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3425,7 +3471,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 62,
+    "id": 63,
     "codigo": "TE0027",
     "nome": "Loteamento/Condomínio no Fazenda Santa Cândida",
     "bairro": "Fazenda Santa Cândida",
@@ -3455,7 +3501,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 63,
+    "id": 64,
     "codigo": "CA0088",
     "nome": "Casa Padrão no Jardim São Francisco",
     "bairro": "Jardim São Francisco",
@@ -3507,7 +3553,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 64,
+    "id": 65,
     "codigo": "CO0029",
     "nome": "Apartamento no Vila Brandina",
     "bairro": "Vila Brandina",
@@ -3611,7 +3657,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 65,
+    "id": 66,
     "codigo": "AP0431",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3676,7 +3722,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 66,
+    "id": 67,
     "codigo": "SO0073",
     "nome": "Casa de Condomínio no Chácara das Nações",
     "bairro": "Chácara das Nações",
@@ -3765,7 +3811,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 67,
+    "id": 68,
     "codigo": "CA0098",
     "nome": "Casa Padrão no São Bernardo",
     "bairro": "São Bernardo",
@@ -3815,7 +3861,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 68,
+    "id": 69,
     "codigo": "AP1017",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -3873,7 +3919,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 69,
+    "id": 70,
     "codigo": "CA0101",
     "nome": "Casa de Condomínio no Jardim Pari",
     "bairro": "Jardim Pari",
@@ -3941,7 +3987,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 70,
+    "id": 71,
     "codigo": "SL0003",
     "nome": "Loja/Salão no Swiss Park",
     "bairro": "Swiss Park",
@@ -3982,7 +4028,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 71,
+    "id": 72,
     "codigo": "CA0102",
     "nome": "Casa de Condomínio no Condomínio Terras do Cancioneiro",
     "bairro": "Condomínio Terras do Cancioneiro",
@@ -4041,7 +4087,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 72,
+    "id": 73,
     "codigo": "AD0008",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -4176,7 +4222,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 73,
+    "id": 74,
     "codigo": "CA0103",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4251,7 +4297,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 74,
+    "id": 75,
     "codigo": "CA0104",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4294,7 +4340,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 75,
+    "id": 76,
     "codigo": "AP1023",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -4338,7 +4384,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 76,
+    "id": 77,
     "codigo": "SA0144",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4380,7 +4426,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 77,
+    "id": 78,
     "codigo": "AP1032",
     "nome": "Apartamento no Residencial Parque da Fazenda",
     "bairro": "Residencial Parque da Fazenda",
@@ -4431,7 +4477,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 78,
+    "id": 79,
     "codigo": "CA0107",
     "nome": "Casa de Condomínio no Royal Garden",
     "bairro": "Royal Garden",
@@ -4473,7 +4519,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 79,
+    "id": 80,
     "codigo": "CA0111",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4537,7 +4583,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 80,
+    "id": 81,
     "codigo": "SA0145",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -4579,7 +4625,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 81,
+    "id": 82,
     "codigo": "AP1059",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -4651,7 +4697,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 82,
+    "id": 83,
     "codigo": "AP1062",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -4712,7 +4758,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 83,
+    "id": 84,
     "codigo": "AP1065",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -4770,7 +4816,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 84,
+    "id": 85,
     "codigo": "CA0115",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -4851,7 +4897,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 85,
+    "id": 86,
     "codigo": "AP1080",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -4923,7 +4969,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 86,
+    "id": 87,
     "codigo": "TE0031",
     "nome": "Loteamento/Condomínio no Arborais",
     "bairro": "Arborais",
@@ -4953,7 +4999,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 87,
+    "id": 88,
     "codigo": "AP1092",
     "nome": "Apartamento no Parque Industrial",
     "bairro": "Parque Industrial",
@@ -5041,7 +5087,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 88,
+    "id": 89,
     "codigo": "AP1095",
     "nome": "Apartamento no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -5083,7 +5129,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 89,
+    "id": 90,
     "codigo": "AP1116",
     "nome": "Apartamento no Jardim Ipiranga",
     "bairro": "Jardim Ipiranga",
@@ -5135,7 +5181,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 90,
+    "id": 91,
     "codigo": "CA0118",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5203,7 +5249,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 91,
+    "id": 92,
     "codigo": "AP1120",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5270,7 +5316,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 92,
+    "id": 93,
     "codigo": "AP1126",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5338,7 +5384,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 93,
+    "id": 94,
     "codigo": "AP1130",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5393,7 +5439,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 94,
+    "id": 95,
     "codigo": "AP1133",
     "nome": "Apartamento no Jardim do Lago",
     "bairro": "Jardim do Lago",
@@ -5468,7 +5514,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 95,
+    "id": 96,
     "codigo": "SO0074",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5557,7 +5603,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 96,
+    "id": 97,
     "codigo": "AP1139",
     "nome": "Apartamento no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -5595,7 +5641,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 97,
+    "id": 98,
     "codigo": "AP1143",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5631,7 +5677,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 98,
+    "id": 99,
     "codigo": "CA0122",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -5722,7 +5768,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 99,
+    "id": 100,
     "codigo": "AP1156",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -5798,7 +5844,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 100,
+    "id": 101,
     "codigo": "CA0123",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -5901,7 +5947,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 101,
+    "id": 102,
     "codigo": "AP1161",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5973,7 +6019,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 102,
+    "id": 103,
     "codigo": "AP1162",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6043,7 +6089,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 103,
+    "id": 104,
     "codigo": "AP1163",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6109,7 +6155,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 104,
+    "id": 105,
     "codigo": "CA0091",
     "nome": "Casa Padrão no Vila Lemos",
     "bairro": "Vila Lemos",
@@ -6155,7 +6201,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 105,
+    "id": 106,
     "codigo": "AP1167",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6224,7 +6270,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 106,
+    "id": 107,
     "codigo": "AP1171",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6293,7 +6339,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 107,
+    "id": 108,
     "codigo": "AP1177",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -6333,7 +6379,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 108,
+    "id": 109,
     "codigo": "AP1181",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6387,7 +6433,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 109,
+    "id": 110,
     "codigo": "CA0113",
     "nome": "Casa Padrão no Parque das Universidades",
     "bairro": "Parque das Universidades",
@@ -6458,7 +6504,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 110,
+    "id": 111,
     "codigo": "AP1199",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6512,7 +6558,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 111,
+    "id": 112,
     "codigo": "AP1200",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6571,7 +6617,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 112,
+    "id": 113,
     "codigo": "LJ0001",
     "nome": "Conjunto Comercial/sala no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -6620,7 +6666,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 113,
+    "id": 114,
     "codigo": "CA0129",
     "nome": "Casa Comercial no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6664,7 +6710,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 114,
+    "id": 115,
     "codigo": "AP1206",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6719,7 +6765,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 115,
+    "id": 116,
     "codigo": "CA0132",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -6780,7 +6826,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 116,
+    "id": 117,
     "codigo": "AP1209",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6854,7 +6900,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 117,
+    "id": 118,
     "codigo": "AP1213",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6894,7 +6940,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 118,
+    "id": 119,
     "codigo": "AP1214",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -6931,7 +6977,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 119,
+    "id": 120,
     "codigo": "AP1215",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -6964,7 +7010,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 120,
+    "id": 121,
     "codigo": "CA0136",
     "nome": "Casa de Condomínio no Parque Rural Fazenda Santa Cândida",
     "bairro": "Parque Rural Fazenda Santa Cândida",
@@ -7008,7 +7054,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 121,
+    "id": 122,
     "codigo": "SA0155",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -7048,7 +7094,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 122,
+    "id": 123,
     "codigo": "SL0004",
     "nome": "Loja/Salão no Centro",
     "bairro": "Centro",
@@ -7079,7 +7125,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 123,
+    "id": 124,
     "codigo": "AP0474",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -7117,7 +7163,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 124,
+    "id": 125,
     "codigo": "AP1220",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7172,7 +7218,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 125,
+    "id": 126,
     "codigo": "TE0033",
     "nome": "Loteamento/Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -7207,7 +7253,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 126,
+    "id": 127,
     "codigo": "AP1037",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7269,7 +7315,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 127,
+    "id": 128,
     "codigo": "AP1231",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -7306,7 +7352,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 128,
+    "id": 129,
     "codigo": "AP1232",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7350,7 +7396,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 129,
+    "id": 130,
     "codigo": "SA0156",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -7387,7 +7433,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 130,
+    "id": 131,
     "codigo": "AP1244",
     "nome": "Apartamento no Mansões Santo Antônio",
     "bairro": "Mansões Santo Antônio",
@@ -7412,30 +7458,23 @@ const IMOVEIS_DATABASE = [
       "Academia / Fitness"
     ],
     "imagens": [
-      "https://imgs.kenlo.io/shorten/ba2a74439a09c8205e8c31c7.jpg",
-      "https://imgs.kenlo.io/shorten/aeea75534716966d670090af.jpg",
-      "https://imgs.kenlo.io/shorten/002baecfa2b84d4e69c0bde5.jpg",
-      "https://imgs.kenlo.io/shorten/64c652d3a809667ce336558b.jpg",
-      "https://imgs.kenlo.io/shorten/8d05a9ff0c7919c873735c51.jpg",
-      "https://imgs.kenlo.io/shorten/14bfa821b9cd3aa0412a479c.jpg",
-      "https://imgs.kenlo.io/shorten/35cd5f400fe4522be604b0df.jpg",
-      "https://imgs.kenlo.io/shorten/91c944eb008ce0d319a1bf1c.jpg",
-      "https://imgs.kenlo.io/shorten/87575cd8913f7a10c6269f2a.jpg",
-      "https://imgs.kenlo.io/shorten/a82c8be4316ab9690c104a36.jpg",
-      "https://imgs.kenlo.io/shorten/ec2bfabd3c3976b6360c0baa.jpg",
-      "https://imgs.kenlo.io/shorten/62e5e8d6ec3e67722019919a.jpg",
-      "https://imgs.kenlo.io/shorten/25efd7295af6ca12aae16c69.jpg",
-      "https://images.ingaiasites.com.br/2430b05301644e289156964924a9904f.jpg",
-      "https://images.ingaiasites.com.br/6147c01a42a7778f9367e6a6d7a1f569.jpg",
-      "https://images.ingaiasites.com.br/c010961692e2e5b83a00d57c5cbc5130.jpg",
-      "https://images.ingaiasites.com.br/7f547b56fa042598a4a5c55877cb61bd.jpg",
-      "https://images.ingaiasites.com.br/edfd9f414c7ffb30cdf41de21bf01dff.jpg",
-      "https://images.ingaiasites.com.br/ca6c7cf3f73641c9279d6e89f11a105c.jpg",
-      "https://images.ingaiasites.com.br/419b115de776b208579587c1cdb01e80.jpg"
+      "https://imgs.kenlo.io/shorten/e52a39ee659dfbc3a33a4d1f.jpg",
+      "https://imgs.kenlo.io/shorten/edae7a2c22d6f1851c51c096.jpg",
+      "https://imgs.kenlo.io/shorten/72b96931ff7fb8fd5bdf221e.jpg",
+      "https://imgs.kenlo.io/shorten/6d79cf47a3d188e0d558e794.jpg",
+      "https://imgs.kenlo.io/shorten/ca562e767fa44008c9cfc2d5.jpg",
+      "https://imgs.kenlo.io/shorten/63f6aa8fa609c77c2ffddd15.jpg",
+      "https://imgs.kenlo.io/shorten/b8c0e9306dd7f757522715fa.jpg",
+      "https://imgs.kenlo.io/shorten/5e4e507d45be460ddb884a30.jpg",
+      "https://imgs.kenlo.io/shorten/fefb7cabe47ad29fd1c8248f.jpg",
+      "https://imgs.kenlo.io/shorten/4f8a8facfd24ecd1454f4e7f.jpg",
+      "https://imgs.kenlo.io/shorten/c5fc9c0f50bf615581ee4db8.jpg",
+      "https://imgs.kenlo.io/shorten/9c1985aee372989b25a8157b.jpg",
+      "https://imgs.kenlo.io/shorten/9763d4ac0995f8ae9dce3b29.jpg"
     ]
   },
   {
-    "id": 131,
+    "id": 132,
     "codigo": "AP0055",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7498,7 +7537,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 132,
+    "id": 133,
     "codigo": "SO0075",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -7536,7 +7575,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 133,
+    "id": 134,
     "codigo": "AP1246",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7600,7 +7639,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 134,
+    "id": 135,
     "codigo": "AP0351",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7650,7 +7689,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 135,
+    "id": 136,
     "codigo": "AP1249",
     "nome": "Apartamento no Bonfim",
     "bairro": "Bonfim",
@@ -7697,7 +7736,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 136,
+    "id": 137,
     "codigo": "CA0138",
     "nome": "Casa de Condomínio no Jardim Pari",
     "bairro": "Jardim Pari",
@@ -7777,7 +7816,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 137,
+    "id": 138,
     "codigo": "AP1253",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7814,7 +7853,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 138,
+    "id": 139,
     "codigo": "KN0009",
     "nome": "Kitchenette/Conjugados no Centro",
     "bairro": "Centro",
@@ -7850,7 +7889,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 139,
+    "id": 140,
     "codigo": "AP1258",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7908,7 +7947,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 140,
+    "id": 141,
     "codigo": "AP1259",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -7964,7 +8003,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 141,
+    "id": 142,
     "codigo": "AP1263",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8009,7 +8048,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 142,
+    "id": 143,
     "codigo": "TE0034",
     "nome": "Loteamento/Condomínio no Residencial Jatibela",
     "bairro": "Residencial Jatibela",
@@ -8050,7 +8089,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 143,
+    "id": 144,
     "codigo": "AP1264",
     "nome": "Apartamento no Villa Flora",
     "bairro": "Villa Flora",
@@ -8087,7 +8126,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 144,
+    "id": 145,
     "codigo": "AP1265",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8139,7 +8178,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 145,
+    "id": 146,
     "codigo": "AP1267",
     "nome": "Apartamento no Jardim Flamboyant",
     "bairro": "Jardim Flamboyant",
@@ -8182,7 +8221,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 146,
+    "id": 147,
     "codigo": "SA0157",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -8214,7 +8253,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 147,
+    "id": 148,
     "codigo": "SA0158",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -8256,7 +8295,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 148,
+    "id": 149,
     "codigo": "SA0159",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -8289,7 +8328,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 149,
+    "id": 150,
     "codigo": "AP1058",
     "nome": "Apartamento no Vila Rossi Borghi e Siqueira",
     "bairro": "Vila Rossi Borghi e Siqueira",
@@ -8322,7 +8361,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 150,
+    "id": 151,
     "codigo": "SA0160",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -8369,7 +8408,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 151,
+    "id": 152,
     "codigo": "TE0030",
     "nome": "Loteamento/Condomínio no Condomínio Residencial Ecovilla",
     "bairro": "Condomínio Residencial Ecovilla",
@@ -8430,7 +8469,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 152,
+    "id": 153,
     "codigo": "AP1137",
     "nome": "Apartamento no Jardim Nova Europa",
     "bairro": "Jardim Nova Europa",
@@ -8469,7 +8508,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 153,
+    "id": 154,
     "codigo": "AP1270",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8528,7 +8567,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 154,
+    "id": 155,
     "codigo": "TE0029",
     "nome": "Loteamento/Condomínio no Residencial Jatibela",
     "bairro": "Residencial Jatibela",
@@ -8571,7 +8610,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 155,
+    "id": 156,
     "codigo": "CA0093",
     "nome": "Casa Padrão no Centro",
     "bairro": "Centro",
@@ -8619,7 +8658,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 156,
+    "id": 157,
     "codigo": "CA0139",
     "nome": "Casa Comercial no Jardim Planalto de Viracopos",
     "bairro": "Jardim Planalto de Viracopos",
@@ -8654,7 +8693,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 157,
+    "id": 158,
     "codigo": "CA0140",
     "nome": "Casa de Condomínio no Fazenda da Grama",
     "bairro": "Fazenda da Grama",
@@ -8752,7 +8791,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 158,
+    "id": 159,
     "codigo": "AP1273",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8811,7 +8850,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 159,
+    "id": 160,
     "codigo": "AP1275",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -8881,7 +8920,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 160,
+    "id": 161,
     "codigo": "CO0031",
     "nome": "Apartamento no Jardim Nova Europa",
     "bairro": "Jardim Nova Europa",
@@ -8956,7 +8995,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 161,
+    "id": 162,
     "codigo": "AP1277",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9021,7 +9060,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 162,
+    "id": 163,
     "codigo": "CA0143",
     "nome": "Casa de Condomínio no Sousas",
     "bairro": "Sousas",
@@ -9118,7 +9157,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 163,
+    "id": 164,
     "codigo": "SA0164",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9151,7 +9190,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 164,
+    "id": 165,
     "codigo": "SA0165",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9186,7 +9225,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 165,
+    "id": 166,
     "codigo": "SA0166",
     "nome": "Conjunto Comercial/sala no Botafogo",
     "bairro": "Botafogo",
@@ -9229,7 +9268,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 166,
+    "id": 167,
     "codigo": "AP0044",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9295,7 +9334,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 167,
+    "id": 168,
     "codigo": "SA0167",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9340,7 +9379,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 168,
+    "id": 169,
     "codigo": "AP1283",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9394,7 +9433,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 169,
+    "id": 170,
     "codigo": "SA0168",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -9434,7 +9473,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 170,
+    "id": 171,
     "codigo": "AP1285",
     "nome": "Apartamento no Parque Itália",
     "bairro": "Parque Itália",
@@ -9484,7 +9523,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 171,
+    "id": 172,
     "codigo": "AP1286",
     "nome": "Apartamento no Mansões Santo Antônio",
     "bairro": "Mansões Santo Antônio",
@@ -9528,7 +9567,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 172,
+    "id": 173,
     "codigo": "AP0183",
     "nome": "Apartamento no Jardim Belo Horizonte",
     "bairro": "Jardim Belo Horizonte",
@@ -9582,7 +9621,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 173,
+    "id": 174,
     "codigo": "AP1287",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -9619,7 +9658,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 174,
+    "id": 175,
     "codigo": "AP1288",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9670,7 +9709,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 175,
+    "id": 176,
     "codigo": "AP1289",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9721,7 +9760,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 176,
+    "id": 177,
     "codigo": "AP1290",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9772,7 +9811,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 177,
+    "id": 178,
     "codigo": "AP1291",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -9821,7 +9860,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 178,
+    "id": 179,
     "codigo": "AP1292",
     "nome": "Apartamento no Vila Nova",
     "bairro": "Vila Nova",
@@ -9865,7 +9904,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 179,
+    "id": 180,
     "codigo": "CA0144",
     "nome": "Casa de Condomínio no Sousas",
     "bairro": "Sousas",
@@ -9975,7 +10014,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 180,
+    "id": 181,
     "codigo": "CA0145",
     "nome": "Casa de Condomínio no Sousas",
     "bairro": "Sousas",
@@ -10089,7 +10128,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 181,
+    "id": 182,
     "codigo": "CA0146",
     "nome": "Casa de Condomínio no Loteamento Residencial Entre Verdes (Sousas)",
     "bairro": "Loteamento Residencial Entre Verdes (Sousas)",
@@ -10179,7 +10218,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 182,
+    "id": 183,
     "codigo": "AP0340",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -10222,7 +10261,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 183,
+    "id": 184,
     "codigo": "AP0007",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -10286,7 +10325,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 184,
+    "id": 185,
     "codigo": "AP1294",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10353,7 +10392,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 185,
+    "id": 186,
     "codigo": "AP1295",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10420,7 +10459,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 186,
+    "id": 187,
     "codigo": "AP1296",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10478,6 +10517,128 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/H64YDpu9460XrJyXBYB36CsttrfqKsON.jpg",
       "https://images.ingaiasites.com.br/o2hqsXhklB1q5fBECRmxhWuPJPGoeMqo.jpg",
       "https://images.ingaiasites.com.br/mBrArDRKQtljrBMizJQ6J4ykjiTb6mva.jpg"
+    ]
+  },
+  {
+    "id": 188,
+    "codigo": "SA0169",
+    "nome": "Conjunto Comercial/sala no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 6900,
+    "condominio": 1406,
+    "tipoOferta": "1",
+    "quartos": 0,
+    "suites": 0,
+    "salas": 1,
+    "banheiros": 2,
+    "vagas": 2,
+    "area": 72,
+    "tag": "Oportunidade",
+    "desc": "Esta excelente sala comercial está pronta para uso, com acabamento moderno e neutro. O espaço conta com piso em porcelanato que imita madeira, teto rebaixado com iluminação embutida e ar-condicionado split instalado. Um grande diferencial é a mini-copa com armários, pia. Paredes em tom claro, o ambiente oferece flexibilidade para montagem de escritório ou consultório.",
+    "diferenciais": [
+      "Armários Planejados"
+    ],
+    "imagens": [
+      "https://imgs.kenlo.io/shorten/271bb4589ccbfb2566ea8922.jpg",
+      "https://imgs.kenlo.io/shorten/2999a7cfb35cd8b113c74152.jpg",
+      "https://imgs.kenlo.io/shorten/23fe5a6ee2da374c27f2c3c0.jpg",
+      "https://imgs.kenlo.io/shorten/2a671c10bfc4d0b6bffde18c.jpg",
+      "https://imgs.kenlo.io/shorten/f353ea33a57c5c50f16414b1.jpg",
+      "https://imgs.kenlo.io/shorten/fd821f3f85a87cdd99dc304d.jpg",
+      "https://imgs.kenlo.io/shorten/3b1940f3250d94469441c5c1.jpg",
+      "https://imgs.kenlo.io/shorten/4ddc3dba9cb653ad9f17c927.jpg",
+      "https://imgs.kenlo.io/shorten/3b443ef1b8aca9d2b1b52b4b.jpg",
+      "https://imgs.kenlo.io/shorten/fc747af5833204712ad17fa8.jpg",
+      "https://imgs.kenlo.io/shorten/beee288aaff0c9618b6040a2.jpg",
+      "https://imgs.kenlo.io/shorten/002d5f2ca113cd5ed8a5731e.jpg",
+      "https://imgs.kenlo.io/shorten/4a511939797bba78bd8f9e23.jpg"
+    ]
+  },
+  {
+    "id": 189,
+    "codigo": "CA0147",
+    "nome": "Casa Comercial no Bosque",
+    "bairro": "Bosque",
+    "tipo": "casa",
+    "finalidade": "aluguel",
+    "preco": 4000,
+    "condominio": 0,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 0,
+    "banheiros": 2,
+    "vagas": 2,
+    "area": 100,
+    "tag": "Oportunidade",
+    "desc": "Casa comercial/residencial para alugar, 100 m² por R$ 4.372/mês - Bosque - Campinas/SP. Imóvel comercial/residencial localizado no bairro Bosque, em Campinas. São 5 salas, algumas com ambientes integrados, proporcionando versatilidade, funcionalidade e melhor aproveitamento dos espaços. Dispõe de ar-condicionado, 2 vagas de garagem e excelente distribuição interna. Com ambientes que se adaptam a diferentes necessidades, o imóvel é ideal para clínicas, escritórios, empresas ou uso residencial. Sua localização estratégica oferece fácil acesso às principais vias da região, trazendo praticidade e comodidade para o dia a dia. Agenda já sua visita!",
+    "diferenciais": [
+      "Ar Condicionado"
+    ],
+    "imagens": [
+      "https://imgs.kenlo.io/shorten/ef029c7ae6629cf909c0bcb5.jpg",
+      "https://imgs.kenlo.io/shorten/52adca504e6c5e43b09688ee.jpg",
+      "https://imgs.kenlo.io/shorten/90e2d53e72127a7c9398e6df.jpg",
+      "https://imgs.kenlo.io/shorten/3f5e3443c963391127961b1a.jpg",
+      "https://imgs.kenlo.io/shorten/9c89ae65b5857ac05f413ff5.jpg",
+      "https://imgs.kenlo.io/shorten/6e1d1f62065eb6ee059e0f5f.jpg",
+      "https://imgs.kenlo.io/shorten/ede20647501a68cba0371fbb.jpg",
+      "https://imgs.kenlo.io/shorten/c1eb370e9b7cdc9298239b3b.jpg",
+      "https://imgs.kenlo.io/shorten/3db928d1a4e9e7eff78f632b.jpg",
+      "https://imgs.kenlo.io/shorten/1a12899e85a91f51ef0dade3.jpg",
+      "https://imgs.kenlo.io/shorten/f1db09fffa1cd6bb547d366a.jpg",
+      "https://imgs.kenlo.io/shorten/d6830d5cd1a9effce0f620db.jpg",
+      "https://imgs.kenlo.io/shorten/3221fac095140506deb039e5.jpg"
+    ]
+  },
+  {
+    "id": 190,
+    "codigo": "AP1297",
+    "nome": "Apartamento no Cambuí",
+    "bairro": "Cambuí",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 6000,
+    "condominio": 810,
+    "tipoOferta": "1",
+    "quartos": 1,
+    "suites": 0,
+    "salas": 2,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 45,
+    "tag": "Oportunidade",
+    "desc": "Localizado no charmoso Cambuí, este apartamento de 45 metros quadrados oferece uma excelente oportunidade para quem busca conforto, modernidade e praticidades urbanas. O imóvel é ideal para solteiros ou casais, dispondo de um quarto aconchegante e um banheiro funcional. Além disso, o apartamento vem totalmente mobiliado, garantindo uma mudança prática e sem preocupações. O condomínio conta com uma piscina refrescante, proporcionando momentos ideais de lazer e relaxamento sem precisar sair de casa. A localização é outro grande diferencial, situando-se próximo a importantes pontos de interesse da região. A poucos minutos, encontra-se o Bosque dos Jequitibás, um parque que funciona como um verdadeiro refúgio verde em meio à cidade, perfeito para caminhadas e piqueniques. Próximo dali, o Shopping Jaraguá oferece uma completa variedade de lojas, restaurantes e opções de entretenimento para o dia a dia. Trata-se de uma excelente escolha para quem deseja morar em um local que combina comodidades completas e uma localização estratégica, em uma das regiões mais dinâmicas do estado de São Paulo.",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Armários Planejados",
+      "Quadra Esportiva"
+    ],
+    "imagens": [
+      "https://imgs.kenlo.io/shorten/7ad587c4ca1eac0fc3dd5c21.jpg",
+      "https://imgs.kenlo.io/shorten/e6d3b5c47f03326f9dd5930c.jpg",
+      "https://imgs.kenlo.io/shorten/9313188f2ec2e109c27ad9b8.jpg",
+      "https://imgs.kenlo.io/shorten/b6a351811825ce1adecd30c3.jpg",
+      "https://imgs.kenlo.io/shorten/d7726b4da34013857430cbc1.jpg",
+      "https://imgs.kenlo.io/shorten/622485d6f8362d0a40f38f4f.jpg",
+      "https://imgs.kenlo.io/shorten/7d54ad0e0e22543a62b2be84.jpg",
+      "https://imgs.kenlo.io/shorten/fbd10de4857e7e34f8ceae2e.jpg",
+      "https://imgs.kenlo.io/shorten/ccefc1d55f1e207122ad1852.jpg",
+      "https://imgs.kenlo.io/shorten/192fdae6c345d81028df8648.jpg",
+      "https://imgs.kenlo.io/shorten/3fb272c1aaa9772305dc2f98.jpg",
+      "https://images.ingaiasites.com.br/4c573341a4ed0abae76ba978ae553e34.jpg",
+      "https://images.ingaiasites.com.br/f7afbdd22339709ae75afb6b35809429.jpg",
+      "https://images.ingaiasites.com.br/35783b6019be9f65926326f52abf09c9.jpg",
+      "https://images.ingaiasites.com.br/dfd9c9630c5002a6880a27cb8bdfd8c3.jpg",
+      "https://images.ingaiasites.com.br/ce8ee694a8db80ec2cffabf7997f6f23.jpg",
+      "https://images.ingaiasites.com.br/23731e39dcb22d75d2ed5dc58e1225d8.jpg",
+      "https://images.ingaiasites.com.br/2abe9cc38e463e5fc67df198d98733bc.jpg",
+      "https://images.ingaiasites.com.br/163821e5ef56d314147f881c1dd9bf95.jpg",
+      "https://images.ingaiasites.com.br/a0185b2e61909edb478ebc70ec624a82.jpg",
+      "https://images.ingaiasites.com.br/0ac09b19c6e3010d6038919cd331f303.jpg",
+      "https://images.ingaiasites.com.br/7819e7e40e9d791465768f9b8ef91e1a.jpg"
     ]
   }
 ];

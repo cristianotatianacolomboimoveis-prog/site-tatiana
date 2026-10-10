@@ -859,6 +859,57 @@
     <Listing>
       <ListingID>14</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
+      <TransactionType>For Rent</TransactionType>
+      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0598</DetailViewUrl>
+            <Media>
+        <Item medium="image" caption="Foto 1">https://images.ingaiasites.com.br/542ff6af1b87c7a489ce6ed5c3704fc3.jpg</Item>
+        <Item medium="image" caption="Foto 2">https://images.ingaiasites.com.br/852580ead154ef38b9a0126a704ff06f.jpg</Item>
+        <Item medium="image" caption="Foto 3">https://images.ingaiasites.com.br/940d715dc8d52b489bd7395e66cfdef9.jpg</Item>
+        <Item medium="image" caption="Foto 4">https://images.ingaiasites.com.br/bea232e92ad4a8935276551b0d71c24d.jpg</Item>
+        <Item medium="image" caption="Foto 5">https://images.ingaiasites.com.br/48c6ebd385a28fa5157cd3c8f3b05dcb.jpg</Item>
+        <Item medium="image" caption="Foto 6">https://images.ingaiasites.com.br/875e7003613c08cb32c6ac09608217fa.jpg</Item>
+        <Item medium="image" caption="Foto 7">https://images.ingaiasites.com.br/76ec6cfe6788b0aca255a5dd12b674c0.jpg</Item>
+        <Item medium="image" caption="Foto 8">https://images.ingaiasites.com.br/6a74ca2dbb6058861a14263e285ad081.jpg</Item>
+        <Item medium="image" caption="Foto 9">https://images.ingaiasites.com.br/70214e0caf8851470ad0c0c5cc69926b.jpg</Item>
+        <Item medium="image" caption="Foto 10">https://images.ingaiasites.com.br/023ff5ca11aa6bf86bb6a5fe0a33e322.jpg</Item>
+        <Item medium="image" caption="Foto 11">https://images.ingaiasites.com.br/226d479ba9589c4ad8b2268df8aa3ff5.jpg</Item>
+        <Item medium="image" caption="Foto 12">https://images.ingaiasites.com.br/a64706d582e54401383563a388c9a0ca.jpg</Item>
+        <Item medium="image" caption="Foto 13">https://images.ingaiasites.com.br/8940c7535e9a768db07b86552dc9d4be.jpg</Item>
+        <Item medium="image" caption="Foto 14">https://images.ingaiasites.com.br/ce82eab34a263cbf83cc7ebf9e67fc23.jpg</Item>
+        <Item medium="image" caption="Foto 15">https://images.ingaiasites.com.br/CzBZvCycalzzTDwZ3c3kkFLFw5xVDJ33.jpg</Item>
+        <Item medium="image" caption="Foto 16">https://images.ingaiasites.com.br/f1sWieV2vkV3qkK33qY4vg6jVNQcsyAa.jpg</Item>
+      </Media>
+      <Details>
+        <UsageType>Residential</UsageType>
+        <PropertyType>Apartment</PropertyType>
+        <ListPrice>3500</ListPrice>
+        <CondominiumFee>836.9</CondominiumFee>
+        <LivingArea unit="square metres">47</LivingArea>
+        <Bedrooms>1</Bedrooms>
+        <Bathrooms>1</Bathrooms>
+        <Suites>0</Suites>
+        <Garage>1</Garage>
+        <Description><![CDATA[Ótimo apartamento para locação no Unic Cambuí. Apartamento semimobiliado, Possui 1 quarto com armário, bancada escritório, ar-condicionado. Sala 2 ambientes com rack e cortina. Sacada com pia com ponto grill e gabinete. Cozinha planejada com cooktop e geladeira. Área de serviço. Banheiro com gabinete, boxe e espelho. Pronto para morar! 1 vaga de garagem no subsolo. Condomínio com portaria, piscina, fitness, espaço gourmet e churrasqueira com forno de pizza. Localização privilegiada com toda infraestrutura de comércio e serviços ao redor, ao lado da Pizzaria Bráz. Entre em contato e agende uma visita!]]></Description>
+                <Features>
+          <Feature>Ar Condicionado</Feature>
+          <Feature>Churrasqueira</Feature>
+          <Feature>Piscina</Feature>
+          <Feature>Armários Planejados</Feature>
+          <Feature>Área de Serviço</Feature>
+          <Feature>Varanda / Terraço</Feature>
+          <Feature>Academia / Fitness</Feature>
+        </Features>
+      </Details>
+      <Location>
+        <Country>Brasil</Country>
+        <State>São Paulo</State>
+        <City>Campinas</City>
+        <Neighborhood>Cambuí</Neighborhood>
+      </Location>
+    </Listing>
+    <Listing>
+      <ListingID>15</ListingID>
+      <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0616</DetailViewUrl>
             <Media>
@@ -929,7 +980,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>15</ListingID>
+      <ListingID>16</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0523</DetailViewUrl>
@@ -1008,7 +1059,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>16</ListingID>
+      <ListingID>17</ListingID>
       <Title><![CDATA[Loja/Salão no Swiss Park - Alto Padrão no Swiss Park]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=LO0001</DetailViewUrl>
@@ -1045,7 +1096,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>17</ListingID>
+      <ListingID>18</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0078</DetailViewUrl>
@@ -1090,7 +1141,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>18</ListingID>
+      <ListingID>19</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0440</DetailViewUrl>
@@ -1157,7 +1208,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>19</ListingID>
+      <ListingID>20</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=PH0001</DetailViewUrl>
@@ -1247,7 +1298,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>20</ListingID>
+      <ListingID>21</ListingID>
       <Title><![CDATA[Apartamento no Fazenda São Quirino - Alto Padrão no Fazenda São Quirino]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0028</DetailViewUrl>
@@ -1333,7 +1384,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>21</ListingID>
+      <ListingID>22</ListingID>
       <Title><![CDATA[Apartamento no Taquaral - Alto Padrão no Taquaral]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0663</DetailViewUrl>
@@ -1414,7 +1465,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>22</ListingID>
+      <ListingID>23</ListingID>
       <Title><![CDATA[Apartamento no Swift - Alto Padrão no Swift]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0363</DetailViewUrl>
@@ -1496,7 +1547,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>23</ListingID>
+      <ListingID>24</ListingID>
       <Title><![CDATA[Apartamento no Jardim Guanabara - Alto Padrão no Jardim Guanabara]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0670</DetailViewUrl>
@@ -1567,7 +1618,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>24</ListingID>
+      <ListingID>25</ListingID>
       <Title><![CDATA[Apartamento no Ponte Preta - Alto Padrão no Ponte Preta]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0694</DetailViewUrl>
@@ -1631,7 +1682,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>25</ListingID>
+      <ListingID>26</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0704</DetailViewUrl>
@@ -1713,7 +1764,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>26</ListingID>
+      <ListingID>27</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0017</DetailViewUrl>
@@ -1765,7 +1816,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>27</ListingID>
+      <ListingID>28</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0040</DetailViewUrl>
@@ -1834,7 +1885,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>28</ListingID>
+      <ListingID>29</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0521</DetailViewUrl>
@@ -1903,7 +1954,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>29</ListingID>
+      <ListingID>30</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0724</DetailViewUrl>
@@ -1973,7 +2024,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>30</ListingID>
+      <ListingID>31</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0756</DetailViewUrl>
@@ -2038,7 +2089,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>31</ListingID>
+      <ListingID>32</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0095</DetailViewUrl>
@@ -2083,7 +2134,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>32</ListingID>
+      <ListingID>33</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0102</DetailViewUrl>
@@ -2128,7 +2179,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>33</ListingID>
+      <ListingID>34</ListingID>
       <Title><![CDATA[Apartamento no Botafogo - Alto Padrão no Botafogo]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0774</DetailViewUrl>
@@ -2194,7 +2245,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>34</ListingID>
+      <ListingID>35</ListingID>
       <Title><![CDATA[Apartamento no Bosque - Alto Padrão no Bosque]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0780</DetailViewUrl>
@@ -2253,7 +2304,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>35</ListingID>
+      <ListingID>36</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0104</DetailViewUrl>
@@ -2301,7 +2352,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>36</ListingID>
+      <ListingID>37</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0795</DetailViewUrl>
@@ -2371,7 +2422,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>37</ListingID>
+      <ListingID>38</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0786</DetailViewUrl>
@@ -2409,7 +2460,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>38</ListingID>
+      <ListingID>39</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0785</DetailViewUrl>
@@ -2453,7 +2504,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>39</ListingID>
+      <ListingID>40</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0784</DetailViewUrl>
@@ -2491,7 +2542,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>40</ListingID>
+      <ListingID>41</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0002</DetailViewUrl>
@@ -2562,7 +2613,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>41</ListingID>
+      <ListingID>42</ListingID>
       <Title><![CDATA[Chácara no Parque Valinhos - Alto Padrão no Parque Valinhos]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CH0007</DetailViewUrl>
@@ -2668,7 +2719,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>42</ListingID>
+      <ListingID>43</ListingID>
       <Title><![CDATA[Casa de Condomínio no Swiss Park - Alto Padrão no Swiss Park]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0069</DetailViewUrl>
@@ -2777,7 +2828,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>43</ListingID>
+      <ListingID>44</ListingID>
       <Title><![CDATA[Apartamento no Jardim Proença - Alto Padrão no Jardim Proença]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0024</DetailViewUrl>
@@ -2850,7 +2901,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>44</ListingID>
+      <ListingID>45</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0886</DetailViewUrl>
@@ -2919,7 +2970,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>45</ListingID>
+      <ListingID>46</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0119</DetailViewUrl>
@@ -2960,7 +3011,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>46</ListingID>
+      <ListingID>47</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0120</DetailViewUrl>
@@ -3002,7 +3053,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>47</ListingID>
+      <ListingID>48</ListingID>
       <Title><![CDATA[Apartamento no Sao Bernado - Alto Padrão no Sao Bernado]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0914</DetailViewUrl>
@@ -3050,7 +3101,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>48</ListingID>
+      <ListingID>49</ListingID>
       <Title><![CDATA[Flat no Alphaville - Alto Padrão no Alphaville]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=FL0002</DetailViewUrl>
@@ -3096,7 +3147,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>49</ListingID>
+      <ListingID>50</ListingID>
       <Title><![CDATA[Apartamento no Parque da Hípica - Alto Padrão no Parque da Hípica]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0920</DetailViewUrl>
@@ -3151,7 +3202,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>50</ListingID>
+      <ListingID>51</ListingID>
       <Title><![CDATA[Apartamento no Parque da Hípica - Alto Padrão no Parque da Hípica]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0027</DetailViewUrl>
@@ -3205,7 +3256,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>51</ListingID>
+      <ListingID>52</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0923</DetailViewUrl>
@@ -3272,7 +3323,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>52</ListingID>
+      <ListingID>53</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0122</DetailViewUrl>
@@ -3320,7 +3371,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>53</ListingID>
+      <ListingID>54</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CJ0001</DetailViewUrl>
@@ -3380,7 +3431,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>54</ListingID>
+      <ListingID>55</ListingID>
       <Title><![CDATA[Casa Padrão no Vila Jequitibás - Alto Padrão no Vila Jequitibás]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0084</DetailViewUrl>
@@ -3437,7 +3488,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>55</ListingID>
+      <ListingID>56</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0955</DetailViewUrl>
@@ -3509,7 +3560,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>56</ListingID>
+      <ListingID>57</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0130</DetailViewUrl>
@@ -3551,7 +3602,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>57</ListingID>
+      <ListingID>58</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0135</DetailViewUrl>
@@ -3593,7 +3644,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>58</ListingID>
+      <ListingID>59</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0134</DetailViewUrl>
@@ -3628,7 +3679,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>59</ListingID>
+      <ListingID>60</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0131</DetailViewUrl>
@@ -3663,7 +3714,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>60</ListingID>
+      <ListingID>61</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0133</DetailViewUrl>
@@ -3697,7 +3748,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>61</ListingID>
+      <ListingID>62</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0132</DetailViewUrl>
@@ -3732,7 +3783,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>62</ListingID>
+      <ListingID>63</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Fazenda Santa Cândida - Alto Padrão no Fazenda Santa Cândida]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0027</DetailViewUrl>
@@ -3767,7 +3818,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>63</ListingID>
+      <ListingID>64</ListingID>
       <Title><![CDATA[Casa Padrão no Jardim São Francisco - Alto Padrão no Jardim São Francisco]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0088</DetailViewUrl>
@@ -3824,7 +3875,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>64</ListingID>
+      <ListingID>65</ListingID>
       <Title><![CDATA[Apartamento no Vila Brandina - Alto Padrão no Vila Brandina]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0029</DetailViewUrl>
@@ -3933,7 +3984,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>65</ListingID>
+      <ListingID>66</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0431</DetailViewUrl>
@@ -4003,7 +4054,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>66</ListingID>
+      <ListingID>67</ListingID>
       <Title><![CDATA[Casa de Condomínio no Chácara das Nações - Alto Padrão no Chácara das Nações]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SO0073</DetailViewUrl>
@@ -4097,7 +4148,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>67</ListingID>
+      <ListingID>68</ListingID>
       <Title><![CDATA[Casa Padrão no São Bernardo - Alto Padrão no São Bernardo]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0098</DetailViewUrl>
@@ -4152,7 +4203,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>68</ListingID>
+      <ListingID>69</ListingID>
       <Title><![CDATA[Apartamento no Taquaral - Alto Padrão no Taquaral]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1017</DetailViewUrl>
@@ -4215,7 +4266,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>69</ListingID>
+      <ListingID>70</ListingID>
       <Title><![CDATA[Casa de Condomínio no Jardim Pari - Alto Padrão no Jardim Pari]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0101</DetailViewUrl>
@@ -4288,7 +4339,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>70</ListingID>
+      <ListingID>71</ListingID>
       <Title><![CDATA[Loja/Salão no Swiss Park - Alto Padrão no Swiss Park]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SL0003</DetailViewUrl>
@@ -4334,7 +4385,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>71</ListingID>
+      <ListingID>72</ListingID>
       <Title><![CDATA[Casa de Condomínio no Condomínio Terras do Cancioneiro - Alto Padrão no Condomínio Terras do Cancioneiro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0102</DetailViewUrl>
@@ -4398,7 +4449,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>72</ListingID>
+      <ListingID>73</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AD0008</DetailViewUrl>
@@ -4538,7 +4589,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>73</ListingID>
+      <ListingID>74</ListingID>
       <Title><![CDATA[Casa de Condomínio no Parque Brasil 500 - Alto Padrão no Parque Brasil 500]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0103</DetailViewUrl>
@@ -4618,7 +4669,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>74</ListingID>
+      <ListingID>75</ListingID>
       <Title><![CDATA[Casa de Condomínio no Parque Brasil 500 - Alto Padrão no Parque Brasil 500]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0104</DetailViewUrl>
@@ -4666,7 +4717,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>75</ListingID>
+      <ListingID>76</ListingID>
       <Title><![CDATA[Apartamento no Taquaral - Alto Padrão no Taquaral]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1023</DetailViewUrl>
@@ -4715,7 +4766,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>76</ListingID>
+      <ListingID>77</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0144</DetailViewUrl>
@@ -4762,7 +4813,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>77</ListingID>
+      <ListingID>78</ListingID>
       <Title><![CDATA[Apartamento no Residencial Parque da Fazenda - Alto Padrão no Residencial Parque da Fazenda]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1032</DetailViewUrl>
@@ -4818,7 +4869,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>78</ListingID>
+      <ListingID>79</ListingID>
       <Title><![CDATA[Casa de Condomínio no Royal Garden - Alto Padrão no Royal Garden]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0107</DetailViewUrl>
@@ -4865,7 +4916,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>79</ListingID>
+      <ListingID>80</ListingID>
       <Title><![CDATA[Casa de Condomínio no Parque Brasil 500 - Alto Padrão no Parque Brasil 500]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0111</DetailViewUrl>
@@ -4934,7 +4985,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>80</ListingID>
+      <ListingID>81</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0145</DetailViewUrl>
@@ -4981,7 +5032,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>81</ListingID>
+      <ListingID>82</ListingID>
       <Title><![CDATA[Apartamento no Vila Progresso - Alto Padrão no Vila Progresso]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1059</DetailViewUrl>
@@ -5058,7 +5109,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>82</ListingID>
+      <ListingID>83</ListingID>
       <Title><![CDATA[Apartamento no Vila Progresso - Alto Padrão no Vila Progresso]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1062</DetailViewUrl>
@@ -5124,7 +5175,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>83</ListingID>
+      <ListingID>84</ListingID>
       <Title><![CDATA[Apartamento no Loteamento Chácara Prado - Alto Padrão no Loteamento Chácara Prado]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1065</DetailViewUrl>
@@ -5187,7 +5238,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>84</ListingID>
+      <ListingID>85</ListingID>
       <Title><![CDATA[Casa de Condomínio no Alphaville - Alto Padrão no Alphaville]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0115</DetailViewUrl>
@@ -5273,7 +5324,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>85</ListingID>
+      <ListingID>86</ListingID>
       <Title><![CDATA[Apartamento no Loteamento Chácara Prado - Alto Padrão no Loteamento Chácara Prado]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1080</DetailViewUrl>
@@ -5350,7 +5401,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>86</ListingID>
+      <ListingID>87</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Arborais - Alto Padrão no Arborais]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0031</DetailViewUrl>
@@ -5385,7 +5436,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>87</ListingID>
+      <ListingID>88</ListingID>
       <Title><![CDATA[Apartamento no Parque Industrial - Alto Padrão no Parque Industrial]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1092</DetailViewUrl>
@@ -5478,7 +5529,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>88</ListingID>
+      <ListingID>89</ListingID>
       <Title><![CDATA[Apartamento no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1095</DetailViewUrl>
@@ -5525,7 +5576,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>89</ListingID>
+      <ListingID>90</ListingID>
       <Title><![CDATA[Apartamento no Jardim Ipiranga - Alto Padrão no Jardim Ipiranga]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1116</DetailViewUrl>
@@ -5582,7 +5633,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>90</ListingID>
+      <ListingID>91</ListingID>
       <Title><![CDATA[Casa de Condomínio no Alphaville - Alto Padrão no Alphaville]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0118</DetailViewUrl>
@@ -5655,7 +5706,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>91</ListingID>
+      <ListingID>92</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1120</DetailViewUrl>
@@ -5727,7 +5778,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>92</ListingID>
+      <ListingID>93</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1126</DetailViewUrl>
@@ -5800,7 +5851,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>93</ListingID>
+      <ListingID>94</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1130</DetailViewUrl>
@@ -5860,7 +5911,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>94</ListingID>
+      <ListingID>95</ListingID>
       <Title><![CDATA[Apartamento no Jardim do Lago - Alto Padrão no Jardim do Lago]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1133</DetailViewUrl>
@@ -5940,7 +5991,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>95</ListingID>
+      <ListingID>96</ListingID>
       <Title><![CDATA[Casa de Condomínio no Alphaville - Alto Padrão no Alphaville]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SO0074</DetailViewUrl>
@@ -6034,7 +6085,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>96</ListingID>
+      <ListingID>97</ListingID>
       <Title><![CDATA[Apartamento no Jardim Guanabara - Alto Padrão no Jardim Guanabara]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1139</DetailViewUrl>
@@ -6077,7 +6128,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>97</ListingID>
+      <ListingID>98</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1143</DetailViewUrl>
@@ -6118,7 +6169,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>98</ListingID>
+      <ListingID>99</ListingID>
       <Title><![CDATA[Casa de Condomínio no Loteamento Parque dos Alecrins - Alto Padrão no Loteamento Parque dos Alecrins]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0122</DetailViewUrl>
@@ -6214,7 +6265,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>99</ListingID>
+      <ListingID>100</ListingID>
       <Title><![CDATA[Apartamento no Botafogo - Alto Padrão no Botafogo]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1156</DetailViewUrl>
@@ -6295,7 +6346,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>100</ListingID>
+      <ListingID>101</ListingID>
       <Title><![CDATA[Casa de Condomínio no Swiss Park - Alto Padrão no Swiss Park]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0123</DetailViewUrl>
@@ -6403,7 +6454,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>101</ListingID>
+      <ListingID>102</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1161</DetailViewUrl>
@@ -6480,7 +6531,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>102</ListingID>
+      <ListingID>103</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1162</DetailViewUrl>
@@ -6555,7 +6606,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>103</ListingID>
+      <ListingID>104</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1163</DetailViewUrl>
@@ -6626,7 +6677,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>104</ListingID>
+      <ListingID>105</ListingID>
       <Title><![CDATA[Casa Padrão no Vila Lemos - Alto Padrão no Vila Lemos]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0091</DetailViewUrl>
@@ -6677,7 +6728,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>105</ListingID>
+      <ListingID>106</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1167</DetailViewUrl>
@@ -6751,7 +6802,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>106</ListingID>
+      <ListingID>107</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1171</DetailViewUrl>
@@ -6825,7 +6876,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>107</ListingID>
+      <ListingID>108</ListingID>
       <Title><![CDATA[Apartamento no Swift - Alto Padrão no Swift]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1177</DetailViewUrl>
@@ -6870,7 +6921,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>108</ListingID>
+      <ListingID>109</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1181</DetailViewUrl>
@@ -6929,7 +6980,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>109</ListingID>
+      <ListingID>110</ListingID>
       <Title><![CDATA[Casa Padrão no Parque das Universidades - Alto Padrão no Parque das Universidades]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0113</DetailViewUrl>
@@ -7005,7 +7056,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>110</ListingID>
+      <ListingID>111</ListingID>
       <Title><![CDATA[Apartamento no Nova Campinas - Alto Padrão no Nova Campinas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1199</DetailViewUrl>
@@ -7064,7 +7115,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>111</ListingID>
+      <ListingID>112</ListingID>
       <Title><![CDATA[Apartamento no Nova Campinas - Alto Padrão no Nova Campinas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1200</DetailViewUrl>
@@ -7128,7 +7179,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>112</ListingID>
+      <ListingID>113</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Jardim Guanabara - Alto Padrão no Jardim Guanabara]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=LJ0001</DetailViewUrl>
@@ -7182,7 +7233,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>113</ListingID>
+      <ListingID>114</ListingID>
       <Title><![CDATA[Casa Comercial no Nova Campinas - Alto Padrão no Nova Campinas]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0129</DetailViewUrl>
@@ -7231,7 +7282,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>114</ListingID>
+      <ListingID>115</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1206</DetailViewUrl>
@@ -7291,7 +7342,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>115</ListingID>
+      <ListingID>116</ListingID>
       <Title><![CDATA[Casa de Condomínio no Swiss Park - Alto Padrão no Swiss Park]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0132</DetailViewUrl>
@@ -7357,7 +7408,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>116</ListingID>
+      <ListingID>117</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1209</DetailViewUrl>
@@ -7436,7 +7487,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>117</ListingID>
+      <ListingID>118</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1213</DetailViewUrl>
@@ -7481,7 +7532,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>118</ListingID>
+      <ListingID>119</ListingID>
       <Title><![CDATA[Apartamento no Taquaral - Alto Padrão no Taquaral]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1214</DetailViewUrl>
@@ -7523,7 +7574,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>119</ListingID>
+      <ListingID>120</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1215</DetailViewUrl>
@@ -7561,7 +7612,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>120</ListingID>
+      <ListingID>121</ListingID>
       <Title><![CDATA[Casa de Condomínio no Parque Rural Fazenda Santa Cândida - Alto Padrão no Parque Rural Fazenda Santa Cândida]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0136</DetailViewUrl>
@@ -7610,7 +7661,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>121</ListingID>
+      <ListingID>122</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0155</DetailViewUrl>
@@ -7655,7 +7706,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>122</ListingID>
+      <ListingID>123</ListingID>
       <Title><![CDATA[Loja/Salão no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SL0004</DetailViewUrl>
@@ -7691,7 +7742,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>123</ListingID>
+      <ListingID>124</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0474</DetailViewUrl>
@@ -7734,7 +7785,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>124</ListingID>
+      <ListingID>125</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1220</DetailViewUrl>
@@ -7794,7 +7845,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>125</ListingID>
+      <ListingID>126</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Parque Brasil 500 - Alto Padrão no Parque Brasil 500]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0033</DetailViewUrl>
@@ -7834,7 +7885,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>126</ListingID>
+      <ListingID>127</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1037</DetailViewUrl>
@@ -7901,7 +7952,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>127</ListingID>
+      <ListingID>128</ListingID>
       <Title><![CDATA[Apartamento no Nova Campinas - Alto Padrão no Nova Campinas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1231</DetailViewUrl>
@@ -7943,7 +7994,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>128</ListingID>
+      <ListingID>129</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1232</DetailViewUrl>
@@ -7992,7 +8043,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>129</ListingID>
+      <ListingID>130</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0156</DetailViewUrl>
@@ -8034,31 +8085,24 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>130</ListingID>
+      <ListingID>131</ListingID>
       <Title><![CDATA[Apartamento no Mansões Santo Antônio - Alto Padrão no Mansões Santo Antônio]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1244</DetailViewUrl>
             <Media>
-        <Item medium="image" caption="Foto 1">https://imgs.kenlo.io/shorten/ba2a74439a09c8205e8c31c7.jpg</Item>
-        <Item medium="image" caption="Foto 2">https://imgs.kenlo.io/shorten/aeea75534716966d670090af.jpg</Item>
-        <Item medium="image" caption="Foto 3">https://imgs.kenlo.io/shorten/002baecfa2b84d4e69c0bde5.jpg</Item>
-        <Item medium="image" caption="Foto 4">https://imgs.kenlo.io/shorten/64c652d3a809667ce336558b.jpg</Item>
-        <Item medium="image" caption="Foto 5">https://imgs.kenlo.io/shorten/8d05a9ff0c7919c873735c51.jpg</Item>
-        <Item medium="image" caption="Foto 6">https://imgs.kenlo.io/shorten/14bfa821b9cd3aa0412a479c.jpg</Item>
-        <Item medium="image" caption="Foto 7">https://imgs.kenlo.io/shorten/35cd5f400fe4522be604b0df.jpg</Item>
-        <Item medium="image" caption="Foto 8">https://imgs.kenlo.io/shorten/91c944eb008ce0d319a1bf1c.jpg</Item>
-        <Item medium="image" caption="Foto 9">https://imgs.kenlo.io/shorten/87575cd8913f7a10c6269f2a.jpg</Item>
-        <Item medium="image" caption="Foto 10">https://imgs.kenlo.io/shorten/a82c8be4316ab9690c104a36.jpg</Item>
-        <Item medium="image" caption="Foto 11">https://imgs.kenlo.io/shorten/ec2bfabd3c3976b6360c0baa.jpg</Item>
-        <Item medium="image" caption="Foto 12">https://imgs.kenlo.io/shorten/62e5e8d6ec3e67722019919a.jpg</Item>
-        <Item medium="image" caption="Foto 13">https://imgs.kenlo.io/shorten/25efd7295af6ca12aae16c69.jpg</Item>
-        <Item medium="image" caption="Foto 14">https://images.ingaiasites.com.br/2430b05301644e289156964924a9904f.jpg</Item>
-        <Item medium="image" caption="Foto 15">https://images.ingaiasites.com.br/6147c01a42a7778f9367e6a6d7a1f569.jpg</Item>
-        <Item medium="image" caption="Foto 16">https://images.ingaiasites.com.br/c010961692e2e5b83a00d57c5cbc5130.jpg</Item>
-        <Item medium="image" caption="Foto 17">https://images.ingaiasites.com.br/7f547b56fa042598a4a5c55877cb61bd.jpg</Item>
-        <Item medium="image" caption="Foto 18">https://images.ingaiasites.com.br/edfd9f414c7ffb30cdf41de21bf01dff.jpg</Item>
-        <Item medium="image" caption="Foto 19">https://images.ingaiasites.com.br/ca6c7cf3f73641c9279d6e89f11a105c.jpg</Item>
-        <Item medium="image" caption="Foto 20">https://images.ingaiasites.com.br/419b115de776b208579587c1cdb01e80.jpg</Item>
+        <Item medium="image" caption="Foto 1">https://imgs.kenlo.io/shorten/e52a39ee659dfbc3a33a4d1f.jpg</Item>
+        <Item medium="image" caption="Foto 2">https://imgs.kenlo.io/shorten/edae7a2c22d6f1851c51c096.jpg</Item>
+        <Item medium="image" caption="Foto 3">https://imgs.kenlo.io/shorten/72b96931ff7fb8fd5bdf221e.jpg</Item>
+        <Item medium="image" caption="Foto 4">https://imgs.kenlo.io/shorten/6d79cf47a3d188e0d558e794.jpg</Item>
+        <Item medium="image" caption="Foto 5">https://imgs.kenlo.io/shorten/ca562e767fa44008c9cfc2d5.jpg</Item>
+        <Item medium="image" caption="Foto 6">https://imgs.kenlo.io/shorten/63f6aa8fa609c77c2ffddd15.jpg</Item>
+        <Item medium="image" caption="Foto 7">https://imgs.kenlo.io/shorten/b8c0e9306dd7f757522715fa.jpg</Item>
+        <Item medium="image" caption="Foto 8">https://imgs.kenlo.io/shorten/5e4e507d45be460ddb884a30.jpg</Item>
+        <Item medium="image" caption="Foto 9">https://imgs.kenlo.io/shorten/fefb7cabe47ad29fd1c8248f.jpg</Item>
+        <Item medium="image" caption="Foto 10">https://imgs.kenlo.io/shorten/4f8a8facfd24ecd1454f4e7f.jpg</Item>
+        <Item medium="image" caption="Foto 11">https://imgs.kenlo.io/shorten/c5fc9c0f50bf615581ee4db8.jpg</Item>
+        <Item medium="image" caption="Foto 12">https://imgs.kenlo.io/shorten/9c1985aee372989b25a8157b.jpg</Item>
+        <Item medium="image" caption="Foto 13">https://imgs.kenlo.io/shorten/9763d4ac0995f8ae9dce3b29.jpg</Item>
       </Media>
       <Details>
         <UsageType>Residential</UsageType>
@@ -8087,7 +8131,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>131</ListingID>
+      <ListingID>132</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0055</DetailViewUrl>
@@ -8155,7 +8199,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>132</ListingID>
+      <ListingID>133</ListingID>
       <Title><![CDATA[Casa de Condomínio no Loteamento Parque dos Alecrins - Alto Padrão no Loteamento Parque dos Alecrins]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SO0075</DetailViewUrl>
@@ -8198,7 +8242,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>133</ListingID>
+      <ListingID>134</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1246</DetailViewUrl>
@@ -8267,7 +8311,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>134</ListingID>
+      <ListingID>135</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0351</DetailViewUrl>
@@ -8322,7 +8366,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>135</ListingID>
+      <ListingID>136</ListingID>
       <Title><![CDATA[Apartamento no Bonfim - Alto Padrão no Bonfim]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1249</DetailViewUrl>
@@ -8374,7 +8418,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>136</ListingID>
+      <ListingID>137</ListingID>
       <Title><![CDATA[Casa de Condomínio no Jardim Pari - Alto Padrão no Jardim Pari]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0138</DetailViewUrl>
@@ -8459,7 +8503,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>137</ListingID>
+      <ListingID>138</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1253</DetailViewUrl>
@@ -8501,7 +8545,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>138</ListingID>
+      <ListingID>139</ListingID>
       <Title><![CDATA[Kitchenette/Conjugados no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=KN0009</DetailViewUrl>
@@ -8542,7 +8586,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>139</ListingID>
+      <ListingID>140</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1258</DetailViewUrl>
@@ -8605,7 +8649,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>140</ListingID>
+      <ListingID>141</ListingID>
       <Title><![CDATA[Apartamento no Taquaral - Alto Padrão no Taquaral]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1259</DetailViewUrl>
@@ -8666,7 +8710,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>141</ListingID>
+      <ListingID>142</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1263</DetailViewUrl>
@@ -8716,7 +8760,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>142</ListingID>
+      <ListingID>143</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Residencial Jatibela - Alto Padrão no Residencial Jatibela]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0034</DetailViewUrl>
@@ -8762,7 +8806,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>143</ListingID>
+      <ListingID>144</ListingID>
       <Title><![CDATA[Apartamento no Villa Flora - Alto Padrão no Villa Flora]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1264</DetailViewUrl>
@@ -8804,7 +8848,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>144</ListingID>
+      <ListingID>145</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1265</DetailViewUrl>
@@ -8861,7 +8905,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>145</ListingID>
+      <ListingID>146</ListingID>
       <Title><![CDATA[Apartamento no Jardim Flamboyant - Alto Padrão no Jardim Flamboyant]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1267</DetailViewUrl>
@@ -8909,7 +8953,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>146</ListingID>
+      <ListingID>147</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0157</DetailViewUrl>
@@ -8946,7 +8990,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>147</ListingID>
+      <ListingID>148</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0158</DetailViewUrl>
@@ -8993,7 +9037,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>148</ListingID>
+      <ListingID>149</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0159</DetailViewUrl>
@@ -9031,7 +9075,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>149</ListingID>
+      <ListingID>150</ListingID>
       <Title><![CDATA[Apartamento no Vila Rossi Borghi e Siqueira - Alto Padrão no Vila Rossi Borghi e Siqueira]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1058</DetailViewUrl>
@@ -9069,7 +9113,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>150</ListingID>
+      <ListingID>151</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Vila Lídia - Alto Padrão no Vila Lídia]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0160</DetailViewUrl>
@@ -9121,7 +9165,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>151</ListingID>
+      <ListingID>152</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Condomínio Residencial Ecovilla - Alto Padrão no Condomínio Residencial Ecovilla]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0030</DetailViewUrl>
@@ -9187,7 +9231,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>152</ListingID>
+      <ListingID>153</ListingID>
       <Title><![CDATA[Apartamento no Jardim Nova Europa - Alto Padrão no Jardim Nova Europa]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1137</DetailViewUrl>
@@ -9231,7 +9275,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>153</ListingID>
+      <ListingID>154</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1270</DetailViewUrl>
@@ -9295,7 +9339,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>154</ListingID>
+      <ListingID>155</ListingID>
       <Title><![CDATA[Loteamento/Condomínio no Residencial Jatibela - Alto Padrão no Residencial Jatibela]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=TE0029</DetailViewUrl>
@@ -9343,7 +9387,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>155</ListingID>
+      <ListingID>156</ListingID>
       <Title><![CDATA[Casa Padrão no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0093</DetailViewUrl>
@@ -9396,7 +9440,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>156</ListingID>
+      <ListingID>157</ListingID>
       <Title><![CDATA[Casa Comercial no Jardim Planalto de Viracopos - Alto Padrão no Jardim Planalto de Viracopos]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0139</DetailViewUrl>
@@ -9436,7 +9480,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>157</ListingID>
+      <ListingID>158</ListingID>
       <Title><![CDATA[Casa de Condomínio no Fazenda da Grama - Alto Padrão no Fazenda da Grama]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0140</DetailViewUrl>
@@ -9539,7 +9583,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>158</ListingID>
+      <ListingID>159</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1273</DetailViewUrl>
@@ -9603,7 +9647,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>159</ListingID>
+      <ListingID>160</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1275</DetailViewUrl>
@@ -9678,7 +9722,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>160</ListingID>
+      <ListingID>161</ListingID>
       <Title><![CDATA[Apartamento no Jardim Nova Europa - Alto Padrão no Jardim Nova Europa]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CO0031</DetailViewUrl>
@@ -9758,7 +9802,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>161</ListingID>
+      <ListingID>162</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1277</DetailViewUrl>
@@ -9828,7 +9872,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>162</ListingID>
+      <ListingID>163</ListingID>
       <Title><![CDATA[Casa de Condomínio no Sousas - Alto Padrão no Sousas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0143</DetailViewUrl>
@@ -9930,7 +9974,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>163</ListingID>
+      <ListingID>164</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0164</DetailViewUrl>
@@ -9968,7 +10012,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>164</ListingID>
+      <ListingID>165</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0165</DetailViewUrl>
@@ -10008,7 +10052,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>165</ListingID>
+      <ListingID>166</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Botafogo - Alto Padrão no Botafogo]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0166</DetailViewUrl>
@@ -10056,7 +10100,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>166</ListingID>
+      <ListingID>167</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0044</DetailViewUrl>
@@ -10127,7 +10171,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>167</ListingID>
+      <ListingID>168</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0167</DetailViewUrl>
@@ -10177,7 +10221,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>168</ListingID>
+      <ListingID>169</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1283</DetailViewUrl>
@@ -10236,7 +10280,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>169</ListingID>
+      <ListingID>170</ListingID>
       <Title><![CDATA[Conjunto Comercial/sala no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0168</DetailViewUrl>
@@ -10281,7 +10325,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>170</ListingID>
+      <ListingID>171</ListingID>
       <Title><![CDATA[Apartamento no Parque Itália - Alto Padrão no Parque Itália]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1285</DetailViewUrl>
@@ -10336,7 +10380,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>171</ListingID>
+      <ListingID>172</ListingID>
       <Title><![CDATA[Apartamento no Mansões Santo Antônio - Alto Padrão no Mansões Santo Antônio]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1286</DetailViewUrl>
@@ -10385,7 +10429,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>172</ListingID>
+      <ListingID>173</ListingID>
       <Title><![CDATA[Apartamento no Jardim Belo Horizonte - Alto Padrão no Jardim Belo Horizonte]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0183</DetailViewUrl>
@@ -10444,7 +10488,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>173</ListingID>
+      <ListingID>174</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1287</DetailViewUrl>
@@ -10486,7 +10530,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>174</ListingID>
+      <ListingID>175</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1288</DetailViewUrl>
@@ -10542,7 +10586,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>175</ListingID>
+      <ListingID>176</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1289</DetailViewUrl>
@@ -10598,7 +10642,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>176</ListingID>
+      <ListingID>177</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1290</DetailViewUrl>
@@ -10654,7 +10698,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>177</ListingID>
+      <ListingID>178</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1291</DetailViewUrl>
@@ -10708,7 +10752,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>178</ListingID>
+      <ListingID>179</ListingID>
       <Title><![CDATA[Apartamento no Vila Nova - Alto Padrão no Vila Nova]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1292</DetailViewUrl>
@@ -10757,7 +10801,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>179</ListingID>
+      <ListingID>180</ListingID>
       <Title><![CDATA[Casa de Condomínio no Sousas - Alto Padrão no Sousas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0144</DetailViewUrl>
@@ -10872,7 +10916,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>180</ListingID>
+      <ListingID>181</ListingID>
       <Title><![CDATA[Casa de Condomínio no Sousas - Alto Padrão no Sousas]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0145</DetailViewUrl>
@@ -10991,7 +11035,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>181</ListingID>
+      <ListingID>182</ListingID>
       <Title><![CDATA[Casa de Condomínio no Loteamento Residencial Entre Verdes (Sousas) - Alto Padrão no Loteamento Residencial Entre Verdes (Sousas)]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0146</DetailViewUrl>
@@ -11086,7 +11130,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>182</ListingID>
+      <ListingID>183</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0340</DetailViewUrl>
@@ -11134,7 +11178,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>183</ListingID>
+      <ListingID>184</ListingID>
       <Title><![CDATA[Apartamento no Centro - Alto Padrão no Centro]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP0007</DetailViewUrl>
@@ -11203,7 +11247,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>184</ListingID>
+      <ListingID>185</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1294</DetailViewUrl>
@@ -11275,7 +11319,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>185</ListingID>
+      <ListingID>186</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Sale</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1295</DetailViewUrl>
@@ -11347,7 +11391,7 @@
       </Location>
     </Listing>
     <Listing>
-      <ListingID>186</ListingID>
+      <ListingID>187</ListingID>
       <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
       <TransactionType>For Rent</TransactionType>
       <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1296</DetailViewUrl>
@@ -11403,6 +11447,143 @@
           <Feature>Varanda / Terraço</Feature>
           <Feature>Academia / Fitness</Feature>
           <Feature>Acabamento Premium</Feature>
+        </Features>
+      </Details>
+      <Location>
+        <Country>Brasil</Country>
+        <State>São Paulo</State>
+        <City>Campinas</City>
+        <Neighborhood>Cambuí</Neighborhood>
+      </Location>
+    </Listing>
+    <Listing>
+      <ListingID>188</ListingID>
+      <Title><![CDATA[Conjunto Comercial/sala no Cambuí - Alto Padrão no Cambuí]]></Title>
+      <TransactionType>For Rent</TransactionType>
+      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=SA0169</DetailViewUrl>
+            <Media>
+        <Item medium="image" caption="Foto 1">https://imgs.kenlo.io/shorten/271bb4589ccbfb2566ea8922.jpg</Item>
+        <Item medium="image" caption="Foto 2">https://imgs.kenlo.io/shorten/2999a7cfb35cd8b113c74152.jpg</Item>
+        <Item medium="image" caption="Foto 3">https://imgs.kenlo.io/shorten/23fe5a6ee2da374c27f2c3c0.jpg</Item>
+        <Item medium="image" caption="Foto 4">https://imgs.kenlo.io/shorten/2a671c10bfc4d0b6bffde18c.jpg</Item>
+        <Item medium="image" caption="Foto 5">https://imgs.kenlo.io/shorten/f353ea33a57c5c50f16414b1.jpg</Item>
+        <Item medium="image" caption="Foto 6">https://imgs.kenlo.io/shorten/fd821f3f85a87cdd99dc304d.jpg</Item>
+        <Item medium="image" caption="Foto 7">https://imgs.kenlo.io/shorten/3b1940f3250d94469441c5c1.jpg</Item>
+        <Item medium="image" caption="Foto 8">https://imgs.kenlo.io/shorten/4ddc3dba9cb653ad9f17c927.jpg</Item>
+        <Item medium="image" caption="Foto 9">https://imgs.kenlo.io/shorten/3b443ef1b8aca9d2b1b52b4b.jpg</Item>
+        <Item medium="image" caption="Foto 10">https://imgs.kenlo.io/shorten/fc747af5833204712ad17fa8.jpg</Item>
+        <Item medium="image" caption="Foto 11">https://imgs.kenlo.io/shorten/beee288aaff0c9618b6040a2.jpg</Item>
+        <Item medium="image" caption="Foto 12">https://imgs.kenlo.io/shorten/002d5f2ca113cd5ed8a5731e.jpg</Item>
+        <Item medium="image" caption="Foto 13">https://imgs.kenlo.io/shorten/4a511939797bba78bd8f9e23.jpg</Item>
+      </Media>
+      <Details>
+        <UsageType>Commercial</UsageType>
+        <PropertyType>Apartment</PropertyType>
+        <ListPrice>6900</ListPrice>
+        <CondominiumFee>1406</CondominiumFee>
+        <LivingArea unit="square metres">72</LivingArea>
+        <Bedrooms>0</Bedrooms>
+        <Bathrooms>2</Bathrooms>
+        <Suites>0</Suites>
+        <Garage>2</Garage>
+        <Description><![CDATA[Esta excelente sala comercial está pronta para uso, com acabamento moderno e neutro. O espaço conta com piso em porcelanato que imita madeira, teto rebaixado com iluminação embutida e ar-condicionado split instalado. Um grande diferencial é a mini-copa com armários, pia. Paredes em tom claro, o ambiente oferece flexibilidade para montagem de escritório ou consultório.]]></Description>
+                <Features>
+          <Feature>Armários Planejados</Feature>
+        </Features>
+      </Details>
+      <Location>
+        <Country>Brasil</Country>
+        <State>São Paulo</State>
+        <City>Campinas</City>
+        <Neighborhood>Cambuí</Neighborhood>
+      </Location>
+    </Listing>
+    <Listing>
+      <ListingID>189</ListingID>
+      <Title><![CDATA[Casa Comercial no Bosque - Alto Padrão no Bosque]]></Title>
+      <TransactionType>For Rent</TransactionType>
+      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=CA0147</DetailViewUrl>
+            <Media>
+        <Item medium="image" caption="Foto 1">https://imgs.kenlo.io/shorten/ef029c7ae6629cf909c0bcb5.jpg</Item>
+        <Item medium="image" caption="Foto 2">https://imgs.kenlo.io/shorten/52adca504e6c5e43b09688ee.jpg</Item>
+        <Item medium="image" caption="Foto 3">https://imgs.kenlo.io/shorten/90e2d53e72127a7c9398e6df.jpg</Item>
+        <Item medium="image" caption="Foto 4">https://imgs.kenlo.io/shorten/3f5e3443c963391127961b1a.jpg</Item>
+        <Item medium="image" caption="Foto 5">https://imgs.kenlo.io/shorten/9c89ae65b5857ac05f413ff5.jpg</Item>
+        <Item medium="image" caption="Foto 6">https://imgs.kenlo.io/shorten/6e1d1f62065eb6ee059e0f5f.jpg</Item>
+        <Item medium="image" caption="Foto 7">https://imgs.kenlo.io/shorten/ede20647501a68cba0371fbb.jpg</Item>
+        <Item medium="image" caption="Foto 8">https://imgs.kenlo.io/shorten/c1eb370e9b7cdc9298239b3b.jpg</Item>
+        <Item medium="image" caption="Foto 9">https://imgs.kenlo.io/shorten/3db928d1a4e9e7eff78f632b.jpg</Item>
+        <Item medium="image" caption="Foto 10">https://imgs.kenlo.io/shorten/1a12899e85a91f51ef0dade3.jpg</Item>
+        <Item medium="image" caption="Foto 11">https://imgs.kenlo.io/shorten/f1db09fffa1cd6bb547d366a.jpg</Item>
+        <Item medium="image" caption="Foto 12">https://imgs.kenlo.io/shorten/d6830d5cd1a9effce0f620db.jpg</Item>
+        <Item medium="image" caption="Foto 13">https://imgs.kenlo.io/shorten/3221fac095140506deb039e5.jpg</Item>
+      </Media>
+      <Details>
+        <UsageType>Commercial</UsageType>
+        <PropertyType>Home</PropertyType>
+        <ListPrice>4000</ListPrice>
+        <CondominiumFee>0</CondominiumFee>
+        <LivingArea unit="square metres">100</LivingArea>
+        <Bedrooms>1</Bedrooms>
+        <Bathrooms>2</Bathrooms>
+        <Suites>0</Suites>
+        <Garage>2</Garage>
+        <Description><![CDATA[Casa comercial/residencial para alugar, 100 m² por R$ 4.372/mês - Bosque - Campinas/SP. Imóvel comercial/residencial localizado no bairro Bosque, em Campinas. São 5 salas, algumas com ambientes integrados, proporcionando versatilidade, funcionalidade e melhor aproveitamento dos espaços. Dispõe de ar-condicionado, 2 vagas de garagem e excelente distribuição interna. Com ambientes que se adaptam a diferentes necessidades, o imóvel é ideal para clínicas, escritórios, empresas ou uso residencial. Sua localização estratégica oferece fácil acesso às principais vias da região, trazendo praticidade e comodidade para o dia a dia. Agenda já sua visita!]]></Description>
+                <Features>
+          <Feature>Ar Condicionado</Feature>
+        </Features>
+      </Details>
+      <Location>
+        <Country>Brasil</Country>
+        <State>São Paulo</State>
+        <City>Campinas</City>
+        <Neighborhood>Bosque</Neighborhood>
+      </Location>
+    </Listing>
+    <Listing>
+      <ListingID>190</ListingID>
+      <Title><![CDATA[Apartamento no Cambuí - Alto Padrão no Cambuí]]></Title>
+      <TransactionType>For Rent</TransactionType>
+      <DetailViewUrl>https://www.tatianacolomboimoveis.com.br/detalhes.html?ref=AP1297</DetailViewUrl>
+            <Media>
+        <Item medium="image" caption="Foto 1">https://imgs.kenlo.io/shorten/7ad587c4ca1eac0fc3dd5c21.jpg</Item>
+        <Item medium="image" caption="Foto 2">https://imgs.kenlo.io/shorten/e6d3b5c47f03326f9dd5930c.jpg</Item>
+        <Item medium="image" caption="Foto 3">https://imgs.kenlo.io/shorten/9313188f2ec2e109c27ad9b8.jpg</Item>
+        <Item medium="image" caption="Foto 4">https://imgs.kenlo.io/shorten/b6a351811825ce1adecd30c3.jpg</Item>
+        <Item medium="image" caption="Foto 5">https://imgs.kenlo.io/shorten/d7726b4da34013857430cbc1.jpg</Item>
+        <Item medium="image" caption="Foto 6">https://imgs.kenlo.io/shorten/622485d6f8362d0a40f38f4f.jpg</Item>
+        <Item medium="image" caption="Foto 7">https://imgs.kenlo.io/shorten/7d54ad0e0e22543a62b2be84.jpg</Item>
+        <Item medium="image" caption="Foto 8">https://imgs.kenlo.io/shorten/fbd10de4857e7e34f8ceae2e.jpg</Item>
+        <Item medium="image" caption="Foto 9">https://imgs.kenlo.io/shorten/ccefc1d55f1e207122ad1852.jpg</Item>
+        <Item medium="image" caption="Foto 10">https://imgs.kenlo.io/shorten/192fdae6c345d81028df8648.jpg</Item>
+        <Item medium="image" caption="Foto 11">https://imgs.kenlo.io/shorten/3fb272c1aaa9772305dc2f98.jpg</Item>
+        <Item medium="image" caption="Foto 12">https://images.ingaiasites.com.br/4c573341a4ed0abae76ba978ae553e34.jpg</Item>
+        <Item medium="image" caption="Foto 13">https://images.ingaiasites.com.br/f7afbdd22339709ae75afb6b35809429.jpg</Item>
+        <Item medium="image" caption="Foto 14">https://images.ingaiasites.com.br/35783b6019be9f65926326f52abf09c9.jpg</Item>
+        <Item medium="image" caption="Foto 15">https://images.ingaiasites.com.br/dfd9c9630c5002a6880a27cb8bdfd8c3.jpg</Item>
+        <Item medium="image" caption="Foto 16">https://images.ingaiasites.com.br/ce8ee694a8db80ec2cffabf7997f6f23.jpg</Item>
+        <Item medium="image" caption="Foto 17">https://images.ingaiasites.com.br/23731e39dcb22d75d2ed5dc58e1225d8.jpg</Item>
+        <Item medium="image" caption="Foto 18">https://images.ingaiasites.com.br/2abe9cc38e463e5fc67df198d98733bc.jpg</Item>
+        <Item medium="image" caption="Foto 19">https://images.ingaiasites.com.br/163821e5ef56d314147f881c1dd9bf95.jpg</Item>
+        <Item medium="image" caption="Foto 20">https://images.ingaiasites.com.br/a0185b2e61909edb478ebc70ec624a82.jpg</Item>
+        <Item medium="image" caption="Foto 21">https://images.ingaiasites.com.br/0ac09b19c6e3010d6038919cd331f303.jpg</Item>
+        <Item medium="image" caption="Foto 22">https://images.ingaiasites.com.br/7819e7e40e9d791465768f9b8ef91e1a.jpg</Item>
+      </Media>
+      <Details>
+        <UsageType>Residential</UsageType>
+        <PropertyType>Apartment</PropertyType>
+        <ListPrice>6000</ListPrice>
+        <CondominiumFee>810</CondominiumFee>
+        <LivingArea unit="square metres">45</LivingArea>
+        <Bedrooms>1</Bedrooms>
+        <Bathrooms>1</Bathrooms>
+        <Suites>0</Suites>
+        <Garage>1</Garage>
+        <Description><![CDATA[Localizado no charmoso Cambuí, este apartamento de 45 metros quadrados oferece uma excelente oportunidade para quem busca conforto, modernidade e praticidades urbanas. O imóvel é ideal para solteiros ou casais, dispondo de um quarto aconchegante e um banheiro funcional. Além disso, o apartamento vem totalmente mobiliado, garantindo uma mudança prática e sem preocupações. O condomínio conta com uma piscina refrescante, proporcionando momentos ideais de lazer e relaxamento sem precisar sair de casa. A localização é outro grande diferencial, situando-se próximo a importantes pontos de interesse da região. A poucos minutos, encontra-se o Bosque dos Jequitibás, um parque que funciona como um verdadeiro refúgio verde em meio à cidade, perfeito para caminhadas e piqueniques. Próximo dali, o Shopping Jaraguá oferece uma completa variedade de lojas, restaurantes e opções de entretenimento para o dia a dia. Trata-se de uma excelente escolha para quem deseja morar em um local que combina comodidades completas e uma localização estratégica, em uma das regiões mais dinâmicas do estado de São Paulo.]]></Description>
+                <Features>
+          <Feature>Ar Condicionado</Feature>
+          <Feature>Armários Planejados</Feature>
+          <Feature>Quadra Esportiva</Feature>
         </Features>
       </Details>
       <Location>
