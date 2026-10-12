@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 11/10/2026 15:17:57
+   Data de Atualização: 12/10/2026 18:31:10
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -4960,7 +4960,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 80,
     "tag": "Destaque",
-    "desc": "Wide Cambuí. Apartamento com 2 dormitórios à venda, 80 m² por R$ 1.200.000 - Cambuí - Campinas/SP. Apartamento com 2 dormitórios, sendo duas suítes ricas em armário, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e dormitórios. 01 vaga de garagem coberta. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Agenda já sua visita!",
+    "desc": "Wide Cambuí. Apartamento com 2 dormitórios à venda, 80 m² por R$ 1.200.000 - Cambuí - Campinas/SP. Apartamento com 2 dormitórios, sendo duas su��tes ricas em armário, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e dormitórios. 01 vaga de garagem coberta. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Agenda já sua visita!",
     "diferenciais": [
       "Piscina",
       "Quadra Poliesportiva",
@@ -6023,7 +6023,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 3,
     "area": 210,
     "tag": "Destaque",
-    "desc": "Sobrado exclusivo em condomínio fechado com portaria 24h, localizado em Campinas. Excelente oportunidade: imóvel com 3 suítes, 210m² de área construída em terreno de 378m². Condomínio com taxa acessível em torno de R$ 700. A casa oferece amplo living, garagem para 3 carros, piscina, aquecimento a gás encanado e ar-condicionado na suíte principal. Destaque para o sistema de energia fotovoltaica, que garante grande economia na conta de luz. O condom��nio conta com infraestrutura completa: salão de festas com churrasqueira, 2 piscinas, quadra esportiva e parquinho. Localização privilegiada, perto de tudo, incluindo Sam s Club e Shopping Dom Pedro. Aceita financiamento e permuta por casa térrea em Paulínia ou apartamento em Campinas. Documentação 100% regularizada. Agenda já sua visita!",
+    "desc": "Sobrado exclusivo em condomínio fechado com portaria 24h, localizado em Campinas. Excelente oportunidade: imóvel com 3 suítes, 210m² de área construída em terreno de 378m². Condomínio com taxa acessível em torno de R$ 700. A casa oferece amplo living, garagem para 3 carros, piscina, aquecimento a gás encanado e ar-condicionado na suíte principal. Destaque para o sistema de energia fotovoltaica, que garante grande economia na conta de luz. O condomínio conta com infraestrutura completa: salão de festas com churrasqueira, 2 piscinas, quadra esportiva e parquinho. Localização privilegiada, perto de tudo, incluindo Sam s Club e Shopping Dom Pedro. Aceita financiamento e permuta por casa térrea em Paulínia ou apartamento em Campinas. Documentação 100% regularizada. Agenda já sua visita!",
     "diferenciais": [
       "Aceita Permuta",
       "Quadra Esportiva"
