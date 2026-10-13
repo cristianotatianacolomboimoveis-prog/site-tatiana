@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 12/10/2026 18:31:10
+   Data de Atualização: 13/10/2026 16:41:05
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -4960,7 +4960,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 80,
     "tag": "Destaque",
-    "desc": "Wide Cambuí. Apartamento com 2 dormitórios à venda, 80 m² por R$ 1.200.000 - Cambuí - Campinas/SP. Apartamento com 2 dormitórios, sendo duas su��tes ricas em armário, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e dormitórios. 01 vaga de garagem coberta. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Agenda já sua visita!",
+    "desc": "Wide Cambuí. Apartamento com 2 dormitórios à venda, 80 m² por R$ 1.200.000 - Cambuí - Campinas/SP. Apartamento com 2 dormitórios, sendo duas suítes ricas em armário, ampla sacada com envidraçamento e vista livre, lavabo, cozinha planejada com armários, cooktop, forno e coifa; área de serviço com armários. Aquecimento à gás, torneiras com agua quente e fria na cozinha e banheiros. Ar condicionado na sala e dormitórios. 01 vaga de garagem coberta. Condomínio clube com lazer completo, piscina, academia, pet place, pomar com frutíferas, quadra poliesportiva, quadra de tênis, sauna, playground, salão de festas, mini mercado e muito mais. Agenda já sua visita!",
     "diferenciais": [
       "Piscina",
       "Quadra Poliesportiva",
