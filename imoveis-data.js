@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 15/10/2026 13:52:08
+   Data de Atualização: 16/10/2026 13:42:30
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -1478,7 +1478,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 65,
     "tag": "Oportunidade",
-    "desc": "Apartamento com 2 dormitórios para alugar, 65 m² por R$ 4.875/mês - Cambuí - Campinas/SP. Apartamento com 2 quartos (sendo 1 suíte) com armários; living 2 ambientes com painel; sacada gourmet; cozinha com armários e área de serviço; banheiros com gabinetes, boxes e espelhos; aquecedor à gás; ar condicionado na suíte e na sala. Pronto para morar! O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. Fácil acesso ao transporte público, comércio e serviços. Agende sua visita!",
+    "desc": "Apartamento com 2 dormitórios para alugar, 65 m² por R$ 4.875/mês - Cambuí - Campinas/SP. Apartamento com 2 quartos (sendo 1 suíte) com armários; living 2 ambientes com painel; sacada gourmet; cozinha com armários e área de serviço; banheiros com gabinetes, boxes e espelhos; aquecedor à gás; ar condicionado na suíte e na sala. Pronto para morar! O Setin Home & Life Cambuí é um empreendimento diferenciado, com as áreas comuns finamente decoradas. Piscinas adulto e infantil, academia equipada, spa com sauna, espaço gourmet, churrasqueira com forno de pizza, playground, salão de jogos com cinema, espaço office, hall de entrada e solarium. Portaria 24h, manobrista 24h. Excelente localização, entre Cambuí, Centro e Guanabara. F��cil acesso ao transporte público, comércio e serviços. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
       "Churrasqueira",
