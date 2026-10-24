@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 23/10/2026 14:01:21
+   Data de Atualização: 24/10/2026 13:03:37
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -9435,7 +9435,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 2,
     "area": 183,
     "tag": "Destaque",
-    "desc": "Casa à venda com 3 suítes, piscina privativa e acabamentos de alto padrão, com 183 m² por R$ 1.690.000 - Royal Garden - Paul��nia/SP. Imóvel completo com ar condicionado em todos os ambientes, persianas automatizadas e mobília inclusa nos quartos, cozinha gourmet e lavanderia. A propriedade possui garagem para 2 carros com ponto para carro elétrico, sistema de aquecimento solar e banheiro externo. A sala de estar e jantar impressiona com pé direito duplo. Condomínio oferece segurança 24h com guarita, salão de festas, quadra poliesportiva e piscina. Imóvel com metais e louças Deca ou Celite, box e espelhos até o teto, e cabeamento subterrâneo. Casa com piscina para quem busca conforto, luxo e praticidade. Agende já sua visita!!",
+    "desc": "Casa à venda com 3 suítes, piscina privativa e acabamentos de alto padrão, com 183 m² por R$ 1.690.000 - Royal Garden - Paulínia/SP. Imóvel completo com ar condicionado em todos os ambientes, persianas automatizadas e mobília inclusa nos quartos, cozinha gourmet e lavanderia. A propriedade possui garagem para 2 carros com ponto para carro elétrico, sistema de aquecimento solar e banheiro externo. A sala de estar e jantar impressiona com pé direito duplo. Condomínio oferece segurança 24h com guarita, salão de festas, quadra poliesportiva e piscina. Imóvel com metais e louças Deca ou Celite, box e espelhos até o teto, e cabeamento subterrâneo. Casa com piscina para quem busca conforto, luxo e praticidade. Agende já sua visita!!",
     "diferenciais": [
       "Ar Condicionado",
       "Churrasqueira",
