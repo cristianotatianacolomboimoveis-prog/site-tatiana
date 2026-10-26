@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 25/10/2026 13:31:32
+   Data de Atualização: 26/10/2026 15:46:58
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -9078,7 +9078,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 2,
     "area": 100,
     "tag": "Oportunidade",
-    "desc": "Excelente sala comercial mobiliada para locação no Condomínio Tiffany Office Plaza, no bairro Botafogo, em Campinas. Com 100 m² de área privativa, o espaço está pronto para uso, oferecendo um ambiente moderno, funcional e bem distribuído, ideal para empresas, escritórios corporativos, imobiliárias, agências de marketing, tecnologia, engenharia, arquitetura, contabilidade e demais atividades administrativas. A sala conta com mobiliário de qualidade, proporcionando praticidade e economia para quem deseja iniciar as operações imediatamente, sem necessidade de investimentos adicionais. Os ambientes foram planejados para oferecer conforto, organização e produtividade à equipe. O Condomínio Tiffany Office Plaza está localizado na Avenida Barão de Itapura, uma das principais vias de Campinas, com fácil acesso ao Centro, Cambuí, Guanabara e às principais rodovias da região. O empreendimento oferece portaria com controle de acesso, segurança e toda a infraestrutura de um condomínio comercial consolidado, garantindo comodidade para colaboradores e clientes. Uma excelente oportunidade para empresas que procuram um espaço corporativo pronto para uso, em localização estratégica e com excelente custo-benefício. Agende sua visita e venha conhecer.",
+    "desc": "Excelente sala comercial mobiliada para loca��ão no Condomínio Tiffany Office Plaza, no bairro Botafogo, em Campinas. Com 100 m² de área privativa, o espaço está pronto para uso, oferecendo um ambiente moderno, funcional e bem distribuído, ideal para empresas, escritórios corporativos, imobiliárias, agências de marketing, tecnologia, engenharia, arquitetura, contabilidade e demais atividades administrativas. A sala conta com mobiliário de qualidade, proporcionando praticidade e economia para quem deseja iniciar as operações imediatamente, sem necessidade de investimentos adicionais. Os ambientes foram planejados para oferecer conforto, organização e produtividade à equipe. O Condomínio Tiffany Office Plaza está localizado na Avenida Barão de Itapura, uma das principais vias de Campinas, com fácil acesso ao Centro, Cambuí, Guanabara e às principais rodovias da região. O empreendimento oferece portaria com controle de acesso, segurança e toda a infraestrutura de um condomínio comercial consolidado, garantindo comodidade para colaboradores e clientes. Uma excelente oportunidade para empresas que procuram um espaço corporativo pronto para uso, em localização estratégica e com excelente custo-benefício. Agende sua visita e venha conhecer.",
     "diferenciais": [
       "Ar Condicionado",
       "Escritório",
