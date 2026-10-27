@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 26/10/2026 15:46:58
+   Data de Atualização: 27/10/2026 15:05:04
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -7807,7 +7807,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 0,
     "area": 60,
     "tag": "Oportunidade",
-    "desc": "Excelente oportunidade no coração de Campinas! Kitnet com 60 m², bem localizada no Centro, em frente ao Senac Campinas e próxima à maternidade. Região central, com fácil acesso a comércios, serviços e transporte público.",
+    "desc": "Excelente oportunidade no coração de Campinas! Kitnet ampla com 60 m², muito bem localizada no Centro, em frente ao Senac Campinas e próxima à maternidade. O imóvel conta com sala e quarto integrados, cozinha separada, 1 banheiro social e portaria virtual para maior segurança e praticidade no dia a dia. Região central com fácil acesso a uma ampla rede de comércios, serviços e transporte público. (O imóvel não possui vaga de garagem).",
     "diferenciais": [
       "Área de Serviço"
     ],
@@ -9078,7 +9078,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 2,
     "area": 100,
     "tag": "Oportunidade",
-    "desc": "Excelente sala comercial mobiliada para loca��ão no Condomínio Tiffany Office Plaza, no bairro Botafogo, em Campinas. Com 100 m² de área privativa, o espaço está pronto para uso, oferecendo um ambiente moderno, funcional e bem distribuído, ideal para empresas, escritórios corporativos, imobiliárias, agências de marketing, tecnologia, engenharia, arquitetura, contabilidade e demais atividades administrativas. A sala conta com mobiliário de qualidade, proporcionando praticidade e economia para quem deseja iniciar as operações imediatamente, sem necessidade de investimentos adicionais. Os ambientes foram planejados para oferecer conforto, organização e produtividade à equipe. O Condomínio Tiffany Office Plaza está localizado na Avenida Barão de Itapura, uma das principais vias de Campinas, com fácil acesso ao Centro, Cambuí, Guanabara e às principais rodovias da região. O empreendimento oferece portaria com controle de acesso, segurança e toda a infraestrutura de um condomínio comercial consolidado, garantindo comodidade para colaboradores e clientes. Uma excelente oportunidade para empresas que procuram um espaço corporativo pronto para uso, em localização estratégica e com excelente custo-benefício. Agende sua visita e venha conhecer.",
+    "desc": "Excelente sala comercial mobiliada para locação no Condomínio Tiffany Office Plaza, no bairro Botafogo, em Campinas. Com 100 m² de área privativa, o espaço está pronto para uso, oferecendo um ambiente moderno, funcional e bem distribuído, ideal para empresas, escritórios corporativos, imobiliárias, agências de marketing, tecnologia, engenharia, arquitetura, contabilidade e demais atividades administrativas. A sala conta com mobiliário de qualidade, proporcionando praticidade e economia para quem deseja iniciar as operações imediatamente, sem necessidade de investimentos adicionais. Os ambientes foram planejados para oferecer conforto, organização e produtividade à equipe. O Condomínio Tiffany Office Plaza está localizado na Avenida Barão de Itapura, uma das principais vias de Campinas, com fácil acesso ao Centro, Cambuí, Guanabara e às principais rodovias da região. O empreendimento oferece portaria com controle de acesso, segurança e toda a infraestrutura de um condomínio comercial consolidado, garantindo comodidade para colaboradores e clientes. Uma excelente oportunidade para empresas que procuram um espaço corporativo pronto para uso, em localização estratégica e com excelente custo-benefício. Agende sua visita e venha conhecer.",
     "diferenciais": [
       "Ar Condicionado",
       "Escritório",
@@ -10620,6 +10620,90 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/4ba2511d42fa532e15d40119c831eeaa.jpg",
       "https://images.ingaiasites.com.br/6a49bf34a47c3301c7342bcafcc377f6.jpg",
       "https://images.ingaiasites.com.br/bdbf26a505c7bcd1e203a7ba58922134.jpg"
+    ]
+  },
+  {
+    "id": 189,
+    "codigo": "AP1299",
+    "nome": "Apartamento no Botafogo",
+    "bairro": "Botafogo",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 820000,
+    "condominio": 1100,
+    "tipoOferta": "1",
+    "quartos": 3,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 2,
+    "area": 75,
+    "tag": "Oportunidade",
+    "desc": "Apartamento à venda no Botafogo, Campinas | Living Elegance | 75 m² | 3 dorms (1 suíte) | Varanda gourmet | 2 vagas. Apartamento de 75 m² privativos no Living Elegance, no Botafogo, com acesso rápido ao Centro de Campinas e às principais vias da cidade. São 3 dormitórios, sendo 1 suíte, e o terceiro é ideal para home office. A sala de estar e jantar é integrada, e a cozinha americana tem armários. A varanda gourmet tem churrasqueira. O apartamento tem ainda 1 banheiro social além da suíte, aquecimento a gás e 2 vagas de garagem. Os móveis e itens existentes podem ser negociados à parte. O condomínio tem portaria 24h, piscina, academia, salão de festas, espaço gourmet, churrasqueira, brinquedoteca, playground, salão de jogos e espaço gamer. Fica próximo ao Health Prime Day Hospital e ao Senac, com comércio, escolas e serviços no entorno, a 5 minutos do Centro. Aceita financiamento bancário e uso do FGTS, conforme as regras vigentes e a aprovação do banco. Agende sua visita.",
+    "diferenciais": [
+      "Churrasqueira",
+      "Piscina",
+      "Varanda / Terraço",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Academia / Fitness"
+    ],
+    "imagens": [
+      "https://imgs.kenlo.io/shorten/fa7fb5e802f37c6e36686be2.jpg",
+      "https://imgs.kenlo.io/shorten/410695bb3c1d9be59ebe78b3.jpg",
+      "https://imgs.kenlo.io/shorten/148f589d1ce2408f9d9ea268.jpg",
+      "https://imgs.kenlo.io/shorten/c28942c13a8688ca990b8857.jpg",
+      "https://imgs.kenlo.io/shorten/6a2c6c052f3acb33ca2cd112.jpg",
+      "https://imgs.kenlo.io/shorten/cd9aceabc3f1ef54e7e1c114.jpg",
+      "https://imgs.kenlo.io/shorten/e5c9acdf39af7f4b310390a9.jpg",
+      "https://imgs.kenlo.io/shorten/a8e58fa60f1aac6fc18acba0.jpg",
+      "https://imgs.kenlo.io/shorten/bd646f2237a77f542eb5404f.jpg",
+      "https://imgs.kenlo.io/shorten/39f3633445f2825883e0a707.jpg",
+      "https://imgs.kenlo.io/shorten/192a14ebd912fdd5aabe78a7.jpg",
+      "https://imgs.kenlo.io/shorten/316eba891036333f9ed55aee.jpg",
+      "https://imgs.kenlo.io/shorten/7bd06ef285cb085045c1d525.jpg",
+      "https://imgs.kenlo.io/shorten/c19bd0074e62af878defac4d.jpg",
+      "https://imgs.kenlo.io/shorten/aeea23f147981a0cd4896299.jpg",
+      "https://imgs.kenlo.io/shorten/a49677014e6a049c57266c9f.jpg",
+      "https://imgs.kenlo.io/shorten/1f18ada7d0c5ca7e01e323a9.jpg",
+      "https://imgs.kenlo.io/shorten/134ddfddc7645b2dee56af43.jpg",
+      "https://imgs.kenlo.io/shorten/f772727b9eaf8504ccae6d37.jpg",
+      "https://imgs.kenlo.io/shorten/32346d148f561f35f63efc8e.jpg",
+      "https://imgs.kenlo.io/shorten/80202b76faf29d0a860adc51.jpg",
+      "https://imgs.kenlo.io/shorten/4abca5994ddc382c4084b1e1.jpg",
+      "https://imgs.kenlo.io/shorten/ebbbe2e2e1606074d8392dbe.jpg",
+      "https://imgs.kenlo.io/shorten/4707d9040f0b1cb338d03e76.jpg",
+      "https://imgs.kenlo.io/shorten/e66ed31055b50363b21c8b97.jpg",
+      "https://images.ingaiasites.com.br/13cdfc2a8431c286f538ac195e2e4d3f.jpg",
+      "https://images.ingaiasites.com.br/c8d4c5c8d0a79f65d82f835f753ea755.jpg",
+      "https://images.ingaiasites.com.br/ed39c5a1bc3aaac163700e11337957ab.jpg",
+      "https://imgs.kenlo.io/shorten/fdb5ce346f48e54570357add.jpg",
+      "https://imgs.kenlo.io/shorten/b2400df3d917a0cce1969c18.jpg",
+      "https://imgs.kenlo.io/shorten/6dac2c1034978d599aa79fbe.jpg",
+      "https://images.ingaiasites.com.br/3aee1bd0258d6b75dbecbac7f83b1b65.jpg",
+      "https://images.ingaiasites.com.br/fb27c077d525a5fcf52ac8e140348847.jpg",
+      "https://images.ingaiasites.com.br/68974c157a4484f255773bb2f555b8c5.jpg",
+      "https://images.ingaiasites.com.br/3274a2a47afa1eb7ff85d5401e6a88c9.jpg",
+      "https://images.ingaiasites.com.br/58a1f71f97ba59d8908627fa387d6d4e.jpg",
+      "https://images.ingaiasites.com.br/249146e07776b3d35caad4bdf3b705ae.jpg",
+      "https://imgs.kenlo.io/shorten/8a76096ee7f37e76aa23bb7a.jpg",
+      "https://imgs.kenlo.io/shorten/26a9af2b4ad9b489aaa9a33c.jpg",
+      "https://imgs.kenlo.io/shorten/f58c2b9b4da20d99c3dd0ba6.jpg",
+      "https://imgs.kenlo.io/shorten/5617c461f6b2d858d3ef5b95.jpg",
+      "https://imgs.kenlo.io/shorten/e7b0da3bb24f0f157c662db4.jpg",
+      "https://imgs.kenlo.io/shorten/4326b4edd3d94d0271bbc41b.jpg",
+      "https://imgs.kenlo.io/shorten/41acc926579cf71ca6c59baf.jpg",
+      "https://imgs.kenlo.io/shorten/c0095d37dc8a15a1111192fe.jpg",
+      "https://imgs.kenlo.io/shorten/98fffd3ee979d65ea8755ca1.jpg",
+      "https://imgs.kenlo.io/shorten/10f6f340657513a719c3d89f.jpg",
+      "https://imgs.kenlo.io/shorten/ffa65b39abd77cec0febb28e.jpg",
+      "https://imgs.kenlo.io/shorten/57afd75e914f48e11043a290.jpg",
+      "https://imgs.kenlo.io/shorten/352634d795929ce64101b597.jpg",
+      "https://imgs.kenlo.io/shorten/7373f4fe60c93c2be2dda699.jpg",
+      "https://images.ingaiasites.com.br/664f6602a355806abc5676ff2e171f2c.jpg",
+      "https://imgs.kenlo.io/shorten/2416ea74889c64b06a1d0cd5.jpg",
+      "https://imgs.kenlo.io/shorten/5accd6828067a5dc914305ed.jpg",
+      "https://images.ingaiasites.com.br/7b4829d39270106e3e77f5666a855358.jpg"
     ]
   }
 ];
