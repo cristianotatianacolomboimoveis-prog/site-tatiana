@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 08/11/2026 15:43:58
+   Data de Atualização: 09/11/2026 19:27:09
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -4336,7 +4336,7 @@ const IMOVEIS_DATABASE = [
     "vagas": 1,
     "area": 33,
     "tag": "Oportunidade",
-    "desc": "Sala, 33 m² - venda por R$ 449.000 ou aluguel por R$ 3.544/mês - Vila Lídia - Campinas/SP. Sala comercial sofisticada, ideal para quem busca um ambiente contemporâneo, organizado e inspirador. Com uma decoração clean e moderna, este espaço oferece mesas espaçosas com acabamentos em madeira e iluminação embutida, criando um ambiente funcional para até 4 estações de trabalho. A área de reuniões conta com uma mesa redonda perfeita para brainstormings, encontros de equipe ou reuniões com clientes. O espaço possui móveis ergonômicos, incluindo cadeiras confortáveis para garantir horas de trabalho produtivo. Há também uma área de café com mini cozinha integrada, proporcionando praticidade para intervalos rápidos e um banheiro. A iluminação de destaque mescla luzes quentes e frias, criando um clima agradável e acolhedor. Ideal para pequenas empresas, startups ou profissionais autônomos que buscam um ambiente de trabalho profissional, estiloso e bem planejado. Venha conhecer e se surpreender com este espaço que une conforto e modernidade. Agende sua visita!",
+    "desc": "Sala, 33 m² - venda por R$ 449.000 ou aluguel por R$ 3.544/mês - Vila Lídia - Campinas/SP. Sala comercial sofisticada, ideal para quem busca um ambiente contemporâneo, organizado e inspirador. Com uma decoração clean e moderna, este espaço oferece mesas espaçosas com acabamentos em madeira e iluminação embutida, criando um ambiente funcional para até 4 estações de trabalho. A área de reuniões conta com uma mesa redonda perfeita para brainstormings, encontros de equipe ou reuniões com clientes. O espaço possui móveis ergonômicos, incluindo cadeiras confortáveis para garantir horas de trabalho produtivo. Há também uma área de caf�� com mini cozinha integrada, proporcionando praticidade para intervalos rápidos e um banheiro. A iluminação de destaque mescla luzes quentes e frias, criando um clima agradável e acolhedor. Ideal para pequenas empresas, startups ou profissionais autônomos que buscam um ambiente de trabalho profissional, estiloso e bem planejado. Venha conhecer e se surpreender com este espaço que une conforto e modernidade. Agende sua visita!",
     "diferenciais": [
       "Ar Condicionado",
       "Armários Planejados"
