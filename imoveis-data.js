@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 12/11/2026 17:18:06
+   Data de Atualização: 13/11/2026 16:54:06
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -4973,64 +4973,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 89,
-    "codigo": "AP1065",
-    "nome": "Apartamento no Loteamento Chácara Prado",
-    "bairro": "Loteamento Chácara Prado",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 500000,
-    "condominio": 550.91,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 0,
-    "salas": 2,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 63,
-    "tag": "Oportunidade",
-    "desc": "Reviva. Apartamento com 2 dormitórios à venda, 63 m² por R$ 500.000 - Loteamento Chácara Prado - Campinas/SP. Andar alto com vista livre. Living para 2 ambientes; sacada com churrasqueira à carvão, cozinha com armários planejados; área de serviço com armário; quartos com armários planejados; banheiro com gabinete, box, espelho e ducha com aquecimento à gás. 1 vaga de garagem coberta. Condomínio com piscina adulto (climatizada) e infantil, fitness, churrasqueira, playground, brinquedoteca, salão de jogos, espaço teen, salão gourmet, salão de festas, playgrund, quadra poliesportiva, churrasqueira, mini mercado entre outros. Portaria 24h. Ótima localização no Parque Prado, próximo ao Shopping Prado Boulevard e com total infraestrutura em comércio e serviços ao redor. Entre em contato e agende uma visita!",
-    "diferenciais": [
-      "Churrasqueira",
-      "Piscina",
-      "Quadra Poliesportiva",
-      "Varanda / Terraço",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Academia / Fitness",
-      "Quadra Esportiva"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/e717e287fa59ee96e9f9ef53acea664e.jpg",
-      "https://images.ingaiasites.com.br/a2760e2fdbf0593e090216eac705a4d9.jpg",
-      "https://images.ingaiasites.com.br/5aa9d3dacfb062d7765a0d0761a0d120.jpg",
-      "https://images.ingaiasites.com.br/8e2e60d3f4bfac38d9ca4256fd18a85e.jpg",
-      "https://images.ingaiasites.com.br/800327ddcde613eb9268027899979e42.jpg",
-      "https://images.ingaiasites.com.br/0b8067d6fbfccee42d8fc151206bee94.jpg",
-      "https://images.ingaiasites.com.br/ce0eabbc516083a14415c939bcf1641d.jpg",
-      "https://images.ingaiasites.com.br/32301e943f7b43151c8b3f4d89ad5100.jpg",
-      "https://images.ingaiasites.com.br/bb9740714a76d1d6b680fb36a76070f2.jpg",
-      "https://images.ingaiasites.com.br/8164e06255daa4129dc1bec527f5f4ba.jpg",
-      "https://images.ingaiasites.com.br/5cec1a20344b8cdd548ad3cd144df171.jpg",
-      "https://images.ingaiasites.com.br/8923e8a6518001744ef3068aa85278a7.jpg",
-      "https://images.ingaiasites.com.br/7a40829aaf3fdca5bd1411742d5805ae.jpg",
-      "https://images.ingaiasites.com.br/fc630b9c8e29d6ebf09aa5cd34295e43.jpg",
-      "https://images.ingaiasites.com.br/C5KJJN2sfynz5kHiXMayGJ0ZvmvFJ8OH.jpg",
-      "https://images.ingaiasites.com.br/a933f09a90039962aa7906f18859b307.jpg",
-      "https://images.ingaiasites.com.br/4c2e438f3dfe33c10915e7682aa18bf0.jpg",
-      "https://images.ingaiasites.com.br/df222cf802d3e1ae209bb2b54a7ab260.jpg",
-      "https://images.ingaiasites.com.br/d6fc1348ed897459d2011e3986c7e9aa.jpg",
-      "https://images.ingaiasites.com.br/5537ee28ad0f81fa93207f7e2055d3c0.jpg",
-      "https://images.ingaiasites.com.br/e6fe5a84db2167662dd21c62f737f14b.jpg",
-      "https://images.ingaiasites.com.br/a4b7514392c762c901df2720d505b257.jpg",
-      "https://images.ingaiasites.com.br/5f0c65b204e362ee0f96358bd2883afb.jpg",
-      "https://images.ingaiasites.com.br/bff9f59ac41db35807ba7d2e1e74df71.jpg",
-      "https://images.ingaiasites.com.br/946ac6d898ed30cafd2771fb0b627923.jpg",
-      "https://images.ingaiasites.com.br/829ec77be44e1ffb99dcd8aa91091bac.jpg",
-      "https://images.ingaiasites.com.br/822ca2373e5cbd6126dd090ff2640665.jpg"
-    ]
-  },
-  {
-    "id": 90,
     "codigo": "CA0115",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5111,7 +5053,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 91,
+    "id": 90,
     "codigo": "AP1080",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -5183,7 +5125,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 92,
+    "id": 91,
     "codigo": "TE0031",
     "nome": "Loteamento/Condomínio no Arborais",
     "bairro": "Arborais",
@@ -5213,7 +5155,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "codigo": "AP1092",
     "nome": "Apartamento no Parque Industrial",
     "bairro": "Parque Industrial",
@@ -5301,7 +5243,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 94,
+    "id": 93,
     "codigo": "AP1095",
     "nome": "Apartamento no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -5343,7 +5285,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 95,
+    "id": 94,
     "codigo": "AP1116",
     "nome": "Apartamento no Jardim Ipiranga",
     "bairro": "Jardim Ipiranga",
@@ -5395,7 +5337,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 96,
+    "id": 95,
     "codigo": "AP1120",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5462,7 +5404,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 97,
+    "id": 96,
     "codigo": "AP1126",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5530,7 +5472,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "codigo": "AP1130",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5585,7 +5527,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 99,
+    "id": 98,
     "codigo": "AP1133",
     "nome": "Apartamento no Jardim do Lago",
     "bairro": "Jardim do Lago",
@@ -5660,7 +5602,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "codigo": "SO0074",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5749,7 +5691,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 101,
+    "id": 100,
     "codigo": "AP1143",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5785,7 +5727,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 102,
+    "id": 101,
     "codigo": "CA0122",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -5876,7 +5818,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 103,
+    "id": 102,
     "codigo": "AP1156",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -5972,7 +5914,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 104,
+    "id": 103,
     "codigo": "CA0123",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -6075,7 +6017,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "codigo": "AP1161",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6147,7 +6089,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 106,
+    "id": 105,
     "codigo": "AP1162",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6217,7 +6159,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 107,
+    "id": 106,
     "codigo": "AP1163",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6283,7 +6225,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "codigo": "CA0091",
     "nome": "Casa Padrão no Vila Lemos",
     "bairro": "Vila Lemos",
@@ -6329,7 +6271,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "codigo": "AP1167",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6398,7 +6340,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "codigo": "AP1171",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6467,7 +6409,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "codigo": "AP1177",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -6507,7 +6449,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 112,
+    "id": 111,
     "codigo": "CA0113",
     "nome": "Casa Padrão no Parque das Universidades",
     "bairro": "Parque das Universidades",
@@ -6578,7 +6520,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 113,
+    "id": 112,
     "codigo": "AP1199",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6632,7 +6574,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 114,
+    "id": 113,
     "codigo": "AP1200",
     "nome": "Apartamento no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6691,7 +6633,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 115,
+    "id": 114,
     "codigo": "LJ0001",
     "nome": "Conjunto Comercial/sala no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -6740,7 +6682,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "codigo": "CA0129",
     "nome": "Casa Comercial no Nova Campinas",
     "bairro": "Nova Campinas",
@@ -6784,7 +6726,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 117,
+    "id": 116,
     "codigo": "AP1206",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6839,7 +6781,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 118,
+    "id": 117,
     "codigo": "CA0132",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -6900,7 +6842,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 119,
+    "id": 118,
     "codigo": "AP1209",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6974,7 +6916,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 120,
+    "id": 119,
     "codigo": "AP1037",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -7036,7 +6978,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 121,
+    "id": 120,
     "codigo": "AP1058",
     "nome": "Apartamento no Vila Rossi Borghi e Siqueira",
     "bairro": "Vila Rossi Borghi e Siqueira",
@@ -7069,7 +7011,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 122,
+    "id": 121,
     "codigo": "TE0030",
     "nome": "Loteamento/Condomínio no Condomínio Residencial Ecovilla",
     "bairro": "Condomínio Residencial Ecovilla",
@@ -7129,7 +7071,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 123,
+    "id": 122,
     "codigo": "AP1137",
     "nome": "Apartamento no Jardim Nova Europa",
     "bairro": "Jardim Nova Europa",
@@ -7169,7 +7111,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 124,
+    "id": 123,
     "codigo": "TE0029",
     "nome": "Loteamento/Condomínio no Residencial Jatibela",
     "bairro": "Residencial Jatibela",
@@ -7212,7 +7154,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "codigo": "CA0093",
     "nome": "Casa Padrão no Centro",
     "bairro": "Centro",
@@ -7257,6 +7199,42 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/2deb71e3bf3aa04aa506eede8de3fbad.jpg",
       "https://images.ingaiasites.com.br/8f89105fb9a9ae15bdb1a90aebc61dc2.jpg",
       "https://images.ingaiasites.com.br/ba1f8bd5486643dcf01a459f98facfb9.jpg"
+    ]
+  },
+  {
+    "id": 125,
+    "codigo": "CA0134",
+    "nome": "Casa Padrão no Jardim Chapadão",
+    "bairro": "Jardim Chapadão",
+    "tipo": "casa",
+    "finalidade": "compra",
+    "preco": 1356000,
+    "condominio": 0,
+    "tipoOferta": "1",
+    "quartos": 3,
+    "suites": 1,
+    "salas": 2,
+    "banheiros": 4,
+    "vagas": 4,
+    "area": 256,
+    "tag": "Destaque",
+    "desc": "Com 256 m² de área útil, esta casa residencial à venda oferece espaço bem distribuído para diferentes momentos da rotina. A área íntima é composta por 3 quartos, sendo 1 suíte reservada para descanso com banheiro privativo. No total, a moradia conta com 4 banheiros, organizando o uso diário dos moradores e de convidados. A estrutura dispõe de cozinha separada para o preparo de refeições. Para veículos, há 4 vagas dedicadas, facilitando a chegada e o estacionamento.",
+    "diferenciais": [
+      "Armários Planejados"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/0f3408f9b6e2ecb766819560975e8966.jpg",
+      "https://images.ingaiasites.com.br/e7d7303650703233659ea69c9b37d646.jpg",
+      "https://images.ingaiasites.com.br/929f43cb73d3b0f6c085ab655c3d2c9c.jpg",
+      "https://images.ingaiasites.com.br/a2ef9fcac66ea643c5cb844ca1c37d6f.jpg",
+      "https://images.ingaiasites.com.br/5199f0f396724581b1e415cddc7ae9c8.jpg",
+      "https://images.ingaiasites.com.br/9818e8743b0b5a53a2f90cdf15c1a043.jpg",
+      "https://images.ingaiasites.com.br/6540411bb41743f64aa9e4e9cbddd8b6.jpg",
+      "https://images.ingaiasites.com.br/e7334b3dbff89fe84e8c51151f56d8db.jpg",
+      "https://images.ingaiasites.com.br/79241625918bf3064f8fabf063f7edff.jpg",
+      "https://images.ingaiasites.com.br/29de10b4c50164d5df3779991a3cef1b.jpg",
+      "https://images.ingaiasites.com.br/4b26a76f5f8487cd53610bcaface39ae.jpg",
+      "https://images.ingaiasites.com.br/1c30cfc9898e62157c10d80f5d5be942.jpg"
     ]
   },
   {
@@ -9967,7 +9945,7 @@ const IMOVEIS_DATABASE = [
     "tipo": "apartamento",
     "finalidade": "compra",
     "preco": 980000,
-    "condominio": 810,
+    "condominio": 844.74,
     "tipoOferta": "1",
     "quartos": 1,
     "suites": 0,
@@ -10009,42 +9987,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 179,
-    "codigo": "CA0134",
-    "nome": "Casa Padrão no Jardim Chapadão",
-    "bairro": "Jardim Chapadão",
-    "tipo": "casa",
-    "finalidade": "compra",
-    "preco": 1356000,
-    "condominio": 0,
-    "tipoOferta": "1",
-    "quartos": 3,
-    "suites": 1,
-    "salas": 2,
-    "banheiros": 4,
-    "vagas": 4,
-    "area": 256,
-    "tag": "Destaque",
-    "desc": "Com 256 m² de área útil, esta casa residencial à venda oferece espaço bem distribuído para diferentes momentos da rotina. A área íntima é composta por 3 quartos, sendo 1 suíte reservada para descanso com banheiro privativo. No total, a moradia conta com 4 banheiros, organizando o uso diário dos moradores e de convidados. A estrutura dispõe de cozinha separada para o preparo de refeições. Para veículos, há 4 vagas dedicadas, facilitando a chegada e o estacionamento.",
-    "diferenciais": [
-      "Armários Planejados"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/0f3408f9b6e2ecb766819560975e8966.jpg",
-      "https://images.ingaiasites.com.br/e7d7303650703233659ea69c9b37d646.jpg",
-      "https://images.ingaiasites.com.br/929f43cb73d3b0f6c085ab655c3d2c9c.jpg",
-      "https://images.ingaiasites.com.br/a2ef9fcac66ea643c5cb844ca1c37d6f.jpg",
-      "https://images.ingaiasites.com.br/5199f0f396724581b1e415cddc7ae9c8.jpg",
-      "https://images.ingaiasites.com.br/9818e8743b0b5a53a2f90cdf15c1a043.jpg",
-      "https://images.ingaiasites.com.br/6540411bb41743f64aa9e4e9cbddd8b6.jpg",
-      "https://images.ingaiasites.com.br/e7334b3dbff89fe84e8c51151f56d8db.jpg",
-      "https://images.ingaiasites.com.br/79241625918bf3064f8fabf063f7edff.jpg",
-      "https://images.ingaiasites.com.br/29de10b4c50164d5df3779991a3cef1b.jpg",
-      "https://images.ingaiasites.com.br/4b26a76f5f8487cd53610bcaface39ae.jpg",
-      "https://images.ingaiasites.com.br/1c30cfc9898e62157c10d80f5d5be942.jpg"
-    ]
-  },
-  {
-    "id": 180,
     "codigo": "AP1300",
     "nome": "Apartamento no Vila João Jorge",
     "bairro": "Vila João Jorge",
@@ -10080,7 +10022,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 181,
+    "id": 180,
     "codigo": "AP1301",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -10143,7 +10085,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 182,
+    "id": 181,
     "codigo": "AP1299",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -10227,7 +10169,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 183,
+    "id": 182,
     "codigo": "AP1302",
     "nome": "Apartamento no Jardim Guanabara",
     "bairro": "Jardim Guanabara",
@@ -10298,7 +10240,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 184,
+    "id": 183,
     "codigo": "CA0148",
     "nome": "Casa de Condomínio no Jardim Madalena",
     "bairro": "Jardim Madalena",
@@ -10381,7 +10323,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 185,
+    "id": 184,
     "codigo": "SA0170",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -10422,7 +10364,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 186,
+    "id": 185,
     "codigo": "AP1303",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
