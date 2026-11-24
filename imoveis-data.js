@@ -1,7 +1,7 @@
 /* ==========================================================================
    TATIANA COLOMBO CONSULTORIA IMOBILIÁRIA - BANCO DE DADOS DE IMÓVEIS (JS)
    Sincronizado automaticamente via Kenlo / inGaia CRM (ValueGaia Feed)
-   Data de Atualização: 23/11/2026 20:49:22
+   Data de Atualização: 24/11/2026 19:54:03
    ========================================================================== */
 
 const IMOVEIS_DATABASE = [
@@ -1444,6 +1444,46 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 26,
+    "codigo": "SA0078",
+    "nome": "Conjunto Comercial/sala no Centro",
+    "bairro": "Centro",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 280000,
+    "condominio": 700,
+    "tipoOferta": "1",
+    "quartos": 0,
+    "suites": 0,
+    "salas": 0,
+    "banheiros": 1,
+    "vagas": 1,
+    "area": 36,
+    "tag": "Oportunidade",
+    "desc": "Sala comercial à venda no Setin Midtown Office, 36 m² por R$ 280.000 - Centro - Campinas/SP. Últimas unidades direto com a incorporadora. Localização privilegiada na esquina da Avenida Aquidaban com a Rua José Paulino, vizinho ao bairro Cambuí, com fácil acesso às Rodovias D. Pedro I e Santos Dumont. Sala com sacada, 1 banheiro, 1 vaga de garagem com manobrista, recepção 24 horas e salas de reunião. Unidades de 33 a 38m² com possibilidade de junção. Os valores estão sujeitos a alteração sem aviso prévio! Agenda sua visita!",
+    "diferenciais": [
+      "Varanda / Terraço"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/b355c76c1fb359eaeecb85c37e1cddb1.jpg",
+      "https://images.ingaiasites.com.br/fe4312caae0f782b032a039559fde29a.jpg",
+      "https://images.ingaiasites.com.br/00f6a01504c0d7e9e1d582c24948da47.jpg",
+      "https://images.ingaiasites.com.br/d7ee3d430596a90c693accd2f2f72fa9.jpg",
+      "https://images.ingaiasites.com.br/bf02697e7c4d74c968b2f2bf18452c41.jpg",
+      "https://images.ingaiasites.com.br/bd40d6805ecf2dc7cb6c51fa816a1d66.jpg",
+      "https://images.ingaiasites.com.br/29ced19cea03e4950a3654e26757343f.jpg",
+      "https://images.ingaiasites.com.br/106e826b72a6fa8fd5f8b15794b2017e.jpg",
+      "https://images.ingaiasites.com.br/cb5c7600e6cede97f6af42bc95b3a848.jpg",
+      "https://images.ingaiasites.com.br/d08bedc8e4eb739c02d003b83beb6f73.jpg",
+      "https://images.ingaiasites.com.br/6cd949babda112825c46369211af9764.jpg",
+      "https://images.ingaiasites.com.br/6f6c981595e731f8e3462d261e82e33e.jpg",
+      "https://images.ingaiasites.com.br/11f70f9dd5757f28123cd8817f5e53e2.jpg",
+      "https://images.ingaiasites.com.br/63d9b7c0f85c095321d751673eccc761.jpg",
+      "https://images.ingaiasites.com.br/1aa8c4e66d85ebb3dbc0f32256cd364c.jpg",
+      "https://images.ingaiasites.com.br/d62fec626d6b397852386f7a11e3708d.jpg"
+    ]
+  },
+  {
+    "id": 27,
     "codigo": "AP0440",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1505,7 +1545,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 27,
+    "id": 28,
     "codigo": "AP0521",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1569,7 +1609,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 28,
+    "id": 29,
     "codigo": "AP0431",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1634,7 +1674,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 29,
+    "id": 30,
     "codigo": "AP0474",
     "nome": "Apartamento no Centro",
     "bairro": "Centro",
@@ -1672,89 +1712,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 30,
-    "codigo": "AP0437",
-    "nome": "Apartamento no Vila Itapura",
-    "bairro": "Vila Itapura",
-    "tipo": "apartamento",
-    "finalidade": "aluguel",
-    "preco": 3200,
-    "condominio": 479.64,
-    "tipoOferta": "1",
-    "quartos": 2,
-    "suites": 0,
-    "salas": 2,
-    "banheiros": 2,
-    "vagas": 2,
-    "area": 58,
-    "tag": "Oportunidade",
-    "desc": "Apartamento para locação no Morada Park Guanabara! Andar alto, possui living 2 ambientes, lavabo e sacada. 2 dormitórios com armários, sendo 1 com ventilador de teto. Cozinha planejada, área de serviço com armário. 2 vagas de garagens. Condomínio com piscina, fitness, salão de festas, espaço gourmet, playground e brinquedoteca. Localizado na região do Guanabara com toda infraestrutura de comércio e serviços ao redor. Entre em contato e agende uma visita!",
-    "diferenciais": [
-      "Ar Condicionado",
-      "Piscina",
-      "Armários Planejados",
-      "Área de Serviço",
-      "Varanda / Terraço",
-      "Academia / Fitness"
-    ],
-    "imagens": [
-      "https://imgs.kenlo.io/shorten/cbf68673fe841edc756c8292.jpg",
-      "https://imgs.kenlo.io/shorten/ad1d6c8010a8a3d5688c1558.jpg",
-      "https://imgs.kenlo.io/shorten/5a945ebb9e5ace673ea449cb.jpg",
-      "https://imgs.kenlo.io/shorten/e523746123451602280e2ebd.jpg",
-      "https://imgs.kenlo.io/shorten/f9815183a5835f3e9fac96d3.jpg",
-      "https://imgs.kenlo.io/shorten/8c0206cb5830e4a95656e32a.jpg",
-      "https://imgs.kenlo.io/shorten/7bb93298454081b58cb3447b.jpg",
-      "https://imgs.kenlo.io/shorten/e01257a1c3ed0302c6a85ecb.jpg",
-      "https://imgs.kenlo.io/shorten/63b7518c908c4fd527b1face.jpg",
-      "https://imgs.kenlo.io/shorten/a0cc66e3ffb0bd9ab9a211c2.jpg",
-      "https://imgs.kenlo.io/shorten/eaacb3c651985ef172cf0bd7.jpg",
-      "https://imgs.kenlo.io/shorten/8e589b38e7534a12050dcc9a.jpg",
-      "https://imgs.kenlo.io/shorten/1dc587725ba0ad55ceaae187.jpg"
-    ]
-  },
-  {
     "id": 31,
-    "codigo": "SA0078",
-    "nome": "Conjunto Comercial/sala no Centro",
-    "bairro": "Centro",
-    "tipo": "apartamento",
-    "finalidade": "compra",
-    "preco": 280000,
-    "condominio": 700,
-    "tipoOferta": "1",
-    "quartos": 0,
-    "suites": 0,
-    "salas": 0,
-    "banheiros": 1,
-    "vagas": 1,
-    "area": 36,
-    "tag": "Oportunidade",
-    "desc": "Sala comercial à venda no Setin Midtown Office, 36 m² por R$ 280.000 - Centro - Campinas/SP. Últimas unidades direto com a incorporadora. Localização privilegiada na esquina da Avenida Aquidaban com a Rua José Paulino, vizinho ao bairro Cambuí, com fácil acesso às Rodovias D. Pedro I e Santos Dumont. Sala com sacada, 1 banheiro, 1 vaga de garagem com manobrista, recepção 24 horas e salas de reunião. Unidades de 33 a 38m² com possibilidade de junção. Os valores estão sujeitos a alteração sem aviso prévio! Agenda sua visita!",
-    "diferenciais": [
-      "Varanda / Terraço"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/b355c76c1fb359eaeecb85c37e1cddb1.jpg",
-      "https://images.ingaiasites.com.br/fe4312caae0f782b032a039559fde29a.jpg",
-      "https://images.ingaiasites.com.br/00f6a01504c0d7e9e1d582c24948da47.jpg",
-      "https://images.ingaiasites.com.br/d7ee3d430596a90c693accd2f2f72fa9.jpg",
-      "https://images.ingaiasites.com.br/bf02697e7c4d74c968b2f2bf18452c41.jpg",
-      "https://images.ingaiasites.com.br/bd40d6805ecf2dc7cb6c51fa816a1d66.jpg",
-      "https://images.ingaiasites.com.br/29ced19cea03e4950a3654e26757343f.jpg",
-      "https://images.ingaiasites.com.br/106e826b72a6fa8fd5f8b15794b2017e.jpg",
-      "https://images.ingaiasites.com.br/cb5c7600e6cede97f6af42bc95b3a848.jpg",
-      "https://images.ingaiasites.com.br/d08bedc8e4eb739c02d003b83beb6f73.jpg",
-      "https://images.ingaiasites.com.br/6cd949babda112825c46369211af9764.jpg",
-      "https://images.ingaiasites.com.br/6f6c981595e731f8e3462d261e82e33e.jpg",
-      "https://images.ingaiasites.com.br/11f70f9dd5757f28123cd8817f5e53e2.jpg",
-      "https://images.ingaiasites.com.br/63d9b7c0f85c095321d751673eccc761.jpg",
-      "https://images.ingaiasites.com.br/1aa8c4e66d85ebb3dbc0f32256cd364c.jpg",
-      "https://images.ingaiasites.com.br/d62fec626d6b397852386f7a11e3708d.jpg"
-    ]
-  },
-  {
-    "id": 32,
     "codigo": "AP0637",
     "nome": "Apartamento no Vila Nova",
     "bairro": "Vila Nova",
@@ -1805,7 +1763,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "codigo": "PH0001",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -1890,7 +1848,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "codigo": "CO0028",
     "nome": "Apartamento no Fazenda São Quirino",
     "bairro": "Fazenda São Quirino",
@@ -1971,7 +1929,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "codigo": "AP0663",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -2047,7 +2005,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "codigo": "AP0694",
     "nome": "Apartamento no Ponte Preta",
     "bairro": "Ponte Preta",
@@ -2106,7 +2064,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "codigo": "AP0704",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2183,7 +2141,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "codigo": "AP0724",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2248,7 +2206,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 39,
+    "id": 38,
     "codigo": "AP0756",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2308,7 +2266,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 40,
+    "id": 39,
     "codigo": "SA0095",
     "nome": "Conjunto Comercial/sala no Cambuí",
     "bairro": "Cambuí",
@@ -2348,7 +2306,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 41,
+    "id": 40,
     "codigo": "SA0102",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -2388,7 +2346,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 42,
+    "id": 41,
     "codigo": "AP0774",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -2449,7 +2407,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 43,
+    "id": 42,
     "codigo": "AP0780",
     "nome": "Apartamento no Bosque",
     "bairro": "Bosque",
@@ -2503,7 +2461,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 44,
+    "id": 43,
     "codigo": "SA0104",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -2546,7 +2504,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 45,
+    "id": 44,
     "codigo": "AP0786",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2579,7 +2537,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 46,
+    "id": 45,
     "codigo": "AP0785",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2618,7 +2576,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 47,
+    "id": 46,
     "codigo": "AP0784",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2651,7 +2609,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 48,
+    "id": 47,
     "codigo": "CH0007",
     "nome": "Chácara no Parque Valinhos",
     "bairro": "Parque Valinhos",
@@ -2752,7 +2710,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 49,
+    "id": 48,
     "codigo": "CA0069",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -2856,7 +2814,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 50,
+    "id": 49,
     "codigo": "CO0024",
     "nome": "Apartamento no Jardim Proença",
     "bairro": "Jardim Proença",
@@ -2924,7 +2882,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 51,
+    "id": 50,
     "codigo": "AP0886",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -2988,7 +2946,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 52,
+    "id": 51,
     "codigo": "SA0119",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3024,7 +2982,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 53,
+    "id": 52,
     "codigo": "SA0120",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3061,7 +3019,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 54,
+    "id": 53,
     "codigo": "AP0914",
     "nome": "Apartamento no Sao Bernado",
     "bairro": "Sao Bernado",
@@ -3104,7 +3062,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 55,
+    "id": 54,
     "codigo": "FL0002",
     "nome": "Flat no Alphaville",
     "bairro": "Alphaville",
@@ -3145,7 +3103,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 56,
+    "id": 55,
     "codigo": "CO0027",
     "nome": "Apartamento no Parque da Hípica",
     "bairro": "Parque da Hípica",
@@ -3194,7 +3152,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 57,
+    "id": 56,
     "codigo": "AP0923",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3256,7 +3214,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 58,
+    "id": 57,
     "codigo": "SA0122",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -3299,7 +3257,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 59,
+    "id": 58,
     "codigo": "CJ0001",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3354,7 +3312,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 60,
+    "id": 59,
     "codigo": "CA0084",
     "nome": "Casa Padrão no Vila Jequitibás",
     "bairro": "Vila Jequitibás",
@@ -3406,7 +3364,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 61,
+    "id": 60,
     "codigo": "AP0955",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -3473,7 +3431,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 62,
+    "id": 61,
     "codigo": "SA0130",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3507,6 +3465,36 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/6e40e19dfb49c74092566eb194fe05a2.jpg",
       "https://images.ingaiasites.com.br/5459c6fab16773c8173c6662863f2fa3.jpg",
       "https://images.ingaiasites.com.br/bf664b20edf1a8bb187cb193d6c0d8ef.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "codigo": "SA0131",
+    "nome": "Conjunto Comercial/sala no Centro",
+    "bairro": "Centro",
+    "tipo": "apartamento",
+    "finalidade": "aluguel",
+    "preco": 900,
+    "condominio": 866.01,
+    "tipoOferta": "1",
+    "quartos": 0,
+    "suites": 0,
+    "salas": 0,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 45,
+    "tag": "Oportunidade",
+    "desc": "Sala para alugar, 45 m² por R$ 1.980/mês - Centro - Campinas/SP. Sala com 2 banheiros e 1 copa. Excelente localização, próximo à diversos pontos de comércios, serviços, mercados, hotéis e agências bancárias. Prédio com recepção e segurança 24h! 1 vaga de garagem coberta. Facilidade de acesso às principais avenidas da cidade e ao sistema de transporte público. Agenda sua visita!!",
+    "diferenciais": [
+      "Área de Serviço"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/7SalOVWXNpGEagM3dKJHsV6HapT8phMv.jpg",
+      "https://images.ingaiasites.com.br/nvDbYzRObyc5EnCqqui9VDOXbltEOH1z.jpg",
+      "https://images.ingaiasites.com.br/0EtsgGC4swGsC5ehI6KdoI8SxuLrU8gV.jpg",
+      "https://images.ingaiasites.com.br/VMLIieun18anbuc31izPaq7MxAC18mTR.jpg",
+      "https://images.ingaiasites.com.br/eBY30GpkrSE0rPvQvzn75qNYftFefzb6.jpg",
+      "https://images.ingaiasites.com.br/D9jnDparmjXyDijovweVrcPpSvOay3h3.jpg"
     ]
   },
   {
@@ -3578,36 +3566,6 @@ const IMOVEIS_DATABASE = [
   },
   {
     "id": 65,
-    "codigo": "SA0131",
-    "nome": "Conjunto Comercial/sala no Centro",
-    "bairro": "Centro",
-    "tipo": "apartamento",
-    "finalidade": "aluguel",
-    "preco": 900,
-    "condominio": 866.01,
-    "tipoOferta": "1",
-    "quartos": 0,
-    "suites": 0,
-    "salas": 0,
-    "banheiros": 2,
-    "vagas": 1,
-    "area": 45,
-    "tag": "Oportunidade",
-    "desc": "Sala para alugar, 45 m² por R$ 1.980/mês - Centro - Campinas/SP. Sala com 2 banheiros e 1 copa. Excelente localização, próximo à diversos pontos de comércios, serviços, mercados, hotéis e agências bancárias. Prédio com recepção e segurança 24h! 1 vaga de garagem coberta. Facilidade de acesso às principais avenidas da cidade e ao sistema de transporte público. Agenda sua visita!!",
-    "diferenciais": [
-      "Área de Serviço"
-    ],
-    "imagens": [
-      "https://images.ingaiasites.com.br/7SalOVWXNpGEagM3dKJHsV6HapT8phMv.jpg",
-      "https://images.ingaiasites.com.br/nvDbYzRObyc5EnCqqui9VDOXbltEOH1z.jpg",
-      "https://images.ingaiasites.com.br/0EtsgGC4swGsC5ehI6KdoI8SxuLrU8gV.jpg",
-      "https://images.ingaiasites.com.br/VMLIieun18anbuc31izPaq7MxAC18mTR.jpg",
-      "https://images.ingaiasites.com.br/eBY30GpkrSE0rPvQvzn75qNYftFefzb6.jpg",
-      "https://images.ingaiasites.com.br/D9jnDparmjXyDijovweVrcPpSvOay3h3.jpg"
-    ]
-  },
-  {
-    "id": 66,
     "codigo": "SA0133",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3636,7 +3594,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 67,
+    "id": 66,
     "codigo": "SA0132",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -3666,7 +3624,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 68,
+    "id": 67,
     "codigo": "TE0027",
     "nome": "Loteamento/Condomínio no Fazenda Santa Cândida",
     "bairro": "Fazenda Santa Cândida",
@@ -3696,7 +3654,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 69,
+    "id": 68,
     "codigo": "CA0088",
     "nome": "Casa Padrão no Jardim São Francisco",
     "bairro": "Jardim São Francisco",
@@ -3748,7 +3706,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 70,
+    "id": 69,
     "codigo": "CO0029",
     "nome": "Apartamento no Vila Brandina",
     "bairro": "Vila Brandina",
@@ -3852,7 +3810,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 71,
+    "id": 70,
     "codigo": "SO0073",
     "nome": "Casa de Condomínio no Chácara das Nações",
     "bairro": "Chácara das Nações",
@@ -3941,7 +3899,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 72,
+    "id": 71,
     "codigo": "CA0098",
     "nome": "Casa Padrão no São Bernardo",
     "bairro": "São Bernardo",
@@ -3991,7 +3949,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 73,
+    "id": 72,
     "codigo": "AP1017",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -4049,7 +4007,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 74,
+    "id": 73,
     "codigo": "CA0101",
     "nome": "Casa de Condomínio no Jardim Pari",
     "bairro": "Jardim Pari",
@@ -4117,7 +4075,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 75,
+    "id": 74,
     "codigo": "SL0003",
     "nome": "Loja/Salão no Swiss Park",
     "bairro": "Swiss Park",
@@ -4158,7 +4116,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 76,
+    "id": 75,
     "codigo": "CA0102",
     "nome": "Casa de Condomínio no Condomínio Terras do Cancioneiro",
     "bairro": "Condomínio Terras do Cancioneiro",
@@ -4217,7 +4175,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 77,
+    "id": 76,
     "codigo": "AD0008",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -4352,7 +4310,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 78,
+    "id": 77,
     "codigo": "CA0103",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4427,7 +4385,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 79,
+    "id": 78,
     "codigo": "CA0104",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4470,7 +4428,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 80,
+    "id": 79,
     "codigo": "AP1023",
     "nome": "Apartamento no Taquaral",
     "bairro": "Taquaral",
@@ -4514,7 +4472,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 81,
+    "id": 80,
     "codigo": "SA0144",
     "nome": "Conjunto Comercial/sala no Centro",
     "bairro": "Centro",
@@ -4556,7 +4514,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 82,
+    "id": 81,
     "codigo": "AP1032",
     "nome": "Apartamento no Residencial Parque da Fazenda",
     "bairro": "Residencial Parque da Fazenda",
@@ -4607,7 +4565,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 83,
+    "id": 82,
     "codigo": "CA0107",
     "nome": "Casa de Condomínio no Royal Garden",
     "bairro": "Royal Garden",
@@ -4649,7 +4607,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 84,
+    "id": 83,
     "codigo": "CA0111",
     "nome": "Casa de Condomínio no Parque Brasil 500",
     "bairro": "Parque Brasil 500",
@@ -4713,7 +4671,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 85,
+    "id": 84,
     "codigo": "SA0145",
     "nome": "Conjunto Comercial/sala no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -4755,7 +4713,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 86,
+    "id": 85,
     "codigo": "AP1059",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -4827,7 +4785,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 87,
+    "id": 86,
     "codigo": "AP1062",
     "nome": "Apartamento no Vila Progresso",
     "bairro": "Vila Progresso",
@@ -4888,7 +4846,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 88,
+    "id": 87,
     "codigo": "CA0115",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -4969,7 +4927,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 89,
+    "id": 88,
     "codigo": "AP1080",
     "nome": "Apartamento no Loteamento Chácara Prado",
     "bairro": "Loteamento Chácara Prado",
@@ -5041,7 +4999,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 90,
+    "id": 89,
     "codigo": "TE0031",
     "nome": "Loteamento/Condomínio no Arborais",
     "bairro": "Arborais",
@@ -5071,7 +5029,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 91,
+    "id": 90,
     "codigo": "AP1092",
     "nome": "Apartamento no Parque Industrial",
     "bairro": "Parque Industrial",
@@ -5159,7 +5117,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 92,
+    "id": 91,
     "codigo": "AP1095",
     "nome": "Apartamento no Vila Lídia",
     "bairro": "Vila Lídia",
@@ -5201,7 +5159,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "codigo": "AP1116",
     "nome": "Apartamento no Jardim Ipiranga",
     "bairro": "Jardim Ipiranga",
@@ -5253,7 +5211,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 94,
+    "id": 93,
     "codigo": "AP1120",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5320,7 +5278,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 95,
+    "id": 94,
     "codigo": "AP1126",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5388,7 +5346,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 96,
+    "id": 95,
     "codigo": "AP1130",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5443,7 +5401,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 97,
+    "id": 96,
     "codigo": "AP1133",
     "nome": "Apartamento no Jardim do Lago",
     "bairro": "Jardim do Lago",
@@ -5518,7 +5476,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "codigo": "SO0074",
     "nome": "Casa de Condomínio no Alphaville",
     "bairro": "Alphaville",
@@ -5607,7 +5565,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 99,
+    "id": 98,
     "codigo": "AP1143",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -5643,7 +5601,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "codigo": "CA0122",
     "nome": "Casa de Condomínio no Loteamento Parque dos Alecrins",
     "bairro": "Loteamento Parque dos Alecrins",
@@ -5734,7 +5692,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 101,
+    "id": 100,
     "codigo": "AP1156",
     "nome": "Apartamento no Botafogo",
     "bairro": "Botafogo",
@@ -5830,7 +5788,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 102,
+    "id": 101,
     "codigo": "CA0123",
     "nome": "Casa de Condomínio no Swiss Park",
     "bairro": "Swiss Park",
@@ -5933,7 +5891,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 103,
+    "id": 102,
     "codigo": "AP1161",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6005,7 +5963,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 104,
+    "id": 103,
     "codigo": "AP1162",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6075,7 +6033,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "codigo": "AP1163",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6141,7 +6099,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 106,
+    "id": 105,
     "codigo": "CA0091",
     "nome": "Casa Padrão no Vila Lemos",
     "bairro": "Vila Lemos",
@@ -6187,7 +6145,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 107,
+    "id": 106,
     "codigo": "AP1167",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6256,7 +6214,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "codigo": "AP1171",
     "nome": "Apartamento no Cambuí",
     "bairro": "Cambuí",
@@ -6325,7 +6283,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "codigo": "AP1177",
     "nome": "Apartamento no Swift",
     "bairro": "Swift",
@@ -6365,7 +6323,7 @@ const IMOVEIS_DATABASE = [
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "codigo": "CA0113",
     "nome": "Casa Padrão no Parque das Universidades",
     "bairro": "Parque das Universidades",
@@ -6433,6 +6391,51 @@ const IMOVEIS_DATABASE = [
       "https://images.ingaiasites.com.br/715e184d4b65c8891beda87ad847a74a.jpg",
       "https://images.ingaiasites.com.br/2f78805c64b0f3d45650d12bdb577aaf.jpg",
       "https://images.ingaiasites.com.br/61187c52def19a8018f87448abce3017.jpg"
+    ]
+  },
+  {
+    "id": 110,
+    "codigo": "AP1192",
+    "nome": "Apartamento no Jardim Guanabara",
+    "bairro": "Jardim Guanabara",
+    "tipo": "apartamento",
+    "finalidade": "compra",
+    "preco": 650000,
+    "condominio": 436.04,
+    "tipoOferta": "1",
+    "quartos": 2,
+    "suites": 0,
+    "salas": 2,
+    "banheiros": 2,
+    "vagas": 1,
+    "area": 58,
+    "tag": "Oportunidade",
+    "desc": "Apartamento com 2 dormitórios, 58 m² - venda por R$ 650.000 ou aluguel por R$ 4.051/mês - Jardim Guanabara - Campinas/SP Apartamento para venda ou locação em andar alto, com 2 quartos com armários e ar condicionado, 1 banheiro, sala para dois ambientes com ar condicionado, lavabo, cozinha planejada, área de serviço e sacada. Pronto para morar! Condomínio com área de lazer que inclui piscina, salão de festas, academia e brinquedoteca. Localização privilegiada no Guanabara, próximo ao Cambuí.",
+    "diferenciais": [
+      "Ar Condicionado",
+      "Armários Planejados",
+      "Área de Serviço",
+      "Varanda / Terraço",
+      "Academia / Fitness",
+      "Jardim"
+    ],
+    "imagens": [
+      "https://images.ingaiasites.com.br/9fba8d5e3b64aa376ea95f5c1ab628a7.jpg",
+      "https://images.ingaiasites.com.br/0d87c05e3de703a70e676e2c07776714.jpg",
+      "https://images.ingaiasites.com.br/5e61419b916413c0e3bfdde9aa591831.jpg",
+      "https://images.ingaiasites.com.br/123131e73b00064bea5015188fc65033.jpg",
+      "https://images.ingaiasites.com.br/ecba46f3e54be21f8e8ddbfa677db057.jpg",
+      "https://images.ingaiasites.com.br/9495a58edf11bd0a151f08c82b236ef8.jpg",
+      "https://images.ingaiasites.com.br/73ad82b223f6c61db1e0d5fb27b001b4.jpg",
+      "https://images.ingaiasites.com.br/9b3369b89adbd7517b6015b8ef27e49d.jpg",
+      "https://images.ingaiasites.com.br/67db972bed4e891bfb3e87300857d408.jpg",
+      "https://images.ingaiasites.com.br/e4c66a1c1b68ceb1c947a07aa3442760.jpg",
+      "https://images.ingaiasites.com.br/06cb7d69fcc4666a3a2b074cd98091c5.jpg",
+      "https://images.ingaiasites.com.br/994fdc990163e77016d801dc99a20e48.jpg",
+      "https://images.ingaiasites.com.br/d6e7e59830520b7cdc7eda027abd0d55.jpg",
+      "https://images.ingaiasites.com.br/19a2921799f8db47033385520a574312.jpg",
+      "https://images.ingaiasites.com.br/2ce79f02575dab6a876b760f21d0efca.jpg",
+      "https://images.ingaiasites.com.br/6d74bbadd5f1df66d05a993d10bd97f3.jpg"
     ]
   },
   {
